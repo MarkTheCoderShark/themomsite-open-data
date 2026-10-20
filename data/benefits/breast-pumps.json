@@ -1,0 +1,2435 @@
+{
+  "topic": "breast-pumps",
+  "title": "Breast pumps through insurance and Medicaid, by state",
+  "asOf": "2026-10",
+  "methodology": "The Mom Site built this dataset in October 2026 (research dated 2026-10-09). Federal rules for private plans come from HRSA's Women's Preventive Services Guidelines, 45 CFR 147.130 and 147.140, the joint DOL/HHS/Treasury ACA FAQs (2013 and 2015) and HealthCare.gov; TRICARE and WIC rules come from TRICARE and USDA; examples of insurer and supplier practice come from Aetna's published policy and DME supplier list. State records describe Medicaid fee-for-service and statewide managed care rules, taken from state Medicaid DME manuals, fee schedules (HCPCS E0602 manual, E0603 electric, E0604 hospital-grade), provider bulletins, administrative rules and managed care plan handbooks. We downloaded each document and matched the supporting text before recording a value; anything we couldn't confirm is left blank rather than guessed. Status: covered means at least one pump type is covered for postpartum members generally, subject to normal prescription and prior authorization rules. Limited means pumps are covered only for narrow medical reasons (for example a baby in the NICU or mother-baby separation), only as a rental, or only as an extra benefit offered by health plans. Not-covered means a current state source says pumps aren't covered, or the state's fee schedule, which lists only payable codes, omits them. Unverified means we couldn't confirm the rules from a primary source; the notes say what we checked. The prior authorization answer describes the standard personal-use pump; hospital-grade rentals often need prior authorization even where personal pumps don't, and the notes say so. For comparison, each state record also keeps the state's answer to KFF's 2021 survey (coverage as of July 1, 2021), left blank for states that didn't respond; it wasn't used to set current status. Plan rules change, so readers should confirm with their plan or state Medicaid agency before ordering.",
+  "summary": {
+    "statusCounts": {
+      "covered": 41,
+      "limited": 7,
+      "not-covered": 2,
+      "unverified": 1
+    },
+    "text": "As of October 2026, Medicaid covers breast pumps for postpartum members generally in 41 jurisdictions, only in limited circumstances in 7, not at all in 2, and 1 couldn't be verified."
+  },
+  "sources": [
+    {
+      "id": "al-covered-services-handbook-2026",
+      "title": "Alabama Medicaid Covered Services Handbook (10-8-26)",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/documents/4.0_Programs/4.1_Covered_Services/4.1_Covered_Services_Handbook_10-8-26.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-08"
+    },
+    {
+      "id": "al-alert-dme-quarterly-2026-09",
+      "title": "ALERT: DME Program Quarterly Updates (9/17/2026)",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/alert_detail.aspx?ID=16805",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-17"
+    },
+    {
+      "id": "kff-2021-medicaid-pregnancy-survey",
+      "title": "Medicaid Coverage of Pregnancy-Related Services: Findings from a 2021 State Survey",
+      "publisher": "KFF",
+      "url": "https://www.kff.org/womens-health-policy/medicaid-coverage-of-pregnancy-related-services-findings-from-a-2021-state-survey/",
+      "accessed": "2026-10-09",
+      "docDate": "2022-05"
+    },
+    {
+      "id": "ak-dmepos-interim-202607",
+      "title": "Alaska Medical Assistance State Fiscal Year 2027 Fee Schedule: Durable Medical Equipment, Prosthetics, Orthotics, and Supplies Interim Fee Schedule July 2026",
+      "publisher": "Alaska Department of Health, Division of Health Care Services",
+      "url": "https://extranet-sp.dhss.alaska.gov/hcs/medicaidalaska/Provider/Fee_Schedules/Fees_DMEPOS_INTERIM_202607.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ak-manual-dme-2026",
+      "title": "Alaska Medicaid Provider Billing Manual: Durable Medical Equipment, Medical Supplies, and Related Services (DME), 2026_v1",
+      "publisher": "Alaska Department of Health, Division of Health Care Services",
+      "url": "https://extranet-sp.dhss.alaska.gov/hcs/medicaidalaska/Provider/Manuals/Durable_Medical_Equipment.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "az-dme-rates-2026-07",
+      "title": "AHCCCS FFS Program Capped Fee Schedule: Final Durable Medical Equipment Rates, Effective 07/01/2026",
+      "publisher": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "url": "https://www.azahcccs.gov/PlansProviders/Downloads/FFSrates/DurableMedEquip/FY26_Final_DME_WebsiteRatesJuly2026.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "az-ampm-410",
+      "title": "AHCCCS Medical Policy Manual Policy 410: Maternity Care Services",
+      "publisher": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "url": "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/400/410.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10-01"
+    },
+    {
+      "id": "az-ampm-310p",
+      "title": "AHCCCS Medical Policy Manual Policy 310-P: Medical Equipment, Medical Appliances, and Medical Supplies",
+      "publisher": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "url": "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/300/310-P.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "ar-prosthet-fees-2026-09",
+      "title": "Arkansas Medicaid Prosthetics / Durable Medical Equipment (DME) Fee Schedule (Run Date 9/22/26)",
+      "publisher": "Arkansas Department of Human Services, Division of Medical Services",
+      "url": "https://humanservices.arkansas.gov/wp-content/uploads/PROSTHET-fees.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-22"
+    },
+    {
+      "id": "ar-lactation-billing-training-2026",
+      "title": "Breastfeeding and Lactation Services billing training (FINAL 08312026 v1.1)",
+      "publisher": "Arkansas Department of Human Services, Division of Medical Services",
+      "url": "https://humanservices.arkansas.gov/wp-content/uploads/Breastfeeding-and-Lactation-Services-FINAL-08312026-v1.1.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-31"
+    },
+    {
+      "id": "ar-hma-breastfeeding-report-2025",
+      "title": "Medicaid Coverage of Breastfeeding Support and Supplies: Landscape Analysis (secondary source)",
+      "publisher": "Health Management Associates",
+      "url": "https://www.healthmanagement.com/wp-content/uploads/Meals4Families-Report-DRAFT_8.28.25_FINAL.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-08-28"
+    },
+    {
+      "id": "ca-mcal-duraother",
+      "title": "Medi-Cal Provider Manual Part 2: Durable Medical Equipment (DME): Other DME Equipment (dura other)",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/assets/58152677-9614-44AB-AA0A-1F3F04123E7D/duraother.pdf?access_token=6UyVkRRfByXTZEWIh8j8QaYylPyP5ULO",
+      "accessed": "2026-10-09",
+      "docDate": "2025-10"
+    },
+    {
+      "id": "ca-dhcs-apl26-005",
+      "title": "All Plan Letter 26-005: Maternity Services for Pregnant and Postpartum Medi-Cal Members",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/04/APL26-005.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-03-25"
+    },
+    {
+      "id": "ca-alameda-alliance-pump-form-2025",
+      "title": "Alameda Alliance for Health Breast Pump Request Form (HE_PRVDR_BRST PMP REQ FORM 10/2025)",
+      "publisher": "Alameda Alliance for Health",
+      "url": "https://alamedaalliance.org/wp-content/uploads/AlliancePumpRequestForm1025.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-10"
+    },
+    {
+      "id": "co-dmepos-manual",
+      "title": "Durable Medical Equipment, Prosthetics, Orthotics and Supplies (DMEPOS) Billing Manual",
+      "publisher": "Colorado Department of Health Care Policy and Financing",
+      "url": "https://hcpf.colorado.gov/DMEPOS-manual",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-11"
+    },
+    {
+      "id": "co-pump-supplier-list-2026-02",
+      "title": "Health First Colorado Breast Pump Suppliers (Single and Multi-User Breast Pump Supplier List, Updated 02/02/2026)",
+      "publisher": "Colorado Department of Health Care Policy and Financing",
+      "url": "https://hcpf.colorado.gov/sites/hcpf/files/Single%20and%20Multi-User%20Breast%20Pump%20Supplier%20List%20-%20Updated%20Feb%202026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-02-02"
+    },
+    {
+      "id": "ct-pb-2020-62",
+      "title": "Provider Bulletin 2020-62: Clarification of Coverage for Blood Pressure Monitors and Manual and Electric Breast Pumps",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://www.ctdssmap.com/CTPortal/Information/Get-Download-File?Filename=pb20_62.pdf&URI=Bulletins/pb20_62.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2020-08"
+    },
+    {
+      "id": "ct-pb-2014-17",
+      "title": "PB 2014-17: Coverage of Hospital-Grade Breast Pumps under Durable Medical Equipment (DME) Fee Schedule",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://www.ctdssmap.com/CTPortal/Information/Get-Download-File?Filename=pb14_17.pdf&URI=Bulletins/pb14_17.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2014-03"
+    },
+    {
+      "id": "ct-pb-2022-71",
+      "title": "Provider Bulletin 2022-71: October 2022 HIPAA Quarterly Update MEDS Fee Schedule; Breast Pump Supplies; Reimbursement for Extended Infusion Set Supplies",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://www.ctdssmap.com/CTPortal/Information/Get-Download-File?Filename=pb22_71.pdf&URI=Bulletins/pb22_71.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-09"
+    },
+    {
+      "id": "de-dme-manual",
+      "title": "Durable Medical Equipment Provider Specific Policy Manual (Section 5.25 Breast Pumps)",
+      "publisher": "Delaware Health and Social Services, Division of Medicaid and Medical Assistance",
+      "url": "https://medicaidpublications.dhss.delaware.gov/docs/search?Command=Core_Download&EntryId=909",
+      "accessed": "2026-10-09",
+      "docDate": "2024-02-22"
+    },
+    {
+      "id": "de-dme-fee-2026",
+      "title": "2026 Durable Medical Equipment (DME) Fee Schedule, Eff. 01/01/2026",
+      "publisher": "Delaware Health and Social Services, Division of Medicaid and Medical Assistance",
+      "url": "https://medicaidpublications.dhss.delaware.gov/docs/search?Command=Core_Download&EntryId=2078",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "dc-mfc-policy-1412",
+      "title": "MedStar Family Choice District of Columbia Administrative Policy 1412.DC: Breast Pumps - Continuing Rental",
+      "publisher": "MedStar Family Choice DC",
+      "url": "https://www.medstarfamilychoicedc.com/-/media/project/mho/mfcdc/medical-policies-and-procedures/2026/policy-1412dc_continuing-breast-pump-rental_jul-2026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "dc-transmittal-14-21",
+      "title": "Medicaid Update: Transmittal 14-21 Policy Regarding Medicaid Coverage to Promote Breast Feeding",
+      "publisher": "District of Columbia Department of Health Care Finance",
+      "url": "https://dhcf.dc.gov/publication/medicaid-update-transmittal-14-21-policy-regarding-medicaid-coverage-promote-breast",
+      "accessed": "2026-10-09",
+      "docDate": "2014-04-11"
+    },
+    {
+      "id": "dc-transmittal-26-19-rev",
+      "title": "Revised Transmittal #26-19: Managed Care Plan Transition",
+      "publisher": "District of Columbia Department of Health Care Finance",
+      "url": "https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/publication/attachments/Transmittal%2026-19%20%28rev.%29%20-%20Managed%20Care%20Plan%20Transition.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-06"
+    },
+    {
+      "id": "fl-dme-specialized-policy-2023",
+      "title": "Florida Medicaid Durable Medical Equipment and Medical Supply Services Coverage Policy: Specialized (Rule 59G-4.072)",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/content/download/23763/file/59G-4.072%20Durable%20Medical%20%20Equipment%20and%20Medical%20Supply%20Services%20Specialized.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-12"
+    },
+    {
+      "id": "fl-dme-fee-2026-07",
+      "title": "Durable Medical Equipment (DME) and Medical Supply Services Provider Fee Schedule for All Medicaid Recipients, July 1, 2026",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/file/medicaid/July%201%202026%20DME%20Fee%20Schedule%20Finalized.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "fl-smmc-expanded-benefits-grid-2025",
+      "title": "SMMC 3.0 Expanded Benefits Grid - Health Plan (Effective 2/1/2025)",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/content/download/25560/file/SMMC%203.0%20Expanded%20Benefits%20Grid_Health%20Plan_02012025v2.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-02-01"
+    },
+    {
+      "id": "ga-dme-manual-2026q4",
+      "title": "Part II Policies and Procedures for Durable Medical Equipment (Version Date: October 1, 2026), Policy 1191 Electric Breast Pumps",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Durable%20Medical%20Equipment%20Q4-October%202026%2020260928215125.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "hi-hmsa-quest-handbook-2026",
+      "title": "HMSA QUEST Member Handbook (Effective April 2026)",
+      "publisher": "HMSA (Hawaii Medical Service Association)",
+      "url": "https://hmsa.com/content/assets/member-handbook-quest.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04"
+    },
+    {
+      "id": "hi-uhc-quest-handbook-2026",
+      "title": "UnitedHealthcare Community Plan Hawai'i 2026 QUEST Member Handbook",
+      "publisher": "UnitedHealthcare Community Plan of Hawaii",
+      "url": "https://www.uhccommunityplan.com/content/dam/uhccp/plandocuments/handbook/en/HI-QUEST-Integration-Handbook-EN.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "hi-alohacare-quest-handbook-2026",
+      "title": "AlohaCare 2026 QUEST Medicaid Member Handbook",
+      "publisher": "AlohaCare",
+      "url": "https://www.alohacare.org/userfiles/2026%20Updates/Other/199-AlohaCare%20QUEST%20Member%20Handbook_2026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "hi-kp-quest-handbook-2023",
+      "title": "Kaiser Permanente QUEST Integration Member Handbook (KP23-038, v7, Oct 2023)",
+      "publisher": "Kaiser Permanente Hawaii (posted by Hawaii Med-QUEST Division)",
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/member-handbook/KP23-038_Member_Handbook_v7_OCT_2023.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-10"
+    },
+    {
+      "id": "hi-medicaid-fee-schedule-20260601",
+      "title": "Medicaid Fee-For-Service (FFS) Fee Schedule, without modifiers, as of 06/01/2026",
+      "publisher": "Hawaii Department of Human Services, Med-QUEST Division",
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/plans-and-providers/Hawaii%20Medicaid%20Fee%20Schedule%2020260601.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-01"
+    },
+    {
+      "id": "id-handbook-dmepos-2026",
+      "title": "Idaho Medicaid Provider Handbook: Durable Medical Equipment, Prosthetics, Orthotics and Supplies",
+      "publisher": "Idaho Department of Health and Welfare, Division of Medicaid (Gainwell Technologies)",
+      "url": "https://www.idmedicaid.com/Provider%20Guidelines/Durable%20Medical%20Equipment,%20Prosthetics,%20Orthotics%20and%20Supplies.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-17"
+    },
+    {
+      "id": "il-hfs-prn240304b",
+      "title": "Provider Notice: Electric Breast Pump Change in Benefit Frequency without Prior Approval",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn240304b.html",
+      "accessed": "2026-10-09",
+      "docDate": "2024-03-04"
+    },
+    {
+      "id": "il-hfs-dme-fee-schedule-2026",
+      "title": "Durable Medical Equipment and Supplies Fee Schedule (Effective 01/01/2026, Updated 04/01/2026)",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dme/01012026dmefsupdate04012026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-01"
+    },
+    {
+      "id": "il-hfs-dme-fee-schedule-key-2026",
+      "title": "DME Fee Schedule Key and Changes (Updated 04/01/26)",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/medicaidreimbursement/dme/04012026dmefskey.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-01"
+    },
+    {
+      "id": "il-hfs-m200-handbook",
+      "title": "Handbook for Providers of Medical Equipment and Supplies, Chapter M-200 Policy and Procedures",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalproviders/handbooks/m200.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2015-09"
+    },
+    {
+      "id": "in-ihcp-br202230",
+      "title": "IHCP Banner Page BR202230: IHCP removes prior authorization requirements for electric breast pumps",
+      "publisher": "Indiana Family and Social Services Administration, Indiana Health Coverage Programs",
+      "url": "https://secure.in.gov/medicaid/providers/files/banner-pages/BR202230.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-07-26"
+    },
+    {
+      "id": "in-ihcp-professional-fee-schedule-2026",
+      "title": "IHCP Professional Fee Schedule With Cutbacks (last updated June 9, 2026)",
+      "publisher": "Indiana Family and Social Services Administration, Indiana Health Coverage Programs",
+      "url": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-09"
+    },
+    {
+      "id": "in-ihcp-dme-module",
+      "title": "IHCP Provider Reference Module: Durable and Home Medical Equipment and Supplies (Version 7.0)",
+      "publisher": "Indiana Family and Social Services Administration, Indiana Health Coverage Programs",
+      "url": "https://www.in.gov/medicaid/providers/files/modules/durable-and-home-medical-equipment-and-supplies.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-13"
+    },
+    {
+      "id": "ia-feesched-c12-medical-supplies",
+      "title": "Iowa Medicaid Fee Schedule #12, Medical Supplies (CSV)",
+      "publisher": "Iowa Department of Health and Human Services, Iowa Medicaid",
+      "url": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C12.csv",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ia-iac-441-78",
+      "title": "Iowa Administrative Code 441, Chapter 78: Amount, Duration and Scope of Medical and Remedial Services",
+      "publisher": "Iowa Legislature (Human Services [441])",
+      "url": "https://www.legis.iowa.gov/docs/iac/chapter/441.78.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-02"
+    },
+    {
+      "id": "ia-pa-dme-list",
+      "title": "Durable Medical Equipment Codes Requiring Prior Authorization",
+      "publisher": "Iowa Department of Health and Human Services, Iowa Medicaid",
+      "url": "https://hhs.iowa.gov/media/11655/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ks-kmap-dme-manual-2026",
+      "title": "KMAP Durable Medical Equipment Fee-for-Service Provider Manual (Updated 10.2026)",
+      "publisher": "Kansas Department of Health and Environment, Kansas Medical Assistance Program (Gainwell Technologies)",
+      "url": "https://portal.kmap-state-ks.us/Documents/Provider/Provider%20Manuals/DME_26180_26143.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10"
+    },
+    {
+      "id": "ky-907-kar-1-479",
+      "title": "907 KAR 1:479. Medical supplies, equipment, and appliances covered benefits and reimbursement",
+      "publisher": "Kentucky Legislative Research Commission (Cabinet for Health and Family Services, Department for Medicaid Services)",
+      "url": "https://apps.legislature.ky.gov/law/kar/titles/907/001/479/",
+      "accessed": "2026-10-09",
+      "docDate": "2024-06-18"
+    },
+    {
+      "id": "ky-dms-msea-fee-schedule-2026",
+      "title": "KY Medicaid MSEA (Medical Supplies, Equipment, and Appliances) Fee Schedule 2026, Revised 8.26.2026",
+      "publisher": "Kentucky Cabinet for Health and Family Services, Department for Medicaid Services",
+      "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026MedicaidMSEAfeeSchedule.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-26"
+    },
+    {
+      "id": "ky-krs-205-556",
+      "title": "KRS 205.556 Coverage for lactation consultation, breastfeeding equipment, in-home programs for pregnant and postpartum women, and telehealth or digital health services related to maternity care",
+      "publisher": "Kentucky Legislative Research Commission",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=57023",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-14"
+    },
+    {
+      "id": "la-dme-provider-manual-ch18",
+      "title": "Louisiana Medicaid Program Provider Manual, Chapter 18: Durable Medical Equipment (Section 18.2.10 Breast Milk and Supplies)",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://www.lamedicaid.com/provweb1/Providermanuals/manuals/DME/DME.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-06-25"
+    },
+    {
+      "id": "la-ib-24-07-breast-pumps",
+      "title": "Informational Bulletin 24-7: LDH Breast Pump Coverage Changes Effective March 1, 2024 (Revised October 29, 2024)",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://ldh.la.gov/assets/docs/BayouHealth/Informational_Bulletins/2024/24-07/IB24-07_revised_10.29.24.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10-29"
+    },
+    {
+      "id": "me-mbm-section-60-dme",
+      "title": "MaineCare Benefits Manual, Chapter II, Section 60: Medical Supplies and Durable Medical Equipment (10-144 CMR Ch. 101, rule 2023-216)",
+      "publisher": "Maine Department of Health and Human Services, Office of MaineCare Services",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/c2s060-2023-216%20%28ACK%29.docx",
+      "accessed": "2026-10-09",
+      "docDate": "2023-10-25"
+    },
+    {
+      "id": "me-22mrs-3174-kkk",
+      "title": "Maine Revised Statutes Title 22, §3174-KKK: Electric breast pump reimbursement",
+      "publisher": "Maine Legislature, Office of the Revisor of Statutes",
+      "url": "https://legislature.maine.gov/statutes/22/title22sec3174-KKK-1.html",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "md-pt-19-20-breast-pumps",
+      "title": "PT 19-20, MCO Transmittal No. 136: Breast Pump Coverage in the HealthChoice Program (scanned; text by OCR)",
+      "publisher": "Maryland Department of Health, Maryland Medicaid Managed Care Program",
+      "url": "https://health.maryland.gov/mmcp/provider/Documents/PT%2019-20%20Breast%20Pump%20Coverage%20in%20the%20HealthChoice%20Program.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2020-02-04"
+    },
+    {
+      "id": "md-dme-fee-schedule-2026",
+      "title": "DME/DMS/Oxygen, Prosthetics & Orthotics Fee Schedule (Effective 4/1/2026)",
+      "publisher": "Maryland Department of Health, Maryland Medicaid",
+      "url": "https://health.maryland.gov/mmcp/communitysupport/Documents/DMS-DME-Fee-Sch.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-01"
+    },
+    {
+      "id": "ma-dme-oxy-guideline-tool-v49",
+      "title": "MassHealth DME and OXY Payment and Coverage Guideline Tool (V.49) (excerpt)",
+      "publisher": "MassHealth (Massachusetts Executive Office of Health and Human Services)",
+      "url": "https://www.mass.gov/doc/masshealth-dme-and-oxy-payment-and-coverage-guideline-tool-v49-0/download",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-01"
+    },
+    {
+      "id": "ma-130cmr409-dme-regs-2026",
+      "title": "130 CMR 409.000: Durable Medical Equipment Services Regulations (effective July 31, 2026) (excerpt)",
+      "publisher": "MassHealth (Massachusetts Executive Office of Health and Human Services)",
+      "url": "https://www.mass.gov/doc/durable-medical-equipment-services-regulations-effective-july-31-2026/download",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-31"
+    },
+    {
+      "id": "mi-medicaid-provider-manual-2026-10",
+      "title": "Michigan Medicaid Provider Manual (version date October 1, 2026)",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://www.mdch.state.mi.us/dch-medicaid/manuals/MedicaidProviderManual.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "mn-dhs-pregnant-people",
+      "title": "Health care coverage for people who are pregnant",
+      "publisher": "Minnesota Department of Human Services",
+      "url": "https://mn.gov/dhs/health-care/pregnant-people/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "mn-ucare-provider-manual-2026",
+      "title": "UCare Provider Manual (2026)",
+      "publisher": "UCare",
+      "url": "https://ucm-p-001.sitecorecontenthub.cloud/api/public/content/providermanual?v=b36bc0e9",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ms-admin-code-23-209-1-15",
+      "title": "23 Miss. Code. R. 209-1.15 - Breast Pumps (Mississippi Administrative Code, Title 23 Medicaid, Part 209 Durable Medical Equipment)",
+      "publisher": "Mississippi Division of Medicaid (Administrative Code text as published by Cornell Legal Information Institute)",
+      "url": "https://www.law.cornell.edu/regulations/mississippi/23-Miss-Code-R-SS-209-1-15",
+      "accessed": "2026-10-09",
+      "docDate": "2018-09-01"
+    },
+    {
+      "id": "mo-dme-manual-2026-07",
+      "title": "MO HealthNet Durable Medical Equipment Manual (07-06-2026)",
+      "publisher": "Missouri Department of Social Services, MO HealthNet Division",
+      "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/08/Durable-Medical-Equipment-Manual-07-06-2026.docx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-06"
+    },
+    {
+      "id": "mt-dmepos-manual-2025-01",
+      "title": "Durable Medical Equipment, Prosthetics, Orthotics, and Medical Supplies Manual",
+      "publisher": "Montana Department of Public Health and Human Services, Montana Healthcare Programs",
+      "url": "https://medicaidprovider.mt.gov/manuals/durablemedicalequipmentprostheticsorthoticsandmedicalsuppliesmanual",
+      "accessed": "2026-10-09",
+      "docDate": "2025-01-29"
+    },
+    {
+      "id": "mt-dme-fee-schedule-2026-07",
+      "title": "July 2026 DME Services Fee Schedule",
+      "publisher": "Montana Department of Public Health and Human Services, Montana Healthcare Programs",
+      "url": "https://medicaidprovider.mt.gov/docs/feeschedules/2026/July2026DMEServicesFeeSchedule.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "mt-member-guide-2026",
+      "title": "Montana Healthcare Programs Medicaid and HMK Plus Member Guide 2026",
+      "publisher": "Montana Department of Public Health and Human Services",
+      "url": "https://dphhs.mt.gov/assets/hrd/MedicaidMemberGuide.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ne-471-nac-7",
+      "title": "471 NAC 7 Durable Medical Equipment, Prosthetics, Orthotics, and Medical Supplies (DMEPOS)",
+      "publisher": "Nebraska Department of Health and Human Services (Nebraska Secretary of State Rules and Regulations)",
+      "url": "https://rules.nebraska.gov/rules?agencyId=37&titleId=226",
+      "accessed": "2026-10-09",
+      "docDate": "2024-02-20"
+    },
+    {
+      "id": "ne-dmepos-fee-schedule-2026-07",
+      "title": "Nebraska Medicaid Fee Schedule, DMEPOS July 1, 2026 (471-000-507, revised)",
+      "publisher": "Nebraska Department of Health and Human Services",
+      "url": "https://dhhs.ne.gov/Medicaid%20Practitioner%20Fee%20Schedules/REVISED%20471-000-507%20DMEPOS%20Services%20July%202026.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ne-ntc-member-handbook-2026",
+      "title": "Nebraska Total Care Member Handbook (rev. 01/2026)",
+      "publisher": "Nebraska Total Care (Heritage Health managed care plan)",
+      "url": "https://www.nebraskatotalcare.com/content/dam/centene/Nebraska/PDFs/MemberForms/NTC_79_Member_Handbook_03252024_04202026_ENG_508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "nv-web-announcement-3521",
+      "title": "Nevada Medicaid Web Announcement 3521: Breast Pumps And Supplies Covered For Nursing Mothers With Infants Up To 12 Months Of Age",
+      "publisher": "Nevada Medicaid",
+      "url": "https://www.medicaid.nv.gov/Downloads/provider/web_announcement_3521_20250103.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-01-03"
+    },
+    {
+      "id": "nv-billing-guide-pt20-24-77",
+      "title": "Provider Type 20, 24 and 77 Billing Guide",
+      "publisher": "Nevada Medicaid (Gainwell Technologies, fiscal agent)",
+      "url": "https://www.medicaid.nv.gov/Downloads/provider/NV_BillingGuidelines_PT20-24-77.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-27"
+    },
+    {
+      "id": "nv-pt33-fee-schedule-2026-07",
+      "title": "Provider Type 33, Durable Medical Equipment, Prothetics, Orthotics & Supplies Reimbursement Schedule (rate data as of 07/2026)",
+      "publisher": "Nevada Medicaid",
+      "url": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/rates/pt-33-fee-schedule-072026.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "nv-msm-1300-2024-05",
+      "title": "Medicaid Services Manual Chapter 1300: DME, Disposable Supplies and Supplements",
+      "publisher": "Nevada Division of Health Care Financing and Policy",
+      "url": "https://www.nevadamedicaid.nv.gov/uploadedFiles/dhcfpnvgov/content/Resources/AdminSupport/Manuals/MSM/C1300/MSM_1300_24_05_01_ADA.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-05-01"
+    },
+    {
+      "id": "nh-he-w-500",
+      "title": "New Hampshire Code of Administrative Rules, Chapter He-W 500 Medical Assistance (Parts He-W 547 and He-W 571)",
+      "publisher": "New Hampshire Department of Health and Human Services (rules published by the NH General Court)",
+      "url": "https://gc.nh.gov/rules/state_agencies/he-w500.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-05"
+    },
+    {
+      "id": "nh-nhhf-member-handbook-2026-08",
+      "title": "New Hampshire Medicaid Care Management Member Handbook (NH Healthy Families, effective August 2026)",
+      "publisher": "NH Healthy Families (NH Medicaid Care Management plan)",
+      "url": "https://www.nhhealthyfamilies.com/content/dam/centene/NH%20Healthy%20Families/Medicaid/pdfs/NH-Model-Handbook-August-2026-CLEAN%20with%20CPS%20Appeals%20Info.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08"
+    },
+    {
+      "id": "nj-newsletter-32-06",
+      "title": "Newsletter Volume 32 No. 06: Breastfeeding equipment coverage updates and changes, and revised minimum requirements for breast pumps",
+      "publisher": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+      "url": "https://www.njmmis.com/documentDownload.aspx?document=32-06.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-02-23"
+    },
+    {
+      "id": "nj-pl-2019-c343",
+      "title": "P.L. 2019, Chapter 343 (Assembly Committee Substitute for A5509): health benefits and Medicaid coverage for breastfeeding support",
+      "publisher": "State of New Jersey",
+      "url": "https://nj.gov/njbonds/treasury/pensions/documents/laws/ch343-2019.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2020-01-13"
+    },
+    {
+      "id": "nm-bcbsnm-turquoise-handbook-2026",
+      "title": "BCBSNM Turquoise Care 2026 Member Handbook",
+      "publisher": "Blue Cross and Blue Shield of New Mexico (Turquoise Care MCO)",
+      "url": "https://www.bcbsnm.com/turquoise-care/pdf/tc-member-handbook-nm.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ny-emedny-medical-supplies-2026",
+      "title": "Coverage Guidelines, Medical Supplies: Provider Coverage & Procedure Manual",
+      "publisher": "eMedNY / New York State Department of Health",
+      "url": "https://www.emedny.org/ProviderManuals/DME/PDFS/MedicalSupply_Procedure_Codes.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ny-emedny-dme-codes-2026",
+      "title": "DME Procedure Codes & Coverage Guidelines",
+      "publisher": "eMedNY / New York State Department of Health",
+      "url": "https://www.emedny.org/ProviderManuals/DME/PDFS/DME_Procedure_Codes.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ny-emedny-dmepos-policy-2026",
+      "title": "DMEPOS Policy Manual",
+      "publisher": "eMedNY / New York State Department of Health",
+      "url": "https://www.emedny.org/ProviderManuals/DME/PDFS/DME_Policy_Section.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "nc-ccp-5a3-2025",
+      "title": "Clinical Coverage Policy No: 5A-3, Nursing Equipment and Supplies",
+      "publisher": "NC Medicaid, North Carolina Department of Health and Human Services",
+      "url": "https://medicaid.ncdhhs.gov/5a-3-nursing-equipment-and-supplies/download?attachment",
+      "accessed": "2026-10-09",
+      "docDate": "2025-05-01"
+    },
+    {
+      "id": "nd-dme-breast-pump-policy-2025",
+      "title": "Breast Pump (Electric and Manual) Policy, Durable Medical Equipment Manual",
+      "publisher": "North Dakota Health and Human Services (ND Medicaid)",
+      "url": "https://www.hhs.nd.gov/sites/default/files/documents/DME/policy-breast-pump-exclusion.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-17"
+    },
+    {
+      "id": "oh-oac-5160-10-25",
+      "title": "Ohio Adm.Code 5160-10-25, DMEPOS: lactation pumps",
+      "publisher": "Ohio Department of Medicaid (Ohio Administrative Code)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-10-25",
+      "accessed": "2026-10-09",
+      "docDate": "2022-01-01"
+    },
+    {
+      "id": "ok-ohca-pregnancy-services",
+      "title": "Pregnancy Services (SoonerCare member page)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/individuals/programs/pregnancy-services.html",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ok-ohca-dme-rates-2026",
+      "title": "DME Rates 01-01-2026 (fee schedule spreadsheet)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/claim-tools/fee-schedules/2026/DME%20Rates%2001-01-2026.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "ok-hb3286-2026-history",
+      "title": "HB 3286 (2026 session) bill information and history",
+      "publisher": "Oklahoma Legislature",
+      "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=HB3286&Session=2600",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "or-dmap-20-2026-oar-410-122-0250",
+      "title": "Permanent Administrative Order DMAP 20-2026 (amends OAR 410-122-0250 Breast Pumps)",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/Policies/122%20changes-06032026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-03"
+    },
+    {
+      "id": "or-herc-prioritized-list-2026-10",
+      "title": "October 1, 2026 Prioritized List of Health Services (Guideline Note 140, Breastfeeding Support and Supplies)",
+      "publisher": "Oregon Health Authority, Health Evidence Review Commission",
+      "url": "https://www.oregon.gov/oha/HPA/DSI-HERC/PrioritizedList/10-1-2026%20Prioritized%20List%20of%20Health%20Services.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "or-ohp-fee-schedule-0926",
+      "title": "OHP fee-for-service fee schedule (fee-schedule0926.csv)",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0926.csv",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "pa-ma-bulletin-breast-pumps-2022",
+      "title": "Medical Assistance Bulletin 05-22-14 et al.: Disposable Breast Milk Collection and Storage Bags and Breast Pump",
+      "publisher": "Pennsylvania Department of Human Services, Office of Medical Assistance Programs",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/publications/documents/forms-and-pubs-omap/MAB2022121302.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-12-13"
+    },
+    {
+      "id": "pa-55-code-ch1123",
+      "title": "55 Pa. Code Chapter 1123. Medical Supplies",
+      "publisher": "Pennsylvania Code and Bulletin (Legislative Reference Bureau)",
+      "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter1123/chap1123toc.html",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "pa-healthchoices-ph-agreement-2024",
+      "title": "HealthChoices Physical Health Agreement effective January 1, 2024 (including exhibits and non-financial appendices)",
+      "publisher": "Pennsylvania Department of Human Services",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/providers/documents/managed-care-information/2024-HealthChoices-Agreement-Including-Exhibits-and-Non-financial-Appendices.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-01-01"
+    },
+    {
+      "id": "pa-acpa-kf-ccp1051-breast-pumps-2026",
+      "title": "Clinical Policy CCP.1051: Breast Pumps (AmeriHealth Caritas Pennsylvania and Keystone First)",
+      "publisher": "AmeriHealth Caritas Pennsylvania",
+      "url": "https://www.amerihealthcaritaspa.com/content/dam/amerihealth-caritas/acpa/pdf/provider/resources/clinical/202607/ccp1051-breast-pumps.pdf.coredownload.inline.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-02-01"
+    },
+    {
+      "id": "pa-acpa-e0603-limit-notice-2021",
+      "title": "Electric Breast Pump Limitations and Reimbursement Rate Change (provider notice)",
+      "publisher": "AmeriHealth Caritas Pennsylvania",
+      "url": "https://apps.amerihealthcaritaspa.com/pdf/provider/communications/notifications/2021/breast-pump-limitations-reimbursement-rate-change.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2021-10-15"
+    },
+    {
+      "id": "ri-nhpri-womens-health-page",
+      "title": "Bright Start: Women's Health (Know Your Benefits)",
+      "publisher": "Neighborhood Health Plan of Rhode Island",
+      "url": "https://www.nhpri.org/your-health/programs/bright-start/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ri-nhpri-bright-start-2026",
+      "title": "Bright Start booklet 2026",
+      "publisher": "Neighborhood Health Plan of Rhode Island",
+      "url": "https://www.nhpri.org/blobnhpri08e0944faa/wp-content/uploads/2026/08/NHP-BrightStart-Booklet-2026_digital.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ri-uhc-annual-notification-2018",
+      "title": "Rhode Island Medicaid 2018 Annual Notification",
+      "publisher": "UnitedHealthcare Community Plan of Rhode Island",
+      "url": "https://www.uhc.com/communityplan/assets/plandocuments/benefits/RI-Medicaid-ANOC-EN.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2018"
+    },
+    {
+      "id": "ri-tufts-ritogether-handbook-2026",
+      "title": "Tufts Health RITogether Member Handbook 2026",
+      "publisher": "Tufts Health Plan (Point32Health)",
+      "url": "https://wwwassets.tuftshealthplan.com/documents/members/handbooks/ritogether-member-handbook-v1",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "sc-dme-fee-schedule-2026-10",
+      "title": "DME Fee Schedule (schedule creation date 10/1/2026)",
+      "publisher": "South Carolina Department of Health and Human Services",
+      "url": "https://img1.scdhhs.gov/fees/fee_DME.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "sc-dhhs-newsletter-2023-07",
+      "title": "Healthy and Connected Member Newsletter - July 2023",
+      "publisher": "South Carolina Department of Health and Human Services",
+      "url": "https://www.scdhhs.gov/sites/dhhs/files/pdf/newsletters/Healthy%20and%20Connected%20Member%20Newsletter%207.26.23%20Final.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-07-26"
+    },
+    {
+      "id": "sc-atc-handbook-2026",
+      "title": "Absolute Total Care Member Handbook (Revision Date: July 2026)",
+      "publisher": "Absolute Total Care",
+      "url": "https://www.absolutetotalcare.com/content/dam/centene/absolute-total-care/2026-assets/ATC-09012022-M-1.7.1-WM-A__(Absolute%20Total%20Care%20Member%20Handbook)_508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "sc-healthyblue-handbook-2026",
+      "title": "Healthy Blue Member Handbook 2026 (Effective July 1, 2026)",
+      "publisher": "Healthy Blue by BlueChoice HealthPlan of South Carolina",
+      "url": "https://www.healthybluesc.com/sites/default/files/PDFs/Member%20Handbook/Healthy%20Blue%20Member%20Handbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "sc-healthyblue-extra-benefits",
+      "title": "Extra Benefits (member web page)",
+      "publisher": "Healthy Blue by BlueChoice HealthPlan of South Carolina",
+      "url": "https://www.healthybluesc.com/member-center/extra-benefits",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "sc-firstchoice-brightstart",
+      "title": "Bright Start prenatal program (member web page)",
+      "publisher": "First Choice by Select Health of South Carolina",
+      "url": "https://www.selecthealthofsc.com/member/benefits/bright-start-prenatal-program",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "sc-molina-handbook-2026",
+      "title": "Molina Healthcare of South Carolina Medicaid Member Handbook 2026 (Revised October 2026)",
+      "publisher": "Molina Healthcare of South Carolina",
+      "url": "https://www.molinahealthcare.com/-/media/Project/PWS/Healthcare/PDF/PDF/Medicaid/SC/Materials/English/MEDICAID-SC-MEMBER-HANDBOOK-EN-508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10"
+    },
+    {
+      "id": "sc-molina-benefits-services",
+      "title": "Services and extra benefits (South Carolina Medicaid member web page)",
+      "publisher": "Molina Healthcare of South Carolina",
+      "url": "https://www.molinahealthcare.com/medicaid/sc/benefits-services",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "sc-humana-vas",
+      "title": "Value-added services (South Carolina Medicaid member web page)",
+      "publisher": "Humana Healthy Horizons in South Carolina",
+      "url": "https://www.humana.com/medicaid/south-carolina/benefits/value-added-services",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "sd-dmepos-manual-2026-01",
+      "title": "South Dakota Medicaid Billing and Policy Manual: DMEPOS (updated January 2026)",
+      "publisher": "South Dakota Department of Social Services",
+      "url": "https://dss.sd.gov/docs/medicaid/providers/billingmanuals/Professional/Durable_Medical_Equipment.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "sd-pregnancy-handbook-2024",
+      "title": "South Dakota Medicaid Pregnancy Handbook (MS10)",
+      "publisher": "South Dakota Department of Social Services",
+      "url": "https://dss.sd.gov/formsandpubs/docs/MEDSRVCS/MS10-PregnancyHandbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-05"
+    },
+    {
+      "id": "tn-tenncare-breastfeeding-news-2023",
+      "title": "TennCare Celebrates World Breastfeeding Week by Announcing New Breastfeeding Benefits for Members",
+      "publisher": "TennCare (Tennessee Division of TennCare)",
+      "url": "https://www.tn.gov/tenncare/news/2023/8/1/tenncare-celebrates-world-breastfeeding-week-by-announcing-new-breastfeeding-benefits-for-members.html",
+      "accessed": "2026-10-09",
+      "docDate": "2023-08-01"
+    },
+    {
+      "id": "tn-tenncare-lactation-benefit-update-2024",
+      "title": "Lactation Consultation Benefit Update (webinar slides, updated 7/24/2024)",
+      "publisher": "TennCare (Tennessee Division of TennCare)",
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/LactationConsultationBenefitUpdate.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-07-24"
+    },
+    {
+      "id": "tn-bluecare-postpartum-support",
+      "title": "Welcome, baby! We're Here for You and Your Baby (BlueCare postpartum member flyer)",
+      "publisher": "BlueCare Tennessee (BlueCross BlueShield of Tennessee)",
+      "url": "https://content.bcbst.com/api/public/content/postpartum_support.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "tx-tmppm-2026-10-gyn-ob-fp",
+      "title": "Texas Medicaid Provider Procedures Manual: Gynecological, Obstetrics, and Family Planning Title XIX Services Handbook (October 2026)",
+      "publisher": "Texas Medicaid & Healthcare Partnership (TMHP) for Texas Health and Human Services Commission",
+      "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-10-october/2_07_gyne_and_repro_health_srvs.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10"
+    },
+    {
+      "id": "ut-womens-services-manual-2026-07",
+      "title": "Utah Medicaid Provider Manual: Women's Services and Family Planning (Updated July 2026)",
+      "publisher": "Utah Department of Health and Human Services, Division of Integrated Healthcare",
+      "url": "https://medicaid-documents.dhhs.utah.gov/Documents%2Fmanuals%2Fpdfs%2FMedicaid+Provider+Manuals%2FWomens+Services+And+Family+Planning%2FWomensServicesFamilyPlanning7-26.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "ut-fee-schedule-2026-10-09",
+      "title": "Utah Medicaid Coverage and Reimbursement Fee Schedule Download (Traditional plan, date of service 10/9/2026)",
+      "publisher": "Utah Department of Health and Human Services, Bureau of Coverage and Reimbursement Policy",
+      "url": "https://health.utah.gov/stplan/lookup/FeeScheduleDownload.php",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-09"
+    },
+    {
+      "id": "vt-dvha-breast-pump-criteria-2025-12",
+      "title": "The Department of Vermont Health Access Clinical Criteria: Breast Pumps (Last Review December 22, 2025)",
+      "publisher": "Department of Vermont Health Access",
+      "url": "https://dvha.vermont.gov/sites/dvha/files/documents/Breast_Pumps_Clinical_Criteria_20251222.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-22"
+    },
+    {
+      "id": "vt-fee-schedule-2026-10-09",
+      "title": "Vermont Medicaid Portal Fee Schedule lookups (E0602, E0603, E0604, S9443) and code definitions",
+      "publisher": "Department of Vermont Health Access / Gainwell Technologies (Vermont Medicaid Portal)",
+      "url": "https://vtmedicaid.com/#/feeSchedule",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-02"
+    },
+    {
+      "id": "va-dmas-dme-manual-appd-2026-09",
+      "title": "Provider Manual: Durable Medical Equipment, Prosthetics, Orthotics and Supplies, Appendix D: Service Authorization (Revision 9/24/2026)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2026-09/DME%20Appendix%20D%20%28updated%209.24.26%29_Final.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-24"
+    },
+    {
+      "id": "va-dmas-dme-manual-ch4-2025-12",
+      "title": "Provider Manual: Durable Medical Equipment, Prosthetics, Orthotics and Supplies, Chapter IV: Covered Services and Limitations (Revision 12/5/2025)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2025-12/DME%20Chapter%20IV%20%28updated%2012.5.25%29_Final.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-05"
+    },
+    {
+      "id": "va-dmas-breastfeeding-fact-sheet-2015",
+      "title": "Breast Pumps and Lactation Consultation Services Provider Fact Sheet (RVSD12032015)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://www.dmas.virginia.gov/media/2130/breastfeeding-support-coverage-for-providers.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2015-12-03"
+    },
+    {
+      "id": "wa-hca-mes-bg-2026-07",
+      "title": "Medical Equipment and Supplies Billing Guide (July 1, 2026)",
+      "publisher": "Washington State Health Care Authority",
+      "url": "https://www.hca.wa.gov/assets/billers-and-providers/Med-Equip-Supplies-bg-20260701.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "wv-bms-appendix-506a",
+      "title": "Appendix 506A: Covered DME Supplies",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/21886/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wv-bms-appendix-506c",
+      "title": "Appendix 506C: Non-Covered DMEPOS Supplies",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/21896/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wv-bms-ch506-dmepos",
+      "title": "BMS Provider Manual Chapter 506 Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS)",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/39997/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2015-10-01"
+    },
+    {
+      "id": "wv-dme-fee-schedule-2026-nonrural",
+      "title": "Durable Medical Equipment (DME) - Non-Rural Fee Schedule, Effective 04/01/26 - 03/31/27",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/41362/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-01"
+    },
+    {
+      "id": "wv-wellpoint-pregnancy-page",
+      "title": "Pregnancy and Women's Health (Wellpoint of West Virginia Medicaid)",
+      "publisher": "Wellpoint of West Virginia",
+      "url": "https://www.wellpoint.com/wv/medicaid/pregnancy-and-womens-health",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wi-dme-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Durable Medical Equipment (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/DME100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wi-update-2024-39",
+      "title": "ForwardHealth Update No. 2024-39: Expanded Breast Pump Coverage",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/pdf/2024-39.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10"
+    },
+    {
+      "id": "wi-physician-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Physician (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/Physician100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wy-your-healthy-pregnancy",
+      "title": "Your Healthy Pregnancy",
+      "publisher": "Wyoming Department of Health, Wyoming Medicaid",
+      "url": "https://health.wyo.gov/healthcarefin/medicaid/wyoming-medicaid-health-management/your-healthy-pregnancy/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wy-fee-schedule-2026-10",
+      "title": "Wyoming Medicaid Downloadable Fee Schedule (FeeSchedule.xlsx, run date 2026-10-01)",
+      "publisher": "Wyoming Department of Health, Wyoming Medicaid",
+      "url": "https://wyomingmedicaid.com/portal/sites/default/files/inline-files/Fee_Schedules/FeeSchedule.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wy-member-handbook-pregnant-2025",
+      "title": "Wyoming Medicaid Member Handbook for Pregnant Women",
+      "publisher": "Wyoming Department of Health",
+      "url": "https://health.wyo.gov/wp-content/uploads/2025/01/Member_Handbook_for_Pregnant_Women.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-01"
+    },
+    {
+      "id": "hrsa-wpsg",
+      "title": "Women's Preventive Services Guidelines",
+      "publisher": "Health Resources and Services Administration (HRSA), U.S. Department of Health and Human Services",
+      "url": "https://www.hrsa.gov/womens-guidelines",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "ecfr-45-cfr-147-130",
+      "title": "45 CFR 147.130, Coverage of preventive health services",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.130",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "healthcare-gov-breastfeeding",
+      "title": "Breastfeeding benefits",
+      "publisher": "HealthCare.gov (Centers for Medicare & Medicaid Services)",
+      "url": "https://www.healthcare.gov/coverage/breast-feeding-benefits/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "dol-aca-faq-part-xii-2013",
+      "title": "FAQs About Affordable Care Act Implementation (Part XII)",
+      "publisher": "U.S. Departments of Labor, Health and Human Services, and the Treasury",
+      "url": "https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/faqs/aca-part-xii.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2013-02-20"
+    },
+    {
+      "id": "dol-aca-faq-part-xxix-2015",
+      "title": "FAQs About Affordable Care Act Implementation (Part XXIX) and Mental Health Parity Implementation",
+      "publisher": "U.S. Departments of Labor, Health and Human Services, and the Treasury",
+      "url": "https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/faqs/aca-part-xxix.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2015-10-23"
+    },
+    {
+      "id": "ecfr-45-cfr-147-140",
+      "title": "45 CFR 147.140, Preservation of right to maintain existing coverage (grandfathered health plans)",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.140",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "healthcare-gov-grandfathered",
+      "title": "Grandfathered health insurance plans",
+      "publisher": "HealthCare.gov (Centers for Medicare & Medicaid Services)",
+      "url": "https://www.healthcare.gov/health-care-law-protections/grandfathered-plans/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "aetna-cpb-0421",
+      "title": "Breast Pumps, Clinical Policy Bulletin 0421",
+      "publisher": "Aetna",
+      "url": "https://www.aetna.com/cpb/medical/data/400_499/0421.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-30"
+    },
+    {
+      "id": "aetna-dme-national-provider-list",
+      "title": "Durable Medical Equipment (DME) National Provider List",
+      "publisher": "Aetna",
+      "url": "https://www.aetna.com/dsepublicContent/assets/pdf/en/DME_National_Provider_Listing.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-01"
+    },
+    {
+      "id": "tricare-breast-pumps",
+      "title": "Breast Pumps and Supplies",
+      "publisher": "TRICARE (Defense Health Agency)",
+      "url": "https://www.tricare.mil/CoveredServices/IsItCovered/BreastPumpsSupplies",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-05"
+    },
+    {
+      "id": "usda-wic-breastfeeding-policy-2016",
+      "title": "WIC Breastfeeding Policy and Guidance (Section 5.6, Breast Pumps)",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://fns-prod.azureedge.us/sites/default/files/wic/WIC-Breastfeeding-Policy-and-Guidance.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2016-07"
+    },
+    {
+      "id": "usda-wic-breastfeeding-priority",
+      "title": "Breastfeeding Is a Priority in the WIC Program",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/breastfeeding",
+      "accessed": "2026-10-09",
+      "docDate": "2026-05-19"
+    },
+    {
+      "id": "ecfr-7-cfr-246-14",
+      "title": "7 CFR 246.14, Program costs (WIC)",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-7/subtitle-B/chapter-II/subchapter-A/part-246/subpart-E/section-246.14",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ecfr-42-cfr-440-347",
+      "title": "42 CFR 440.347, Essential health benefits (Medicaid Alternative Benefit Plans)",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-440/subpart-C/section-440.347",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ecfr-45-cfr-156-115",
+      "title": "45 CFR 156.115, Provision of EHB",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.115",
+      "accessed": "2026-10-09",
+      "docDate": null
+    }
+  ],
+  "national": {
+    "acaPrivatePlans": {
+      "text": "Most private health plans (job-based and Marketplace plans that aren't grandfathered) must cover a breast pump with no cost sharing, either as a rental or a new pump to keep. HRSA's guidelines say breastfeeding equipment includes double electric breast pumps (with pump parts and maintenance) and breast milk storage supplies, that access to a double electric pump should be a priority, and that it shouldn't depend on first trying a manual pump.",
+      "sourceIds": [
+        "hrsa-wpsg",
+        "ecfr-45-cfr-147-130",
+        "healthcare-gov-breastfeeding"
+      ]
+    },
+    "planRules": {
+      "text": "Plans can set reasonable rules. HealthCare.gov says a plan may have guidelines on whether the covered pump is manual or electric, how long a rental lasts, and whether you get it before or after birth, and some plans require pre-authorization from your doctor. The ACA FAQs allow purchase instead of rental and other reasonable medical management where the guidelines don't specify.",
+      "sourceIds": [
+        "healthcare-gov-breastfeeding",
+        "dol-aca-faq-part-xii-2013"
+      ]
+    },
+    "noDeadline": {
+      "text": "Coverage of breastfeeding equipment lasts for the duration of breastfeeding. A plan can't require you to get a pump within a set time (for example, within 6 months of delivery) to have it covered without cost sharing, as long as you stay enrolled in the plan.",
+      "sourceIds": [
+        "dol-aca-faq-part-xxix-2015",
+        "dol-aca-faq-part-xii-2013"
+      ]
+    },
+    "grandfatheredPlans": {
+      "text": "Grandfathered plans (generally individual policies bought on or before March 23, 2010, and job-based plans that haven't changed substantially since then) don't have to cover free preventive care, including breast pumps. Aetna's policy, for example, doesn't cover pump purchase under plans that aren't subject to the federal requirement.",
+      "sourceIds": [
+        "ecfr-45-cfr-147-140",
+        "healthcare-gov-grandfathered",
+        "aetna-cpb-0421"
+      ]
+    },
+    "dmeSuppliers": {
+      "text": "Insurers generally cover pumps through contracted durable medical equipment (DME) suppliers. Aetna, for example, publishes a national DME provider list that includes breast pump suppliers such as Aeroflow and Byram Healthcare. Under TRICARE, pumps from network DME suppliers cost nothing, while buying from a non-network supplier or store means paying up front and filing a claim for up to the TRICARE-allowable amount. Medicaid health plans work the same way: TennCare plans, for example, supply pumps through in-network DME providers, and Montana Medicaid provides double electric pumps only through one contracted vendor, Aeroflow.",
+      "sourceIds": [
+        "aetna-dme-national-provider-list",
+        "tricare-breast-pumps",
+        "tn-tenncare-lactation-benefit-update-2024",
+        "mt-dmepos-manual-2025-01"
+      ]
+    },
+    "onePumpPerBirth": {
+      "label": "One pump per pregnancy or birth",
+      "text": "TRICARE covers one manual or standard electric pump per birth event. Aetna covers buying a manual or standard electric pump and considers a replacement pump medically necessary for each later pregnancy. Many Medicaid programs set a frequency limit instead, such as one per pregnancy (Massachusetts) or one every three years (Washington).",
+      "sourceIds": [
+        "tricare-breast-pumps",
+        "aetna-cpb-0421",
+        "ma-dme-oxy-guideline-tool-v49",
+        "wa-hca-mes-bg-2026-07"
+      ]
+    },
+    "beforeOrAfterDelivery": {
+      "label": "Before or after delivery",
+      "text": "Plans may decide whether you get the pump before or after birth. TRICARE covers pumps from 27 weeks of pregnancy, and Aetna covers purchase during pregnancy or any time after delivery. Medicaid timing varies: Colorado allows a pump from 28 weeks, Louisiana from 32 weeks, and Oregon only after a need is determined following birth.",
+      "sourceIds": [
+        "healthcare-gov-breastfeeding",
+        "tricare-breast-pumps",
+        "aetna-cpb-0421",
+        "co-dmepos-manual",
+        "la-dme-provider-manual-ch18",
+        "or-dmap-20-2026-oar-410-122-0250"
+      ]
+    },
+    "hospitalGradeRentals": {
+      "label": "Hospital-grade rentals for babies in the NICU",
+      "text": "Hospital-grade (multi-user) pumps are usually rented, not bought, and only when medically necessary. Aetna covers renting a hospital-grade pump while a newborn is kept in the hospital. TRICARE covers hospital-grade rentals when medically necessary with a referral and authorization. Many Medicaid programs limit them to NICU stays or infant medical conditions and require prior authorization, sometimes only after an initial rental of one to three months.",
+      "sourceIds": [
+        "aetna-cpb-0421",
+        "tricare-breast-pumps",
+        "mi-medicaid-provider-manual-2026-10",
+        "ny-emedny-dme-codes-2026",
+        "nd-dme-breast-pump-policy-2025",
+        "wi-dme-handbook-2026-10"
+      ]
+    },
+    "prescriptions": {
+      "label": "Prescription",
+      "text": "HealthCare.gov notes that some plans require pre-authorization from your doctor. TRICARE requires a prescription from an authorized doctor, physician assistant, nurse practitioner or nurse midwife that names a manual or standard electric pump. In this dataset, 38 of the 51 state Medicaid records require a prescription or practitioner order for a pump.",
+      "sourceIds": [
+        "healthcare-gov-breastfeeding",
+        "tricare-breast-pumps"
+      ]
+    },
+    "tricare": {
+      "text": "TRICARE covers one manual or standard electric breast pump per birth event for beneficiaries who are at least 27 weeks pregnant, have given birth, or are legally adopting and plan to breastfeed, with a prescription from an authorized doctor, physician assistant, nurse practitioner or nurse midwife. Hospital-grade rentals are covered when medically necessary with a referral and authorization. Replacement supplies such as bottles, valves, tubing and storage bags are covered in set amounts from 27 weeks of pregnancy until three years after the birth event.",
+      "sourceIds": [
+        "tricare-breast-pumps"
+      ]
+    },
+    "wic": {
+      "text": "WIC agencies may provide breast pumps, but pumps aren't a required WIC benefit: each state agency decides whether and how to offer them, free, at reduced cost or at cost. USDA's guidance says pumps are usually issued based on need, for example when a mother and baby are separated by hospitalization or a return to work or school, or when there's trouble establishing milk supply; pumps can't be issued to pregnant women unless they're breastfeeding a WIC infant; and agencies should first consider pumps available through insurance or Medicaid. WIC regulations let state agencies use food funds to buy and rent breast pumps.",
+      "sourceIds": [
+        "usda-wic-breastfeeding-policy-2016",
+        "usda-wic-breastfeeding-priority",
+        "ecfr-7-cfr-246-14"
+      ]
+    },
+    "medicaidExpansionAdults": {
+      "text": "Adults covered through the ACA Medicaid expansion get an Alternative Benefit Plan, which must include essential health benefits, including the preventive services in 45 CFR 147.130. KFF notes that states must cover breast pumps and lactation consultation for expansion enrollees under the ACA's preventive services requirement, and that non-expansion states have no federal requirement to cover breastfeeding services. States that cover pumps usually do so through their DME benefit, using HCPCS codes E0602 (manual), E0603 (electric) and E0604 (hospital-grade).",
+      "sourceIds": [
+        "ecfr-42-cfr-440-347",
+        "ecfr-45-cfr-156-115",
+        "kff-2021-medicaid-pregnancy-survey"
+      ]
+    },
+    "kff2021Survey": {
+      "asOf": "2021-07-01",
+      "respondingJurisdictions": 42,
+      "coveredElectric": 37,
+      "coveredManual": 32,
+      "pumpsThroughWicInstead": [
+        "NV",
+        "OK",
+        "SC"
+      ],
+      "text": "In KFF's 2021 survey (41 states and DC responding), 37 covered electric breast pumps and 32 covered manual pumps. Nine states required prior authorization for at least one pump type, eight set quantity limits, and Nevada, Oklahoma and South Carolina said pumps came through WIC instead.",
+      "sourceIds": [
+        "kff-2021-medicaid-pregnancy-survey"
+      ]
+    }
+  },
+  "states": {
+    "AL": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Alabama's Medicaid breast pump coverage from an official source. Check with your Medicaid plan.",
+      "pumpTypes": [],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://medicaid.alabama.gov/content/11.0_Recipient/",
+      "kff2021": {
+        "electricPump": false,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "al-covered-services-handbook-2026",
+        "al-alert-dme-quarterly-2026-09",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No current primary source says whether breast pumps are covered. The Covered Services Handbook (10-8-26), the 2026 DME quarterly update ALERTs and Administrative Code chapters 560-X-1, -11 and -13 don't mention breast pumps, and pump codes E0602 to E0604 aren't on the public DME CURES Act fee schedule (January 2025). The full DME fee schedule and provider manual can only be opened after accepting a CPT license, so they weren't reviewed. KFF's 2021 survey reported no Alabama Medicaid pump coverage."
+    },
+    "AK": {
+      "status": "covered",
+      "summary": "In Alaska, Medicaid covers manual and electric breast pumps with a prescription and no prior authorization, one of each every three years.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Fee schedule maximum of 1 manual (E0602) and 1 electric (E0603) pump per 3 years",
+      "memberInfoUrl": "https://health.alaska.gov/media/ux4ds44w/ada-compliant-2025-medicaid-recipient-handbook.pdf",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ak-dmepos-interim-202607",
+        "ak-manual-dme-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The July 2026 DMEPOS fee schedule (SFY2027) pays E0602 ($42.06) and E0603 ($381.00) with a limit of one per 3 years and no service authorization flag; service authorization applies only above the quantity limit and to the hospital-grade rental (E0604), which must be renewed every 60 days. Alaska Medicaid is fee-for-service, and all DME needs a valid prescription order."
+    },
+    "AZ": {
+      "status": "covered",
+      "summary": "In Arizona, AHCCCS covers manual, electric and hospital-grade breast pumps ordered by a doctor or other practitioner.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://www.azahcccs.gov/Members/AlreadyCovered/CoveredServices.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "az-dme-rates-2026-07",
+        "az-ampm-410",
+        "az-ampm-310p",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The AHCCCS FFS DME fee schedule effective 07/01/2026 lists E0602 at $56.09 and E0603 and E0604 as by report (BR), and AMPM 410 requires health plans to monitor that maternity care includes provision of breast pumps. Medical equipment must be ordered by a physician or nonphysician practitioner. No pump-specific prior authorization or timing rule was found."
+    },
+    "AR": {
+      "status": "not-covered",
+      "summary": "In Arkansas, Medicaid doesn't pay for breast pumps, which aren't on its list of payable equipment.",
+      "pumpTypes": [],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/healthcare-programs/maternal-health/maternal-health-beneficiaries/",
+      "kff2021": null,
+      "sourceIds": [
+        "ar-prosthet-fees-2026-09",
+        "ar-lactation-billing-training-2026",
+        "ar-hma-breastfeeding-report-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Breast pumps are not a payable Arkansas Medicaid item: the Prosthetics/DME fee schedule (run 9/22/26), which says it lists only currently payable codes, has no E0602, E0603 or E0604, and the Prosthetics, Physician, Nurse Practitioner, Pharmacy and Supportive Maternal Care manuals don't mention pumps. An August 2025 Health Management Associates analysis (a secondary source) also says Arkansas Medicaid doesn't cover breast pumps and that Medicaid and its plans refer members to WIC. Act 627 of 2025 added lactation services, not pumps."
+    },
+    "CA": {
+      "status": "covered",
+      "summary": "In California, Medi-Cal covers manual, electric and hospital-grade breast pumps, and managed care plans can't require prior authorization for manual or electric pumps.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": null,
+      "timing": "Plans are encouraged (not required) to provide a pump at 32 weeks 0 days gestation, or earlier for high-risk pregnancies",
+      "memberInfoUrl": "https://www.healthcareoptions.dhcs.ca.gov/en/medi-cal-benefits",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ca-mcal-duraother",
+        "ca-dhcs-apl26-005",
+        "ca-alameda-alliance-pump-form-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Medi-Cal FFS requires no Treatment Authorization Request for E0602, E0603 or E0604 (daily rental), and since January 2026 managed care plans may not require prior authorization for non-hospital-grade pumps; plans must cover manual and electric pumps, including wearable models. The FFS manual says the pump must be the lowest-cost option that meets the member's needs, while APL 26-005 bars plans from authorizing solely on lowest price. Alameda Alliance for Health lets any provider, including doulas, request a manual or electric pump."
+    },
+    "CO": {
+      "status": "covered",
+      "summary": "In Colorado, Medicaid covers manual and electric breast pumps from 28 weeks of pregnancy with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "As early as the 28th week of pregnancy (immediately after birth for deliveries before 28 weeks); postpartum members at any time",
+      "memberInfoUrl": "https://www.healthfirstcolorado.gov/benefits-services/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "co-dmepos-manual",
+        "co-pump-supplier-list-2026-02",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The NICU-only rule (infant hospitalized at least 54 days) ended June 7, 2022; manual and single-user electric pumps are now covered for all pregnant and postpartum members with a prescription and no prior authorization. Multi-user (hospital-grade) pumps are a rental requiring prior authorization, up to two years. Since July 1, 2025 suppliers may bill a bundle of one manual pump, one electric pump and replacement flanges (E0603-U1)."
+    },
+    "CT": {
+      "status": "covered",
+      "summary": "In Connecticut, HUSKY Health covers one manual or electric breast pump every two calendar years with a prescription, starting in the third trimester.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": "Manual and electric pumps (E0602, E0603) can be dispensed before an inpatient admission but not before the third trimester; one breast pump in each two calendar years",
+      "memberInfoUrl": "https://www.huskyhealthct.org/members/members_benefits.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ct-pb-2020-62",
+        "ct-pb-2014-17",
+        "ct-pb-2022-71",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "DSS Provider Bulletin 2020-62 covers manual (E0602) and electric (E0603) pumps for HUSKY A, B, C and D members; the bulletin does not mention prior authorization for these pumps. Hospital-grade pumps (E0604) are rental only, require prior authorization, and are generally limited to prolonged infant hospitalization (PB 2014-17). Since October 2022 DSS also pays for replacement flanges and up to 100 milk storage bags per month with a prescription (PB 2022-71)."
+    },
+    "DE": {
+      "status": "covered",
+      "summary": "In Delaware, Medicaid covers manual and double electric breast pumps with no prior authorization for the first pump, and you can request one up to 60 days before your due date.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Manual and double-electric pumps can be requested up to 60 days prior to the anticipated delivery date; double-electric purchases limited to one unit every 36 months per household",
+      "memberInfoUrl": "https://dhss.delaware.gov/dmma/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "de-dme-manual",
+        "de-dme-fee-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The DME manual (Section 5.25) covers personal-use manual or double-electric pumps for mothers who want to breastfeed, with no prior authorization for the first pump; prior authorization is needed only for another double-electric pump within 36 months. Hospital-grade pumps are rental only based on medical necessity and need no prior authorization. The 2026 DME fee schedule lists a rate only for E0602 (manual); E0603 and E0604 do not appear on it."
+    },
+    "DC": {
+      "status": "covered",
+      "summary": "In DC, Medicaid covers breast pumps as medical equipment, and MedStar Family Choice covers a manual or double electric pump for any breastfeeding mother.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://dhcf.dc.gov/service/medicaid",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "dc-mfc-policy-1412",
+        "dc-transmittal-14-21",
+        "dc-transmittal-26-19-rev",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "MedStar Family Choice DC policy 1412.DC (revised July 2026) covers a manual (E0602) or high-quality double electric (E0603) pump for any breastfeeding mother and hospital-grade rental (E0604) for specific medical conditions, with prior authorization for hospital-grade rental beyond 90 days. Since August 1, 2026 DC Medicaid managed care has two plans, AmeriHealth Caritas DC and MedStar Family Choice DC; AmeriHealth Caritas DC's member handbook and provider manual did not describe pump rules. DHCF's 2014 breastfeeding policy (Transmittal 14-21) covers pumps as DME for FFS and MCO enrollees but is a scanned image that could not be quoted."
+    },
+    "FL": {
+      "status": "limited",
+      "summary": "In Florida, Medicaid covers an electric breast pump only when a mother is separated from her baby for work, school or a medical reason, and prior authorization is required.",
+      "pumpTypes": [
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": true,
+      "prescriptionRequired": true,
+      "timing": "Electric pump (E0603): 1 per 5 years; hospital-grade rental (E0604): 3 months max",
+      "memberInfoUrl": "https://ahca.myflorida.com/medicaid/medicaid-policy-quality-and-operations/medicaid-operations/recipient-services.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "fl-dme-specialized-policy-2023",
+        "fl-dme-fee-2026-07",
+        "fl-smmc-expanded-benefits-grid-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Florida Medicaid covers an electric pump only when a nursing mother has prolonged separation from her infant due to work, school or a medical reason, and a hospital-grade pump only for a breast infection or an infant born before 37 weeks; both carry a prior authorization flag on the July 2026 DME fee schedule. No manual pump code (E0602) is on the fee schedule. All eight SMMC plans list a \"Prenatal Services\" expanded benefit that may include hospital-grade breast pumps, and Simply Healthcare Plans lists \"Nursing Mothers Support Items\"."
+    },
+    "GA": {
+      "status": "limited",
+      "summary": "In Georgia, Medicaid covers breast pumps only for babies with medical conditions or long NICU stays, and refers other requests to WIC.",
+      "pumpTypes": [
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "E0603: maximum of one purchase per qualifying baby; E0604: maximum of three months rentals per qualifying baby without prior authorization",
+      "memberInfoUrl": "https://medicaid.georgia.gov/",
+      "kff2021": null,
+      "sourceIds": [
+        "ga-dme-manual-2026q4",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Georgia's DME manual covers electric pumps only for babies with medical conditions that prevent breastfeeding or after a prolonged NICU stay, and hospital-grade rentals only for NICU stays or infant readmission in the first three months; pumps are billed under the baby's Medicaid ID. Pumps for healthy babies are not covered and requests are referred to WIC. No manual pump coverage was found."
+    },
+    "HI": {
+      "status": "covered",
+      "summary": "In Hawaii, the Med-QUEST health plans we checked cover breast pumps as a pregnancy benefit, by purchase or rental.",
+      "pumpTypes": [],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://medquest.hawaii.gov/content/medquest/en/members-applicants/quest-integration-coverage/medical-benefits.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "hi-hmsa-quest-handbook-2026",
+        "hi-uhc-quest-handbook-2026",
+        "hi-alohacare-quest-handbook-2026",
+        "hi-kp-quest-handbook-2023",
+        "hi-medicaid-fee-schedule-20260601",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "QUEST Integration plans cover breast pumps as a pregnancy-related benefit: HMSA (purchased or rented, for at least six months), AlohaCare (rental or purchase), UnitedHealthcare (prescription or order sent to its DME vendor) and Kaiser Permanente (rental up to six months; purchase requires prior approval, 2023 handbook). Pump types are not specified. The June 2026 FFS fee schedule lists E0602, E0603 and E0604 with a $0.00 maximum allowable, so FFS pricing could not be confirmed."
+    },
+    "ID": {
+      "status": "covered",
+      "summary": "In Idaho, Medicaid covers a manual or electric breast pump every three years with a written order and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "One manual or electric pump every three years (purchase only); hospital-grade rental up to three months per birth when the infant has a prolonged hospitalization and a qualifying condition",
+      "memberInfoUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "id-handbook-dmepos-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Manual (E0602) and electric (E0603) pumps are covered without prior authorization for women who choose to breastfeed, billed as a purchase under the mother's Medicaid ID. Hospital-grade pumps (E0604) are rental only and limited to infants with a prolonged hospitalization and a listed feeding-related condition. A detailed written order is required for all DME."
+    },
+    "IL": {
+      "status": "covered",
+      "summary": "In Illinois, Medicaid covers a manual or electric breast pump once a year with a practitioner's order and no prior approval.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "One electric pump per year without prior approval (since January 1, 2024); fee schedule limits E0602 and E0603 to one per 365 days",
+      "memberInfoUrl": "https://hfs.illinois.gov/medicalclients/medicaidguide/plansandbenefits.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "il-hfs-prn240304b",
+        "il-hfs-dme-fee-schedule-2026",
+        "il-hfs-dme-fee-schedule-key-2026",
+        "il-hfs-m200-handbook",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The 2026 HFS DME fee schedule lists manual (E0602) and electric (E0603) pumps with no prior approval and a limit of one per 365 days; a second electric pump within a year needs prior approval. The policy applies to fee-for-service and MCOs. Hospital-grade E0604 does not appear on the 2026 DME fee schedule. A practitioner order is a general requirement for all medical equipment and supplies (2015 handbook)."
+    },
+    "IN": {
+      "status": "covered",
+      "summary": "In Indiana, Medicaid covers manual and electric breast pumps with a written order and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://www.in.gov/medicaid/members/member-programs/what-is-covered-by-indiana-medicaid/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "in-ihcp-br202230",
+        "in-ihcp-professional-fee-schedule-2026",
+        "in-ihcp-dme-module",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The IHCP fee schedule lists manual (E0602) and electric (E0603) pumps as covered DME (purchase and rental) with no PA flag, and IHCP removed all PA for E0603 across fee-for-service and every managed care program effective August 26, 2022. Hospital-grade E0604 is listed as non-covered. A written order from an IHCP-enrolled physician, NP, CNS, CNM or PA is required for all DME. No frequency limit was found."
+    },
+    "IA": {
+      "status": "covered",
+      "summary": "In Iowa, Medicaid covers manual and electric breast pumps with a prescription.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://hhs.iowa.gov/medicaid/member-services",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ia-feesched-c12-medical-supplies",
+        "ia-iac-441-78",
+        "ia-pa-dme-list",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The Iowa Medicaid medical supplies fee schedule pays for manual (E0602) and electric (E0603) pumps, with electric also available as a rental; E0604 is not listed. E0602 and E0603 do not appear on Iowa HHS's list of DME codes requiring prior authorization, but no source states affirmatively that no PA applies, so PA is left unconfirmed (KFF 2021 reported PA for electric pumps). Iowa rules require a physician, PA or ARNP prescription for DME."
+    },
+    "KS": {
+      "status": "covered",
+      "summary": "In Kansas, Medicaid covers one manual or electric breast pump a year with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "No more than one pump (E0602 and E0603 combined) per year; members ages 12 through 55",
+      "memberInfoUrl": "https://portal.kmap-state-ks.us/PublicPage/Public/Beneficiary",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ks-kmap-dme-manual-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The KMAP DME manual (updated October 2026) covers manual and electric pump purchases with no special requirements (no PA), limited to one pump per year combined, and requires a physician's prescription kept in the member's file. Hospital-grade E0604 is not covered, and rental of E0602/E0603 is not covered."
+    },
+    "KY": {
+      "status": "covered",
+      "summary": "In Kentucky, Medicaid covers manual and electric breast pumps, one per calendar year without prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": null,
+      "timing": "Electric pump within six weeks before or after birth, up to one replacement per child (907 KAR 1:479); fee schedule limits E0602 and E0603 to one per calendar year without PA",
+      "memberInfoUrl": "https://www.chfs.ky.gov/agencies/dms/member/Pages/default.aspx",
+      "kff2021": null,
+      "sourceIds": [
+        "ky-907-kar-1-479",
+        "ky-dms-msea-fee-schedule-2026",
+        "ky-krs-205-556",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Since the June 18, 2024 amendment to 907 KAR 1:479, electric pumps are no longer limited to mother-infant separation or feeding problems. The 2026 MSEA fee schedule covers manual and electric pumps with PA only if the one-per-calendar-year limit is exceeded, and hospital-grade E0604 rental with PA. KRS 205.556 bars PA and prescription requirements for breastfeeding equipment, but the fee schedule (revised August 2026) and the regulation still state a prescriber's written order is required, so the prescription requirement is left unconfirmed."
+    },
+    "LA": {
+      "status": "covered",
+      "summary": "In Louisiana, Medicaid covers a double electric breast pump from 32 weeks of pregnancy with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "May be obtained from 32 weeks gestational age; Medicaid must not have bought a pump for the same delivery in the past three years",
+      "memberInfoUrl": "https://ldh.la.gov/full-coverage-benefits",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "la-dme-provider-manual-ch18",
+        "la-ib-24-07-breast-pumps",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Louisiana Medicaid covers a personal use double electric breast pump without prior authorization, subject to post-payment review, with a physician prescription and a completed Electric Breast Pump Request Form. Manual, single and hospital-grade pumps are not covered. Since March 1, 2024 the pump can be dispensed at 32 weeks gestation; replacement supplies need prior authorization."
+    },
+    "ME": {
+      "status": "covered",
+      "summary": "In Maine, MaineCare covers electric breast pumps and supplies with a prescription and no prior authorization or limit.",
+      "pumpTypes": [
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://www.maine.gov/dhhs/oms/mainecare-options/covered-services-benefits",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "me-mbm-section-60-dme",
+        "me-22mrs-3174-kkk",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Since October 25, 2023, MaineCare covers electric breast pumps and supplies with no prior authorization and no frequency limit when prescribed by a qualified provider (22 MRS §3174-KKK). Section 60 does not mention manual or hospital-grade pumps."
+    },
+    "MD": {
+      "status": "limited",
+      "summary": "In Maryland, fee-for-service Medicaid covers manual and electric pumps with a prescription, but HealthChoice plans have to cover them only for listed medical reasons.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Fee-for-service: 1 per 3 years (manual and electric). HealthChoice MCOs must cover a pump during the infant's first month of life when a listed medical-necessity condition applies.",
+      "memberInfoUrl": "https://health.maryland.gov/mmcp/healthchoice/Pages/Home.aspx",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "md-pt-19-20-breast-pumps",
+        "md-dme-fee-schedule-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The fee-for-service DME fee schedule lists E0602 and E0603 with a prescription, no PA flag and a 1 per 3 years limit, and E0604 hospital-grade rental with PA. For HealthChoice MCOs, where most members are enrolled, transmittal PT 19-20 requires coverage only under listed medical-necessity conditions (for example NICU stay, latch or supply problems, or return to work in the first month); after the first month MCOs need not provide a pump for non-medical reasons and may refer to WIC."
+    },
+    "MA": {
+      "status": "covered",
+      "summary": "In Massachusetts, MassHealth covers one manual or electric breast pump per pregnancy with a prescription.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "1 per pregnancy (manual and electric); hospital-grade pump billed as a 1-month rental",
+      "memberInfoUrl": "https://www.mass.gov/topics/masshealth",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ma-dme-oxy-guideline-tool-v49",
+        "ma-130cmr409-dme-regs-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "MassHealth's DME payment tool (V.49, effective 6/1/2026) lists manual (E0602) and electric (E0603) pumps at 1 per pregnancy with PA marked Sometimes, which the tool defines as needed only when units exceed the listed limit; the hospital-grade rental (E0604) always needs PA. DME requires a prescription or letter of medical necessity from the ordering practitioner."
+    },
+    "MI": {
+      "status": "covered",
+      "summary": "In Michigan, Medicaid covers a double electric breast pump every five years or a manual pump each birth, with a practitioner's order and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Personal use double electric: once per five years; manual: once per birth; hospital-grade rental only for a NICU infant up to three months of age, with PA beyond three months",
+      "memberInfoUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/portalhome/beneficiaries",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "mi-medicaid-provider-manual-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Michigan covers personal double electric and manual pumps as purchases with a signed practitioner order and no PA when the standards of coverage are met; Medicaid Health Plans must cover personal double electric pumps. Hospital-grade rental is limited to NICU infant situations. Personal single electric pumps are not covered."
+    },
+    "MN": {
+      "status": "covered",
+      "summary": "In Minnesota, Medical Assistance lists breast pumps among covered services for pregnant members.",
+      "pumpTypes": [],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://mn.gov/dhs/health-care/pregnant-people/",
+      "kff2021": null,
+      "sourceIds": [
+        "mn-dhs-pregnant-people",
+        "mn-ucare-provider-manual-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Minnesota DHS's member page for pregnant people lists medical equipment such as breast pumps among covered services. Pump types and prescription and prior authorization rules couldn't be confirmed because the MHCP Provider Manual couldn't be accessed for this review. UCare's 2026 provider manual, which applied to its Medical Assistance products through September 30, 2026, covered manual, electric and hospital-grade pump codes with a medical order."
+    },
+    "MS": {
+      "status": "limited",
+      "summary": "In Mississippi, Medicaid covers breast pumps only when they're medically necessary and prior authorized.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": true,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://medicaid.ms.gov/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ms-admin-code-23-209-1-15",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Administrative Code Rule 209-1.15 (amended 9/1/2018) covers pumps only when medically necessary and prior authorized. A manual pump is covered when breastfeeding hasn't met the infant's nutritional needs or isn't possible; an electric pump (rented up to the purchase price, or bought) needs a listed infant or maternal condition such as prematurity with a longer hospital stay, cleft palate, mastitis or maternal hospitalization. Managed care plan extras weren't verified."
+    },
+    "MO": {
+      "status": "covered",
+      "summary": "In Missouri, MO HealthNet covers one manual or electric breast pump per lifetime, from the third trimester, with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Third trimester of pregnancy; purchase only; one manual or one electric pump per lifetime; WIC services should be exhausted before billing MO HealthNet",
+      "memberInfoUrl": "https://dss.mo.gov/mhd/benefits",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "mo-dme-manual-2026-07",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Since April 1, 2024 MO HealthNet pays for manual and electric pumps as purchase-only items without prior authorization (KFF 2021 listed Missouri as requiring PA for electric pumps). Replacement parts became covered October 1, 2025. No hospital-grade rental code (E0604) appears in the DME manual."
+    },
+    "MT": {
+      "status": "covered",
+      "summary": "In Montana, Medicaid covers a double electric breast pump through its contracted supplier, Aeroflow, from 28 weeks of pregnancy with a prescription.",
+      "pumpTypes": [
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "At least 28 weeks gestation or currently breastfeeding; one pump per pregnancy and no more than one per year",
+      "memberInfoUrl": "https://dphhs.mt.gov/assets/hrd/MedicaidMemberGuide.pdf",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "mt-dmepos-manual-2025-01",
+        "mt-dme-fee-schedule-2026-07",
+        "mt-member-guide-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Double electric pumps (E0603) come only through the sole-source vendor Aeroflow, Inc., ordered online by the member with a provider prescription faxed to Aeroflow (manual updated 01/29/2025). The July 2026 fee schedule shows no PA for E0603 or E0604. Hospital-grade rental (E0604) requires a listed condition such as a preterm infant, infant feeding difficulty, separation, or multiples, and needs PA beyond 2 months. No manual pump code (E0602) is on the fee schedule."
+    },
+    "NE": {
+      "status": "limited",
+      "summary": "In Nebraska, Medicaid covers breast pump rentals only for listed medical conditions, though Nebraska Total Care covers one electric pump per delivery.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Fee-for-service rule: short-term rental up to 2 months or long-term rental up to 6 months plus one 6-month extension when a listed condition applies; Nebraska Total Care: one electric pump per delivery, requested during pregnancy until one year after birth",
+      "memberInfoUrl": "https://dhhs.ne.gov/Pages/Medicaid-Services.aspx",
+      "kff2021": null,
+      "sourceIds": [
+        "ne-471-nac-7",
+        "ne-dmepos-fee-schedule-2026-07",
+        "ne-ntc-member-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "471 NAC 7 (effective 2/20/2024) covers pumps for breastfeeding clients only when a listed condition applies, such as inadequate milk supply, mastitis, an ill or premature infant, or latch difficulties, and frames coverage as rental; breast pumps are not on the rule's prior authorization list and the July 2026 DMEPOS fee schedule lists E0602 and E0603 purchase and E0604 rental with no PA flag. Nebraska Total Care covers one electric pump per delivery with a prescription and no PA; UnitedHealthcare Community Plan and Molina were not checked."
+    },
+    "NV": {
+      "status": "covered",
+      "summary": "In Nevada, Medicaid covers manual and electric breast pumps for mothers of babies up to 12 months old, with a prescription.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Nursing mothers with infants up to 12 months of age; purchase 1 unit per 3 years or rental 1 unit per month for 10 months",
+      "memberInfoUrl": "https://www.nevadamedicaid.nv.gov/medicaid-members/review-your-benefits/",
+      "kff2021": {
+        "electricPump": false,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "nv-web-announcement-3521",
+        "nv-billing-guide-pt20-24-77",
+        "nv-pt33-fee-schedule-2026-07",
+        "nv-msm-1300-2024-05",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "New since 2021 (when Nevada said pumps came through WIC): E0602 and E0603 opened effective January 1, 2025, billable by DME suppliers, outpatient hospitals, physicians, APRNs, PAs, nurse midwives and school health services. PA applies only once service limits are exhausted; hospital-grade rental (E0604) always needs PA and is limited to 6 months. The PA-free status is from the billing guide; the July 2026 DME fee schedule lists E0602, E0603 and E0604 rates."
+    },
+    "NH": {
+      "status": "covered",
+      "summary": "In New Hampshire, Medicaid covers one manual breast pump per pregnancy with a prescription.",
+      "pumpTypes": [
+        "manual"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "One standard manual breast pump per pregnancy",
+      "memberInfoUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
+      "kff2021": null,
+      "sourceIds": [
+        "nh-he-w-500",
+        "nh-nhhf-member-handbook-2026-08",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "He-W 571.04(b) covers purchase of one standard manual pump per pregnancy when prescribed and supported by a letter of medical necessity, without the prior authorization that He-W 571.04(c) requires for unlisted items. Electric pumps are not named, so they would fall under 571.04(c) (prescription, LMN and PA). He-W 571 carries an effective date of 2-27-16. The NH Healthy Families and AmeriHealth Caritas NH handbooks do not mention pumps."
+    },
+    "NJ": {
+      "status": "covered",
+      "summary": "In New Jersey, Medicaid covers one double electric breast pump per birth with no prescription or prior authorization needed.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": false,
+      "timing": "1 pump per birth event; available any time during pregnancy and throughout the postpartum period for the duration of breastfeeding",
+      "memberInfoUrl": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare/health-care-services",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "nj-newsletter-32-06",
+        "nj-pl-2019-c343",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Applies to FFS and all NJ FamilyCare MCOs for claims on or after March 1, 2022. Double electric pumps need no prior authorization, prescription or medical-necessity documentation, except hands-free models (PA required). Manual pumps are available on request. Multi-user (hospital-grade) pump rental requires prior authorization. Delivery deadlines apply (72 hours prenatal, 24 to 48 hours postpartum)."
+    },
+    "NM": {
+      "status": "covered",
+      "summary": "In New Mexico, at least one Turquoise Care health plan (BCBSNM) covers breast pumps and replacement supplies with no prior authorization.",
+      "pumpTypes": [],
+      "priorAuthorization": false,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://www.hca.nm.gov/turquoise-care/",
+      "kff2021": null,
+      "sourceIds": [
+        "nm-bcbsnm-turquoise-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Based on one Turquoise Care health plan: BCBSNM's 2026 member handbook lists breast pumps and replacement supplies as covered for Standard Medicaid and the Alternative Benefit Plan with no prior authorization. The state fee schedule couldn't be reviewed and NMAC 8.324.5 doesn't mention breast pumps, so pump types, prescription rules, limits and the other plans' rules are unconfirmed."
+    },
+    "NY": {
+      "status": "covered",
+      "summary": "In New York, Medicaid covers a manual or standard electric breast pump once every three years with a practitioner's order and supplier authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": true,
+      "prescriptionRequired": true,
+      "timing": "Manual (E0602) and standard electric (E0603) pumps: once every 3 years (frequency code F4 in the July 1, 2026 manual)",
+      "memberInfoUrl": "https://www.health.ny.gov/health_care/medicaid/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ny-emedny-medical-supplies-2026",
+        "ny-emedny-dme-codes-2026",
+        "ny-emedny-dmepos-policy-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Manual and standard electric pumps are purchase-only and covered to establish or maintain milk supply. E0603 is marked as needing a Dispensing Validation System (DVS) authorization, an electronic authorization the supplier gets at dispensing rather than a clinical prior-approval review. All DME needs a practitioner fiscal order. Since April 1, 2023, managed care members get these supplies through NYRx or FFS DME providers. The July 2026 manual changed the frequency for E0602 and E0603 to once per 3 years. Hospital-grade rental (E0604) is limited to conditions such as prematurity or prolonged infant hospitalization, with DVS for up to 2 months and prior approval beyond that."
+    },
+    "NC": {
+      "status": "limited",
+      "summary": "In North Carolina, Medicaid covers an electric breast pump only for medical reasons, such as a newborn still in the hospital.",
+      "pumpTypes": [
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": "1 per pregnancy (E0603)",
+      "memberInfoUrl": "https://medicaid.ncdhhs.gov/beneficiaries",
+      "kff2021": {
+        "electricPump": false,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "nc-ccp-5a3-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Since March 1, 2023, NC Medicaid covers an electric breast pump only when medically necessary: newborn kept in the hospital after the mother's discharge, a newborn congenital anomaly that interferes with feeding, or a maternal or infant condition causing low milk supply. Hospital-grade pumps are rental only, and prior approval for them may be limited to one month at a time. No manual pump code is listed. Prior-approval flags are on the DME fee schedule, which is published through a portal that could not be read, so PA for E0603 is unconfirmed."
+    },
+    "ND": {
+      "status": "covered",
+      "summary": "In North Dakota, Medicaid covers a manual breast pump each year or an electric pump every three years, with a prescription and no service authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "One manual breast pump every year, or one electric breast pump every 3 years",
+      "memberInfoUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "nd-dme-breast-pump-policy-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Manual (E0602) and electric (E0603) pumps are purchase-only and need no service authorization, but a prescription and practitioner documentation of medical necessity are required. The policy says pumps should be used when natural feeding is not possible. Hospital-grade rental (E0604) needs no authorization for the first month and service authorization after that; if the child is in WIC, the hospital-grade pump must come from WIC when available."
+    },
+    "OH": {
+      "status": "covered",
+      "summary": "In Ohio, Medicaid covers manual and electric breast pumps with a prescription, and hospital-grade rentals with a certificate of medical necessity.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://medicaid.ohio.gov/families-and-individuals",
+      "kff2021": null,
+      "sourceIds": [
+        "oh-oac-5160-10-25",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Ohio Adm.Code 5160-10-25 (effective January 1, 2022) covers purchase of a single-user manual or electric pump with replacement supplies and rental of a multiple-user (hospital-grade) pump. A prescription is enough for a single-user pump with no certificate of medical necessity; multiple-user rental needs a CMN (ODM 01901) in 90-day periods. The rule does not mention prior authorization or a quantity limit."
+    },
+    "OK": {
+      "status": "not-covered",
+      "summary": "In Oklahoma, SoonerCare doesn't cover breast pumps and refers members to WIC.",
+      "pumpTypes": [],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": null,
+      "memberInfoUrl": "https://oklahoma.gov/ohca/individuals/programs/pregnancy-services.html",
+      "kff2021": {
+        "electricPump": false,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "ok-ohca-pregnancy-services",
+        "ok-ohca-dme-rates-2026",
+        "ok-hb3286-2026-history",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "OHCA's member pregnancy page says breast pumps are not covered and points members to WIC. The OHCA DME rate file dated 01-01-2026 lists E0600, E0601 and E0605 but no E0602, E0603 or E0604. HB 3286 (2026), which would have required SoonerCare pump coverage, was referred to the House Insurance committee on 02/03/2026 with no later action listed."
+    },
+    "OR": {
+      "status": "covered",
+      "summary": "In Oregon, the Oregon Health Plan covers one breast pump per pregnancy without prior authorization once a need is determined after birth.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": null,
+      "timing": "One breast pump purchase per pregnancy, provided after a need is determined following birth; hospital-grade rental covered up to three months",
+      "memberInfoUrl": "https://www.oregon.gov/oha/HSD/OHP/Pages/Benefits.aspx",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "or-dmap-20-2026-oar-410-122-0250",
+        "or-herc-prioritized-list-2026-10",
+        "or-ohp-fee-schedule-0926",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "OAR 410-122-0250 (amended by DMAP 20-2026, effective 06/03/2026) covers purchase of a manual (E0602) or electric (E0603) pump, limited to one per pregnancy, when needed to establish or maintain milk production, plus hospital-grade (E0604) rental for up to three months. The rule requires PA only for replacement pumps, unlisted supplies and hospital-grade rental past the third month; an electric pump for comfort and convenience is not considered medically necessary."
+    },
+    "PA": {
+      "status": "covered",
+      "summary": "In Pennsylvania, Medical Assistance covers electric breast pumps with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "One pump per calendar year (E0603)",
+      "memberInfoUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "pa-ma-bulletin-breast-pumps-2022",
+        "pa-55-code-ch1123",
+        "pa-healthchoices-ph-agreement-2024",
+        "pa-acpa-kf-ccp1051-breast-pumps-2026",
+        "pa-acpa-e0603-limit-notice-2021",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Pennsylvania Medical Assistance covers the electric breast pump (E0603) and dropped its prior authorization for dates of service on or after December 1, 2022 (MA Bulletin 05-22-14, which also added breast milk storage bags, up to 120 a month). Medical supplies must be prescribed by a licensed practitioner, and HealthChoices plans must cover at least what fee-for-service covers. AmeriHealth Caritas Pennsylvania and Keystone First's 2026 pump policy covers manual, electric and hospital-grade pumps under medical-necessity criteria, and a 2021 AmeriHealth Caritas notice limits electric pumps to one per calendar year under DHS limits. The fee schedule can only be opened after accepting a license, so state rules for manual and hospital-grade pumps weren't confirmed."
+    },
+    "RI": {
+      "status": "covered",
+      "summary": "In Rhode Island, Medicaid health plans cover breast pumps with a prescription.",
+      "pumpTypes": [
+        "personal electric"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://eohhs.ri.gov/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ri-nhpri-womens-health-page",
+        "ri-nhpri-bright-start-2026",
+        "ri-uhc-annual-notification-2018",
+        "ri-tufts-ritogether-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Coverage is confirmed only from health plan materials: Neighborhood Health Plan of RI lists breast pumps (prescription required) among its women's health benefits, and its 2026 Bright Start booklet tells members to call to see if they qualify for an electric pump; UnitedHealthcare Community Plan's 2018 annual notice, still posted, says breast pumps are covered for all new mothers. No state DME policy or fee schedule could be accessed, so prior authorization and quantity rules are unknown."
+    },
+    "SC": {
+      "status": "limited",
+      "summary": "In South Carolina, Medicaid doesn't pay for breast pumps directly, but all five Healthy Connections health plans offer a free pump as an extra benefit.",
+      "pumpTypes": [
+        "personal electric"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": null,
+      "timing": "Varies by plan: Absolute Total Care, request from 12 weeks before to 30 days after delivery (90 days for NICU babies), one per calendar year; First Choice, one per pregnancy; Humana, one non-hospital-grade pump every 2 years",
+      "memberInfoUrl": "https://www.scdhhs.gov/members",
+      "kff2021": {
+        "electricPump": false,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "sc-dme-fee-schedule-2026-10",
+        "sc-dhhs-newsletter-2023-07",
+        "sc-atc-handbook-2026",
+        "sc-healthyblue-handbook-2026",
+        "sc-healthyblue-extra-benefits",
+        "sc-firstchoice-brightstart",
+        "sc-molina-handbook-2026",
+        "sc-molina-benefits-services",
+        "sc-humana-vas",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Pumps come through the managed care plans as extra (value-added) benefits rather than as a fee-for-service benefit: the SCDHHS DME fee schedule (10/1/2026) has no E0602 to E0604, and SCDHHS tells members to check whether their plan covers pumps. All five MCOs list a pump as an extra benefit in 2026: Absolute Total Care, First Choice by Select Health, Healthy Blue and Molina offer an electric pump, and Humana offers one non-hospital-grade pump every 2 years. No pump benefit was found for members in fee-for-service Medicaid."
+    },
+    "SD": {
+      "status": "covered",
+      "summary": "In South Dakota, Medicaid covers manual and electric breast pumps from 28 weeks of pregnancy with a practitioner's order and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Covered from 28 weeks gestation or while breastfeeding; one manual pump per year per family or one electric pump per family every 3 years; hospital-grade rental covered for 1 month, PA needed beyond that",
+      "memberInfoUrl": "https://dss.sd.gov/medicaid/recipients/",
+      "kff2021": null,
+      "sourceIds": [
+        "sd-dmepos-manual-2026-01",
+        "sd-pregnancy-handbook-2024",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The DMEPOS manual (updated January 2026) covers purchase of manual (E0602) and electric (E0603) pumps without prior authorization when ordered by a physician or other licensed practitioner, and hospital-grade (E0604) rental for one month, with PA and medical criteria for longer rental. The May 2024 member pregnancy handbook describes pump coverage as applying when natural feeding is not possible."
+    },
+    "TN": {
+      "status": "covered",
+      "summary": "In Tennessee, TennCare plans supply double electric breast pumps through in-network medical equipment suppliers, with a prescription.",
+      "pumpTypes": [
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": null,
+      "prescriptionRequired": true,
+      "timing": null,
+      "memberInfoUrl": "https://www.tn.gov/tenncare/members-applicants/benefits-services.html",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "tn-tenncare-breastfeeding-news-2023",
+        "tn-tenncare-lactation-benefit-update-2024",
+        "tn-bluecare-postpartum-support",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "TennCare MCOs supply a double electric breast pump through in-network DME vendors, and rent hospital-grade pumps (E0604) when medically necessary, for example for NICU babies. BlueCare tells members they need a prescription from their doctor and orders through Aeroflow; prior authorization rules and replacement timing are set by each MCO and were not found in a TennCare source."
+    },
+    "TX": {
+      "status": "covered",
+      "summary": "In Texas, Medicaid covers a manual or electric breast pump within 12 months of birth with no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Manual or electric personal-use pump purchase within 12 months from the date of birth without prior authorization; hospital-grade rental for an initial 60 days, then up to three prior-authorized 90-day rentals within 12 months following birth",
+      "memberInfoUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip/medicaid-chip-members",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "tx-tmppm-2026-10-gyn-ob-fp",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Texas Medicaid (fee-for-service and managed care) covers manual (E0602) and personal-use electric (E0603) pumps for purchase and hospital-grade pumps (E0604) for rental through DME suppliers, ordered by a provider familiar with the mother or infant. The handbook lists medical necessity reasons such as returning to work or school 10 or more hours per week; if a pump is not obtained under the mother's Medicaid number it can be billed under the infant's."
+    },
+    "UT": {
+      "status": "covered",
+      "summary": "In Utah, Medicaid covers breast pumps ordered by a doctor for members who are separated from their baby or have other breastfeeding concerns, with no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "May be purchased before or after birth; electric pump limited to 1 per year",
+      "memberInfoUrl": "https://medicaid.utah.gov/medicaid-members/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "ut-womens-services-manual-2026-07",
+        "ut-fee-schedule-2026-10-09",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Utah Medicaid covers breast pumps and supplies when ordered by a physician or other qualified provider for a breastfeeding member separated from her infant or with other breastfeeding concerns. The fee schedule lists E0602, E0603 ($150, physician order required) and E0604 as covered with no prior authorization; the schedule does not say whether E0604 is rental."
+    },
+    "VT": {
+      "status": "covered",
+      "summary": "In Vermont, Medicaid covers a double electric breast pump from 60 days before the due date to 120 days after birth, with a prescription.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Personal-use double electric pump (purchase only) from 60 days before the projected due date up to 120 days postpartum; one new pump per lactating person",
+      "memberInfoUrl": "https://dvha.vermont.gov/members/medicaid",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": false
+      },
+      "sourceIds": [
+        "vt-dvha-breast-pump-criteria-2025-12",
+        "vt-fee-schedule-2026-10-09",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "DVHA covers personal-use double electric pumps for members who plan to breastfeed or exclusively pump, and rents hospital-grade pumps for listed medical reasons; starting January 1, 2026, hospital-grade rental longer than 1 month needs prior authorization. The fee schedule shows no prior authorization flag for E0602 or E0603 and pays E0602 at $35.26, although DVHA's clinical criteria focus on electric pumps."
+    },
+    "VA": {
+      "status": "covered",
+      "summary": "In Virginia, Medicaid covers manual breast pumps without authorization and electric pumps with service authorization, up to the child's first birthday.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": true,
+      "prescriptionRequired": true,
+      "timing": "Up to the child's first birthday; personal electric pump limited to one purchase every three years",
+      "memberInfoUrl": "https://www.dmas.virginia.gov/for-members/benefits-and-services/maternal-and-child-health/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "va-dmas-dme-manual-appd-2026-09",
+        "va-dmas-dme-manual-ch4-2025-12",
+        "va-dmas-breastfeeding-fact-sheet-2015",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "DMAS covers a manual or standard electric pump to start or continue breastfeeding up to the child's first birthday. Manual pumps (E0602) need no service authorization, while single-user electric (E0603) and hospital-grade rental (E0604) pumps require service authorization; all DME must be ordered by a practitioner on the CMN/DMAS-352 form."
+    },
+    "WA": {
+      "status": "covered",
+      "summary": "In Washington, Apple Health covers one manual or electric breast pump every three years without prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Manual or electric pump purchase limited to one per client in a three-year period; hospital-grade rental limited to 3 months unless extended with PA",
+      "memberInfoUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/pregnant-individuals",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "wa-hca-mes-bg-2026-07",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "HCA buys manual (E0602) and electric (E0603) pumps without prior authorization, one per client every three years, and rents hospital-grade pumps (E0604) with PA, mainly for infants with prolonged hospitalization and listed conditions. Medical equipment must be prescribed by a practitioner."
+    },
+    "WV": {
+      "status": "covered",
+      "summary": "In West Virginia, Medicaid covers manual and electric breast pumps with a written order and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Electric pump (E0603): 1 unit per rolling year; manual pump (E0602): 1 unit per 5 rolling years",
+      "memberInfoUrl": "https://bms.wv.gov/members",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "wv-bms-appendix-506a",
+        "wv-bms-appendix-506c",
+        "wv-bms-ch506-dmepos",
+        "wv-dme-fee-schedule-2026-nonrural",
+        "wv-wellpoint-pregnancy-page",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Appendix 506A (Covered DME Supplies) lists manual (E0602) and electric (E0603) breast pumps as purchased items, and the 2026 DME fee schedule pays $33.65 and $55.00. Hospital-grade pumps (E0604) are on Appendix 506C, Non-Covered DMEPOS Supplies. Appendix 506A shows no prior authorization instruction for either pump, unlike items that require it; Chapter 506 requires a written order and requires prior authorization when service limits are exceeded. Wellpoint of West Virginia's member page says it may cover the cost of a breast pump."
+    },
+    "WI": {
+      "status": "covered",
+      "summary": "In Wisconsin, ForwardHealth covers a manual or electric breast pump from the third trimester, up to one a year, with a prescription and no prior authorization.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "From the third trimester of pregnancy or after birth; one pump per year of breastfeeding, up to three purchases without prior authorization",
+      "memberInfoUrl": "https://www.dhs.wisconsin.gov/badgercareplus/services.htm",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "wi-dme-handbook-2026-10",
+        "wi-update-2024-39",
+        "wi-physician-handbook-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Coverage was expanded for dates of service on and after October 1, 2024 (ForwardHealth Update 2024-39) to any member in the third trimester or postpartum who intends to feed human milk. Manual (E0602) and electric (E0603) pumps are purchased from an enrolled DME vendor with a prescription, up to three without prior authorization; hospital-grade pumps (E0604) are rented for up to 30 days, with prior authorization needed beyond 30 days. The Update applies to fee-for-service and to BadgerCare Plus and Medicaid SSI HMOs, which must cover at least the fee-for-service benefit."
+    },
+    "WY": {
+      "status": "covered",
+      "summary": "In Wyoming, Medicaid covers manual and electric breast pumps from 28 weeks of pregnancy with a prescription.",
+      "pumpTypes": [
+        "manual",
+        "personal electric",
+        "hospital-grade rental"
+      ],
+      "priorAuthorization": false,
+      "prescriptionRequired": true,
+      "timing": "Manual and electric pumps available at 28 weeks of pregnancy or later; some Public Health Nursing offices provide pumps only after the baby is born",
+      "memberInfoUrl": "https://health.wyo.gov/healthcarefin/medicaid/wyoming-medicaid-health-management/your-healthy-pregnancy/",
+      "kff2021": {
+        "electricPump": true,
+        "manualPump": true
+      },
+      "sourceIds": [
+        "wy-your-healthy-pregnancy",
+        "wy-fee-schedule-2026-10",
+        "wy-member-handbook-pregnant-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Wyoming Medicaid's pregnancy page says members can get a manual or electric pump with a prescription from enrolled medical suppliers or some county Public Health Nursing offices, and that hospital-grade rentals are available when there is a medical need. The October 2026 fee schedule pays E0602 ($41.24) and E0603 ($109.88) with the prior authorization column blank, while the E0604 hospital-grade rental line is flagged Y for prior authorization."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to the page on themomsite.com that the figure comes from."
+type: dataset
+title: "The Mom Site open data: pregnancy and family benefits by state, and the US doula workforce"
+authors:
+  - name: "The Mom Site editorial team"
+    website: "https://themomsite.com/about/"
+abstract: >-
+  State-by-state data for all 50 states and DC on Medicaid and CHIP for pregnancy,
+  WIC, paid family and medical leave, Medicaid coverage of doulas and lactation
+  consultants, breast pumps, child care assistance, county childcare prices and
+  child car seat laws, each fact tied to a cited source. Also the doula workforce
+  counts behind "The US doula workforce in 2026" (23,197 active doula NPIs in the
+  September 2026 NPPES file, by state and by year issued).
+license: CC-BY-4.0
+url: "https://themomsite.com/"
+version: "2026.10"
+keywords:
+  - Medicaid
+  - CHIP
+  - pregnancy
+  - postpartum
+  - WIC
+  - paid family leave
+  - doula
+  - lactation consultant
+  - breast pump
+  - child care subsidy
+  - childcare prices
+  - car seat laws
+  - NPPES
+  - open data

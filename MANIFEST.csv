@@ -1,0 +1,14 @@
+file,records,as_of,bytes,sha256
+data/benefits/breast-pumps-medicaid-2026.csv,51,2026-10,37746,ac16f1e850334f2a3d25e0c2be82358b82888af7d7d6922d93f3420b54a5eea3
+data/benefits/breast-pumps.json,51,2026-10,133042,6864a162a3eae5790d0faa3644e82cd6b4cdce643a59d4b395cae7338105ff13
+data/benefits/car-seat-laws.json,51,2026-10,229132,747c0b02d83f54f2c90a384939b2f405f0d00d5f9bf44705eb15330d5e3f8caf
+data/benefits/child-care-assistance-2026.csv,51,2026-10,40941,226e5913a81d08e46298aa761457efa4604f77f973ff958bb3cc181d209e399b
+data/benefits/child-care-assistance.json,51,2026-10,116464,ddf871fc7f5d78daf69308ca4d72b86210205b86031fcd71fa122f47b7d9c884
+data/benefits/childcare.json,51,2026-10,39296,9fa67fd0e124726774d1a39bc3116274013302936f4a8a8acaa984b03728b1ed
+data/benefits/doula-medicaid.json,51,2026-10,252146,e72b72d1ac92422a8f6131787e2b61b38007c4f2d162292669fb53198110c029
+data/benefits/lactation-coverage.json,51,2026-10,144378,7f33e1ee2a88df4fb1be227ddba8f066fff0c4aec8376e86fd2f1c6d0fcf3b2d
+data/benefits/medicaid-pregnancy.json,51,2026-10,100540,689175bb12eafa4ead354f5c9f6542d1fee212f27bb181762372e12d5b24392e
+data/benefits/paid-family-leave.json,51,2026-10,676673,8fd449cd2e70da9912cbc7160e1d4c9439fc45b47e1295c30148195c3e68112d
+data/benefits/wic.json,51,2026-10,123411,2402f7c2ce053a629416265a9663e05b6fbe8194a1fd2205e6f3546ea6bbd53e
+data/reports/doula-npis-by-year-2026.csv,22,,518,03b54f6a51412835bafe2d42e718b8c5f3121a162a1565dd7ee48e90a438a0dd
+data/reports/doula-workforce-2026.csv,52,,4136,36f9074a7aac3ee7f5f7d58aaeb4f7372a82cdf6f02f1ab4e898a9ae7b844d1b

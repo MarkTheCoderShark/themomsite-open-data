@@ -1,0 +1,2220 @@
+{
+  "topic": "medicaid-pregnancy",
+  "title": "Medicaid and CHIP coverage for pregnancy and postpartum, by state",
+  "asOf": "2026-10",
+  "methodology": "Income limits are KFF and Georgetown CCF's 50-state survey figures as of January 2026 (KFF State Health Facts and Table 2 of the April 2026 report). They are percentages of the federal poverty level (FPL), converted to MAGI standards, and include the standard 5-percentage-point income disregard at the highest Medicaid level when the state does not cover pregnancy through CHIP. chipLimitFplPct is CHIP coverage of pregnant individuals (7 states); unbornChildLimitFplPct is CHIP's From Conception to End of Pregnancy (formerly unborn child) option (25 states); highestLimitFplPct is the highest of the three, which KFF calls the upper income limit. Postpartum status is KFF's Medicaid Postpartum Coverage Extension Tracker as of July 15, 2026. postpartumExtensionEffective is the effective date in each state's CMS approval letter (state plan amendment or section 1115 waiver), read from the documents KFF links, or the state's own announcement where noted; some states covered postpartum people for 12 months earlier with state funds or an earlier waiver (KFF). Presumptive eligibility reflects KFF/CCF's January 2025 survey (the January 2026 report does not cover it) for the Medicaid pregnancy group, updated where a state source shows a later change; it is left blank where the state did not report or we could not confirm a change. Hospitals in every state may make presumptive eligibility determinations, even in states that do not otherwise use it. Program names, agencies and application pages were checked on each state's site on 2026-10-09; Kansas, Mississippi and New Hampshire block automated checks, so their links come from the state listings on Medicaid.gov. Poverty guidelines are the 2026 HHS figures from the Federal Register. Each state's one-sentence answer is generated from these figures. Its dollar amount applies the highest income limit to the 2026 HHS guideline for a household of two (a pregnant person expecting one baby counts as two under 42 CFR 435.603), using the Alaska or Hawaii guideline where applicable. States apply their own rounding and update dates, so treat it as approximate.",
+  "sources": [
+    {
+      "id": "hhs-poverty-guidelines-2026",
+      "title": "Annual Update of the HHS Poverty Guidelines (91 FR 1797, Jan. 15, 2026)",
+      "publisher": "U.S. Department of Health and Human Services (Federal Register)",
+      "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00755/annual-update-of-the-hhs-poverty-guidelines",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "kff-pregnancy-limits-2026",
+      "title": "Medicaid and CHIP Income Eligibility Limits for Pregnant Women as a Percent of the Federal Poverty Level (as of January 2026)",
+      "publisher": "KFF State Health Facts",
+      "url": "https://www.kff.org/affordable-care-act/state-indicator/medicaid-and-chip-income-eligibility-limits-for-pregnant-women-as-a-percent-of-the-federal-poverty-level/",
+      "accessed": "2026-10-09",
+      "asOf": "2026-01"
+    },
+    {
+      "id": "kff-ccf-survey-2026",
+      "title": "Medicaid and CHIP Eligibility, Enrollment, and Renewal Policies as States Prepare for Major Medicaid Policy Changes (Table 2, January 2026)",
+      "publisher": "KFF and Georgetown University Center for Children and Families",
+      "url": "https://www.kff.org/medicaid/medicaid-and-chip-eligibility-enrollment-and-renewal-policies-as-states-prepare-for-major-medicaid-policy-changes/",
+      "accessed": "2026-10-09",
+      "asOf": "2026-01",
+      "published": "2026-04-30"
+    },
+    {
+      "id": "kff-ccf-survey-2025",
+      "title": "Medicaid and CHIP Eligibility, Enrollment, and Renewal Policies as States Resume Routine Operations Following the Unwinding (Table 7: Presumptive Eligibility, January 2025)",
+      "publisher": "KFF and Georgetown University Center for Children and Families",
+      "url": "https://www.kff.org/medicaid/medicaid-and-chip-eligibility-enrollment-and-renewal-policies-as-states-resume-routine-operations-following-the-unwinding-of-the-pandemic-era-continuous-enrollment-provision/",
+      "accessed": "2026-10-09",
+      "asOf": "2025-01",
+      "published": "2025-04-01"
+    },
+    {
+      "id": "kff-postpartum-tracker",
+      "title": "Medicaid Postpartum Coverage Extension Tracker (as of July 15, 2026)",
+      "publisher": "KFF",
+      "url": "https://www.kff.org/medicaid/issue-brief/medicaid-postpartum-coverage-extension-tracker/",
+      "accessed": "2026-10-09",
+      "asOf": "2026-07-15"
+    },
+    {
+      "id": "pl-119-21-sec-71119",
+      "title": "Public Law 119-21, sec. 71119: Requirement for States to Establish Medicaid Community Engagement Requirements (adds SSA sec. 1902(xx))",
+      "publisher": "U.S. Government Publishing Office",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-sho-26-001",
+      "title": "SHO #26-001: Implementation of Section 71109 \"Alien Medicaid Eligibility\" (April 8, 2026)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/federal-policy-guidance/downloads/sho26001.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ecfr-42-435-603",
+      "title": "42 CFR 435.603(b), definition of family size",
+      "publisher": "eCFR (National Archives)",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-435/subpart-G/section-435.603",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "medicaid-gov-state-links",
+      "title": "Where can people get help with Medicaid & CHIP? (state Medicaid links)",
+      "publisher": "Medicaid.gov (CMS)",
+      "url": "https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-fl-1115-2022",
+      "title": "CMS approval of Florida Managed Medical Assistance section 1115 amendment (12-month postpartum extension)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/fl-mma-ca1.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-sb-2526-2022",
+      "title": "Florida SB 2526 (2022), Health: effective date 7/1/2022",
+      "publisher": "The Florida Senate",
+      "url": "https://www.flsenate.gov/Session/Bill/2022/2526",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-va-1115-2021",
+      "title": "CMS approval of Virginia FAMIS MOMS and FAMIS Select section 1115 amendment (12-month postpartum coverage)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/Medicaid-CHIP-Program-Information/By-Topics/Waivers/1115/downloads/va/va-famis-moms-famis-select-11182021-ca.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tenncare-postpartum-2022",
+      "title": "TennCare Increases Health Care Benefits for Pregnant and Postpartum Women (March 31, 2022)",
+      "publisher": "Division of TennCare",
+      "url": "https://www.tn.gov/tenncare/news/2022/3/31/tenncare-increases-health-care-benefits-for-pregnant-and-postpartum-women.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wi-gov-postpartum-2026",
+      "title": "Gov. Evers, DHS Celebrate Extended Postpartum Medicaid Coverage Now in Effect (July 1, 2026)",
+      "publisher": "Office of the Governor of Wisconsin",
+      "url": "https://content.govdelivery.com/accounts/WIGOV/bulletins/41e3bac",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nj-pl-2021-c133",
+      "title": "P.L.2021, c.133 (FY2022 Appropriations Act): 365-day postpartum eligibility, subject to federal approval",
+      "publisher": "New Jersey Legislature",
+      "url": "https://www.njleg.state.nj.us/2020/Bills/AL21/133_.PDF",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "al-medicaid-pep",
+      "title": "Presumptive Eligibility for Pregnancy (PEP), effective October 1, 2025",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/content/4.0_Programs/4.7_PEP.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-al-22-0007",
+      "title": "CMS approval of Alabama State Plan Amendment AL-22-0007 (12-month postpartum coverage), effective 2022-10-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/AL-22-0007.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ak-24-0001",
+      "title": "CMS approval of Alaska State Plan Amendment AK-24-0001 (12-month postpartum coverage), effective 2024-02-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2024-02/AK-24-0001_0.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-az-22-0009",
+      "title": "CMS approval of Arizona State Plan Amendment AZ-22-0009 (12-month postpartum coverage), effective 2023-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/AZ-22-0009.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ca-22-0030",
+      "title": "CMS approval of California State Plan Amendment CA-22-0030 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/CA-22-0030.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-co-22-0009",
+      "title": "CMS approval of Colorado State Plan Amendment CO-22-0009 (12-month postpartum coverage), effective 2022-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/CO-22-0009.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ct-22-0016",
+      "title": "CMS approval of Connecticut State Plan Amendment CT-22-0016 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-07/CT-22-0016.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-de-22-0011",
+      "title": "CMS approval of Delaware State Plan Amendment DE-22-0011 (12-month postpartum coverage), effective 2022-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/DE-22-0011.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-dc-22-0001",
+      "title": "CMS approval of District of Columbia State Plan Amendment DC-22-0001 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/DC-22-0001.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ga-22-0005",
+      "title": "CMS approval of Georgia State Plan Amendment GA-22-0005 (12-month postpartum coverage), effective 2022-11-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/GA-22-005.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-hi-22-0008",
+      "title": "CMS approval of Hawaii State Plan Amendment HI-22-0008 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/HI-22-0008.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-id-25-0001",
+      "title": "CMS approval of Idaho State Plan Amendment ID-25-0001 (12-month postpartum coverage), effective 2025-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/ID-25-0001.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-il-22-0020",
+      "title": "CMS approval of Illinois State Plan Amendment IL-22-0020 (12-month postpartum coverage), effective 2022-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/IL-22-0020.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-in-22-0001",
+      "title": "CMS approval of Indiana State Plan Amendment IN-22-0001 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/IN-22-0001.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ia-25-0001",
+      "title": "CMS approval of Iowa State Plan Amendment IA-25-0001 (12-month postpartum coverage), effective 2025-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/IA-25-0001.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ks-22-0016",
+      "title": "CMS approval of Kansas State Plan Amendment KS-22-0016 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-08/KS-22-0016.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ky-22-0002",
+      "title": "CMS approval of Kentucky State Plan Amendment KY-22-0002 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/KY-22-0002.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-la-22-0009",
+      "title": "CMS approval of Louisiana State Plan Amendment LA-22-0009 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/LA-22-0009.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-me-22-0016",
+      "title": "CMS approval of Maine State Plan Amendment ME-22-0016 (12-month postpartum coverage), effective 2022-08-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/ME-22-0016.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-md-22-0014",
+      "title": "CMS approval of Maryland State Plan Amendment MD-22-0014 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-08/MD-22-0014.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ma-22-0014",
+      "title": "CMS approval of Massachusetts State Plan Amendment MA-22-0014 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-07/MA-22-0014.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-mi-22-0100",
+      "title": "CMS approval of Michigan State Plan Amendment MI-22-0100 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-04/MI-22-0100.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-mn-22-0008",
+      "title": "CMS approval of Minnesota State Plan Amendment MN-22-0008 (12-month postpartum coverage), effective 2022-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-06/MN-22-0008.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ms-23-0015",
+      "title": "CMS approval of Mississippi State Plan Amendment MS-23-0015 (12-month postpartum coverage), effective 2023-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-12/MS-23-0015.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-mo-23-0022",
+      "title": "CMS approval of Missouri State Plan Amendment MO-23-0022 (12-month postpartum coverage), effective 2023-07-07",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-11/MO-23-0022.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-mt-23-0018",
+      "title": "CMS approval of Montana State Plan Amendment MT-23-0018 (12-month postpartum coverage), effective 2023-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-10/MT-23-0018.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ne-24-0003",
+      "title": "CMS approval of Nebraska State Plan Amendment NE-24-0003 (12-month postpartum coverage), effective 2024-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-12/NE-24-0003.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-nv-23-0033",
+      "title": "CMS approval of Nevada State Plan Amendment NV-23-0033 (12-month postpartum coverage), effective 2024-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2024-05/NV-23-0033_0.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-nh-23-0005",
+      "title": "CMS approval of New Hampshire State Plan Amendment NH-23-0005 (12-month postpartum coverage), effective 2023-10-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-11/NH-23-0005.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-nm-22-0013",
+      "title": "CMS approval of New Mexico State Plan Amendment NM-22-0013 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/NM-22-0013.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ny-23-0006",
+      "title": "CMS approval of New York State Plan Amendment NY-23-0006 (12-month postpartum coverage), effective 2023-03-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/NY-23-0006.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-nc-22-0012",
+      "title": "CMS approval of North Carolina State Plan Amendment NC-22-0012 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/NC-22-0012.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-nd-22-0025",
+      "title": "CMS approval of North Dakota State Plan Amendment ND-22-0025 (12-month postpartum coverage), effective 2023-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/ND-22-0025.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-oh-22-0018",
+      "title": "CMS approval of Ohio State Plan Amendment OH-22-0018 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/OH-22-0018.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ok-22-0042",
+      "title": "CMS approval of Oklahoma State Plan Amendment OK-22-0042 (12-month postpartum coverage), effective 2023-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/OK-22-0042.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-or-22-0008",
+      "title": "CMS approval of Oregon State Plan Amendment OR-22-0008 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/OR-22-0008.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-pa-22-0016",
+      "title": "CMS approval of Pennsylvania State Plan Amendment PA-22-0016 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/PA-22-0016.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ri-22-0024",
+      "title": "CMS approval of Rhode Island State Plan Amendment RI-22-0024 (12-month postpartum coverage), effective 2022-10-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/RI-22-0024.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-sc-22-0004",
+      "title": "CMS approval of South Carolina State Plan Amendment SC-22-0004 (12-month postpartum coverage), effective 2022-04-22",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2022-05/SC%2022-0004.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-sd-23-0008",
+      "title": "CMS approval of South Dakota State Plan Amendment SD-23-0008 (12-month postpartum coverage), effective 2023-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-06/SD-23-0008_0.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-tx-23-0028",
+      "title": "CMS approval of Texas State Plan Amendment TX-23-0028 (12-month postpartum coverage), effective 2024-03-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2024-01/TX-23-0028_0.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-ut-23-0017",
+      "title": "CMS approval of Utah State Plan Amendment UT-23-0017 (12-month postpartum coverage), effective 2024-01-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2024-03/UT-23-0017.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-vt-23-0004",
+      "title": "CMS approval of Vermont State Plan Amendment VT-23-0004 (12-month postpartum coverage), effective 2023-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-08/VT-23-0004.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-wa-22-0012",
+      "title": "CMS approval of Washington State Plan Amendment WA-22-0012 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/WA-22-0012.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-wv-22-0007",
+      "title": "CMS approval of West Virginia State Plan Amendment WV-22-0007 (12-month postpartum coverage), effective 2022-04-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/WV-22-0007.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "cms-spa-wy-23-0005",
+      "title": "CMS approval of Wyoming State Plan Amendment WY-23-0005 (12-month postpartum coverage), effective 2023-07-01",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicaid.gov/sites/default/files/2023-10/WY-23-0005_0.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "al-medicaid-apply",
+      "title": "Alabama Medicaid: how to apply",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/content/3.0_Apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ak-medicaid-apply",
+      "title": "Alaska Medicaid (Denali KidCare): how to apply",
+      "publisher": "Alaska Department of Health, Division of Public Assistance",
+      "url": "https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/apply-for-medicaid/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "az-medicaid-apply",
+      "title": "AHCCCS: how to apply",
+      "publisher": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "url": "https://azahcccs.gov/Members/GetCovered/apply.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ar-medicaid-apply",
+      "title": "Arkansas Medicaid: how to apply",
+      "publisher": "Arkansas Department of Human Services",
+      "url": "https://humanservices.arkansas.gov/apply-for-services/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ca-medicaid-apply",
+      "title": "Medi-Cal: how to apply",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://benefitscal.com/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "co-medicaid-apply",
+      "title": "Health First Colorado: how to apply",
+      "publisher": "Colorado Department of Health Care Policy & Financing",
+      "url": "https://www.healthfirstcolorado.gov/apply-now/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ct-medicaid-apply",
+      "title": "HUSKY Health: how to apply",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://portal.ct.gov/dss/how-to-apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "de-medicaid-apply",
+      "title": "Delaware Medicaid: how to apply",
+      "publisher": "Delaware Division of Medicaid and Medical Assistance",
+      "url": "https://assist.dhss.delaware.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dc-medicaid-apply",
+      "title": "DC Medicaid: how to apply",
+      "publisher": "DC Department of Health Care Finance",
+      "url": "https://dhcf.dc.gov/service/medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-medicaid-apply",
+      "title": "Florida Medicaid: how to apply",
+      "publisher": "Florida Department of Children and Families",
+      "url": "https://www.myflfamilies.com/services/public-assistance",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ga-medicaid-apply",
+      "title": "Georgia Medicaid: how to apply",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://medicaid.georgia.gov/how-apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "hi-medicaid-apply",
+      "title": "Med-QUEST: how to apply",
+      "publisher": "Hawaii Department of Human Services, Med-QUEST Division",
+      "url": "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "id-medicaid-apply",
+      "title": "Idaho Medicaid: how to apply",
+      "publisher": "Idaho Department of Health and Welfare",
+      "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "il-medicaid-apply",
+      "title": "Illinois Medicaid (Moms & Babies): how to apply",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://abe.illinois.gov/access/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "in-medicaid-apply",
+      "title": "Indiana Medicaid: how to apply",
+      "publisher": "Indiana Family and Social Services Administration",
+      "url": "https://www.in.gov/medicaid/members/apply-for-medicaid/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ia-medicaid-apply",
+      "title": "Iowa Medicaid: how to apply",
+      "publisher": "Iowa Department of Health and Human Services",
+      "url": "https://hhs.iowa.gov/medicaid/apply-medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ks-medicaid-apply",
+      "title": "KanCare: how to apply",
+      "publisher": "Kansas Department of Health and Environment (KanCare)",
+      "url": "https://www.kancare.ks.gov/apply-now",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ky-medicaid-apply",
+      "title": "Kentucky Medicaid: how to apply",
+      "publisher": "Kentucky Cabinet for Health and Family Services",
+      "url": "https://kynect.ky.gov/benefits/s/?language=en_US",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "la-medicaid-apply",
+      "title": "Louisiana Medicaid (Healthy Louisiana): how to apply",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://ldh.la.gov/get-covered",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "me-medicaid-apply",
+      "title": "MaineCare: how to apply",
+      "publisher": "Maine Department of Health and Human Services",
+      "url": "https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "md-medicaid-apply",
+      "title": "Maryland Medicaid: how to apply",
+      "publisher": "Maryland Department of Health",
+      "url": "https://health.maryland.gov/mmcp/eligibility/Pages/apply.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ma-medicaid-apply",
+      "title": "MassHealth: how to apply",
+      "publisher": "MassHealth (Massachusetts Executive Office of Health and Human Services)",
+      "url": "https://www.mass.gov/information-for-masshealth-applicants",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mi-medicaid-apply",
+      "title": "Michigan Medicaid: how to apply",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mn-medicaid-apply",
+      "title": "Medical Assistance: how to apply",
+      "publisher": "Minnesota Department of Human Services",
+      "url": "https://mn.gov/dhs/health-care-coverage/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ms-medicaid-apply",
+      "title": "Mississippi Medicaid: how to apply",
+      "publisher": "Mississippi Division of Medicaid",
+      "url": "https://medicaid.ms.gov/medicaid-coverage/how-to-apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mo-medicaid-apply",
+      "title": "MO HealthNet: how to apply",
+      "publisher": "Missouri Department of Social Services",
+      "url": "https://dss.mo.gov/healthcare",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mt-medicaid-apply",
+      "title": "Montana Medicaid: how to apply",
+      "publisher": "Montana Department of Public Health and Human Services",
+      "url": "https://apply.mt.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ne-medicaid-apply",
+      "title": "Nebraska Medicaid (Heritage Health): how to apply",
+      "publisher": "Nebraska Department of Health and Human Services",
+      "url": "https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nv-medicaid-apply",
+      "title": "Nevada Medicaid: how to apply",
+      "publisher": "Nevada Division of Social Services",
+      "url": "https://www.dss.nv.gov/programs/Medicaid/apply-for-assistance/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nh-medicaid-apply",
+      "title": "New Hampshire Medicaid: how to apply",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://nheasy.nh.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nj-medicaid-apply",
+      "title": "NJ FamilyCare: how to apply",
+      "publisher": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+      "url": "https://njfamilycare.dhs.state.nj.us/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nm-medicaid-apply",
+      "title": "Turquoise Care (New Mexico Medicaid): how to apply",
+      "publisher": "New Mexico Health Care Authority",
+      "url": "https://www.hca.nm.gov/lookingforassistance/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ny-medicaid-apply",
+      "title": "New York Medicaid: how to apply",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nc-medicaid-apply",
+      "title": "NC Medicaid: how to apply",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://medicaid.ncdhhs.gov/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nd-medicaid-apply",
+      "title": "North Dakota Medicaid: how to apply",
+      "publisher": "North Dakota Health and Human Services",
+      "url": "https://www.hhs.nd.gov/healthcare/medicaid/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "oh-medicaid-apply",
+      "title": "Ohio Medicaid: how to apply",
+      "publisher": "Ohio Department of Medicaid",
+      "url": "https://benefits.ohio.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ok-medicaid-apply",
+      "title": "SoonerCare: how to apply",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/individuals/mysoonercare/apply-for-soonercare-online/where-to-apply.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "or-medicaid-apply",
+      "title": "Oregon Health Plan (OHP): how to apply",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/Pages/Apply.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pa-medicaid-apply",
+      "title": "Medical Assistance (Pennsylvania Medicaid): how to apply",
+      "publisher": "Pennsylvania Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ri-medicaid-apply",
+      "title": "Rhode Island Medicaid: how to apply",
+      "publisher": "Rhode Island Executive Office of Health and Human Services",
+      "url": "https://healthyrhode.ri.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sc-medicaid-apply",
+      "title": "Healthy Connections Medicaid: how to apply",
+      "publisher": "South Carolina Department of Health and Human Services",
+      "url": "https://www.scdhhs.gov/members/getting-started",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sd-medicaid-apply",
+      "title": "South Dakota Medicaid: how to apply",
+      "publisher": "South Dakota Department of Social Services",
+      "url": "https://eaportal.sd.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tn-medicaid-apply",
+      "title": "TennCare: how to apply",
+      "publisher": "Division of TennCare",
+      "url": "https://www.tn.gov/tenncare/members-applicants/how-do-i-apply-for-tenncare.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-medicaid-apply",
+      "title": "Texas Medicaid for Pregnant Women: how to apply",
+      "publisher": "Texas Health and Human Services Commission",
+      "url": "https://www.hhs.texas.gov/services/health/medicaid-chip/medicaid-chip-programs-services/medicaid-pregnant-women-chip-perinatal",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ut-medicaid-apply",
+      "title": "Utah Medicaid: how to apply",
+      "publisher": "Utah Department of Health and Human Services",
+      "url": "https://medicaid.utah.gov/apply-medicaid/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "vt-medicaid-apply",
+      "title": "Dr. Dynasaur (Vermont Medicaid): how to apply",
+      "publisher": "Department of Vermont Health Access",
+      "url": "https://dvha.vermont.gov/members/medicaid",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "va-medicaid-apply",
+      "title": "Cardinal Care (Virginia Medicaid): how to apply",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://coverva.dmas.virginia.gov/apply/how-to-apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wa-medicaid-apply",
+      "title": "Apple Health: how to apply",
+      "publisher": "Washington State Health Care Authority",
+      "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wv-medicaid-apply",
+      "title": "West Virginia Medicaid: how to apply",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://www.wvpath.wv.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wi-medicaid-apply",
+      "title": "BadgerCare Plus: how to apply",
+      "publisher": "Wisconsin Department of Health Services",
+      "url": "https://www.dhs.wisconsin.gov/forwardhealth/apply.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wy-medicaid-apply",
+      "title": "Wyoming Medicaid: how to apply",
+      "publisher": "Wyoming Department of Health",
+      "url": "https://health.wyo.gov/healthcarefin/apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ak-denali-kidcare",
+      "title": "Denali KidCare",
+      "publisher": "Alaska Department of Health",
+      "url": "https://health.alaska.gov/en/services/denali-kidcare/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "il-moms-and-babies",
+      "title": "Moms and Babies",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalprograms/allkids/momsandbabies.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "vt-dr-dynasaur",
+      "title": "Dr. Dynasaur",
+      "publisher": "Department of Vermont Health Access",
+      "url": "https://dvha.vermont.gov/members/dr-dynasaur",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wv-chip",
+      "title": "West Virginia Children's Health Insurance Program (WVCHIP)",
+      "publisher": "West Virginia CHIP",
+      "url": "https://chip.wv.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "va-cardinal-care-pregnancy",
+      "title": "Cardinal Care Pregnancy and Postpartum Coverage",
+      "publisher": "Cover Virginia (DMAS)",
+      "url": "https://coverva.dmas.virginia.gov/learn/coverage-for-pregnant-individuals/cardinal-care-pregnancy-and-postpartum-coverage/",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "national": {
+    "limitsAsOf": "2026-01",
+    "postpartumAsOf": "2026-07-15",
+    "povertyGuidelines2026": {
+      "contiguous48AndDC": {
+        "byHouseholdSize": {
+          "1": 15960,
+          "2": 21640,
+          "3": 27320,
+          "4": 33000,
+          "5": 38680,
+          "6": 44360,
+          "7": 50040,
+          "8": 55720
+        },
+        "perAdditionalPerson": 5680
+      },
+      "alaska": {
+        "byHouseholdSize": {
+          "1": 19950,
+          "2": 27050,
+          "3": 34150,
+          "4": 41250,
+          "5": 48350,
+          "6": 55450,
+          "7": 62550,
+          "8": 69650
+        },
+        "perAdditionalPerson": 7100
+      },
+      "hawaii": {
+        "byHouseholdSize": {
+          "1": 18360,
+          "2": 24890,
+          "3": 31420,
+          "4": 37950,
+          "5": 44480,
+          "6": 51010,
+          "7": 57540,
+          "8": 64070
+        },
+        "perAdditionalPerson": 6530
+      },
+      "effective": "2026-01-13",
+      "note": "Annual income in dollars. Medicaid and CHIP limits are percentages of these figures; most programs update to new guidelines early each year.",
+      "sourceIds": [
+        "hhs-poverty-guidelines-2026"
+      ]
+    },
+    "federalFloorFplPct": {
+      "value": 138,
+      "text": "States must cover pregnancy for individuals with income up to 138% FPL; most states (38) set the upper limit at or above 200% FPL. The median upper limit is 213% FPL (January 2026).",
+      "sourceIds": [
+        "kff-ccf-survey-2026"
+      ]
+    },
+    "householdSizeRule": {
+      "text": "For Medicaid, a pregnant woman's family size counts her plus the number of children she is expected to deliver (42 CFR 435.603(b)).",
+      "sourceIds": [
+        "ecfr-42-435-603"
+      ]
+    },
+    "postpartum12Month": {
+      "statesWith12Months": 49,
+      "includesDC": true,
+      "jurisdictionsWith12Months": 50,
+      "statesWith60DaysOnly": [
+        "AR"
+      ],
+      "text": "Federal law requires pregnancy-related Medicaid through 60 days postpartum. The American Rescue Plan Act of 2021 gave states the option to extend it to 12 months starting April 1, 2022, and the Consolidated Appropriations Act, 2023 made the option permanent. As of July 15, 2026, 49 states and DC have implemented 12 months (Wisconsin started July 1, 2026); Arkansas is the only state still at 60 days.",
+      "sourceIds": [
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2026",
+        "wi-gov-postpartum-2026"
+      ]
+    },
+    "workRequirementsExemption": {
+      "effective": "2027-01-01",
+      "text": "Public Law 119-21 (2025) requires states to apply Medicaid work (community engagement) requirements to expansion adults ages 19-64 starting no later than January 1, 2027 (states may start earlier; HHS may grant good-faith exemptions that end by December 31, 2028). People who are pregnant or entitled to postpartum coverage are exempt, as are parents and caretakers of a dependent child 13 or younger.",
+      "sourceIds": [
+        "pl-119-21-sec-71119"
+      ]
+    },
+    "presumptiveEligibility": {
+      "statesJan2025": 28,
+      "asOf": "2025-01",
+      "text": "Presumptive eligibility lets qualified providers such as clinics and hospitals enroll a pregnant person in temporary Medicaid right away while the full application is processed. In January 2025, 28 states used it for pregnant people in Medicaid. Hospitals in every state may make presumptive eligibility determinations if they choose to. Alabama added it on October 1, 2025.",
+      "sourceIds": [
+        "kff-ccf-survey-2025",
+        "al-medicaid-pep"
+      ]
+    },
+    "immigrantEligibilityChange": {
+      "effective": "2026-10-01",
+      "text": "Beginning October 1, 2026, federal Medicaid and CHIP funding for non-emergency care is generally limited to U.S. citizens and nationals, lawful permanent residents, Cuban/Haitian entrants and COFA migrants. States that elected the CHIPRA 214 option may still cover lawfully residing children and pregnant women without the 5-year wait. Emergency Medicaid is not affected.",
+      "sourceIds": [
+        "cms-sho-26-001",
+        "kff-ccf-survey-2026"
+      ]
+    }
+  },
+  "states": {
+    "AK": {
+      "status": "covered",
+      "summary": "In Alaska, Alaska Medicaid (Denali KidCare) covers pregnancy for household incomes up to 230% of the federal poverty level (about $62,215 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Alaska Medicaid (Denali KidCare)",
+      "agencyName": "Alaska Department of Health, Division of Public Assistance",
+      "highestLimitAnnualHousehold2": 62215,
+      "medicaidLimitFplPct": 230,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 230,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2024-02-01",
+      "applyUrl": "https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/apply-for-medicaid/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ak-medicaid-apply",
+        "cms-spa-ak-24-0001",
+        "ak-denali-kidcare"
+      ],
+      "notes": ""
+    },
+    "AL": {
+      "status": "covered",
+      "summary": "In Alabama, Alabama Medicaid covers pregnancy for household incomes up to 146% of the federal poverty level and CHIP up to 317% (about $68,599 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Alabama Medicaid",
+      "agencyName": "Alabama Medicaid Agency",
+      "highestLimitAnnualHousehold2": 68599,
+      "medicaidLimitFplPct": 146,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 317,
+      "highestLimitFplPct": 317,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-10-01",
+      "applyUrl": "https://medicaid.alabama.gov/content/3.0_Apply/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "al-medicaid-apply",
+        "al-medicaid-pep",
+        "cms-spa-al-22-0007"
+      ],
+      "notes": "Between 146% and 317% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid. Alabama started Presumptive Eligibility for Pregnancy (PEP) on October 1, 2025 (Act 2025-204), after KFF's January 2025 survey."
+    },
+    "AR": {
+      "status": "covered",
+      "summary": "In Arkansas, Arkansas Medicaid covers pregnancy for household incomes up to 214% of the federal poverty level (about $46,310 a year for a household of two); Medicaid postpartum coverage ends after 60 days.",
+      "programName": "Arkansas Medicaid",
+      "agencyName": "Arkansas Department of Human Services",
+      "highestLimitAnnualHousehold2": 46310,
+      "medicaidLimitFplPct": 214,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 214,
+      "highestLimitFplPct": 214,
+      "unbornChildOption": true,
+      "presumptiveEligibility": null,
+      "postpartumMonths": 2,
+      "postpartumExtensionEffective": null,
+      "applyUrl": "https://humanservices.arkansas.gov/apply-for-services/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ar-medicaid-apply"
+      ],
+      "notes": "Arkansas enacted presumptive eligibility for pregnant women in 2025, after KFF's January 2025 survey; we could not confirm the start date on an Arkansas DHS page. Arkansas is the only state that has not extended postpartum Medicaid to 12 months; coverage ends 60 days after pregnancy (KFF, July 2026)."
+    },
+    "AZ": {
+      "status": "covered",
+      "summary": "In Arizona, AHCCCS covers pregnancy for household incomes up to 161% of the federal poverty level (about $34,840 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "AHCCCS",
+      "agencyName": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "highestLimitAnnualHousehold2": 34840,
+      "medicaidLimitFplPct": 161,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 161,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-04-01",
+      "applyUrl": "https://azahcccs.gov/Members/GetCovered/apply.html",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "az-medicaid-apply",
+        "cms-spa-az-22-0009"
+      ],
+      "notes": ""
+    },
+    "CA": {
+      "status": "covered",
+      "summary": "In California, Medi-Cal covers pregnancy for household incomes up to 213% of the federal poverty level and CHIP up to 322% (about $69,681 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Medi-Cal",
+      "agencyName": "California Department of Health Care Services",
+      "highestLimitAnnualHousehold2": 69681,
+      "medicaidLimitFplPct": 213,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 322,
+      "highestLimitFplPct": 322,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://benefitscal.com/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ca-medicaid-apply",
+        "cms-spa-ca-22-0030"
+      ],
+      "notes": "Between 213% and 322% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid. BenefitsCal is California's statewide online application for Medi-Cal and other benefits."
+    },
+    "CO": {
+      "status": "covered",
+      "summary": "In Colorado, Health First Colorado covers pregnancy for household incomes up to 195% of the federal poverty level and CHIP up to 265% (about $57,346 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Health First Colorado",
+      "agencyName": "Colorado Department of Health Care Policy & Financing",
+      "highestLimitAnnualHousehold2": 57346,
+      "medicaidLimitFplPct": 195,
+      "chipLimitFplPct": 260,
+      "unbornChildLimitFplPct": 265,
+      "highestLimitFplPct": 265,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-07-01",
+      "applyUrl": "https://www.healthfirstcolorado.gov/apply-now/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "co-medicaid-apply",
+        "cms-spa-co-22-0009"
+      ],
+      "notes": "Between 260% and 265% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid. Medicaid covers pregnancy up to 195% FPL and CHIP covers pregnant individuals up to 260% FPL."
+    },
+    "CT": {
+      "status": "covered",
+      "summary": "In Connecticut, HUSKY Health covers pregnancy for household incomes up to 263% of the federal poverty level (about $56,913 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "HUSKY Health",
+      "agencyName": "Connecticut Department of Social Services",
+      "highestLimitAnnualHousehold2": 56913,
+      "medicaidLimitFplPct": 263,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 263,
+      "highestLimitFplPct": 263,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://portal.ct.gov/dss/how-to-apply",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ct-medicaid-apply",
+        "cms-spa-ct-22-0016"
+      ],
+      "notes": ""
+    },
+    "DC": {
+      "status": "covered",
+      "summary": "In District of Columbia, DC Medicaid covers pregnancy for household incomes up to 324% of the federal poverty level (about $70,114 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "DC Medicaid",
+      "agencyName": "DC Department of Health Care Finance",
+      "highestLimitAnnualHousehold2": 70114,
+      "medicaidLimitFplPct": 324,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 324,
+      "highestLimitFplPct": 324,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://dhcf.dc.gov/service/medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "dc-medicaid-apply",
+        "cms-spa-dc-22-0001"
+      ],
+      "notes": ""
+    },
+    "DE": {
+      "status": "covered",
+      "summary": "In Delaware, Delaware Medicaid covers pregnancy for household incomes up to 217% of the federal poverty level (about $46,959 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Delaware Medicaid",
+      "agencyName": "Delaware Division of Medicaid and Medical Assistance",
+      "highestLimitAnnualHousehold2": 46959,
+      "medicaidLimitFplPct": 217,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 217,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-07-01",
+      "applyUrl": "https://assist.dhss.delaware.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "de-medicaid-apply",
+        "cms-spa-de-22-0011"
+      ],
+      "notes": ""
+    },
+    "FL": {
+      "status": "covered",
+      "summary": "In Florida, Florida Medicaid covers pregnancy for household incomes up to 196% of the federal poverty level (about $42,414 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Florida Medicaid",
+      "agencyName": "Florida Department of Children and Families",
+      "highestLimitAnnualHousehold2": 42414,
+      "medicaidLimitFplPct": 196,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 196,
+      "unbornChildOption": false,
+      "presumptiveEligibility": null,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-07-01",
+      "applyUrl": "https://www.myflfamilies.com/services/public-assistance",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "fl-medicaid-apply",
+        "cms-fl-1115-2022",
+        "fl-sb-2526-2022"
+      ],
+      "notes": "Florida did not report presumptive eligibility in KFF's January 2025 survey. Florida's 12-month postpartum coverage runs through a section 1115 waiver; CMS made it effective on the effective date of Florida SB 2526 (July 1, 2022). Florida Medicaid is administered by the Agency for Health Care Administration; the Department of Children and Families (ACCESS Florida) takes applications."
+    },
+    "GA": {
+      "status": "covered",
+      "summary": "In Georgia, Georgia Medicaid covers pregnancy for household incomes up to 225% of the federal poverty level (about $48,690 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Georgia Medicaid",
+      "agencyName": "Georgia Department of Community Health",
+      "highestLimitAnnualHousehold2": 48690,
+      "medicaidLimitFplPct": 225,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 225,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-11-01",
+      "applyUrl": "https://medicaid.georgia.gov/how-apply",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ga-medicaid-apply",
+        "cms-spa-ga-22-0005"
+      ],
+      "notes": ""
+    },
+    "HI": {
+      "status": "covered",
+      "summary": "In Hawaii, Med-QUEST covers pregnancy for household incomes up to 196% of the federal poverty level (about $48,784 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Med-QUEST",
+      "agencyName": "Hawaii Department of Human Services, Med-QUEST Division",
+      "highestLimitAnnualHousehold2": 48784,
+      "medicaidLimitFplPct": 196,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 196,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "hi-medicaid-apply",
+        "cms-spa-hi-22-0008"
+      ],
+      "notes": ""
+    },
+    "IA": {
+      "status": "covered",
+      "summary": "In Iowa, Iowa Medicaid covers pregnancy for household incomes up to 220% of the federal poverty level (about $47,608 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Iowa Medicaid",
+      "agencyName": "Iowa Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 47608,
+      "medicaidLimitFplPct": 220,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 220,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2025-01-01",
+      "applyUrl": "https://hhs.iowa.gov/medicaid/apply-medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ia-medicaid-apply",
+        "cms-spa-ia-25-0001"
+      ],
+      "notes": "Iowa reduced its Medicaid income limit for pregnant individuals from 375% to 215% FPL (220% with the 5-point disregard); KFF's January 2025 figure was 380%."
+    },
+    "ID": {
+      "status": "covered",
+      "summary": "In Idaho, Idaho Medicaid covers pregnancy for household incomes up to 138% of the federal poverty level (about $29,863 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Idaho Medicaid",
+      "agencyName": "Idaho Department of Health and Welfare",
+      "highestLimitAnnualHousehold2": 29863,
+      "medicaidLimitFplPct": 138,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 138,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2025-01-01",
+      "applyUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "id-medicaid-apply",
+        "cms-spa-id-25-0001"
+      ],
+      "notes": ""
+    },
+    "IL": {
+      "status": "covered",
+      "summary": "In Illinois, Illinois Medicaid (Moms & Babies) covers pregnancy for household incomes up to 213% of the federal poverty level (about $46,093 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Illinois Medicaid (Moms & Babies)",
+      "agencyName": "Illinois Department of Healthcare and Family Services",
+      "highestLimitAnnualHousehold2": 46093,
+      "medicaidLimitFplPct": 213,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 213,
+      "highestLimitFplPct": 213,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-07-01",
+      "applyUrl": "https://abe.illinois.gov/access/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "il-medicaid-apply",
+        "cms-spa-il-22-0020",
+        "il-moms-and-babies"
+      ],
+      "notes": ""
+    },
+    "IN": {
+      "status": "covered",
+      "summary": "In Indiana, Indiana Medicaid covers pregnancy for household incomes up to 213% of the federal poverty level (about $46,093 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Indiana Medicaid",
+      "agencyName": "Indiana Family and Social Services Administration",
+      "highestLimitAnnualHousehold2": 46093,
+      "medicaidLimitFplPct": 213,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 213,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.in.gov/medicaid/members/apply-for-medicaid/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "in-medicaid-apply",
+        "cms-spa-in-22-0001"
+      ],
+      "notes": ""
+    },
+    "KS": {
+      "status": "covered",
+      "summary": "In Kansas, KanCare covers pregnancy for household incomes up to 171% of the federal poverty level (about $37,004 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "KanCare",
+      "agencyName": "Kansas Department of Health and Environment (KanCare)",
+      "highestLimitAnnualHousehold2": 37004,
+      "medicaidLimitFplPct": 171,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 171,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.kancare.ks.gov/apply-now",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ks-medicaid-apply",
+        "cms-spa-ks-22-0016",
+        "medicaid-gov-state-links"
+      ],
+      "notes": "The application page blocks automated checks; the link is the state's application site as listed by the state and Medicaid.gov."
+    },
+    "KY": {
+      "status": "covered",
+      "summary": "In Kentucky, Kentucky Medicaid covers pregnancy for household incomes up to 195% of the federal poverty level and CHIP up to 218% (about $47,175 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Kentucky Medicaid",
+      "agencyName": "Kentucky Cabinet for Health and Family Services",
+      "highestLimitAnnualHousehold2": 47175,
+      "medicaidLimitFplPct": 195,
+      "chipLimitFplPct": 218,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 218,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://kynect.ky.gov/benefits/s/?language=en_US",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ky-medicaid-apply",
+        "cms-spa-ky-22-0002"
+      ],
+      "notes": "Medicaid covers pregnancy up to 195% FPL and CHIP covers pregnant individuals up to 218% FPL."
+    },
+    "LA": {
+      "status": "covered",
+      "summary": "In Louisiana, Louisiana Medicaid (Healthy Louisiana) covers pregnancy for household incomes up to 138% of the federal poverty level and CHIP up to 214% (about $46,310 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Louisiana Medicaid (Healthy Louisiana)",
+      "agencyName": "Louisiana Department of Health",
+      "highestLimitAnnualHousehold2": 46310,
+      "medicaidLimitFplPct": 138,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 214,
+      "highestLimitFplPct": 214,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://ldh.la.gov/get-covered",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "la-medicaid-apply",
+        "cms-spa-la-22-0009"
+      ],
+      "notes": "Between 138% and 214% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid."
+    },
+    "MA": {
+      "status": "covered",
+      "summary": "In Massachusetts, MassHealth covers pregnancy for household incomes up to 205% of the federal poverty level (about $44,362 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "MassHealth",
+      "agencyName": "MassHealth (Massachusetts Executive Office of Health and Human Services)",
+      "highestLimitAnnualHousehold2": 44362,
+      "medicaidLimitFplPct": 205,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 205,
+      "highestLimitFplPct": 205,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.mass.gov/information-for-masshealth-applicants",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ma-medicaid-apply",
+        "cms-spa-ma-22-0014"
+      ],
+      "notes": "Massachusetts uses presumptive eligibility only for From Conception to End of Pregnancy coverage (KFF/CCF, January 2025)."
+    },
+    "MD": {
+      "status": "covered",
+      "summary": "In Maryland, Maryland Medicaid covers pregnancy for household incomes up to 264% of the federal poverty level (about $57,130 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Maryland Medicaid",
+      "agencyName": "Maryland Department of Health",
+      "highestLimitAnnualHousehold2": 57130,
+      "medicaidLimitFplPct": 264,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 264,
+      "highestLimitFplPct": 264,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://health.maryland.gov/mmcp/eligibility/Pages/apply.aspx",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "md-medicaid-apply",
+        "cms-spa-md-22-0014"
+      ],
+      "notes": ""
+    },
+    "ME": {
+      "status": "covered",
+      "summary": "In Maine, MaineCare covers pregnancy for household incomes up to 214% of the federal poverty level (about $46,310 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "MaineCare",
+      "agencyName": "Maine Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 46310,
+      "medicaidLimitFplPct": 214,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 213,
+      "highestLimitFplPct": 214,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-08-01",
+      "applyUrl": "https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "me-medicaid-apply",
+        "cms-spa-me-22-0016"
+      ],
+      "notes": ""
+    },
+    "MI": {
+      "status": "covered",
+      "summary": "In Michigan, Michigan Medicaid covers pregnancy for household incomes up to 200% of the federal poverty level (about $43,280 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Michigan Medicaid",
+      "agencyName": "Michigan Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 43280,
+      "medicaidLimitFplPct": 200,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 200,
+      "highestLimitFplPct": 200,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "mi-medicaid-apply",
+        "cms-spa-mi-22-0100"
+      ],
+      "notes": "Michigan also covers pregnant individuals affected by the Flint water crisis with incomes up to 400% FPL."
+    },
+    "MN": {
+      "status": "covered",
+      "summary": "In Minnesota, Medical Assistance covers pregnancy for household incomes up to 283% of the federal poverty level (about $61,241 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Medical Assistance",
+      "agencyName": "Minnesota Department of Human Services",
+      "highestLimitAnnualHousehold2": 61241,
+      "medicaidLimitFplPct": 283,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 283,
+      "highestLimitFplPct": 283,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-07-01",
+      "applyUrl": "https://mn.gov/dhs/health-care-coverage/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "mn-medicaid-apply",
+        "cms-spa-mn-22-0008"
+      ],
+      "notes": ""
+    },
+    "MO": {
+      "status": "covered",
+      "summary": "In Missouri, MO HealthNet covers pregnancy for household incomes up to 196% of the federal poverty level and CHIP up to 305% (about $66,002 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "MO HealthNet",
+      "agencyName": "Missouri Department of Social Services",
+      "highestLimitAnnualHousehold2": 66002,
+      "medicaidLimitFplPct": 196,
+      "chipLimitFplPct": 305,
+      "unbornChildLimitFplPct": 305,
+      "highestLimitFplPct": 305,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-07-07",
+      "applyUrl": "https://dss.mo.gov/healthcare",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "mo-medicaid-apply",
+        "cms-spa-mo-23-0022"
+      ],
+      "notes": "Medicaid covers pregnancy up to 196% FPL and CHIP covers pregnant individuals up to 305% FPL."
+    },
+    "MS": {
+      "status": "covered",
+      "summary": "In Mississippi, Mississippi Medicaid covers pregnancy for household incomes up to 199% of the federal poverty level (about $43,064 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Mississippi Medicaid",
+      "agencyName": "Mississippi Division of Medicaid",
+      "highestLimitAnnualHousehold2": 43064,
+      "medicaidLimitFplPct": 199,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 199,
+      "unbornChildOption": false,
+      "presumptiveEligibility": null,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-04-01",
+      "applyUrl": "https://medicaid.ms.gov/medicaid-coverage/how-to-apply/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ms-medicaid-apply",
+        "cms-spa-ms-23-0015",
+        "medicaid-gov-state-links"
+      ],
+      "notes": "As of January 2025 Mississippi had approved legislation for presumptive eligibility for pregnant individuals but had not implemented it (KFF/CCF); current status not verified. The application page blocks automated checks; the link is the state's application site as listed by the state and Medicaid.gov."
+    },
+    "MT": {
+      "status": "covered",
+      "summary": "In Montana, Montana Medicaid covers pregnancy for household incomes up to 162% of the federal poverty level (about $35,057 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Montana Medicaid",
+      "agencyName": "Montana Department of Public Health and Human Services",
+      "highestLimitAnnualHousehold2": 35057,
+      "medicaidLimitFplPct": 162,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 162,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-07-01",
+      "applyUrl": "https://apply.mt.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "mt-medicaid-apply",
+        "cms-spa-mt-23-0018"
+      ],
+      "notes": ""
+    },
+    "NC": {
+      "status": "covered",
+      "summary": "In North Carolina, NC Medicaid covers pregnancy for household incomes up to 201% of the federal poverty level (about $43,496 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "NC Medicaid",
+      "agencyName": "North Carolina Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 43496,
+      "medicaidLimitFplPct": 201,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 201,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://medicaid.ncdhhs.gov/apply",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nc-medicaid-apply",
+        "cms-spa-nc-22-0012"
+      ],
+      "notes": ""
+    },
+    "ND": {
+      "status": "covered",
+      "summary": "In North Dakota, North Dakota Medicaid covers pregnancy for household incomes up to 175% of the federal poverty level (about $37,870 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "North Dakota Medicaid",
+      "agencyName": "North Dakota Health and Human Services",
+      "highestLimitAnnualHousehold2": 37870,
+      "medicaidLimitFplPct": 175,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 175,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-01-01",
+      "applyUrl": "https://www.hhs.nd.gov/healthcare/medicaid/apply",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nd-medicaid-apply",
+        "cms-spa-nd-22-0025"
+      ],
+      "notes": ""
+    },
+    "NE": {
+      "status": "covered",
+      "summary": "In Nebraska, Nebraska Medicaid (Heritage Health) covers pregnancy for household incomes up to 199% of the federal poverty level and CHIP up to 202% (about $43,713 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Nebraska Medicaid (Heritage Health)",
+      "agencyName": "Nebraska Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 43713,
+      "medicaidLimitFplPct": 199,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 202,
+      "highestLimitFplPct": 202,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2024-01-01",
+      "applyUrl": "https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ne-medicaid-apply",
+        "cms-spa-ne-24-0003"
+      ],
+      "notes": "Between 199% and 202% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid."
+    },
+    "NH": {
+      "status": "covered",
+      "summary": "In New Hampshire, New Hampshire Medicaid covers pregnancy for household incomes up to 201% of the federal poverty level (about $43,496 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "New Hampshire Medicaid",
+      "agencyName": "New Hampshire Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 43496,
+      "medicaidLimitFplPct": 201,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 201,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-10-01",
+      "applyUrl": "https://nheasy.nh.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nh-medicaid-apply",
+        "cms-spa-nh-23-0005",
+        "medicaid-gov-state-links"
+      ],
+      "notes": "The application page blocks automated checks; the link is the state's application site as listed by the state and Medicaid.gov."
+    },
+    "NJ": {
+      "status": "covered",
+      "summary": "In New Jersey, NJ FamilyCare covers pregnancy for household incomes up to 194% of the federal poverty level and CHIP up to 205% (about $44,362 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "NJ FamilyCare",
+      "agencyName": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+      "highestLimitAnnualHousehold2": 44362,
+      "medicaidLimitFplPct": 194,
+      "chipLimitFplPct": 205,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 205,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": null,
+      "applyUrl": "https://njfamilycare.dhs.state.nj.us/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nj-medicaid-apply",
+        "nj-pl-2021-c133"
+      ],
+      "notes": "Medicaid covers pregnancy up to 194% FPL and CHIP covers pregnant individuals up to 205% FPL. New Jersey provides 12-month postpartum coverage through a section 1115 waiver (KFF); we could not verify its effective date."
+    },
+    "NM": {
+      "status": "covered",
+      "summary": "In New Mexico, Turquoise Care (New Mexico Medicaid) covers pregnancy for household incomes up to 255% of the federal poverty level (about $55,182 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Turquoise Care (New Mexico Medicaid)",
+      "agencyName": "New Mexico Health Care Authority",
+      "highestLimitAnnualHousehold2": 55182,
+      "medicaidLimitFplPct": 255,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 255,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.hca.nm.gov/lookingforassistance/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nm-medicaid-apply",
+        "cms-spa-nm-22-0013"
+      ],
+      "notes": ""
+    },
+    "NV": {
+      "status": "covered",
+      "summary": "In Nevada, Nevada Medicaid covers pregnancy for household incomes up to 205% of the federal poverty level (about $44,362 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Nevada Medicaid",
+      "agencyName": "Nevada Division of Social Services",
+      "highestLimitAnnualHousehold2": 44362,
+      "medicaidLimitFplPct": 205,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 205,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2024-01-01",
+      "applyUrl": "https://www.dss.nv.gov/programs/Medicaid/apply-for-assistance/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "nv-medicaid-apply",
+        "cms-spa-nv-23-0033"
+      ],
+      "notes": "Nevada raised its Medicaid limit for pregnant individuals from 190% to 205% FPL, effective July 1, 2025 (CMS approval)."
+    },
+    "NY": {
+      "status": "covered",
+      "summary": "In New York, New York Medicaid covers pregnancy for household incomes up to 223% of the federal poverty level (about $48,257 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "New York Medicaid",
+      "agencyName": "New York State Department of Health",
+      "highestLimitAnnualHousehold2": 48257,
+      "medicaidLimitFplPct": 223,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 223,
+      "highestLimitFplPct": 223,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-03-01",
+      "applyUrl": "https://www.health.ny.gov/health_care/medicaid/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ny-medicaid-apply",
+        "cms-spa-ny-23-0006"
+      ],
+      "notes": ""
+    },
+    "OH": {
+      "status": "covered",
+      "summary": "In Ohio, Ohio Medicaid covers pregnancy for household incomes up to 205% of the federal poverty level (about $44,362 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Ohio Medicaid",
+      "agencyName": "Ohio Department of Medicaid",
+      "highestLimitAnnualHousehold2": 44362,
+      "medicaidLimitFplPct": 205,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 205,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://benefits.ohio.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "oh-medicaid-apply",
+        "cms-spa-oh-22-0018"
+      ],
+      "notes": ""
+    },
+    "OK": {
+      "status": "covered",
+      "summary": "In Oklahoma, SoonerCare covers pregnancy for household incomes up to 210% of the federal poverty level (about $45,444 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "SoonerCare",
+      "agencyName": "Oklahoma Health Care Authority",
+      "highestLimitAnnualHousehold2": 45444,
+      "medicaidLimitFplPct": 210,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 210,
+      "highestLimitFplPct": 210,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-01-01",
+      "applyUrl": "https://oklahoma.gov/ohca/individuals/mysoonercare/apply-for-soonercare-online/where-to-apply.html",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ok-medicaid-apply",
+        "cms-spa-ok-22-0042"
+      ],
+      "notes": ""
+    },
+    "OR": {
+      "status": "covered",
+      "summary": "In Oregon, Oregon Health Plan (OHP) covers pregnancy for household incomes up to 190% of the federal poverty level (about $41,116 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Oregon Health Plan (OHP)",
+      "agencyName": "Oregon Health Authority",
+      "highestLimitAnnualHousehold2": 41116,
+      "medicaidLimitFplPct": 190,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 190,
+      "highestLimitFplPct": 190,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.oregon.gov/oha/HSD/OHP/Pages/Apply.aspx",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "or-medicaid-apply",
+        "cms-spa-or-22-0008"
+      ],
+      "notes": ""
+    },
+    "PA": {
+      "status": "covered",
+      "summary": "In Pennsylvania, Medical Assistance (Pennsylvania Medicaid) covers pregnancy for household incomes up to 220% of the federal poverty level (about $47,608 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Medical Assistance (Pennsylvania Medicaid)",
+      "agencyName": "Pennsylvania Department of Human Services",
+      "highestLimitAnnualHousehold2": 47608,
+      "medicaidLimitFplPct": 220,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 220,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "pa-medicaid-apply",
+        "cms-spa-pa-22-0016"
+      ],
+      "notes": ""
+    },
+    "RI": {
+      "status": "covered",
+      "summary": "In Rhode Island, Rhode Island Medicaid covers pregnancy for household incomes up to 190% of the federal poverty level and CHIP up to 258% (about $55,831 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Rhode Island Medicaid",
+      "agencyName": "Rhode Island Executive Office of Health and Human Services",
+      "highestLimitAnnualHousehold2": 55831,
+      "medicaidLimitFplPct": 190,
+      "chipLimitFplPct": 258,
+      "unbornChildLimitFplPct": 258,
+      "highestLimitFplPct": 258,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-10-01",
+      "applyUrl": "https://healthyrhode.ri.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ri-medicaid-apply",
+        "cms-spa-ri-22-0024"
+      ],
+      "notes": "Medicaid covers pregnancy up to 190% FPL and CHIP covers pregnant individuals up to 258% FPL."
+    },
+    "SC": {
+      "status": "covered",
+      "summary": "In South Carolina, Healthy Connections Medicaid covers pregnancy for household incomes up to 199% of the federal poverty level (about $43,064 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Healthy Connections Medicaid",
+      "agencyName": "South Carolina Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 43064,
+      "medicaidLimitFplPct": 199,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 199,
+      "unbornChildOption": false,
+      "presumptiveEligibility": null,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-22",
+      "applyUrl": "https://www.scdhhs.gov/members/getting-started",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "sc-medicaid-apply",
+        "cms-spa-sc-22-0004"
+      ],
+      "notes": "South Carolina did not report presumptive eligibility in KFF's January 2025 survey."
+    },
+    "SD": {
+      "status": "covered",
+      "summary": "In South Dakota, South Dakota Medicaid covers pregnancy for household incomes up to 138% of the federal poverty level (about $29,863 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "South Dakota Medicaid",
+      "agencyName": "South Dakota Department of Social Services",
+      "highestLimitAnnualHousehold2": 29863,
+      "medicaidLimitFplPct": 138,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 138,
+      "highestLimitFplPct": 138,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-07-01",
+      "applyUrl": "https://eaportal.sd.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "sd-medicaid-apply",
+        "cms-spa-sd-23-0008"
+      ],
+      "notes": ""
+    },
+    "TN": {
+      "status": "covered",
+      "summary": "In Tennessee, TennCare covers pregnancy for household incomes up to 255% of the federal poverty level (about $55,182 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "TennCare",
+      "agencyName": "Division of TennCare",
+      "highestLimitAnnualHousehold2": 55182,
+      "medicaidLimitFplPct": 255,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 255,
+      "highestLimitFplPct": 255,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.tn.gov/tenncare/members-applicants/how-do-i-apply-for-tenncare.html",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "tn-medicaid-apply",
+        "tenncare-postpartum-2022"
+      ],
+      "notes": ""
+    },
+    "TX": {
+      "status": "covered",
+      "summary": "In Texas, Texas Medicaid for Pregnant Women covers pregnancy for household incomes up to 203% of the federal poverty level and CHIP up to 207% (about $44,795 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Texas Medicaid for Pregnant Women",
+      "agencyName": "Texas Health and Human Services Commission",
+      "highestLimitAnnualHousehold2": 44795,
+      "medicaidLimitFplPct": 203,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 207,
+      "highestLimitFplPct": 207,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2024-03-01",
+      "applyUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip/medicaid-chip-programs-services/medicaid-pregnant-women-chip-perinatal",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "tx-medicaid-apply",
+        "cms-spa-tx-23-0028"
+      ],
+      "notes": "Between 203% and 207% FPL, coverage is through CHIP's From Conception to End of Pregnancy option, which covers the pregnancy (the unborn child) regardless of the parent's immigration status; benefits and postpartum coverage under this option can be narrower than full Medicaid."
+    },
+    "UT": {
+      "status": "covered",
+      "summary": "In Utah, Utah Medicaid covers pregnancy for household incomes up to 144% of the federal poverty level (about $31,162 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Utah Medicaid",
+      "agencyName": "Utah Department of Health and Human Services",
+      "highestLimitAnnualHousehold2": 31162,
+      "medicaidLimitFplPct": 144,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 144,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2024-01-01",
+      "applyUrl": "https://medicaid.utah.gov/apply-medicaid/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "ut-medicaid-apply",
+        "cms-spa-ut-23-0017"
+      ],
+      "notes": ""
+    },
+    "VA": {
+      "status": "covered",
+      "summary": "In Virginia, Cardinal Care (Virginia Medicaid) covers pregnancy for household incomes up to 143% of the federal poverty level and CHIP up to 205% (about $44,362 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Cardinal Care (Virginia Medicaid)",
+      "agencyName": "Virginia Department of Medical Assistance Services",
+      "highestLimitAnnualHousehold2": 44362,
+      "medicaidLimitFplPct": 143,
+      "chipLimitFplPct": 205,
+      "unbornChildLimitFplPct": 205,
+      "highestLimitFplPct": 205,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2021-11-18",
+      "applyUrl": "https://coverva.dmas.virginia.gov/apply/how-to-apply/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "va-medicaid-apply",
+        "cms-va-1115-2021",
+        "va-cardinal-care-pregnancy"
+      ],
+      "notes": "Medicaid covers pregnancy up to 143% FPL and CHIP covers pregnant individuals up to 205% FPL. Virginia's 12-month postpartum coverage runs through a section 1115 waiver; the date shown is when the CMS approval took effect."
+    },
+    "VT": {
+      "status": "covered",
+      "summary": "In Vermont, Dr. Dynasaur (Vermont Medicaid) covers pregnancy for household incomes up to 213% of the federal poverty level (about $46,093 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Dr. Dynasaur (Vermont Medicaid)",
+      "agencyName": "Department of Vermont Health Access",
+      "highestLimitAnnualHousehold2": 46093,
+      "medicaidLimitFplPct": 213,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 213,
+      "unbornChildOption": false,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-04-01",
+      "applyUrl": "https://dvha.vermont.gov/members/medicaid",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "vt-medicaid-apply",
+        "cms-spa-vt-23-0004",
+        "vt-dr-dynasaur"
+      ],
+      "notes": ""
+    },
+    "WA": {
+      "status": "covered",
+      "summary": "In Washington, Apple Health covers pregnancy for household incomes up to 215% of the federal poverty level (about $46,526 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Apple Health",
+      "agencyName": "Washington State Health Care Authority",
+      "highestLimitAnnualHousehold2": 46526,
+      "medicaidLimitFplPct": 215,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 215,
+      "highestLimitFplPct": 215,
+      "unbornChildOption": true,
+      "presumptiveEligibility": false,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "wa-medicaid-apply",
+        "cms-spa-wa-22-0012"
+      ],
+      "notes": ""
+    },
+    "WI": {
+      "status": "covered",
+      "summary": "In Wisconsin, BadgerCare Plus covers pregnancy for household incomes up to 306% of the federal poverty level (about $66,218 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "BadgerCare Plus",
+      "agencyName": "Wisconsin Department of Health Services",
+      "highestLimitAnnualHousehold2": 66218,
+      "medicaidLimitFplPct": 306,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": 306,
+      "highestLimitFplPct": 306,
+      "unbornChildOption": true,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2026-07-01",
+      "applyUrl": "https://www.dhs.wisconsin.gov/forwardhealth/apply.htm",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "wi-medicaid-apply",
+        "wi-gov-postpartum-2026"
+      ],
+      "notes": "Wisconsin began 12 months of postpartum coverage on July 1, 2026."
+    },
+    "WV": {
+      "status": "covered",
+      "summary": "In West Virginia, West Virginia Medicaid covers pregnancy for household incomes up to 185% of the federal poverty level and CHIP up to 305% (about $66,002 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "West Virginia Medicaid",
+      "agencyName": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "highestLimitAnnualHousehold2": 66002,
+      "medicaidLimitFplPct": 185,
+      "chipLimitFplPct": 305,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 305,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2022-04-01",
+      "applyUrl": "https://www.wvpath.wv.gov/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "wv-medicaid-apply",
+        "cms-spa-wv-22-0007",
+        "wv-chip"
+      ],
+      "notes": "Medicaid covers pregnancy up to 185% FPL and CHIP covers pregnant individuals up to 305% FPL."
+    },
+    "WY": {
+      "status": "covered",
+      "summary": "In Wyoming, Wyoming Medicaid covers pregnancy for household incomes up to 159% of the federal poverty level (about $34,408 a year for a household of two); Medicaid postpartum coverage lasts 12 months.",
+      "programName": "Wyoming Medicaid",
+      "agencyName": "Wyoming Department of Health",
+      "highestLimitAnnualHousehold2": 34408,
+      "medicaidLimitFplPct": 159,
+      "chipLimitFplPct": null,
+      "unbornChildLimitFplPct": null,
+      "highestLimitFplPct": 159,
+      "unbornChildOption": false,
+      "presumptiveEligibility": true,
+      "postpartumMonths": 12,
+      "postpartumExtensionEffective": "2023-07-01",
+      "applyUrl": "https://health.wyo.gov/healthcarefin/apply/",
+      "sourceIds": [
+        "kff-pregnancy-limits-2026",
+        "kff-ccf-survey-2026",
+        "kff-postpartum-tracker",
+        "kff-ccf-survey-2025",
+        "wy-medicaid-apply",
+        "cms-spa-wy-23-0005"
+      ],
+      "notes": ""
+    }
+  }
+}

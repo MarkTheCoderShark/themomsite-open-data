@@ -1,0 +1,1063 @@
+{
+  "topic": "childcare",
+  "title": "Childcare prices by county",
+  "asOf": "2026-10",
+  "dataYear": 2022,
+  "methodology": "County prices come from the U.S. Department of Labor Women's Bureau National Database of Childcare Prices (NDCP), 2008-2022 file, which DOL built from state childcare market-rate surveys. We use the NDCP's aggregated weekly full-time median price variables: center-based care MCINFANT (0-23 months), MCTODDLER (24-35 months), MCPRESCHOOL (36-54 months) and MCSA (school age), and family child care (\"home\") MFCCINFANT, MFCCTODDLER, MFCCPRESCHOOL and MFCCSA. Each state uses its most recent study year with county prices: 2022 for most states, an earlier year where the NDCP has no 2022 prices (see each state's dataYear). Prices are in that year's dollars and are not adjusted for inflation; the NDCP does not publish inflation-adjusted prices. Annual figures are the weekly price x 52. State medians are DOL's own state-level estimates for the same year (NDCP State-Level Estimates 2022 file, which DOL computes from county prices and county child-population estimates); where DOL has none, we compute a median weighting each county by its households with children under 6 (NDCP H_UNDER6_* variables), which reproduces DOL's figure for 43 of 49 states. The national figure is that weighted median across all counties with 2022 prices. DOL imputed some county prices: it converted hourly, daily or monthly survey prices to weekly, modeled county prices from statewide figures, filled missing age groups, and estimated years with no survey from the price trend between survey years (NDCP technical report, September 2024). Many 2022 county prices are such estimates; per-state counts of modeled and estimated infant center prices are included. Market-rate surveys measure what providers charge, not what families pay after subsidies.",
+  "sources": [
+    {
+      "id": "dol-ndcp-2022",
+      "title": "National Database of Childcare Prices: 2008-2022 (Data File)",
+      "publisher": "U.S. Department of Labor, Women's Bureau",
+      "url": "https://www.dol.gov/sites/dolgov/files/WB/NDCP2022.xlsx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dol-ndcp-tech-2024",
+      "title": "National Database of Childcare Prices Technical Report (September 2024)",
+      "publisher": "U.S. Department of Labor, Women's Bureau",
+      "url": "https://www.dol.gov/sites/dolgov/files/WB/National-Database-of-Childcare-Prices-Technical-Report.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dol-ndcp-state-2022",
+      "title": "National Database of Childcare Prices: State-Level Estimates and Affordability Rankings 2022",
+      "publisher": "U.S. Department of Labor, Women's Bureau",
+      "url": "https://www.dol.gov/sites/dolgov/files/WB/NDCP2022-state-level-estimates-and-rankings.xlsx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dol-ndcp-page",
+      "title": "National Database of Childcare Prices",
+      "publisher": "U.S. Department of Labor, Women's Bureau",
+      "url": "https://www.dol.gov/agencies/wb/topics/childcare",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "national": {
+    "medianCenterInfantWeekly": 243.21,
+    "medianCenterInfantAnnual": 12647,
+    "centerInfantWeeklyP10": 113.37,
+    "centerInfantWeeklyP90": 282.44,
+    "countiesWithCenterInfantPrice": 2661,
+    "statesByDataYear": {
+      "2020": 2,
+      "2021": 2,
+      "2022": 45
+    },
+    "note": "Median of 2022 county center-based infant prices, weighting each county by households with children under 6; P10/P90 are unweighted percentiles across those counties.",
+    "sourceIds": [
+      "dol-ndcp-2022",
+      "dol-ndcp-tech-2024",
+      "dol-ndcp-page"
+    ]
+  },
+  "states": {
+    "AK": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 8,
+      "countiesTotal": 30,
+      "countiesWithCenterInfantPrice": 8,
+      "medianCenterInfantWeekly": 361.9,
+      "medianCenterInfantAnnual": 18819,
+      "medianHomeInfantWeekly": 259.61,
+      "medianHomeInfantAnnual": 13500,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 8,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 8 of 30 counties. 8 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "AL": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 67,
+      "countiesTotal": 67,
+      "countiesWithCenterInfantPrice": 67,
+      "medianCenterInfantWeekly": 136.01,
+      "medianCenterInfantAnnual": 7073,
+      "medianHomeInfantWeekly": 135.57,
+      "medianHomeInfantAnnual": 7050,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 67,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "67 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "AR": {
+      "status": "covered",
+      "dataYear": 2021,
+      "countiesWithData": 68,
+      "countiesTotal": 75,
+      "countiesWithCenterInfantPrice": 68,
+      "medianCenterInfantWeekly": 147.5,
+      "medianCenterInfantAnnual": 7670,
+      "medianHomeInfantWeekly": 115.0,
+      "medianHomeInfantAnnual": 5980,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 68,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "The NDCP has no 2022 prices for this state; 2021 is the most recent year with data. Prices cover 68 of 75 counties. 68 county infant center prices were not surveyed in 2021; DOL estimated them from the price trend between other survey years."
+    },
+    "AZ": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 15,
+      "countiesTotal": 15,
+      "countiesWithCenterInfantPrice": 15,
+      "medianCenterInfantWeekly": 270.0,
+      "medianCenterInfantAnnual": 14040,
+      "medianHomeInfantWeekly": 180.0,
+      "medianHomeInfantAnnual": 9360,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "CA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 58,
+      "countiesTotal": 58,
+      "countiesWithCenterInfantPrice": 58,
+      "medianCenterInfantWeekly": 379.21,
+      "medianCenterInfantAnnual": 19719,
+      "medianHomeInfantWeekly": 284.37,
+      "medianHomeInfantAnnual": 14787,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 58,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "58 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "CO": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 62,
+      "countiesTotal": 64,
+      "countiesWithCenterInfantPrice": 62,
+      "medianCenterInfantWeekly": 377.4,
+      "medianCenterInfantAnnual": 19625,
+      "medianHomeInfantWeekly": 246.35,
+      "medianHomeInfantAnnual": 12810,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 62 of 64 counties."
+    },
+    "CT": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 8,
+      "countiesTotal": 8,
+      "countiesWithCenterInfantPrice": 8,
+      "medianCenterInfantWeekly": 350.0,
+      "medianCenterInfantAnnual": 18200,
+      "medianHomeInfantWeekly": 250.0,
+      "medianHomeInfantAnnual": 13000,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "DC": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 1,
+      "countiesTotal": 1,
+      "countiesWithCenterInfantPrice": 1,
+      "medianCenterInfantWeekly": 490.0,
+      "medianCenterInfantAnnual": 25480,
+      "medianHomeInfantWeekly": 400.0,
+      "medianHomeInfantAnnual": 20800,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "DE": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 3,
+      "countiesTotal": 3,
+      "countiesWithCenterInfantPrice": 3,
+      "medianCenterInfantWeekly": 280.28,
+      "medianCenterInfantAnnual": 14575,
+      "medianHomeInfantWeekly": 181.67,
+      "medianHomeInfantAnnual": 9447,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 3,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "3 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "FL": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 58,
+      "countiesTotal": 67,
+      "countiesWithCenterInfantPrice": 53,
+      "medianCenterInfantWeekly": 225.0,
+      "medianCenterInfantAnnual": 11700,
+      "medianHomeInfantWeekly": 175.0,
+      "medianHomeInfantAnnual": 9100,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 2,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 58 of 67 counties. 2 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "GA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 159,
+      "countiesTotal": 159,
+      "countiesWithCenterInfantPrice": 159,
+      "medianCenterInfantWeekly": 205.0,
+      "medianCenterInfantAnnual": 10660,
+      "medianHomeInfantWeekly": 163.0,
+      "medianHomeInfantAnnual": 8476,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 159,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "159 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "HI": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 5,
+      "countiesTotal": 5,
+      "countiesWithCenterInfantPrice": 4,
+      "medianCenterInfantWeekly": 365.77,
+      "medianCenterInfantAnnual": 19020,
+      "medianHomeInfantWeekly": 207.69,
+      "medianHomeInfantAnnual": 10800,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "IA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 99,
+      "countiesTotal": 99,
+      "countiesWithCenterInfantPrice": 99,
+      "medianCenterInfantWeekly": 165.98,
+      "medianCenterInfantAnnual": 8631,
+      "medianHomeInfantWeekly": 111.9,
+      "medianHomeInfantAnnual": 5819,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "ID": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 44,
+      "countiesTotal": 44,
+      "countiesWithCenterInfantPrice": 44,
+      "medianCenterInfantWeekly": 166.41,
+      "medianCenterInfantAnnual": 8653,
+      "medianHomeInfantWeekly": 130.0,
+      "medianHomeInfantAnnual": 6760,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 44,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "44 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "IL": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 89,
+      "countiesTotal": 102,
+      "countiesWithCenterInfantPrice": 58,
+      "medianCenterInfantWeekly": 278.33,
+      "medianCenterInfantAnnual": 14473,
+      "medianHomeInfantWeekly": 207.77,
+      "medianHomeInfantAnnual": 10804,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 58,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 89 of 102 counties. 58 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "IN": {
+      "status": "unverified",
+      "dataYear": null,
+      "countiesWithData": 0,
+      "countiesTotal": 92,
+      "medianCenterInfantWeekly": null,
+      "medianCenterInfantAnnual": null,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024"
+      ],
+      "notes": "The NDCP 2008-2022 file has no childcare prices for any county in this state."
+    },
+    "KS": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 105,
+      "countiesTotal": 105,
+      "countiesWithCenterInfantPrice": 105,
+      "medianCenterInfantWeekly": 157.33,
+      "medianCenterInfantAnnual": 8181,
+      "medianHomeInfantWeekly": 120.27,
+      "medianHomeInfantAnnual": 6254,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 105,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "105 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "KY": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 120,
+      "countiesTotal": 120,
+      "countiesWithCenterInfantPrice": 120,
+      "medianCenterInfantWeekly": 151.3,
+      "medianCenterInfantAnnual": 7868,
+      "medianHomeInfantWeekly": 117.73,
+      "medianHomeInfantAnnual": 6122,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 120,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "120 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "LA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 64,
+      "countiesTotal": 64,
+      "countiesWithCenterInfantPrice": 64,
+      "medianCenterInfantWeekly": 153.33,
+      "medianCenterInfantAnnual": 7973,
+      "medianHomeInfantWeekly": 136.67,
+      "medianHomeInfantAnnual": 7107,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 64,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "64 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "MA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 14,
+      "countiesTotal": 14,
+      "countiesWithCenterInfantPrice": 14,
+      "medianCenterInfantWeekly": 461.55,
+      "medianCenterInfantAnnual": 24001,
+      "medianHomeInfantWeekly": 250.0,
+      "medianHomeInfantAnnual": 13000,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "MD": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 24,
+      "countiesTotal": 24,
+      "countiesWithCenterInfantPrice": 24,
+      "medianCenterInfantWeekly": 327.39,
+      "medianCenterInfantAnnual": 17024,
+      "medianHomeInfantWeekly": 239.21,
+      "medianHomeInfantAnnual": 12439,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 24,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "24 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "ME": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 16,
+      "countiesTotal": 16,
+      "countiesWithCenterInfantPrice": 16,
+      "medianCenterInfantWeekly": 230.0,
+      "medianCenterInfantAnnual": 11960,
+      "medianHomeInfantWeekly": 181.67,
+      "medianHomeInfantAnnual": 9447,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 16,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "16 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "MI": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 83,
+      "countiesTotal": 83,
+      "countiesWithCenterInfantPrice": 83,
+      "medianCenterInfantWeekly": 173.2,
+      "medianCenterInfantAnnual": 9006,
+      "medianHomeInfantWeekly": 182.4,
+      "medianHomeInfantAnnual": 9485,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 83,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "83 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "MN": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 87,
+      "countiesTotal": 87,
+      "countiesWithCenterInfantPrice": 87,
+      "medianCenterInfantWeekly": 390.0,
+      "medianCenterInfantAnnual": 20280,
+      "medianHomeInfantWeekly": 205.0,
+      "medianHomeInfantAnnual": 10660,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 87,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "87 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "MO": {
+      "status": "covered",
+      "dataYear": 2020,
+      "countiesWithData": 7,
+      "countiesTotal": 115,
+      "countiesWithCenterInfantPrice": 7,
+      "medianCenterInfantWeekly": 214.94,
+      "medianCenterInfantAnnual": 11177,
+      "medianHomeInfantWeekly": 155.66,
+      "medianHomeInfantAnnual": 8094,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 7,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "The NDCP has no 2022 prices for this state; 2020 is the most recent year with data. Prices cover 7 of 115 counties. 7 county infant center prices were not surveyed in 2020; DOL estimated them from the price trend between other survey years."
+    },
+    "MS": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 82,
+      "countiesTotal": 82,
+      "countiesWithCenterInfantPrice": 82,
+      "medianCenterInfantWeekly": 118.68,
+      "medianCenterInfantAnnual": 6171,
+      "medianHomeInfantWeekly": null,
+      "medianHomeInfantAnnual": null,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 82,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "82 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "MT": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 56,
+      "countiesTotal": 56,
+      "countiesWithCenterInfantPrice": 56,
+      "medianCenterInfantWeekly": 220.81,
+      "medianCenterInfantAnnual": 11482,
+      "medianHomeInfantWeekly": 177.94,
+      "medianHomeInfantAnnual": 9253,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 56,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "56 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "NC": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 99,
+      "countiesTotal": 100,
+      "countiesWithCenterInfantPrice": 99,
+      "medianCenterInfantWeekly": 202.52,
+      "medianCenterInfantAnnual": 10531,
+      "medianHomeInfantWeekly": 173.99,
+      "medianHomeInfantAnnual": 9047,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 99,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 99 of 100 counties. 99 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "ND": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 53,
+      "countiesTotal": 53,
+      "countiesWithCenterInfantPrice": 53,
+      "medianCenterInfantWeekly": 213.81,
+      "medianCenterInfantAnnual": 11118,
+      "medianHomeInfantWeekly": 157.32,
+      "medianHomeInfantAnnual": 8181,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 53,
+      "countiesEstimatedFromOtherYears": 53,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "53 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 53 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "NE": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 93,
+      "countiesTotal": 93,
+      "countiesWithCenterInfantPrice": 93,
+      "medianCenterInfantWeekly": 243.75,
+      "medianCenterInfantAnnual": 12675,
+      "medianHomeInfantWeekly": 150.0,
+      "medianHomeInfantAnnual": 7800,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 93,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "93 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "NH": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 10,
+      "countiesTotal": 10,
+      "countiesWithCenterInfantPrice": 10,
+      "medianCenterInfantWeekly": 300.05,
+      "medianCenterInfantAnnual": 15603,
+      "medianHomeInfantWeekly": 206.43,
+      "medianHomeInfantAnnual": 10734,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 10,
+      "countiesEstimatedFromOtherYears": 10,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "10 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 10 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "NJ": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 21,
+      "countiesTotal": 21,
+      "countiesWithCenterInfantPrice": 21,
+      "medianCenterInfantWeekly": 313.73,
+      "medianCenterInfantAnnual": 16314,
+      "medianHomeInfantWeekly": 194.38,
+      "medianHomeInfantAnnual": 10108,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 21,
+      "countiesEstimatedFromOtherYears": 21,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "21 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 21 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "NM": {
+      "status": "unverified",
+      "dataYear": null,
+      "countiesWithData": 0,
+      "countiesTotal": 33,
+      "medianCenterInfantWeekly": null,
+      "medianCenterInfantAnnual": null,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024"
+      ],
+      "notes": "The NDCP 2008-2022 file has no childcare prices for any county in this state."
+    },
+    "NV": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 17,
+      "countiesTotal": 17,
+      "countiesWithCenterInfantPrice": 17,
+      "medianCenterInfantWeekly": 275.63,
+      "medianCenterInfantAnnual": 14333,
+      "medianHomeInfantWeekly": 193.88,
+      "medianHomeInfantAnnual": 10082,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "NY": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 62,
+      "countiesTotal": 62,
+      "countiesWithCenterInfantPrice": 62,
+      "medianCenterInfantWeekly": 300.0,
+      "medianCenterInfantAnnual": 15600,
+      "medianHomeInfantWeekly": 250.0,
+      "medianHomeInfantAnnual": 13000,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "OH": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 88,
+      "countiesTotal": 88,
+      "countiesWithCenterInfantPrice": 88,
+      "medianCenterInfantWeekly": 295.0,
+      "medianCenterInfantAnnual": 15340,
+      "medianHomeInfantWeekly": 200.0,
+      "medianHomeInfantAnnual": 10400,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "OK": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 77,
+      "countiesTotal": 77,
+      "countiesWithCenterInfantPrice": 77,
+      "medianCenterInfantWeekly": 215.46,
+      "medianCenterInfantAnnual": 11204,
+      "medianHomeInfantWeekly": 156.33,
+      "medianHomeInfantAnnual": 8129,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 77,
+      "countiesEstimatedFromOtherYears": 77,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "77 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 77 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "OR": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 36,
+      "countiesTotal": 36,
+      "countiesWithCenterInfantPrice": 36,
+      "medianCenterInfantWeekly": 329.44,
+      "medianCenterInfantAnnual": 17131,
+      "medianHomeInfantWeekly": 229.63,
+      "medianHomeInfantAnnual": 11941,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "PA": {
+      "status": "covered",
+      "dataYear": 2020,
+      "countiesWithData": 67,
+      "countiesTotal": 67,
+      "countiesWithCenterInfantPrice": 67,
+      "medianCenterInfantWeekly": 217.9,
+      "medianCenterInfantAnnual": 11331,
+      "medianHomeInfantWeekly": 165.0,
+      "medianHomeInfantAnnual": 8580,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 67,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "The NDCP has no 2022 prices for this state; 2020 is the most recent year with data. 67 county infant center prices were not surveyed in 2020; DOL estimated them from the price trend between other survey years."
+    },
+    "RI": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 5,
+      "countiesTotal": 5,
+      "countiesWithCenterInfantPrice": 5,
+      "medianCenterInfantWeekly": 289.59,
+      "medianCenterInfantAnnual": 15059,
+      "medianHomeInfantWeekly": 254.49,
+      "medianHomeInfantAnnual": 13233,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 5,
+      "countiesEstimatedFromOtherYears": 5,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "5 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 5 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "SC": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 46,
+      "countiesTotal": 46,
+      "countiesWithCenterInfantPrice": 46,
+      "medianCenterInfantWeekly": 198.93,
+      "medianCenterInfantAnnual": 10344,
+      "medianHomeInfantWeekly": 137.53,
+      "medianHomeInfantAnnual": 7152,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 46,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "46 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "SD": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 66,
+      "countiesTotal": 66,
+      "countiesWithCenterInfantPrice": 66,
+      "medianCenterInfantWeekly": 150.0,
+      "medianCenterInfantAnnual": 7800,
+      "medianHomeInfantWeekly": 102.4,
+      "medianHomeInfantAnnual": 5325,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "TN": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 95,
+      "countiesTotal": 95,
+      "countiesWithCenterInfantPrice": 95,
+      "medianCenterInfantWeekly": 211.67,
+      "medianCenterInfantAnnual": 11007,
+      "medianHomeInfantWeekly": 155.0,
+      "medianHomeInfantAnnual": 8060,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 95,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "95 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "TX": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 254,
+      "countiesTotal": 254,
+      "countiesWithCenterInfantPrice": 254,
+      "medianCenterInfantWeekly": 185.0,
+      "medianCenterInfantAnnual": 9620,
+      "medianHomeInfantWeekly": 164.0,
+      "medianHomeInfantAnnual": 8528,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "UT": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 29,
+      "countiesTotal": 29,
+      "countiesWithCenterInfantPrice": 29,
+      "medianCenterInfantWeekly": 226.27,
+      "medianCenterInfantAnnual": 11766,
+      "medianHomeInfantWeekly": 168.18,
+      "medianHomeInfantAnnual": 8745,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 29,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "29 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "VA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 133,
+      "countiesTotal": 133,
+      "countiesWithCenterInfantPrice": 133,
+      "medianCenterInfantWeekly": 246.72,
+      "medianCenterInfantAnnual": 12829,
+      "medianHomeInfantWeekly": 178.24,
+      "medianHomeInfantAnnual": 9268,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 133,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "133 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "VT": {
+      "status": "covered",
+      "dataYear": 2021,
+      "countiesWithData": 14,
+      "countiesTotal": 14,
+      "countiesWithCenterInfantPrice": 14,
+      "medianCenterInfantWeekly": 313.12,
+      "medianCenterInfantAnnual": 16282,
+      "medianHomeInfantWeekly": 204.2,
+      "medianHomeInfantAnnual": 10618,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 14,
+      "countiesEstimatedFromOtherYears": 14,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "The NDCP has no 2022 prices for this state; 2021 is the most recent year with data. 14 county infant center prices were modeled by DOL from statewide survey data rather than reported for the county. 14 county infant center prices were not surveyed in 2021; DOL estimated them from the price trend between other survey years."
+    },
+    "WA": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 39,
+      "countiesTotal": 39,
+      "countiesWithCenterInfantPrice": 39,
+      "medianCenterInfantWeekly": 357.31,
+      "medianCenterInfantAnnual": 18580,
+      "medianHomeInfantWeekly": 253.85,
+      "medianHomeInfantAnnual": 13200,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 39,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "39 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "WI": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 72,
+      "countiesTotal": 72,
+      "countiesWithCenterInfantPrice": 72,
+      "medianCenterInfantWeekly": 293.0,
+      "medianCenterInfantAnnual": 15236,
+      "medianHomeInfantWeekly": 220.0,
+      "medianHomeInfantAnnual": 11440,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": ""
+    },
+    "WV": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 55,
+      "countiesTotal": 55,
+      "countiesWithCenterInfantPrice": 55,
+      "medianCenterInfantWeekly": 167.49,
+      "medianCenterInfantAnnual": 8709,
+      "medianHomeInfantWeekly": 153.93,
+      "medianHomeInfantAnnual": 8004,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 55,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "55 county infant center prices were not surveyed in 2022; DOL estimated them from the price trend between other survey years."
+    },
+    "WY": {
+      "status": "covered",
+      "dataYear": 2022,
+      "countiesWithData": 22,
+      "countiesTotal": 23,
+      "countiesWithCenterInfantPrice": 21,
+      "medianCenterInfantWeekly": 161.17,
+      "medianCenterInfantAnnual": 8381,
+      "medianHomeInfantWeekly": 148.87,
+      "medianHomeInfantAnnual": 7741,
+      "medianSource": "dol-state-estimate",
+      "countiesModeledFromStatewideData": 0,
+      "countiesEstimatedFromOtherYears": 0,
+      "sourceIds": [
+        "dol-ndcp-2022",
+        "dol-ndcp-tech-2024",
+        "dol-ndcp-state-2022"
+      ],
+      "notes": "Prices cover 22 of 23 counties."
+    }
+  }
+}

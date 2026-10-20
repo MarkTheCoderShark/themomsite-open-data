@@ -1,0 +1,2703 @@
+{
+  "topic": "lactation-coverage",
+  "title": "Medicaid coverage of lactation consultants, by state",
+  "asOf": "2026-10",
+  "methodology": "The Mom Site built this tracker in October 2026 (research dated 2026-10-09) from primary sources for each state and DC: state Medicaid provider manuals and billing guides, provider bulletins and notices, fee schedules, administrative rules, state plan amendments, and managed care plan handbooks and policies where a state runs coverage through health plans. We downloaded each document and matched the supporting text before recording a value; anything we couldn't confirm is left blank rather than guessed. Federal rules come from HRSA, the Code of Federal Regulations, the joint DOL/HHS/Treasury ACA FAQs and HealthCare.gov. Status: covered means Medicaid names lactation consultation or counseling as a separately payable service outside the hospital stay, available to members generally, whether the lactation consultant bills directly or a supervising enrolled provider bills for their services. Limited means lactation help exists only in a narrower form: inside bundled maternity, hospital or program payments; through general counseling or office visit codes with no lactation consultant pathway; only as classes; only in some managed care plans or as an extra plan benefit; or only for certain conditions, programs or provider settings. Not-covered means the state's current fee schedule or policy lists the lactation-specific service as not covered and we found no other lactation pathway. Unverified means we couldn't confirm the state's rules from a primary source; the notes say what we checked. Lactation help given during a hospital stay, or as part of a routine prenatal, postpartum or well-child visit, isn't counted as a separate benefit. \"IBCLCs can enroll on their own\" is Yes when an IBCLC (or the state's certified or licensed lactation consultant) can enroll and bill Medicaid, or contract with its health plans, as their own provider without a separate clinical license; it's No when they must bill through a supervising provider or must also be licensed as, for example, a registered nurse, and blank when the sources don't say. For comparison, each state record also keeps the state's answer to KFF's 2021 survey (coverage as of July 1, 2021), left blank for states that didn't respond. It wasn't used to set current status. Medicaid rules change often and individual health plans can add benefits, so readers should confirm with their state Medicaid agency or plan.",
+  "summary": {
+    "statusCounts": {
+      "covered": 24,
+      "limited": 16,
+      "not-covered": 4,
+      "unverified": 7
+    },
+    "ibclcIndependentEnrollment": [
+      "AR",
+      "CO",
+      "DC",
+      "GA",
+      "ID",
+      "IL",
+      "LA",
+      "NM",
+      "OH",
+      "OK",
+      "OR",
+      "VT"
+    ],
+    "text": "As of October 2026, 24 jurisdictions cover lactation consultation as its own Medicaid benefit, 16 cover it only in a limited way, 4 don't cover it and 7 couldn't be verified. In 12 (AR, CO, DC, GA, ID, IL, LA, NM, OH, OK, OR, VT), an IBCLC or state-recognized lactation consultant can enroll and bill on their own."
+  },
+  "sources": [
+    {
+      "id": "al-covered-services-handbook-2026",
+      "title": "Alabama Medicaid Covered Services Handbook (10-8-26)",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/documents/4.0_Programs/4.1_Covered_Services/4.1_Covered_Services_Handbook_10-8-26.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-08"
+    },
+    {
+      "id": "al-maternity-services-page",
+      "title": "Maternity Services",
+      "publisher": "Alabama Medicaid Agency",
+      "url": "https://medicaid.alabama.gov/content/5.0_Managed_Care/5.2_Other_MC_Programs/5.2.2_Maternity.aspx",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "kff-2021-medicaid-pregnancy-survey",
+      "title": "Medicaid Coverage of Pregnancy-Related Services: Findings from a 2021 State Survey",
+      "publisher": "KFF",
+      "url": "https://www.kff.org/womens-health-policy/medicaid-coverage-of-pregnancy-related-services-findings-from-a-2021-state-survey/",
+      "accessed": "2026-10-09",
+      "docDate": "2022-05"
+    },
+    {
+      "id": "az-ampm-410",
+      "title": "AHCCCS Medical Policy Manual Policy 410: Maternity Care Services",
+      "publisher": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "url": "https://www.azahcccs.gov/shared/Downloads/MedicalPolicyManual/400/410.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10-01"
+    },
+    {
+      "id": "az-hb2051-senate-fact-sheet-2026",
+      "title": "Arizona State Senate Fact Sheet for H.B. 2051 (AHCCCS; lactation care; breastfeeding), 57th Legislature, Second Regular Session",
+      "publisher": "Arizona State Senate",
+      "url": "https://www.azleg.gov/legtext/57leg/2R/summary/S.2051RAGE.DOCX.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2026-03-13"
+    },
+    {
+      "id": "az-hb2051-bill-status-2026",
+      "title": "HB2051 bill status record, 2026 Fifty-seventh Legislature Second Regular Session",
+      "publisher": "Arizona State Legislature",
+      "url": "https://apps.azleg.gov/api/Bill/?billNumber=HB2051&sessionId=130&legislativeBody=H",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ar-manual-smc-ii-2026",
+      "title": "Arkansas Medicaid Provider Manual Section II: Supportive Maternal Care",
+      "publisher": "Arkansas Department of Human Services, Division of Medical Services",
+      "url": "https://humanservices.arkansas.gov/wp-content/uploads/SMC_II.docx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-01"
+    },
+    {
+      "id": "ca-dhcs-apl26-005",
+      "title": "All Plan Letter 26-005: Maternity Services for Pregnant and Postpartum Medi-Cal Members",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/04/APL26-005.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-03-25"
+    },
+    {
+      "id": "ca-mcal-pregpost",
+      "title": "Medi-Cal Provider Manual Part 2: Pregnancy: Postpartum and Newborn Referral Services (preg post)",
+      "publisher": "California Department of Health Care Services",
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/assets/47092E12-0EBF-40ED-808E-CB089CA91165/pregpost.pdf?access_token=6UyVkRRfByXTZEWIh8j8QaYylPyP5ULO",
+      "accessed": "2026-10-09",
+      "docDate": "2025-10"
+    },
+    {
+      "id": "co-lactserv-manual",
+      "title": "Lactation Support Services Billing Manual",
+      "publisher": "Colorado Department of Health Care Policy and Financing",
+      "url": "https://hcpf.colorado.gov/lactserv-manual",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-14"
+    },
+    {
+      "id": "ct-maternity-bundle-spec-2025",
+      "title": "HUSKY Maternity Bundle Payment Program: Program Specifications (Published April 2025 for Effective Date January 1, 2025)",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/husky-maternity-bundle/maternity-bundle-program-specifications---april-2025.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-04"
+    },
+    {
+      "id": "ct-maternity-bundle-faq-2026",
+      "title": "HUSKY Maternity Bundle Payment Program: Frequently Asked Questions (Updated Version Published January 2026)",
+      "publisher": "Connecticut Department of Social Services",
+      "url": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/husky-maternity-bundle/maternity-bundle-program-faq---january-2026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "ct-hb-6934-2025-status",
+      "title": "Bill Status: HB 6934 (2025), An Act Concerning Medicaid Coverage for Licensed International Board Certified Lactation Consultants",
+      "publisher": "Connecticut General Assembly",
+      "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2025&bill_num=6934",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "de-practitioner-manual-2026",
+      "title": "Practitioner Provider Specific Policy Manual (Section 19.0 Lactation Counseling Services)",
+      "publisher": "Delaware Health and Social Services, Division of Medicaid and Medical Assistance",
+      "url": "https://medicaidpublications.dhss.delaware.gov/docs/search?Command=Core_Download&EntryId=887",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-06"
+    },
+    {
+      "id": "de-dmap-bulletin-2026q1",
+      "title": "Delaware Medical Assistance Program 2026 1Q Provider Bulletin (DMAP Now Covers Lactation Counseling Services)",
+      "publisher": "Delaware Health and Social Services, Division of Medicaid and Medical Assistance",
+      "url": "https://medicaidpublications.dhss.delaware.gov/docs/search?Command=Core_Download&EntryId=2003",
+      "accessed": "2026-10-09",
+      "docDate": "2026-03-31"
+    },
+    {
+      "id": "de-reg-28-795-2025",
+      "title": "Public Notice: Lactation (proposed Title XIX Medicaid State Plan amendment), 28 DE Reg. 795 (05/01/25)",
+      "publisher": "Delaware Register of Regulations / Delaware Health and Social Services, Division of Medicaid and Medical Assistance",
+      "url": "https://archive.regulations.delaware.gov/register/may2025/proposed/28%20DE%20Reg%20795%2005-01-25.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2025-05-01"
+    },
+    {
+      "id": "dc-transmittal-19-20",
+      "title": "Transmittal 19-20: Enrollment & Code and Rate for Lactation Consultation Services",
+      "publisher": "District of Columbia Department of Health Care Finance",
+      "url": "https://dhcf.dc.gov/node/1433546",
+      "accessed": "2026-10-09",
+      "docDate": "2019-09-26"
+    },
+    {
+      "id": "dc-transmittal-14-21",
+      "title": "Medicaid Update: Transmittal 14-21 Policy Regarding Medicaid Coverage to Promote Breast Feeding",
+      "publisher": "District of Columbia Department of Health Care Finance",
+      "url": "https://dhcf.dc.gov/publication/medicaid-update-transmittal-14-21-policy-regarding-medicaid-coverage-promote-breast",
+      "accessed": "2026-10-09",
+      "docDate": "2014-04-11"
+    },
+    {
+      "id": "fl-smmc-expanded-benefits-grid-2025",
+      "title": "SMMC 3.0 Expanded Benefits Grid - Health Plan (Effective 2/1/2025)",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/content/download/25560/file/SMMC%203.0%20Expanded%20Benefits%20Grid_Health%20Plan_02012025v2.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-02-01"
+    },
+    {
+      "id": "fl-smmc-attachment-i-2026-07",
+      "title": "SMMC Model Health Plan Contract Attachment I, Scope of Services - Update July 1, 2026 (Table 3: Approved Expanded Benefits)",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/file/medicaid/Health_Attachment%20I%20-%20Scope%20of%20Services_July%202026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "fl-practitioner-fee-2026",
+      "title": "2026 Practitioner Fee Schedule",
+      "publisher": "Florida Agency for Health Care Administration",
+      "url": "https://ahca.myflorida.com/content/download/28192/file/2026%20Practitioner%20Fee%20Schedule.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ga-physician-manual-2026q4",
+      "title": "Part II Policies and Procedures for Physician Services (Version Date: October 1, 2026), Section 1030 Lactation Consultation Services",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://www.mmis.georgia.gov/portal/Portals/0/StaticContent/Public/ALL/Handbooks/Physician%20Services%20Q4%20-%20October%202026%2020260918193913.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "ga-dch-lc-provider-type-2022",
+      "title": "Georgia Department of Community Health Enrolling Lactation Consultants as a New Provider Type",
+      "publisher": "Georgia Department of Community Health",
+      "url": "https://dch.georgia.gov/node/31361",
+      "accessed": "2026-10-09",
+      "docDate": "2022-08-05"
+    },
+    {
+      "id": "hi-hmsa-quest-handbook-2026",
+      "title": "HMSA QUEST Member Handbook (Effective April 2026)",
+      "publisher": "HMSA (Hawaii Medical Service Association)",
+      "url": "https://hmsa.com/content/assets/member-handbook-quest.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04"
+    },
+    {
+      "id": "hi-uhc-quest-handbook-2026",
+      "title": "UnitedHealthcare Community Plan Hawai'i 2026 QUEST Member Handbook",
+      "publisher": "UnitedHealthcare Community Plan of Hawaii",
+      "url": "https://www.uhccommunityplan.com/content/dam/uhccp/plandocuments/handbook/en/HI-QUEST-Integration-Handbook-EN.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "hi-alohacare-quest-handbook-2026",
+      "title": "AlohaCare 2026 QUEST Medicaid Member Handbook",
+      "publisher": "AlohaCare",
+      "url": "https://www.alohacare.org/userfiles/2026%20Updates/Other/199-AlohaCare%20QUEST%20Member%20Handbook_2026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "hi-kp-quest-handbook-2023",
+      "title": "Kaiser Permanente QUEST Integration Member Handbook (KP23-038, v7, Oct 2023)",
+      "publisher": "Kaiser Permanente Hawaii (posted by Hawaii Med-QUEST Division)",
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/member-handbook/KP23-038_Member_Handbook_v7_OCT_2023.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-10"
+    },
+    {
+      "id": "hi-medicaid-fee-schedule-20260601",
+      "title": "Medicaid Fee-For-Service (FFS) Fee Schedule, without modifiers, as of 06/01/2026",
+      "publisher": "Hawaii Department of Human Services, Med-QUEST Division",
+      "url": "https://medquest.hawaii.gov/content/dam/formsanddocuments/plans-and-providers/Hawaii%20Medicaid%20Fee%20Schedule%2020260601.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-01"
+    },
+    {
+      "id": "id-handbook-medical-services-2025",
+      "title": "Idaho Medicaid Provider Handbook: Medical Services",
+      "publisher": "Idaho Department of Health and Welfare, Division of Medicaid (Gainwell Technologies)",
+      "url": "https://www.idmedicaid.com/Provider%20Guidelines/Medical%20Services.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-23"
+    },
+    {
+      "id": "id-medicaide-2025-05",
+      "title": "MedicAide Newsletter, May 2025 (Lactation Consultants)",
+      "publisher": "Idaho Department of Health and Welfare, Division of Medicaid",
+      "url": "https://www.idmedicaid.com/MedicAide%20Newsletters/May%202025%20MedicAide.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-05"
+    },
+    {
+      "id": "id-handbook-provider-types-2026",
+      "title": "Idaho Medicaid Provider Handbook: Provider Types and Specialties",
+      "publisher": "Idaho Department of Health and Welfare, Division of Medicaid (Gainwell Technologies)",
+      "url": "https://www.idmedicaid.com/Reference/Provider%20Types%20and%20Specialties.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-19"
+    },
+    {
+      "id": "il-hfs-prn241219c",
+      "title": "Provider Notice: Lactation Consultant Enrollment and Billing per Public Act 102-0665 Effective January 1, 2024",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/medicalproviders/notices/notice.prn241219c.html",
+      "accessed": "2026-10-09",
+      "docDate": "2024-12-19"
+    },
+    {
+      "id": "il-hfs-lactation-fee-schedule-2024",
+      "title": "Fee Schedule For Lactation Counseling Services (Effective 01/01/2024, Updated 12/19/2024)",
+      "publisher": "Illinois Department of Healthcare and Family Services",
+      "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/12192024lactationfs.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-12-19"
+    },
+    {
+      "id": "in-ihcp-professional-fee-schedule-2026",
+      "title": "IHCP Professional Fee Schedule With Cutbacks (last updated June 9, 2026)",
+      "publisher": "Indiana Family and Social Services Administration, Indiana Health Coverage Programs",
+      "url": "https://www.in.gov/medicaid/providers/files/IHCP-Professional-Fee-Schedule-With-Cutbacks.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-06-09"
+    },
+    {
+      "id": "in-ihcp-epsdt-module",
+      "title": "IHCP Provider Reference Module: Early and Periodic Screening, Diagnostic and Treatment (EPSDT)/HealthWatch",
+      "publisher": "Indiana Family and Social Services Administration, Indiana Health Coverage Programs",
+      "url": "https://www.in.gov/medicaid/providers/files/modules/epsdt.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-11-12"
+    },
+    {
+      "id": "ia-feesched-c35-maternal-health-center",
+      "title": "Iowa Medicaid Fee Schedule #35, Maternal Health Center (CSV)",
+      "publisher": "Iowa Department of Health and Human Services, Iowa Medicaid",
+      "url": "https://secureapp.dhs.state.ia.us/MedicaidFeeSched/C35.csv",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ia-mhc-provider-manual",
+      "title": "Maternal Health Center Provider Manual",
+      "publisher": "Iowa Department of Human Services (now Iowa HHS)",
+      "url": "https://hhs.iowa.gov/media/4333/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2017-06-01"
+    },
+    {
+      "id": "ks-kmap-professional-manual-2026",
+      "title": "KMAP Professional Fee-for-Service Provider Manual (Updated 08.2026)",
+      "publisher": "Kansas Department of Health and Environment, Kansas Medical Assistance Program (Gainwell Technologies)",
+      "url": "https://portal.kmap-state-ks.us/Documents/Provider/Provider%20Manuals/Professional_26140_26102.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08"
+    },
+    {
+      "id": "ks-kmap-bulletin-18189",
+      "title": "KMAP General Bulletin 18189: UPDATED - Lactation Counseling",
+      "publisher": "Kansas Medical Assistance Program",
+      "url": "https://portal.kmap-state-ks.us/Documents/Provider/Bulletins/18189%20-%20General%20-%20UPDATED%20-%20Lactation_Counseling.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-10"
+    },
+    {
+      "id": "ks-kmap-bulletin-23042",
+      "title": "KMAP General Bulletin 23042: Lactation Counseling Allowable Via Telemedicine",
+      "publisher": "Kansas Medical Assistance Program",
+      "url": "https://portal.kmap-state-ks.us/Documents/Provider/Bulletins/23042%20-%20General%20-%20Lactation_Counseling_Allowable_Via_Telemedicine.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-02"
+    },
+    {
+      "id": "ks-kmap-bulletin-23208",
+      "title": "KMAP General Bulletin 23208: Rate Increase for Lactation Counseling",
+      "publisher": "Kansas Medical Assistance Program",
+      "url": "https://portal.kmap-state-ks.us/Documents/Provider/Bulletins/23208%20-%20General%20-%20Rate_Increase_for_Lactation_Counseling_Code_S9443.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-09"
+    },
+    {
+      "id": "ky-krs-205-556",
+      "title": "KRS 205.556 Coverage for lactation consultation, breastfeeding equipment, in-home programs for pregnant and postpartum women, and telehealth or digital health services related to maternity care",
+      "publisher": "Kentucky Legislative Research Commission",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=57023",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-14"
+    },
+    {
+      "id": "ky-dms-physician-fee-schedule-2026",
+      "title": "KY Medicaid Physician Fee Schedule 2026",
+      "publisher": "Kentucky Cabinet for Health and Family Services, Department for Medicaid Services",
+      "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026PhysicianFeeSchedule.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ky-dms-preventive-fee-schedule-2026",
+      "title": "2026 Preventive Health (Health Department) Fee Schedule (Provider type 20), Revised 4.24.2026",
+      "publisher": "Kentucky Cabinet for Health and Family Services, Department for Medicaid Services",
+      "url": "https://www.chfs.ky.gov/agencies/dms/DMSFeeRateSchedules/2026PreventiveFeeSchedule.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-24"
+    },
+    {
+      "id": "la-ldh-mco-manual-lactation-2023",
+      "title": "MCO Manual: Outpatient Lactation Support (LDH-17, In Lieu of Service)",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://www.ldh.la.gov/assets/medicaid/MCPP/LDH-17_MCO_Manual_Outpatient_Lactation_Support_2023-12-08.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-12-08"
+    },
+    {
+      "id": "la-mco-contract-att-c-ilos-2026",
+      "title": "Medicaid Managed Care Organization Contract, Attachment C: In Lieu of Services (Effective 1/1/2026)",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://ldh.la.gov/assets/medicaid/Contracts-PC/05_19_26/Item35_Amd_12_Attachment_C12_In_Lieu_of_Services_10.9.2025.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "la-acla-ilo07-lactation-2024",
+      "title": "AmeriHealth Caritas Louisiana In Lieu Of Policy ILO.07: Outpatient Lactation Support",
+      "publisher": "AmeriHealth Caritas Louisiana (posted by Louisiana Department of Health)",
+      "url": "https://www.ldh.la.gov/assets/medicaid/MCPP/9.6.24/2541_ACLA_Outpatient_Lactation_Services_ILOS.7.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-08"
+    },
+    {
+      "id": "la-aetna-ilos-policy-2026",
+      "title": "Aetna Better Health of Louisiana Policy: In Lieu of Services",
+      "publisher": "Aetna Better Health of Louisiana (posted by Louisiana Department of Health)",
+      "url": "https://ldh.la.gov/assets/medicaid/MCPP/10-01-26/2951-ABH-XXXX-XX-In-Lieu-of-Services.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "la-humana-lactation-ilos-2026",
+      "title": "Humana Healthy Horizons in Louisiana Medicaid Medical Coverage Policy LA.CLI.071.003: Outpatient Lactation Support Provider, In Lieu of Services (ILOS) (draft, review date 08/04/2026)",
+      "publisher": "Humana Healthy Horizons in Louisiana (posted by Louisiana Department of Health)",
+      "url": "https://ldh.la.gov/assets/medicaid/MCPP/09-14-2026/2608-hum-rld-la-cli-071-003-outpatient-lactation-support-provider-ilos.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-04"
+    },
+    {
+      "id": "me-22mrs-3174-ppp",
+      "title": "22 MRS §3174-PPP. Coverage for lactation services",
+      "publisher": "Maine Legislature, Office of the Revisor of Statutes",
+      "url": "https://legislature.maine.gov/statutes/22/title22sec3174-PPP.html",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "me-cy26-rate-determination-schedule",
+      "title": "MaineCare Annual Rate Determination Schedule: Rate Determinations for Calendar Year 2026",
+      "publisher": "Maine Department of Health and Human Services, Office of MaineCare Services",
+      "url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/CY26%20Rate%20Determination%20Schedule%20FINAL.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-20"
+    },
+    {
+      "id": "md-pp-member-handbook-2025",
+      "title": "Priority Partners Member Handbook (Updated September 2025)",
+      "publisher": "Priority Partners (HealthChoice MCO)",
+      "url": "https://www.ppmco.org/wp-content/uploads/2023/03/Priority_Partners_Member_Handbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-09"
+    },
+    {
+      "id": "md-uhc-member-handbook-2026",
+      "title": "UnitedHealthcare Community Plan Maryland HealthChoice Member Handbook (January 1, 2026)",
+      "publisher": "UnitedHealthcare Community Plan of Maryland",
+      "url": "https://www.uhc.com/communityplan/assets/plandocuments/handbook/en/MD-MemberHandbook-HealthChoice.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "md-mpc-member-handbook-2025",
+      "title": "Maryland Physicians Care Member Handbook (Revised December 3, 2025)",
+      "publisher": "Maryland Physicians Care (HealthChoice MCO)",
+      "url": "https://www.marylandphysicianscare.com/wp-content/uploads/2023/10/MPC_Member_Handbook_Final_Revised_12-25.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-03"
+    },
+    {
+      "id": "ma-130cmr433-421",
+      "title": "130 CMR 433.421: Obstetric Services: Global-fee Method of Payment (text via Cornell LII)",
+      "publisher": "MassHealth (Executive Office of Health and Human Services), reproduced by Cornell Legal Information Institute",
+      "url": "https://www.law.cornell.edu/regulations/massachusetts/130-CMR-433-421",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ma-wellsense-bilh-aco-csl-2026",
+      "title": "Covered Services List for WellSense BILH Performance Network ACO Plan Members with MassHealth Standard & CommonHealth Coverage (CSL-S-CH Rev. 2/26)",
+      "publisher": "WellSense Health Plan",
+      "url": "https://www.wellsense.org/hubfs/Plans/MassHealth/Covered%20Services%20Lists/MassHealth_ACO_BILH_Standard_CSL.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-02"
+    },
+    {
+      "id": "mi-msa-15-46",
+      "title": "Bulletin MSA 15-46: Medicaid Coverage of Lactation Support Services",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://www.michigan.gov/documents/mdhhs/MSA_15-46_515778_7.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2016-03-01"
+    },
+    {
+      "id": "mi-medicaid-provider-manual-2026-10",
+      "title": "Michigan Medicaid Provider Manual (version date October 1, 2026)",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://www.mdch.state.mi.us/dch-medicaid/manuals/MedicaidProviderManual.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "mn-dhs-pregnant-people",
+      "title": "Health care coverage for people who are pregnant",
+      "publisher": "Minnesota Department of Human Services",
+      "url": "https://mn.gov/dhs/health-care/pregnant-people/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "mn-hennepin-pmap-handbook-2026",
+      "title": "Member Handbook, Families and Children (PMAP), Effective January 1, 2026 (DHS accepted 12/31/2025)",
+      "publisher": "Hennepin Health",
+      "url": "https://www.hennepinhealth.org/-/media/hh/members/Directories/PMAP-handbook-2026.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "mn-healthpartners-pmap-handbook-2026",
+      "title": "2026 Families and Children Member Handbook",
+      "publisher": "HealthPartners",
+      "url": "https://www.healthpartners.com/content/dam/plan/d2c/state-public-programs/handbook-2026-fc-pmap.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "mn-rules-9505",
+      "title": "Minnesota Rules, Chapter 9505 (Health Care Programs)",
+      "publisher": "Minnesota Office of the Revisor of Statutes",
+      "url": "https://www.revisor.mn.gov/rules/9505/full",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ms-molina-mscan-handbook",
+      "title": "Your Member Handbook, Mississippi MississippiCAN (Medicaid) (Compliance with Amendment 4 version)",
+      "publisher": "Molina Healthcare of Mississippi",
+      "url": "https://www.molinahealthcare.com/-/media/Project/PWS/Healthcare/PDF/PDF/Medicaid/MS/Materials/English/MS_MSCAN_Member-Handbook_final-Compliance-with-Amendment-4-Version.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ms-uhc-mscan-handbook",
+      "title": "MississippiCAN Member Handbook",
+      "publisher": "UnitedHealthcare Community Plan of Mississippi",
+      "url": "https://www.uhc.com/communityplan/assets/plandocuments/handbook/en/MS-CAN-Member-Handbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "mo-physicians-manual-2026-08",
+      "title": "MO HealthNet Physicians Provider Manual (published 08-10-2026)",
+      "publisher": "Missouri Department of Social Services, MO HealthNet Division",
+      "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/08/Physicians-Provider-Manual-Published-08-10-2026.docx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-10"
+    },
+    {
+      "id": "mo-hospital-manual-2026-08",
+      "title": "MO HealthNet Hospital Manual (published 08-11-26)",
+      "publisher": "Missouri Department of Social Services, MO HealthNet Division",
+      "url": "https://dss.mo.gov/sites/mydss/files/media/file/2026/08/Hospital-Manual-Published-08-11-26.docx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-11"
+    },
+    {
+      "id": "ne-471-nac-33",
+      "title": "471 NAC 33 Health Check (Early Periodic Screening, Diagnosis and Treatment [EPSDT]) Services",
+      "publisher": "Nebraska Department of Health and Human Services (Nebraska Secretary of State Rules and Regulations)",
+      "url": "https://rules.nebraska.gov/rules?agencyId=37&titleId=226",
+      "accessed": "2026-10-09",
+      "docDate": "2022-02-12"
+    },
+    {
+      "id": "ne-healthcheck-fee-schedule-2026-07",
+      "title": "Nebraska Medicaid Fee Schedule, Health Check Services July 1, 2026 (471-000-533)",
+      "publisher": "Nebraska Department of Health and Human Services",
+      "url": "https://dhhs.ne.gov/Medicaid%20Practitioner%20Fee%20Schedules/471-000-533%20Health%20Check%20-%20July%20%2726.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ne-471-nac-18",
+      "title": "471 NAC 18 Physicians' Services",
+      "publisher": "Nebraska Department of Health and Human Services (Nebraska Secretary of State Rules and Regulations)",
+      "url": "https://rules.nebraska.gov/rules?agencyId=37&titleId=226",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-19"
+    },
+    {
+      "id": "ne-ntc-member-handbook-2026",
+      "title": "Nebraska Total Care Member Handbook (rev. 01/2026)",
+      "publisher": "Nebraska Total Care (Heritage Health managed care plan)",
+      "url": "https://www.nebraskatotalcare.com/content/dam/centene/Nebraska/PDFs/MemberForms/NTC_79_Member_Handbook_03252024_04202026_ENG_508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "nv-billing-guide-pt20-24-77",
+      "title": "Provider Type 20, 24 and 77 Billing Guide",
+      "publisher": "Nevada Medicaid (Gainwell Technologies, fiscal agent)",
+      "url": "https://www.medicaid.nv.gov/Downloads/provider/NV_BillingGuidelines_PT20-24-77.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-27"
+    },
+    {
+      "id": "nv-billing-guide-pt74",
+      "title": "Provider Type 74 Billing Guide (Nurse Midwife)",
+      "publisher": "Nevada Medicaid (Gainwell Technologies, fiscal agent)",
+      "url": "https://www.medicaid.nv.gov/Downloads/provider/NV_BillingGuidelines_PT74.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-27"
+    },
+    {
+      "id": "nv-msm-600-2026-05",
+      "title": "Medicaid Services Manual Chapter 600: Physician Services",
+      "publisher": "Nevada Division of Health Care Financing and Policy",
+      "url": "https://www.nevadamedicaid.nv.gov/siteassets/content/resources/adminsupport/manuals/msm/c600/msm_600_26_05_27.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-05-27"
+    },
+    {
+      "id": "nh-nhhf-member-handbook-2026-08",
+      "title": "New Hampshire Medicaid Care Management Member Handbook (NH Healthy Families, effective August 2026)",
+      "publisher": "NH Healthy Families (NH Medicaid Care Management plan)",
+      "url": "https://www.nhhealthyfamilies.com/content/dam/centene/NH%20Healthy%20Families/Medicaid/pdfs/NH-Model-Handbook-August-2026-CLEAN%20with%20CPS%20Appeals%20Info.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08"
+    },
+    {
+      "id": "nh-acnh-member-handbook-2026-09",
+      "title": "AmeriHealth Caritas New Hampshire Member Handbook (effective September 2026)",
+      "publisher": "AmeriHealth Caritas New Hampshire (NH Medicaid Care Management plan)",
+      "url": "https://www.amerihealthcaritasnh.com/content/dam/amerihealth-caritas/acnh/pdf/member/eng/member-handbook.pdf.coredownload.inline.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-01"
+    },
+    {
+      "id": "nh-he-w-500",
+      "title": "New Hampshire Code of Administrative Rules, Chapter He-W 500 Medical Assistance (Parts He-W 547 and He-W 571)",
+      "publisher": "New Hampshire Department of Health and Human Services (rules published by the NH General Court)",
+      "url": "https://gc.nh.gov/rules/state_agencies/he-w500.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-08-05"
+    },
+    {
+      "id": "nj-spa-23-0006",
+      "title": "New Jersey State Plan Amendment NJ-23-0006: Lactation Consultant Services (approval letter, CMS-179 and approved pages)",
+      "publisher": "Centers for Medicare & Medicaid Services / New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+      "url": "https://www.medicaid.gov/medicaid/spa/downloads/NJ-23-0006.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-05-10"
+    },
+    {
+      "id": "nj-public-notice-2022-lactation",
+      "title": "Legal Notice: Lactation Consultant Services",
+      "publisher": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services",
+      "url": "https://nj.gov/humanservices/notices/documents/public-notices/2022-08-19%20Lactation%20IBCLC%20Public%20Notice%20title%2019%20and%20ABP%20v10%20clean.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2022-09-29"
+    },
+    {
+      "id": "nj-pl-2019-c343",
+      "title": "P.L. 2019, Chapter 343 (Assembly Committee Substitute for A5509): health benefits and Medicaid coverage for breastfeeding support",
+      "publisher": "State of New Jersey",
+      "url": "https://nj.gov/njbonds/treasury/pensions/documents/laws/ch343-2019.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2020-01-13"
+    },
+    {
+      "id": "nj-njmmis-provider-enrollment",
+      "title": "NJMMIS Provider Enrollment Application (provider type list)",
+      "publisher": "New Jersey Medicaid Management Information System (Gainwell Technologies for NJ DMAHS)",
+      "url": "https://www.njmmis.com/providerEnrollment.aspx",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "nm-supplement-24-23",
+      "title": "Supplement 24-23: Billing and Guidance for Lactation Care Providers in the Outpatient Setting",
+      "publisher": "New Mexico Health Care Authority, Medical Assistance Division",
+      "url": "https://www.hca.nm.gov/wp-content/uploads/Supplement-Lactation-Care-Provider-Services-FINAL-clean.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-12-20"
+    },
+    {
+      "id": "nm-bcbsnm-turquoise-handbook-2026",
+      "title": "BCBSNM Turquoise Care 2026 Member Handbook",
+      "publisher": "Blue Cross and Blue Shield of New Mexico (Turquoise Care MCO)",
+      "url": "https://www.bcbsnm.com/turquoise-care/pdf/tc-member-handbook-nm.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ny-mu-2022-06-lactation",
+      "title": "Expanded List of Lactation Services Certifications: Breastfeeding Support Authorized for Payment (NYS Medicaid Update, June 2022)",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/program/update/2022/no07_2022-06.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2022-06"
+    },
+    {
+      "id": "ny-mu-2013-03-lactation",
+      "title": "Fee-for-Service Medicaid: Breastfeeding Support Payment for Specially Trained Lactation Counselors (NYS Medicaid Update, March 2013)",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/health_care/medicaid/program/update/2013/2013-03.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2013-03"
+    },
+    {
+      "id": "nc-ccp-1i-2023",
+      "title": "Clinical Coverage Policy No: 1-I, Dietary Evaluation and Counseling and Medical Lactation Services",
+      "publisher": "NC Medicaid, North Carolina Department of Health and Human Services",
+      "url": "https://medicaid.ncdhhs.gov/1-i-dietary-evaluation-and-counseling-and-medical-lactation-services/download?attachment",
+      "accessed": "2026-10-09",
+      "docDate": "2023-08-15"
+    },
+    {
+      "id": "nd-preventive-services-policy-2026",
+      "title": "Billing and Policy Manual: Preventive Services and Chronic Disease Management and Early and Periodic Screening, Diagnostic and Treatment (EPSDT) Policy",
+      "publisher": "North Dakota Health and Human Services (ND Medicaid)",
+      "url": "https://www.hhs.nd.gov/sites/default/files/documents/medicaid-policies/preventive-services-and-chronic-disease-management.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04"
+    },
+    {
+      "id": "nd-dme-breast-pump-policy-2025",
+      "title": "Breast Pump (Electric and Manual) Policy, Durable Medical Equipment Manual",
+      "publisher": "North Dakota Health and Human Services (ND Medicaid)",
+      "url": "https://www.hhs.nd.gov/sites/default/files/documents/DME/policy-breast-pump-exclusion.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-17"
+    },
+    {
+      "id": "oh-oac-5160-8-42",
+      "title": "Ohio Adm.Code 5160-8-42, Lactation consultation services",
+      "publisher": "Ohio Department of Medicaid (Ohio Administrative Code)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-8-42",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10-01"
+    },
+    {
+      "id": "oh-oac-5160-1-18",
+      "title": "Ohio Adm.Code 5160-1-18, Telehealth",
+      "publisher": "Ohio Department of Medicaid (Ohio Administrative Code)",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-1-18",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "ok-oac-317-30-5-231",
+      "title": "317:30-5-231. Eligible Providers (Part 20. Lactation Consultants)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/policies-and-rules/xpolicy/medical-providers-fee-for-service/individual-providers-and-specialties/lactation-consultants/eligible-providers.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-01"
+    },
+    {
+      "id": "ok-oac-317-30-5-232",
+      "title": "317:30-5-232. Coverage (Part 20. Lactation Consultants)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/policies-and-rules/xpolicy/medical-providers-fee-for-service/individual-providers-and-specialties/lactation-consultants/coverage.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-01"
+    },
+    {
+      "id": "ok-oac-317-30-5-233",
+      "title": "317:30-5-233. Limitations (Part 20. Lactation Consultants)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/policies-and-rules/xpolicy/medical-providers-fee-for-service/individual-providers-and-specialties/lactation-consultants/limitations.html",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-01"
+    },
+    {
+      "id": "ok-ohca-lc-provider-page",
+      "title": "Lactation Consultants (provider types, prenatal and perinatal services)",
+      "publisher": "Oklahoma Health Care Authority",
+      "url": "https://oklahoma.gov/ohca/providers/types/prenatal-and-perinatal-services/lactation-consultants.html",
+      "accessed": "2026-10-09",
+      "docDate": "2024-10-10"
+    },
+    {
+      "id": "or-herc-prioritized-list-2026-10",
+      "title": "October 1, 2026 Prioritized List of Health Services (Guideline Note 140, Breastfeeding Support and Supplies)",
+      "publisher": "Oregon Health Authority, Health Evidence Review Commission",
+      "url": "https://www.oregon.gov/oha/HPA/DSI-HERC/PrioritizedList/10-1-2026%20Prioritized%20List%20of%20Health%20Services.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "or-ohp-fee-schedule-0926",
+      "title": "OHP fee-for-service fee schedule (fee-schedule0926.csv)",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/fee-schedule0926.csv",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "or-oha-lc-spa-notice-2020",
+      "title": "Request for comment: OHA proposes to amend the Medicaid State Plan to include lactation consultants as a provider type for Medicaid services",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/Announcements/Request%20for%20Comment%20-%20Adding%20lactation%20consultants%20to%20Medicaid%20State%20Plan%20-%20Comments%20due%20April%2016,%202020.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2020-03-18"
+    },
+    {
+      "id": "or-oha-active-ffs-providers-2026",
+      "title": "Active FFS Providers (provider enrollment file)",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/HSD/OHP/DataReportsDocs/Active%20FFS%20Providers.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "pa-healthchoices-ph-agreement-2024",
+      "title": "HealthChoices Physical Health Agreement effective January 1, 2024 (including exhibits and non-financial appendices)",
+      "publisher": "Pennsylvania Department of Human Services",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/providers/documents/managed-care-information/2024-HealthChoices-Agreement-Including-Exhibits-and-Non-financial-Appendices.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-01-01"
+    },
+    {
+      "id": "pa-acpa-member-handbook-2026",
+      "title": "AmeriHealth Caritas Pennsylvania 2026 Member Handbook",
+      "publisher": "AmeriHealth Caritas Pennsylvania",
+      "url": "https://www.amerihealthcaritaspa.com/content/dam/amerihealth-caritas/acpa/pdf/member/handbook/english.pdf.coredownload.inline.pdf",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "pa-dhs-ma-fee-schedule-page",
+      "title": "MA Fee Schedule",
+      "publisher": "Pennsylvania Department of Human Services",
+      "url": "https://www.pa.gov/agencies/dhs/resources/for-providers/ma-for-providers/ma-fee-schedule",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ri-nhpri-medicaid-handbook-2025",
+      "title": "Neighborhood Health Plan of Rhode Island Medicaid Member Handbook 2025-2026",
+      "publisher": "Neighborhood Health Plan of Rhode Island",
+      "url": "https://www.nhpri.org/blobnhpri08e0944faa/wp-content/uploads/2026/02/NHP_MedicaidModelHandbook_ENG_2025_DIGITAL.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025"
+    },
+    {
+      "id": "ri-uhc-member-handbook-2026",
+      "title": "UnitedHealthcare Community Plan Rhode Island Medicaid Member Handbook",
+      "publisher": "UnitedHealthcare Community Plan of Rhode Island",
+      "url": "https://www.uhc.com/communityplan/assets/plandocuments/handbook/en/RI-MemHandbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "ri-tufts-ritogether-handbook-2026",
+      "title": "Tufts Health RITogether Member Handbook 2026",
+      "publisher": "Tufts Health Plan (Point32Health)",
+      "url": "https://wwwassets.tuftshealthplan.com/documents/members/handbooks/ritogether-member-handbook-v1",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "ri-nhpri-ob-payment-policy-2026",
+      "title": "Obstetrical Services Payment Policy",
+      "publisher": "Neighborhood Health Plan of Rhode Island",
+      "url": "https://www.nhpri.org/blobnhpri08e0944faa/wp-content/uploads/2026/05/Obstetrical-Services-Payment-Policy-01.01.26.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01-01"
+    },
+    {
+      "id": "ri-nhpri-womens-health-page",
+      "title": "Bright Start: Women's Health (Know Your Benefits)",
+      "publisher": "Neighborhood Health Plan of Rhode Island",
+      "url": "https://www.nhpri.org/your-health/programs/bright-start/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ri-h8175-2026",
+      "title": "2026 H 8175: Relating to Human Services -- Medical Assistance (licensed certified lactation counselor Medicaid coverage)",
+      "publisher": "Rhode Island General Assembly",
+      "url": "https://webserver.rilegislature.gov/BillText26/HouseText26/H8175.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2026-02-27"
+    },
+    {
+      "id": "ri-h8175-testimony-kidscount-2026",
+      "title": "Testimony Re: H-8175, Medicaid coverage for Certified Lactation Counselors",
+      "publisher": "Rhode Island KIDS COUNT",
+      "url": "https://www.rilegislature.gov/Special/comdoc/House%20Finance%202026/05-05-2026--H8175--Michaela_Carroll(RI%20Kids%20Count)--FIN.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-05-05"
+    },
+    {
+      "id": "sc-firstchoice-extra-benefits",
+      "title": "Extra benefits and services (value-added benefits) (member web page)",
+      "publisher": "First Choice by Select Health of South Carolina",
+      "url": "https://www.selecthealthofsc.com/member/benefits/extra-benefits",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "sc-s42-bill-2025",
+      "title": "2025-2026 Bill 42: Insurance coverage for lactation services and doula services",
+      "publisher": "South Carolina Legislature",
+      "url": "https://scstatehouse.gov/sess126_2025-2026/bills/42.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2025-01-14"
+    },
+    {
+      "id": "sc-atc-handbook-2026",
+      "title": "Absolute Total Care Member Handbook (Revision Date: July 2026)",
+      "publisher": "Absolute Total Care",
+      "url": "https://www.absolutetotalcare.com/content/dam/centene/absolute-total-care/2026-assets/ATC-09012022-M-1.7.1-WM-A__(Absolute%20Total%20Care%20Member%20Handbook)_508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "sc-healthyblue-handbook-2026",
+      "title": "Healthy Blue Member Handbook 2026 (Effective July 1, 2026)",
+      "publisher": "Healthy Blue by BlueChoice HealthPlan of South Carolina",
+      "url": "https://www.healthybluesc.com/sites/default/files/PDFs/Member%20Handbook/Healthy%20Blue%20Member%20Handbook.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "sc-humana-handbook-2026",
+      "title": "Humana Healthy Horizons in South Carolina Member Handbook 2026",
+      "publisher": "Humana Healthy Horizons in South Carolina",
+      "url": "https://assets.humana.com/is/content/humana/SC%202026%20Member%20Handbook%20-%20englishpdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026"
+    },
+    {
+      "id": "sc-molina-handbook-2026",
+      "title": "Molina Healthcare of South Carolina Medicaid Member Handbook 2026 (Revised October 2026)",
+      "publisher": "Molina Healthcare of South Carolina",
+      "url": "https://www.molinahealthcare.com/-/media/Project/PWS/Healthcare/PDF/PDF/Medicaid/SC/Materials/English/MEDICAID-SC-MEMBER-HANDBOOK-EN-508.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10"
+    },
+    {
+      "id": "sd-obstetrical-manual-2026-09",
+      "title": "South Dakota Medicaid Billing and Policy Manual: Obstetrical Services (updated September 2026)",
+      "publisher": "South Dakota Department of Social Services",
+      "url": "https://dss.sd.gov/docs/medicaid/providers/billingmanuals/Professional/Obstetrical_Services.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09"
+    },
+    {
+      "id": "tn-tenncare-lactation-benefit-update-2024",
+      "title": "Lactation Consultation Benefit Update (webinar slides, updated 7/24/2024)",
+      "publisher": "TennCare (Tennessee Division of TennCare)",
+      "url": "https://www.tn.gov/content/dam/tn/tenncare/documents/LactationConsultationBenefitUpdate.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2024-07-24"
+    },
+    {
+      "id": "tn-tenncare-lactation-providers-page",
+      "title": "Lactation Providers",
+      "publisher": "TennCare (Tennessee Division of TennCare)",
+      "url": "https://www.tn.gov/tenncare/providers/programs-and-facilities/maternal-health/lactation-providers.html",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "tn-bluecare-lactation-faq-2023",
+      "title": "Frequently Asked Questions for Providers: Lactation Consultant Benefits",
+      "publisher": "BlueCare Tennessee (BlueCross BlueShield of Tennessee)",
+      "url": "https://content.bcbst.com/api/public/content/lactation_consultant_benefits_faqs.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2023-12-06"
+    },
+    {
+      "id": "tx-hb136-enrolled-2025",
+      "title": "H.B. No. 136 (89th Legislature, Regular Session), Enrolled: relating to Medicaid coverage and reimbursement for lactation consultation services",
+      "publisher": "Texas Legislature",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00136F.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2025-05-08"
+    },
+    {
+      "id": "tx-hb136-fiscal-note-2025",
+      "title": "Fiscal Note, 89th Legislative Regular Session, H.B. 136",
+      "publisher": "Texas Legislative Budget Board",
+      "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/HB00136I.htm",
+      "accessed": "2026-10-09",
+      "docDate": "2025"
+    },
+    {
+      "id": "tx-texreg-2026-09-11-rate-notice",
+      "title": "Texas Register Vol. 51 No. 37 (September 11, 2026): HHSC Notice of Provider Engagement Meetings for Medicaid Payment Rates",
+      "publisher": "Texas Secretary of State (Texas Register)",
+      "url": "https://www.sos.texas.gov/texreg/pdf/backview/0911/0911is.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-11"
+    },
+    {
+      "id": "tx-tmppm-2026-10-gyn-ob-fp",
+      "title": "Texas Medicaid Provider Procedures Manual: Gynecological, Obstetrics, and Family Planning Title XIX Services Handbook (October 2026)",
+      "publisher": "Texas Medicaid & Healthcare Partnership (TMHP) for Texas Health and Human Services Commission",
+      "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-10-october/2_07_gyne_and_repro_health_srvs.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10"
+    },
+    {
+      "id": "tx-texanscare-lactation-comments-2026",
+      "title": "Comments on Proposed Rules for Medicaid Lactation Consultation Services (secondary source)",
+      "publisher": "Texans Care for Children",
+      "url": "https://txchildren.org/wp-content/uploads/2026/07/Lactation-Proposed-Rule-Comments.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-27"
+    },
+    {
+      "id": "ut-fee-schedule-2026-10-09",
+      "title": "Utah Medicaid Coverage and Reimbursement Fee Schedule Download (Traditional plan, date of service 10/9/2026)",
+      "publisher": "Utah Department of Health and Human Services, Bureau of Coverage and Reimbursement Policy",
+      "url": "https://health.utah.gov/stplan/lookup/FeeScheduleDownload.php",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-09"
+    },
+    {
+      "id": "ut-womens-services-manual-2026-07",
+      "title": "Utah Medicaid Provider Manual: Women's Services and Family Planning (Updated July 2026)",
+      "publisher": "Utah Department of Health and Human Services, Division of Integrated Healthcare",
+      "url": "https://medicaid-documents.dhhs.utah.gov/Documents%2Fmanuals%2Fpdfs%2FMedicaid+Provider+Manuals%2FWomens+Services+And+Family+Planning%2FWomensServicesFamilyPlanning7-26.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07"
+    },
+    {
+      "id": "vt-general-billing-forms-manual-2026-10",
+      "title": "Vermont Medicaid General Billing and Forms Manual (2026-10-01)",
+      "publisher": "Department of Vermont Health Access / Gainwell Technologies (Vermont Medicaid Portal)",
+      "url": "https://vtmedicaid.com/assets/manuals/GeneralBillingFormsManual.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "vt-fee-schedule-2026-10-09",
+      "title": "Vermont Medicaid Portal Fee Schedule lookups (E0602, E0603, E0604, S9443) and code definitions",
+      "publisher": "Department of Vermont Health Access / Gainwell Technologies (Vermont Medicaid Portal)",
+      "url": "https://vtmedicaid.com/#/feeSchedule",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-02"
+    },
+    {
+      "id": "va-dmas-breastfeeding-fact-sheet-2015",
+      "title": "Breast Pumps and Lactation Consultation Services Provider Fact Sheet (RVSD12032015)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://www.dmas.virginia.gov/media/2130/breastfeeding-support-coverage-for-providers.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2015-12-03"
+    },
+    {
+      "id": "va-dmas-dme-manual-ch4-2025-12",
+      "title": "Provider Manual: Durable Medical Equipment, Prosthetics, Orthotics and Supplies, Chapter IV: Covered Services and Limitations (Revision 12/5/2025)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://vamedicaid.dmas.virginia.gov/sites/default/files/2025-12/DME%20Chapter%20IV%20%28updated%2012.5.25%29_Final.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2025-12-05"
+    },
+    {
+      "id": "va-dmas-hcpcs-fee-file-2026-10",
+      "title": "DMAS Procedure Fee File: HCPC Medical (CSV)",
+      "publisher": "Virginia Department of Medical Assistance Services",
+      "url": "https://www.dmas.virginia.gov/media/cptcodes/hcpcmedical.csv",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wa-hca-mss-icm-bg-2026-07",
+      "title": "Maternity Support Services and Infant Case Management Billing Guide (July 1, 2026)",
+      "publisher": "Washington State Health Care Authority",
+      "url": "https://www.hca.wa.gov/assets/billers-and-providers/MSS-ICM-bg-20260701.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-07-01"
+    },
+    {
+      "id": "wa-hca-physician-fee-schedule-2026-10",
+      "title": "Physician-Related Services/Professional Healthcare Services Fee Schedule (Effective October 1, 2026)",
+      "publisher": "Washington State Health Care Authority",
+      "url": "https://www.hca.wa.gov/assets/billers-and-providers/physician-20261001.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wv-rbrvs-fee-schedule-2026",
+      "title": "WV Bureau for Medical Services 2026 Physician Fee Schedule (RBRVS), Rates Effective 04/01/26 - 03/31/27",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/41458/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2026-04-01"
+    },
+    {
+      "id": "wv-wellpoint-pregnancy-page",
+      "title": "Pregnancy and Women's Health (Wellpoint of West Virginia Medicaid)",
+      "publisher": "Wellpoint of West Virginia",
+      "url": "https://www.wellpoint.com/wv/medicaid/pregnancy-and-womens-health",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wv-bms-519-19-womens-health",
+      "title": "BMS Provider Manual Policy 519.19 Women's Health Services",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/40123/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2022-09-13"
+    },
+    {
+      "id": "wv-bms-ch527-managed-care",
+      "title": "BMS Provider Manual Chapter 527 Mountain Health Trust (Managed Care)",
+      "publisher": "West Virginia Department of Human Services, Bureau for Medical Services",
+      "url": "https://bms.wv.gov/media/40937/download?inline",
+      "accessed": "2026-10-09",
+      "docDate": "2020-11-01"
+    },
+    {
+      "id": "wi-pncc-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Prenatal Care Coordination (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/PNCC100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wi-physician-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Physician (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/Physician100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wi-fqhc-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Federally Qualified Health Center (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/FQHC100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wi-chc-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Community Health Center (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/CHC100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wi-homehealth-handbook-2026-10",
+      "title": "ForwardHealth Online Handbook Archive: Home Health (Published Policy Through September 30, 2026)",
+      "publisher": "Wisconsin Department of Health Services, ForwardHealth",
+      "url": "https://www.forwardhealth.wi.gov/kw/archive/HomeHealth100126.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wy-fee-schedule-2026-10",
+      "title": "Wyoming Medicaid Downloadable Fee Schedule (FeeSchedule.xlsx, run date 2026-10-01)",
+      "publisher": "Wyoming Department of Health, Wyoming Medicaid",
+      "url": "https://wyomingmedicaid.com/portal/sites/default/files/inline-files/Fee_Schedules/FeeSchedule.xlsx",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "wy-your-healthy-pregnancy",
+      "title": "Your Healthy Pregnancy",
+      "publisher": "Wyoming Department of Health, Wyoming Medicaid",
+      "url": "https://health.wyo.gov/healthcarefin/medicaid/wyoming-medicaid-health-management/your-healthy-pregnancy/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "wy-cms1500-manual-2026-10",
+      "title": "WY BMS CMS-1500 Provider Manual, Version 20.0",
+      "publisher": "Wyoming Department of Health (prepared by Acentra Health)",
+      "url": "https://wyomingmedicaid.com/portal/References/latestproviderfiles/BMS_Acentra%20Health_CMS-1500%20Provider%20Manual_N_2026.10.01_v20.0.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "hrsa-wpsg",
+      "title": "Women's Preventive Services Guidelines",
+      "publisher": "Health Resources and Services Administration (HRSA), U.S. Department of Health and Human Services",
+      "url": "https://www.hrsa.gov/womens-guidelines",
+      "accessed": "2026-10-09",
+      "docDate": "2026-01"
+    },
+    {
+      "id": "ecfr-45-cfr-147-130",
+      "title": "45 CFR 147.130, Coverage of preventive health services",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.130",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "healthcare-gov-breastfeeding",
+      "title": "Breastfeeding benefits",
+      "publisher": "HealthCare.gov (Centers for Medicare & Medicaid Services)",
+      "url": "https://www.healthcare.gov/coverage/breast-feeding-benefits/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "dol-aca-faq-part-xii-2013",
+      "title": "FAQs About Affordable Care Act Implementation (Part XII)",
+      "publisher": "U.S. Departments of Labor, Health and Human Services, and the Treasury",
+      "url": "https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/faqs/aca-part-xii.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2013-02-20"
+    },
+    {
+      "id": "dol-aca-faq-part-xxix-2015",
+      "title": "FAQs About Affordable Care Act Implementation (Part XXIX) and Mental Health Parity Implementation",
+      "publisher": "U.S. Departments of Labor, Health and Human Services, and the Treasury",
+      "url": "https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/faqs/aca-part-xxix.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2015-10-23"
+    },
+    {
+      "id": "ecfr-45-cfr-147-140",
+      "title": "45 CFR 147.140, Preservation of right to maintain existing coverage (grandfathered health plans)",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.140",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "healthcare-gov-grandfathered",
+      "title": "Grandfathered health insurance plans",
+      "publisher": "HealthCare.gov (Centers for Medicare & Medicaid Services)",
+      "url": "https://www.healthcare.gov/health-care-law-protections/grandfathered-plans/",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ecfr-42-cfr-440-347",
+      "title": "42 CFR 440.347, Essential health benefits (Medicaid Alternative Benefit Plans)",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-440/subpart-C/section-440.347",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "ecfr-45-cfr-156-115",
+      "title": "45 CFR 156.115, Provision of EHB",
+      "publisher": "Electronic Code of Federal Regulations (Office of the Federal Register)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-156/subpart-B/section-156.115",
+      "accessed": "2026-10-09",
+      "docDate": null
+    },
+    {
+      "id": "tricare-breastfeeding-counseling",
+      "title": "Breastfeeding Counseling",
+      "publisher": "TRICARE (Defense Health Agency)",
+      "url": "https://www.tricare.mil/CoveredServices/IsItCovered/BreastfeedingCounseling",
+      "accessed": "2026-10-09",
+      "docDate": "2026-10-01"
+    },
+    {
+      "id": "tricare-cbsd",
+      "title": "Childbirth and Breastfeeding Support Demonstration",
+      "publisher": "TRICARE (Defense Health Agency)",
+      "url": "https://www.tricare.mil/CBSD",
+      "accessed": "2026-10-09",
+      "docDate": "2026-09-21"
+    },
+    {
+      "id": "usda-wic-breastfeeding-priority",
+      "title": "Breastfeeding Is a Priority in the WIC Program",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/breastfeeding",
+      "accessed": "2026-10-09",
+      "docDate": "2026-05-19"
+    },
+    {
+      "id": "usda-wic-breastfeeding-policy-2016",
+      "title": "WIC Breastfeeding Policy and Guidance (Section 5.6, Breast Pumps)",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://fns-prod.azureedge.us/sites/default/files/wic/WIC-Breastfeeding-Policy-and-Guidance.pdf",
+      "accessed": "2026-10-09",
+      "docDate": "2016-07"
+    }
+  ],
+  "national": {
+    "acaPreventiveRequirement": {
+      "text": "Most private health plans (job-based and Marketplace plans that aren't grandfathered) must cover lactation support with no copay, coinsurance or deductible. HRSA's Women's Preventive Services Guidelines call for comprehensive lactation support services, including consultation, counseling, education by clinicians and peer support services, and breastfeeding equipment and supplies, during pregnancy, around birth and after birth. Section 2713 of the Public Health Service Act and 45 CFR 147.130 make HRSA's women's guidelines a coverage requirement.",
+      "sourceIds": [
+        "hrsa-wpsg",
+        "ecfr-45-cfr-147-130",
+        "healthcare-gov-breastfeeding"
+      ]
+    },
+    "durationOfCoverage": {
+      "text": "Coverage of lactation support and counseling extends for the duration of breastfeeding. Plans may use reasonable medical management to decide frequency, method, treatment or setting where the guidelines don't specify, but limiting lactation counseling to hospital stays is not a reasonable medical management technique.",
+      "sourceIds": [
+        "dol-aca-faq-part-xii-2013",
+        "dol-aca-faq-part-xxix-2015"
+      ]
+    },
+    "networkGapException": {
+      "text": "If a plan's network has no provider who can give lactation counseling, the plan must cover lactation counseling from an out-of-network provider with no cost sharing. Plans must also make a list of network lactation counseling providers available.",
+      "sourceIds": [
+        "dol-aca-faq-part-xii-2013",
+        "dol-aca-faq-part-xxix-2015"
+      ]
+    },
+    "whoCanProvide": {
+      "text": "Where a state doesn't license lactation consultants, plans must still cover lactation counseling, subject to reasonable medical management, when it's given by any provider acting within the scope of their license or certification under state law (for example, a registered nurse). Federal rules don't set how lactation consultants are paid; the Departments said reimbursement policy is outside the scope of the guidelines and regulations.",
+      "sourceIds": [
+        "dol-aca-faq-part-xxix-2015",
+        "dol-aca-faq-part-xii-2013"
+      ]
+    },
+    "grandfatheredPlans": {
+      "text": "Grandfathered plans (generally individual policies bought on or before March 23, 2010, and job-based plans that haven't changed substantially since then) don't have to follow the preventive services requirement, including free lactation support. Some offer it anyway, so members should check their plan.",
+      "sourceIds": [
+        "ecfr-45-cfr-147-140",
+        "healthcare-gov-grandfathered"
+      ]
+    },
+    "medicaidExpansionAdults": {
+      "text": "Adults covered through the ACA Medicaid expansion get an Alternative Benefit Plan, which must include essential health benefits, and essential health benefits must include the preventive services in 45 CFR 147.130. KFF notes that states must cover breast pumps and lactation consultation for expansion enrollees under the ACA's preventive services requirement, and that non-expansion states have no federal requirement to cover breastfeeding services.",
+      "sourceIds": [
+        "ecfr-42-cfr-440-347",
+        "ecfr-45-cfr-156-115",
+        "kff-2021-medicaid-pregnancy-survey"
+      ]
+    },
+    "kff2021Survey": {
+      "asOf": "2021-07-01",
+      "respondingJurisdictions": 42,
+      "nonResponding": [
+        "AR",
+        "GA",
+        "KY",
+        "MN",
+        "NE",
+        "NH",
+        "NM",
+        "OH",
+        "SD"
+      ],
+      "coveredInpatient": 30,
+      "coveredOutpatient": 27,
+      "coveredHomeVisit": 20,
+      "allBreastfeedingSupports": 15,
+      "noLactationOrEducationCoverage": [
+        "AZ",
+        "FL",
+        "LA",
+        "MS",
+        "ND",
+        "RI",
+        "TN",
+        "TX"
+      ],
+      "text": "KFF's last state survey (41 states and DC responding, coverage as of July 1, 2021) found 30 covered lactation consultation in the hospital, 27 in outpatient or clinic settings and 20 as home visits. Eight states (AZ, FL, LA, MS, ND, RI, TN, TX) reported no coverage of breastfeeding education or lactation consultation, and 15 reported covering every breastfeeding support KFF asked about. These are state self-reports, and nine states did not respond.",
+      "sourceIds": [
+        "kff-2021-medicaid-pregnancy-survey"
+      ]
+    },
+    "medicaidPaymentApproach": {
+      "text": "Medicaid often pays for lactation help inside other payments rather than as its own service. In KFF's 2021 survey, 23 states that covered hospital lactation consultation paid for it as part of the hospital DRG or global maternity fee and four paid separately; for outpatient lactation consultation, 13 states paid separately and 11 included it in an office visit. Some states also fold breastfeeding education into the global maternity fee. In this tracker, help that is only part of a hospital stay or a routine prenatal, postpartum or well-child visit isn't counted as a separate benefit.",
+      "sourceIds": [
+        "kff-2021-medicaid-pregnancy-survey"
+      ]
+    },
+    "tricare": {
+      "text": "TRICARE covers up to six individual outpatient breastfeeding counseling sessions per birth event from an authorized doctor, physician assistant, nurse practitioner, nurse midwife or registered nurse, in a clinic, provider office or outpatient hospital, or by virtual health. Non-medical lactation consultants and counselors are covered for TRICARE Prime, Prime Remote and Select members through the Childbirth and Breastfeeding Support Demonstration, which runs from January 1, 2022 to December 31, 2031.",
+      "sourceIds": [
+        "tricare-breastfeeding-counseling",
+        "tricare-cbsd"
+      ]
+    },
+    "wic": {
+      "text": "WIC offers breastfeeding support at no cost, including counseling and educational materials from trained staff. USDA's national breastfeeding peer counseling program trains peer counselors, recruited from WIC participants, to support WIC mothers in clinics, homes and hospitals.",
+      "sourceIds": [
+        "usda-wic-breastfeeding-priority",
+        "usda-wic-breastfeeding-policy-2016"
+      ]
+    }
+  },
+  "states": {
+    "AL": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Alabama's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://medicaid.alabama.gov/content/11.0_Recipient/",
+      "kff2021": {
+        "education": false,
+        "inpatient": true,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "al-covered-services-handbook-2026",
+        "al-maternity-services-page",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No current primary source describes a lactation consultation benefit. We checked the Alabama Medicaid Covered Services Handbook (10-8-26), the Maternity Services page, 2026 provider ALERTs and Alabama Administrative Code chapters 560-X-1, -6, -7, -11, -13, -21, -37, -45, -48, -49, -50 and -55; none mention lactation services. Alabama's provider billing manuals and full fee schedules can only be opened after accepting a CPT license, so they weren't reviewed. KFF's 2021 survey reported Alabama covered lactation consultation only in the hospital."
+    },
+    "AK": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Alaska's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://health.alaska.gov/media/ux4ds44w/ada-compliant-2025-medicaid-recipient-handbook.pdf",
+      "kff2021": {
+        "education": true,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No lactation benefit found. We checked the Alaska Medicaid billing manuals (Physician, Direct Entry Midwife, Nutrition, Free-Standing Birth Center, DME), the SFY2027 fee schedules (no S9443 or other lactation code), the 2025 Recipient Handbook, 305 Alaska Medicaid provider messages and announcements from 2023 to 2026, and regulations 7 AAC 105, 110 and 145. None mention lactation consultation. KFF's 2021 survey reported Alaska did not cover lactation consultation in any setting."
+    },
+    "AZ": {
+      "status": "limited",
+      "summary": "In Arizona, AHCCCS doesn't pay for lactation consultant visits as their own service, but maternity care providers must offer breastfeeding education and refer members to free support.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.azahcccs.gov/Members/AlreadyCovered/CoveredServices.html",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "az-ampm-410",
+        "az-hb2051-senate-fact-sheet-2026",
+        "az-hb2051-bill-status-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "AHCCCS requires maternity care contractors to give breastfeeding education and refer members to free support such as the ADHS Breastfeeding Hotline and WIC, but no separately payable lactation consultation service was found (no S9443 on the FY2027 physician fee schedule). HB2051 (2026), which would have required contractors to cover lactation consultations, passed the House but was held in the Senate."
+    },
+    "AR": {
+      "status": "covered",
+      "summary": "In Arkansas, Medicaid pays for up to three lactation consultant visits per pregnancy (and three for the baby), and IBCLCs can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC",
+        "certified lactation counselor",
+        "certified breastfeeding counselor",
+        "certified nurse-midwife"
+      ],
+      "settings": [
+        "outpatient",
+        "home",
+        "telehealth",
+        "clinic"
+      ],
+      "visitLimits": "Up to 3 visits per pregnancy for the pregnant or postpartum member and up to 3 visits for the infant (12 months or younger); no prior authorization; extensions possible",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2026-09-01",
+      "memberInfoUrl": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/",
+      "kff2021": null,
+      "sourceIds": [
+        "ar-manual-smc-ii-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "New Supportive Maternal Care manual (sections dated 9-1-26) implements Act 627 of 2025. IBCLCs enroll as their own Medicaid providers; CLCs and Certified Breastfeeding Counselors must be employed by an enrolled IBCLC-led agency, physician, APRN, PA, local health unit or hospital, and employing providers may bill. A statewide standing recommendation covers the required referral, and services inside an inpatient stay are not separately billable."
+    },
+    "CA": {
+      "status": "covered",
+      "summary": "In California, Medi-Cal pays for medically necessary lactation visits with no set limit, billed by a supervising licensed provider because lactation consultants can't enroll on their own.",
+      "billableProviders": [
+        "physician",
+        "certified nurse-midwife",
+        "nurse practitioner",
+        "licensed midwife"
+      ],
+      "settings": [
+        "home",
+        "telehealth",
+        "clinic"
+      ],
+      "visitLimits": "No limit on medically necessary lactation visits during pregnancy and through 12 months postpartum (managed care plans); no prior authorization or referral",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.healthcareoptions.dhcs.ca.gov/en/medi-cal-benefits",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ca-dhcs-apl26-005",
+        "ca-mcal-pregpost",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Medi-Cal covers lactation consultant services, but IBCLCs and CLCs cannot enroll; a supervising licensed provider or clinic bills their services as a physician E/M visit. APL 26-005 (March 2026) bars managed care plans from requiring prior authorization or referrals and sets no cap on medically necessary lactation visits, in person, at home or by telehealth."
+    },
+    "CO": {
+      "status": "covered",
+      "summary": "In Colorado, Medicaid pays for lactation support visits with no visit limits, and IBCLCs can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC",
+        "certified lactation counselor",
+        "certified lactation educator",
+        "physician",
+        "certified nurse-midwife",
+        "certified midwife",
+        "advanced practice nurse"
+      ],
+      "settings": [
+        "outpatient",
+        "home",
+        "telehealth",
+        "clinic",
+        "FQHC/RHC"
+      ],
+      "visitLimits": "No amount, duration or scope limitations; no prior authorization",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2024-12-01",
+      "memberInfoUrl": "https://www.healthfirstcolorado.gov/benefits-services/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "co-lactserv-manual",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Lactation Support Services (HCPCS S9443 with time modifiers) began December 1, 2024 under HB22-1289 and are billed fee-for-service to the state even for managed care members. IBCLCs enroll as provider type 70 and may bill directly; CLCs and CLEs must work under supervision and bill through an enrolled group. A recommendation from a licensed practitioner is required, and services during the delivery inpatient stay are part of the hospital payment."
+    },
+    "CT": {
+      "status": "limited",
+      "summary": "In Connecticut, HUSKY Health pays for lactation support only as a small add-on inside its maternity bundle, and providers can choose whether to offer it.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.huskyhealthct.org/members/members_benefits.html",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ct-maternity-bundle-spec-2025",
+        "ct-maternity-bundle-faq-2026",
+        "ct-hb-6934-2025-status",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "HUSKY Health funds lactation supports only through a $7 add-on inside the HUSKY Maternity Bundle case rate paid to participating Accountable Providers (program launched January 1, 2025); providers may choose whether to offer them, and no separately billable lactation consultant service or provider type was found in the CT Medical Assistance Program bulletins. KFF's 2021 survey reported Connecticut covered outpatient and home lactation consultation; current DSS documents show only the bundled support. 2025 bills to cover IBCLC services (HB 6934, HB 6102) did not advance past referral to the Human Services Committee."
+    },
+    "DE": {
+      "status": "covered",
+      "summary": "In Delaware, Medicaid pays for up to five lactation counseling sessions per child from licensed clinicians who also hold IBCLC or CLC certification.",
+      "billableProviders": [
+        "physician",
+        "nurse practitioner",
+        "physician assistant",
+        "nurse-midwife",
+        "registered nurse"
+      ],
+      "settings": [
+        "outpatient",
+        "telehealth"
+      ],
+      "visitLimits": "Limit of five counseling sessions per child; each session unit limited to 90 minutes; may be exceeded based on medical necessity",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://dhss.delaware.gov/dmma/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "de-practitioner-manual-2026",
+        "de-dmap-bulletin-2026q1",
+        "de-reg-28-795-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Delaware Medicaid added a Lactation Counseling Services policy to its Practitioner manual (revision dated 03/17/2026) and announced it in its first-quarter 2026 provider bulletin. Counseling must be given by a licensed physician, nurse practitioner, physician assistant, nurse midwife or registered nurse who also holds CLC or IBCLC certification, so an IBCLC without one of those licenses can't enroll on that basis. Sessions last at least 30 minutes, in person or by telehealth, and no prior authorization is required. A May 2025 state notice said Delaware Medicaid then covered lactation counseling only during an inpatient stay. Members in managed care get practitioner services through their plan."
+    },
+    "DC": {
+      "status": "covered",
+      "summary": "In DC, Medicaid pays for up to four lactation consultant visits in the 120 days after delivery, and board-certified lactation consultants can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [],
+      "visitLimits": "Up to 4 units (15 minutes each) per visit and 4 visits (16 units) within 120 days after delivery",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2019-01-01",
+      "memberInfoUrl": "https://dhcf.dc.gov/service/medicaid",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "dc-transmittal-19-20",
+        "dc-transmittal-14-21",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "DHCF Transmittal 19-20 (September 2019) lets board certified lactation consultants enroll with DC Medicaid and bill S9443 at $15.63 per 15-minute unit as a pregnancy-related service. No later DHCF transmittal changing this was found in the 2020-2026 transmittal listings. The underlying 2014 policy (Transmittal 14-21) is posted only as a scanned image, so its settings language could not be quoted."
+    },
+    "FL": {
+      "status": "limited",
+      "summary": "In Florida, Medicaid doesn't pay for lactation consultant visits, but three managed care plans offer virtual lactation support as an extra benefit.",
+      "billableProviders": [],
+      "settings": [
+        "telehealth"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://ahca.myflorida.com/medicaid/medicaid-policy-quality-and-operations/medicaid-operations/recipient-services.html",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "fl-smmc-expanded-benefits-grid-2025",
+        "fl-smmc-attachment-i-2026-07",
+        "fl-practitioner-fee-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Lactation support is offered only as an SMMC expanded (value-added) benefit, \"Virtual Pregnancy and Lactation Support\", which the AHCA expanded benefits grid (effective 2/1/2025) marks for Community Care Plan, Humana Medical Plan and UnitedHealthcare; the plan assignments are read from the grid's checkmark columns. No lactation-specific code (S9443) appears in the 2026 Practitioner Fee Schedule and no lactation service was found in the FFS coverage policies. This matches KFF's 2021 report of no lactation consultant coverage."
+    },
+    "GA": {
+      "status": "covered",
+      "summary": "In Georgia, Medicaid pays for up to five lactation consultant visits per pregnancy, and IBCLCs can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [
+        "telehealth"
+      ],
+      "visitLimits": "Maximum of five lactation consultation visits per pregnancy; each visit up to 60 minutes; one visit per date of service",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2022-07-01",
+      "memberInfoUrl": "https://medicaid.georgia.gov/",
+      "kff2021": null,
+      "sourceIds": [
+        "ga-physician-manual-2026q4",
+        "ga-dch-lc-provider-type-2022",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Georgia Medicaid has paid IBCLCs for lactation consultations since July 1, 2022, billed with S9443 or S9445 on the mother's ID, during the 365-day postpartum period, with no prior approval. DCH enrolled lactation consultants as a new provider type in August 2022 (they must meet the Georgia Lactation Consultants Practice Act). Since April 1, 2026, follow-up visits may be by video or audio-only telehealth after an initial face-to-face visit. KFF's 2021 survey had no Georgia response."
+    },
+    "HI": {
+      "status": "covered",
+      "summary": "In Hawaii, the Med-QUEST health plans we checked list lactation counseling as a covered pregnancy benefit.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://medquest.hawaii.gov/content/medquest/en/members-applicants/quest-integration-coverage/medical-benefits.html",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "hi-hmsa-quest-handbook-2026",
+        "hi-uhc-quest-handbook-2026",
+        "hi-alohacare-quest-handbook-2026",
+        "hi-kp-quest-handbook-2023",
+        "hi-medicaid-fee-schedule-20260601",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Four of the five QUEST Integration plans list lactation or breastfeeding support as a covered pregnancy-related benefit: HMSA and UnitedHealthcare (at least six months), Kaiser Permanente (up to six months, extendable with prior approval, 2023 handbook) and AlohaCare; the 'Ohana Health Plan handbook was not checked. These handbooks do not say which provider types may bill or which codes are used, and no Med-QUEST memo on lactation was found; S9443 is not on the June 2026 FFS fee schedule. Status rests on plan member handbooks, not a state policy document."
+    },
+    "ID": {
+      "status": "covered",
+      "summary": "In Idaho, Medicaid pays for one lactation session before delivery and two in the first month after, and certified lactation consultants can enroll and bill directly.",
+      "billableProviders": [
+        "certified lactation consultant",
+        "registered nurse certified lactation consultant",
+        "physician",
+        "certified nurse-midwife",
+        "clinical nurse specialist",
+        "nurse practitioner",
+        "pharmacist",
+        "physician assistant"
+      ],
+      "settings": [],
+      "visitLimits": "One initial antepartum session within two weeks of the expected delivery date and two postpartum visits within the first month after delivery",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "id-handbook-medical-services-2025",
+        "id-medicaide-2025-05",
+        "id-handbook-provider-types-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Idaho Medicaid pays separately for individual (CPT 99401-99404) and group (HCPCS S9443) lactation counseling, billed with diagnosis Z39.1, on top of the global obstetric fee; RN certified lactation consultants and other licensed practitioners can bill office visit codes for complex cases. Since May 2025, certified lactation consultants and RN certified lactation consultants can enroll and bill directly (Idaho's provider type is \"Certified Lactation Consultant\"; the handbook doesn't name a specific credential). Coverage is one session in the two weeks before the due date and two visits in the first month after delivery."
+    },
+    "IL": {
+      "status": "covered",
+      "summary": "In Illinois, Medicaid pays for lactation consultant services, and IBCLCs, certified lactation counselors and certified lactation specialists can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC",
+        "certified lactation counselor",
+        "certified lactation specialist"
+      ],
+      "settings": [
+        "telehealth",
+        "FQHC/RHC"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2024-01-01",
+      "memberInfoUrl": "https://hfs.illinois.gov/medicalclients/medicaidguide/plansandbenefits.html",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "il-hfs-prn241219c",
+        "il-hfs-lactation-fee-schedule-2024",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Under Public Act 102-0665, HFS covers lactation consultant services (S9443, billed in 15-minute units) in fee-for-service and all MCOs, effective January 1, 2024. IBCLCs, CLCs and CLSs enroll in IMPACT as a new provider type and may enroll as sole proprietors who bill directly; FQHCs, RHCs and encounter rate clinics bill under the rendering consultant's NPI, and telehealth is allowed. APRNs who hold these credentials bill E/M codes instead. No visit limit is stated in the notice or fee schedule."
+    },
+    "IN": {
+      "status": "not-covered",
+      "summary": "In Indiana, Medicaid lists lactation classes as a non-covered service and has no separate lactation consultant benefit.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.in.gov/medicaid/members/member-programs/what-is-covered-by-indiana-medicaid/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "in-ihcp-professional-fee-schedule-2026",
+        "in-ihcp-epsdt-module",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Indiana Medicaid's June 2026 professional fee schedule lists S9443 (lactation class) as a non-covered service, and no lactation benefit or lactation consultant provider type appears in the IHCP provider reference modules. Breastfeeding evaluation and instruction are part of routine newborn well-child (EPSDT) visits. KFF's 2021 survey listed Indiana as covering lactation consultation in all settings, including separately paid outpatient visits. Health plan extra benefits were not checked."
+    },
+    "IA": {
+      "status": "limited",
+      "summary": "In Iowa, Medicaid pays for lactation sessions only through Maternal Health Centers.",
+      "billableProviders": [
+        "maternal health center"
+      ],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://hhs.iowa.gov/medicaid/member-services",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ia-feesched-c35-maternal-health-center",
+        "ia-mhc-provider-manual",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "On Iowa Medicaid's fee schedules, S9443 (lactation classes, non-physician provider) is payable only to Maternal Health Centers, which provide prenatal and postpartum care and enhanced perinatal services to Medicaid members. S9443 does not appear on the physician, nurse practitioner, certified nurse midwife, physician assistant, clinic or public health agency fee schedules. The Iowa provider manuals checked (physician, ARNP, FQHC, maternal health center, public health agency, home health) have no lactation consultant benefit or provider type. This differs from KFF 2021, which listed Iowa as covering lactation consultation in all settings; Iowa Health Link MCO benefits were not checked."
+    },
+    "KS": {
+      "status": "covered",
+      "summary": "In Kansas, Medicaid pays for up to five lactation counseling sessions per child, and IBCLCs must work for a physician or physician group that bills for them.",
+      "billableProviders": [
+        "IBCLC",
+        "physician",
+        "certified nurse-midwife",
+        "nurse practitioner",
+        "physician assistant",
+        "local health department"
+      ],
+      "settings": [
+        "outpatient",
+        "clinic",
+        "telehealth"
+      ],
+      "visitLimits": "Five counseling sessions per child, each up to 90 minutes; limit may be exceeded based on medical necessity; one-on-one only, group sessions not covered",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2018-10-01",
+      "memberInfoUrl": "https://portal.kmap-state-ks.us/PublicPage/Public/Beneficiary",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "ks-kmap-professional-manual-2026",
+        "ks-kmap-bulletin-18189",
+        "ks-kmap-bulletin-23042",
+        "ks-kmap-bulletin-23208",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "KMAP covers lactation counseling under S9443 for nonphysician lactation consultants (rate $40 per session since October 1, 2023); physicians bill office visit E/M codes. IBCLCs qualify only when employed by a physician or physician group. Services are mainly for mothers of infants up to 90 days old (up to 21 months when medically necessary), and telemedicine, including to the home, has been allowed since April 1, 2023. KanCare MCO implementation dates may differ from KMAP bulletin dates."
+    },
+    "KY": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Kentucky's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.chfs.ky.gov/agencies/dms/member/Pages/default.aspx",
+      "kff2021": null,
+      "sourceIds": [
+        "ky-krs-205-556",
+        "ky-dms-physician-fee-schedule-2026",
+        "ky-dms-preventive-fee-schedule-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "KRS 205.556 (created effective July 15, 2024, amended April 14, 2026) requires DMS and its MCOs to cover lactation consultation by a licensed practitioner whose scope includes it, including home visits, telehealth and group sessions, without cost sharing or prior authorization. No DMS implementing source was found: S9443 and other lactation-specific codes are absent from the 2026 physician and preventive health fee schedules, no 907 KAR regulation (chapters 1 and 3 checked) or posted state plan amendment mentions lactation, and MCO policies were not checked. Status stays unverified until DMS billing guidance is confirmed."
+    },
+    "LA": {
+      "status": "limited",
+      "summary": "In Louisiana, Medicaid health plans can choose to cover up to six outpatient lactation visits, and lactation consultants can enroll with their own NPI.",
+      "billableProviders": [
+        "IBCLC",
+        "advanced lactation consultant",
+        "advanced nurse lactation consultant",
+        "certified lactation consultant",
+        "certified breastfeeding specialist",
+        "certified lactation educator",
+        "doula"
+      ],
+      "settings": [
+        "outpatient",
+        "clinic",
+        "home",
+        "telehealth"
+      ],
+      "visitLimits": "Up to six treatment sessions without prior authorization during pregnancy or while less than 24 months postpartum; additional sessions with MCO authorization",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2024-01-01",
+      "memberInfoUrl": "https://ldh.la.gov/full-coverage-benefits",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "la-ldh-mco-manual-lactation-2023",
+        "la-mco-contract-att-c-ilos-2026",
+        "la-acla-ilo07-lactation-2024",
+        "la-aetna-ilos-policy-2026",
+        "la-humana-lactation-ilos-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Louisiana now pays for outpatient lactation support (S9445-33 individual visits, S9443 classes), a change since the 2021 KFF survey. It is an optional managed care In Lieu of Service, not a State Plan or fee-for-service benefit: the LDH contract lets each MCO cover it at its option. AmeriHealth Caritas Louisiana, Aetna Better Health of Louisiana and Humana Healthy Horizons in Louisiana have posted lactation ILOS policies; current documents for Healthy Blue, Louisiana Healthcare Connections and UnitedHealthcare were not found. Lactation support providers enroll with their own NPI under an LDH lactation support provider type."
+    },
+    "ME": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Maine's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.maine.gov/dhhs/oms/mainecare-options/covered-services-benefits",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "me-22mrs-3174-ppp",
+        "me-cy26-rate-determination-schedule",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "A 2025 law (PL 2025, c. 468, 22 MRS §3174-PPP) requires MaineCare to reimburse lactation services for MaineCare- or CHIP-eligible children, delivered by licensed professionals or nationally certified lactation consultants or counselors in hospital, clinic, office, community or home settings, and directs DHHS to adopt rules. No implementing rule or bulletin was found: the CY2026 rate determination schedule still lists Lactation Services (TBD) as upcoming, none of the 67 MaineCare rulemaking notices from 2025 and 2026 on the DHHS rulemaking page mentions lactation, and none of 110 provider bulletins on rate determinations, Section 90 physician rates, maternity coding, doulas and TMaH (through October 2026) mentions lactation. A payable benefit and its effective date could not be confirmed."
+    },
+    "MD": {
+      "status": "covered",
+      "summary": "In Maryland, HealthChoice health plans must cover lactation counseling as a maternity benefit for pregnant members.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://health.maryland.gov/mmcp/healthchoice/Pages/Home.aspx",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "md-pp-member-handbook-2025",
+        "md-uhc-member-handbook-2026",
+        "md-mpc-member-handbook-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Coverage comes through HealthChoice managed care, where most Maryland Medicaid members are enrolled: the Priority Partners (September 2025), UnitedHealthcare Community Plan (January 2026) and Maryland Physicians Care (December 2025) member handbooks list lactation counseling as a maternity benefit that every HealthChoice plan must cover for pregnant members. The handbooks don't name provider types, codes, settings or limits, and no fee-for-service lactation code or provider transmittal was found, so how the service is billed isn't documented. Maryland Physicians Care also offers 24/7 video lactation consultants through the Pacify app as an extra benefit."
+    },
+    "MA": {
+      "status": "limited",
+      "summary": "In Massachusetts, MassHealth includes breastfeeding counseling in prenatal care paid under the obstetric fee and has no separate lactation consultant benefit.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.mass.gov/topics/masshealth",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "ma-130cmr433-421",
+        "ma-wellsense-bilh-aco-csl-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No separately payable MassHealth lactation consultation benefit was found. Under 130 CMR 433.421, counseling on breast care and infant feeding plans is part of prenatal care paid within the obstetric global fee. MassHealth provider bulletins from 2016 to 2026, the current 130 CMR 405, 409, 433 and 463 regulations, and WellSense's 2026 ACO covered-services list and member handbooks don't describe a separate lactation benefit. Chapter 186 of the Acts of 2024 created state licensure for lactation consultants but did not add MassHealth coverage."
+    },
+    "MI": {
+      "status": "covered",
+      "summary": "In Michigan, Medicaid pays for up to two lactation visits per pregnancy with an IBCLC, billed through an enrolled physician, physician assistant or nurse practitioner.",
+      "billableProviders": [
+        "IBCLC",
+        "physician",
+        "physician assistant",
+        "advanced practice registered nurse",
+        "registered nurse",
+        "licensed social worker"
+      ],
+      "settings": [
+        "outpatient",
+        "telehealth"
+      ],
+      "visitLimits": "Maximum of two visits per pregnancy (single or multiple gestation), one visit per date of service, through 12 months post-delivery",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2016-04-01",
+      "memberInfoUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/portalhome/beneficiaries",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "mi-msa-15-46",
+        "mi-medicaid-provider-manual-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Michigan Medicaid and Healthy Michigan Plan pay for outpatient lactation support by an IBCLC, billed with S9443, separately from other same-day services. The IBCLC must be a Medicaid-enrolled physician, PA or APRN, or work under one who bills; MIHP agencies can bill for RN or social worker staff who hold the IBCLC. The October 2026 manual extends the window from 60 days (2016 bulletin) to 12 months post-delivery and allows simultaneous audio-visual visits; MOMS program beneficiaries are excluded."
+    },
+    "MN": {
+      "status": "limited",
+      "summary": "In Minnesota, Medical Assistance covers lactation classes, but we couldn't confirm whether individual lactation visits are covered.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://mn.gov/dhs/health-care/pregnant-people/",
+      "kff2021": null,
+      "sourceIds": [
+        "mn-dhs-pregnant-people",
+        "mn-hennepin-pmap-handbook-2026",
+        "mn-healthpartners-pmap-handbook-2026",
+        "mn-rules-9505",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Minnesota DHS's member page for pregnant people lists birthing and lactation classes among covered services. We couldn't confirm whether individual lactation consultation is separately payable: the MHCP Provider Manual couldn't be accessed for this review, and the 2026 Hennepin Health and HealthPartners PMAP member handbooks, Minn. Stat. 256B.0625 and Minn. Rules chapter 9505 don't mention lactation services. Minnesota did not respond to KFF's 2021 survey."
+    },
+    "MS": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Mississippi's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://medicaid.ms.gov/",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "ms-molina-mscan-handbook",
+        "ms-uhc-mscan-handbook",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No primary source describing a Mississippi Medicaid lactation benefit was found. We checked Mississippi Administrative Code Title 23 (Parts 200, 203, 222 and 223, including the maternity and perinatal high-risk management rules) and the Magnolia, Molina and UnitedHealthcare MississippiCAN member handbooks; none mention lactation services. The Division of Medicaid's own website couldn't be reached for this review, so its provider manuals and fee schedules weren't checked. KFF's 2021 survey reported no Mississippi lactation consultation coverage."
+    },
+    "MO": {
+      "status": "limited",
+      "summary": "In Missouri, MO HealthNet pays for lactation help only as up to two lactation visits from a doula per pregnancy.",
+      "billableProviders": [
+        "doula"
+      ],
+      "settings": [],
+      "visitLimits": "Up to two (2) doula visits for general consultation on lactation per pregnancy",
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://dss.mo.gov/mhd/benefits",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "mo-physicians-manual-2026-08",
+        "mo-hospital-manual-2026-08",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The only lactation-specific payment found is inside the doula benefit: enrolled doulas bill S9443 for up to two lactation education and support sessions per pregnancy ($50 each), which include referral to licensed lactation professionals. No lactation consultant or IBCLC benefit appears in the current Physicians or Hospital manuals. KFF 2021 reported Missouri covered outpatient and home lactation visits; current manuals do not show a separate IBCLC benefit."
+    },
+    "MT": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Montana's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://dphhs.mt.gov/assets/hrd/MedicaidMemberGuide.pdf",
+      "kff2021": {
+        "education": false,
+        "inpatient": true,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No primary source mentions a Montana Medicaid lactation benefit. We checked the Physician-Related Services, Hospital Inpatient, FQHC/RHC and General Information manuals, the current physician fee schedule (no S9443; general preventive counseling codes 99401-99404 are payable but not lactation-specific), 96 provider notices from 2025 and 2026, and the 2026 member guide. KFF's 2021 survey reported hospital-only lactation support."
+    },
+    "NE": {
+      "status": "covered",
+      "summary": "In Nebraska, Medicaid pays for up to five lactation counseling sessions per child from physicians, nurse practitioners, physician assistants, midwives or nurses who are IBCLC certified.",
+      "billableProviders": [
+        "physician",
+        "nurse practitioner",
+        "physician assistant",
+        "midwife",
+        "registered nurse"
+      ],
+      "settings": [
+        "outpatient",
+        "telehealth"
+      ],
+      "visitLimits": "Five counseling sessions per child, each up to 90 minutes; birth through 90 days postpartum (later when medically necessary)",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://dhhs.ne.gov/Pages/Medicaid-Services.aspx",
+      "kff2021": null,
+      "sourceIds": [
+        "ne-471-nac-33",
+        "ne-healthcheck-fee-schedule-2026-07",
+        "ne-471-nac-18",
+        "ne-ntc-member-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Lactation counseling is a Health Check (EPSDT) service for the infant and mother, provided by a physician, NP, PA, midwife or RN who holds IBCLC certification, billed with lactation-specific EP-modified codes (99203-99205, 99214-99215 for IBCLC physicians; 99429 per 30 minutes for IBCLC non-physicians). Separately, the Prenatal Plus Program for at-risk pregnancies pays one breastfeeding instruction session (S9443) by an LMNT or IBCLC per pregnancy. Nebraska Total Care's handbook lists the same five-session limit with no PA; other Heritage Health plans were not checked."
+    },
+    "NV": {
+      "status": "covered",
+      "summary": "In Nevada, Medicaid pays for lactation services by an IBCLC when an enrolled physician, nurse practitioner, physician assistant or nurse midwife bills for them.",
+      "billableProviders": [
+        "physician",
+        "advanced practice registered nurse",
+        "physician assistant",
+        "nurse-midwife"
+      ],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.nevadamedicaid.nv.gov/medicaid-members/review-your-benefits/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "nv-billing-guide-pt20-24-77",
+        "nv-billing-guide-pt74",
+        "nv-msm-600-2026-05",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Nevada's July 2026 billing guides say lactation services by a qualified non-enrolled professional such as an IBCLC are billed under an enrolled physician, APRN, physician assistant or nurse midwife using health behavior codes 96156-96171; S9443 is not covered. No lactation consultant provider type was found, but no source states IBCLCs cannot enroll. Doulas (PT 90) also include lactation support within their visits."
+    },
+    "NH": {
+      "status": "covered",
+      "summary": "In New Hampshire, the Medicaid health plans we checked cover individual and group lactation consultation, including at home.",
+      "billableProviders": [],
+      "settings": [
+        "outpatient",
+        "home"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.dhhs.nh.gov/programs-services/medicaid",
+      "kff2021": null,
+      "sourceIds": [
+        "nh-nhhf-member-handbook-2026-08",
+        "nh-acnh-member-handbook-2026-09",
+        "nh-he-w-500",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Coverage comes through NH Medicaid Care Management: the August 2026 NH Healthy Families handbook (a state model handbook) and the September 2026 AmeriHealth Caritas NH handbook both cover individual and group lactation consultation in a provider's office, the home, a hospital or a nursing facility, with no PA from NH Healthy Families for in-network providers. The WellSense handbook was not checked. The fee-for-service rules (He-W 500) have no lactation-specific benefit; breastfeeding education is part of the RN postpartum and newborn home visit (He-W 547). Provider types are not specified."
+    },
+    "NJ": {
+      "status": "covered",
+      "summary": "In New Jersey, Medicaid's state plan covers up to five IBCLC lactation visits per year, effective March 2023.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [
+        "telehealth"
+      ],
+      "visitLimits": "Five individual visits by a lactation consultant per 365 days (up to 8 fifteen-minute units per visit, 12 for multiples); four telephonic services per 365 days; one group education class and twelve group peer support sessions per 280 days",
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": "2023-03-01",
+      "memberInfoUrl": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare/health-care-services",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "nj-spa-23-0006",
+        "nj-public-notice-2022-lactation",
+        "nj-pl-2019-c343",
+        "nj-njmmis-provider-enrollment",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "CMS approved NJ-23-0006 on May 4, 2023, adding lactation consultant services by IBCLCs as a preventive service effective March 1, 2023, with a fee-schedule payment method; the service must be recommended by a physician or other licensed practitioner. This implements the FY2022 enrollment plan the state reported to KFF in 2021, but on 2026-10-09 no NJMMIS newsletter implementing it was found (newsletter search by keyword and a full 2022-2026 title list) and the NJMMIS provider enrollment list showed no lactation consultant provider type, so how IBCLCs enroll or bill is unconfirmed. State law P.L. 2019, c.343 directs Medicaid to cover lactation counseling and consultation without prior authorization, contingent on federal approval."
+    },
+    "NM": {
+      "status": "covered",
+      "summary": "In New Mexico, Medicaid pays for up to six lactation visits a year, and licensed lactation care providers can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC",
+        "certified lactation counselor",
+        "nurse practitioner",
+        "certified nurse-midwife",
+        "licensed midwife",
+        "physician assistant"
+      ],
+      "settings": [
+        "outpatient",
+        "FQHC/RHC"
+      ],
+      "visitLimits": "Six visits per calendar year for classes or counseling; additional visits based on medical necessity",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2024-10-01",
+      "memberInfoUrl": "https://www.hca.nm.gov/turquoise-care/",
+      "kff2021": null,
+      "sourceIds": [
+        "nm-supplement-24-23",
+        "nm-bcbsnm-turquoise-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Since October 1, 2024, NM Medicaid enrolls Lactation Care Providers (provider type 406, specialty 207) who hold an LCP license from the NM Board of Nursing plus IBCLC, CLC or another approved certification, and they bill S9443 directly ($110 individual, $56.44 per person for groups). Pregnant or breastfeeding members and breastfeeding infants are eligible, and no prior authorization is required. BCBSNM's 2026 Turquoise Care handbook lists lactation care as covered with no prior authorization. The state did not respond to the 2021 KFF survey."
+    },
+    "NY": {
+      "status": "covered",
+      "summary": "In New York, Medicaid pays for lactation counseling by licensed clinicians who hold a lactation certification such as IBCLC, but unlicensed lactation consultants can't bill.",
+      "billableProviders": [
+        "physician",
+        "nurse practitioner",
+        "midwife",
+        "physician assistant",
+        "registered nurse"
+      ],
+      "settings": [
+        "outpatient",
+        "clinic",
+        "FQHC/RHC"
+      ],
+      "visitLimits": "Initial individual session at least 45 minutes; follow-up sessions at least 30 minutes within the 12 months after delivery; group classes limited to one prenatal and one postpartum class per recipient per pregnancy",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2013-04-01",
+      "memberInfoUrl": "https://www.health.ny.gov/health_care/medicaid/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ny-mu-2022-06-lactation",
+        "ny-mu-2013-03-lactation",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "NYS Medicaid pays separately for lactation counseling (S9445 individual, $45; S9446 group, $15) when provided by a licensed physician, NP, midwife, PA or RN who also holds an approved lactation certification (IBCLC, CLC, CLS, CBS, CLE, CCL or CBE); the list expanded beyond IBCLC on July 1, 2022 (FFS) and September 1, 2022 (managed care). Physicians, NPs and midwives bill directly; PAs and RNs bill through an employing physician or facility. Unlicensed lactation consultants cannot bill, and the service must be ordered by a physician, NP, midwife or PA. No newer change was found in Medicaid Update issues from 2021 through 2026."
+    },
+    "NC": {
+      "status": "limited",
+      "summary": "In North Carolina, Medicaid pays for lactation visits only when the baby has a medical condition that makes them necessary, billed through a physician practice or clinic.",
+      "billableProviders": [
+        "physician",
+        "certified nurse-midwife",
+        "nurse practitioner",
+        "physician assistant",
+        "IBCLC"
+      ],
+      "settings": [
+        "outpatient",
+        "clinic",
+        "FQHC/RHC",
+        "telehealth"
+      ],
+      "visitLimits": "Maximum of six (6) units per day with a maximum of thirty-six (36) lifetime units",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2017-08-01",
+      "memberInfoUrl": "https://medicaid.ncdhhs.gov/beneficiaries",
+      "kff2021": {
+        "education": true,
+        "inpatient": false,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "nc-ccp-1i-2023",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "NC Medicaid covers medical lactation services only when the breastfeeding infant has a chronic, episodic or acute condition (for example latch difficulty, prematurity, multiple birth, jaundice or poor weight gain); the claim is billed under the infant. IBCLCs must be employed or contracted by a physician practice, health department, FQHC/RHC or similar enrolled provider, which bills CPT 96156, 96158 or 96159 with the SC modifier. Group lactation services are not covered and WIC-eligible members are referred to WIC first. No prior approval is required."
+    },
+    "ND": {
+      "status": "limited",
+      "summary": "In North Dakota, Medicaid pays for breastfeeding counseling only as general preventive counseling by enrolled clinicians and refers members to WIC for lactation services.",
+      "billableProviders": [],
+      "settings": [
+        "telehealth"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.hhs.nd.gov/healthcare/medicaid",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "nd-preventive-services-policy-2026",
+        "nd-dme-breast-pump-policy-2025",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "North Dakota Medicaid lists breastfeeding among the covered topics for preventive medicine counseling (CPT 99401-99402), billed separately from office and preventive visits and allowed by telehealth. There's no lactation consultant provider type, and ND Medicaid's breast pump policy tells members who need lactation services to contact WIC. KFF's 2021 survey reported no North Dakota lactation coverage."
+    },
+    "OH": {
+      "status": "covered",
+      "summary": "In Ohio, Medicaid pays for lactation consultations as their own service, and IBCLCs can bill directly without a doctor's order.",
+      "billableProviders": [
+        "IBCLC",
+        "advanced practice registered nurse",
+        "physician",
+        "physician assistant"
+      ],
+      "settings": [
+        "clinic",
+        "FQHC/RHC",
+        "telehealth"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2022-01-01",
+      "memberInfoUrl": "https://medicaid.ohio.gov/families-and-individuals",
+      "kff2021": null,
+      "sourceIds": [
+        "oh-oac-5160-8-42",
+        "oh-oac-5160-1-18",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Ohio Adm.Code 5160-8-42 (current version effective October 1, 2024; first effective January 1, 2022) pays for lactation consultation separately from other professional services. IBCLCs may render and bill as their own pay-to provider, and the usual practitioner order is waived. Hospitals, FQHCs, RHCs, group practices and ambulatory clinics can also bill. No separate payment is made when it is part of nurse home visiting. The telehealth rule (5160-1-18, effective January 1, 2026) lets IBCLCs deliver lactation consultation by telehealth. Ohio did not respond to the 2021 KFF survey."
+    },
+    "OK": {
+      "status": "covered",
+      "summary": "In Oklahoma, SoonerCare pays for up to six IBCLC sessions per pregnancy with a provider's referral, and IBCLCs can contract and bill directly.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [
+        "outpatient",
+        "home",
+        "telehealth"
+      ],
+      "visitLimits": "Not more than 6 sessions per pregnancy",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://oklahoma.gov/ohca/individuals/programs/pregnancy-services.html",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ok-oac-317-30-5-231",
+        "ok-oac-317-30-5-232",
+        "ok-oac-317-30-5-233",
+        "ok-ohca-lc-provider-page",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "SoonerCare covers services by IBCLCs who hold their own OHCA contract, for pregnant members and up to 12 months postpartum, in the IBCLC's office, the member's home, another outpatient setting or by telehealth (OAC 317:30-5-231 to 233, revised 09-01-2026); inpatient lactation services are paid inside the hospital per diem. The OHCA provider page lists S9443 (initial assessment) and S9445 (follow-up) and still says no referral is needed, but the 09-01-2026 rule text requires referral by a physician or other licensed provider."
+    },
+    "OR": {
+      "status": "covered",
+      "summary": "In Oregon, the Oregon Health Plan covers lactation support through six months after birth, and licensed lactation consultants can enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [],
+      "visitLimits": "Covered for pregnant and postpartum women (for six months postpartum)",
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.oregon.gov/oha/HSD/OHP/Pages/Benefits.aspx",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "or-herc-prioritized-list-2026-10",
+        "or-ohp-fee-schedule-0926",
+        "or-oha-lc-spa-notice-2020",
+        "or-oha-active-ffs-providers-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Guideline Note 140 of the October 1, 2026 Prioritized List covers lactation support for pregnant members and through six months postpartum, and S9443 sits on funded Line 3 and pays $51.95 on the September 2026 OHP fee schedule. OHA added Oregon-licensed lactation consultants (licensure requires IBCLC standing) as a Medicaid provider type after a March 2020 State Plan notice, and OHA's active FFS provider file lists individually enrolled providers under provider type 61 - Lactation Consultant; the approved SPA itself could not be retrieved from medicaid.gov."
+    },
+    "PA": {
+      "status": "limited",
+      "summary": "In Pennsylvania, Medical Assistance health plans address lactation care through their home visiting programs, and we found no separate lactation consultant benefit.",
+      "billableProviders": [],
+      "settings": [
+        "home"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+      "kff2021": {
+        "education": true,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "pa-healthchoices-ph-agreement-2024",
+        "pa-acpa-member-handbook-2026",
+        "pa-dhs-ma-fee-schedule-page",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "The HealthChoices Physical Health agreement (effective January 1, 2024) requires each managed care plan's Home Visiting Program, offered to first-time parents, families with identified risk factors and any family that asks, to address lactation care. No DHS bulletin or plan document setting up a separately payable lactation consultation service was found. The Medical Assistance fee schedule can only be opened after accepting a license, so it wasn't checked."
+    },
+    "RI": {
+      "status": "limited",
+      "summary": "In Rhode Island, Medicaid health plans list lactation consultation among covered group classes, and we found no state policy for individual lactation visits.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://eohhs.ri.gov/",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "ri-nhpri-medicaid-handbook-2025",
+        "ri-uhc-member-handbook-2026",
+        "ri-tufts-ritogether-handbook-2026",
+        "ri-nhpri-ob-payment-policy-2026",
+        "ri-nhpri-womens-health-page",
+        "ri-h8175-2026",
+        "ri-h8175-testimony-kidscount-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "All three Rhode Island Medicaid health plans (Neighborhood Health Plan of RI, UnitedHealthcare Community Plan, Tufts Health RITogether) list lactation consultation among covered group classes in their current member handbooks, and Neighborhood's January 2026 obstetrical payment policy pays HCPCS S9443 (lactation classes) for Medicaid members. No state policy naming lactation providers, settings or limits was found, and RI KIDS COUNT testified in May 2026 that Medicaid does not cover certified lactation counselors; 2026 bills H 8175 and S 2671 would add that coverage, and no enacted law was found. The state Medicaid agency's website couldn't be accessed for this review."
+    },
+    "SC": {
+      "status": "limited",
+      "summary": "In South Carolina, Medicaid doesn't pay for lactation visits, but one health plan, First Choice by Select Health, offers lactation services as an extra benefit.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.scdhhs.gov/members",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "sc-firstchoice-extra-benefits",
+        "sc-s42-bill-2025",
+        "sc-atc-handbook-2026",
+        "sc-healthyblue-handbook-2026",
+        "sc-humana-handbook-2026",
+        "sc-molina-handbook-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "No fee-for-service lactation benefit was found in the SCDHHS Physicians Services manual (October 1, 2026), the member handbook, the MCO contract or SCDHHS fee schedules (no S9443). Of the five Healthy Connections health plans, only First Choice by Select Health lists lactation services, as an extra (value-added) benefit, along with a peer support program that uses lactation peers. S.42 (2025), which would require Medicaid plans to cover lactation consulting, has not moved past Senate committee."
+    },
+    "SD": {
+      "status": "limited",
+      "summary": "In South Dakota, Medicaid includes breastfeeding and lactation education in the global obstetric package rather than paying for it separately.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://dss.sd.gov/medicaid/recipients/",
+      "kff2021": null,
+      "sourceIds": [
+        "sd-obstetrical-manual-2026-09",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "South Dakota Medicaid's Obstetrical Services manual (updated September 2026) lists breastfeeding and lactation education among services included in the global obstetric package. No separately payable lactation consultant service was found in the OB, DMEPOS, doula or community health worker manuals. The manual says global obstetric codes remain valid through December 31, 2026."
+    },
+    "TN": {
+      "status": "covered",
+      "summary": "In Tennessee, TennCare plans pay for outpatient lactation visits with no visit limit, and IBCLCs without another medical license bill through a supervising provider.",
+      "billableProviders": [
+        "physician",
+        "nurse practitioner",
+        "physician assistant",
+        "certified nurse-midwife",
+        "IBCLC",
+        "local health department"
+      ],
+      "settings": [
+        "outpatient",
+        "home",
+        "telehealth"
+      ],
+      "visitLimits": "No limit on the number of visits; limit of 3 units per patient within a 24-hour period; additional information may be requested above 15 units per patient",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2023-06-01",
+      "memberInfoUrl": "https://www.tn.gov/tenncare/members-applicants/benefits-services.html",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "tn-tenncare-lactation-benefit-update-2024",
+        "tn-tenncare-lactation-providers-page",
+        "tn-bluecare-lactation-faq-2023",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "TennCare (all three MCOs: BlueCare Tennessee, Wellpoint, UnitedHealthcare Community Plan) pays for outpatient lactation visits billed with 98960-98962 plus modifier U8 since June 1, 2023, for pregnant and postpartum members and their babies. IBCLCs can contract independently only if they also hold a listed license (for example RN, dietitian, physician); IBCLCs without such a license and CLCs, CLSs, CBSs and CLEs must work under and bill through a supervising in-network provider. Inpatient lactation education stays in the delivery global payment and is not billable under this benefit."
+    },
+    "TX": {
+      "status": "unverified",
+      "summary": "We couldn't confirm Texas's Medicaid lactation coverage from an official source. Check with your Medicaid plan.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.hhs.texas.gov/services/health/medicaid-chip/medicaid-chip-members",
+      "kff2021": {
+        "education": false,
+        "inpatient": false,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "tx-hb136-enrolled-2025",
+        "tx-hb136-fiscal-note-2025",
+        "tx-texreg-2026-09-11-rate-notice",
+        "tx-tmppm-2026-10-gyn-ob-fp",
+        "tx-texanscare-lactation-comments-2026",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Texas HB 136 (effective September 1, 2025) requires Medicaid to pay certified lactation consultants under a new, separate provider type, but the benefit did not appear to be billable as of October 9, 2026: the October 2026 TMPPM breastfeeding support section covers breast pumps only, HHSC proposed implementing rules in mid 2026 (per Texans Care for Children comments dated July 27, 2026), and HHSC listed Lactation Consultants (HB136) as a rate topic for its November 2026 rate hearing. Status should be rechecked after the rules are adopted and TMHP posts a start date."
+    },
+    "UT": {
+      "status": "not-covered",
+      "summary": "In Utah, Medicaid lists lactation and preventive counseling codes as not covered and refers families to WIC for breastfeeding support.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://medicaid.utah.gov/medicaid-members/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "ut-fee-schedule-2026-10-09",
+        "ut-womens-services-manual-2026-07",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Utah Medicaid's current fee-for-service fee schedule lists S9443 (lactation classes) and 99402-99404 counseling codes as Not Covered, and the July 2026 Women's Services manual has no lactation consultation benefit and points to WIC for breastfeeding support. KFF's 2021 survey reported Utah covered lactation consultation in all settings, but current Utah sources show no separately payable service. Value-added benefits of Utah's managed care plans were not checked."
+    },
+    "VT": {
+      "status": "covered",
+      "summary": "In Vermont, Medicaid pays for in-home lactation consulting by IBCLCs, who enroll and bill directly.",
+      "billableProviders": [
+        "IBCLC"
+      ],
+      "settings": [
+        "home"
+      ],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": true,
+      "effectiveDate": "2018-06-01",
+      "memberInfoUrl": "https://dvha.vermont.gov/members/medicaid",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "vt-general-billing-forms-manual-2026-10",
+        "vt-fee-schedule-2026-10-09",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Vermont Medicaid has covered in-home lactation consulting by IBCLCs since June 1, 2018. IBCLCs enroll as their own Vermont Medicaid providers under an IBCLC provider specialty (S54); the billing manual says they must be licensed, enrolled and hold an IBCLC certificate. The October 2026 fee schedule pays S9443 at $120 per session, and no visit limit is stated."
+    },
+    "VA": {
+      "status": "covered",
+      "summary": "In Virginia, Medicaid pays for up to three lactation sessions per provider a year with an IBCLC, billed through an enrolled doctor, midwife, clinic or health department.",
+      "billableProviders": [
+        "physician",
+        "nurse practitioner",
+        "physician assistant",
+        "certified nurse-midwife",
+        "certified professional midwife",
+        "local health department",
+        "FQHC",
+        "RHC"
+      ],
+      "settings": [
+        "outpatient",
+        "clinic"
+      ],
+      "visitLimits": "3 sessions per member per provider per year",
+      "ibclcIndependentEnrollment": false,
+      "effectiveDate": "2016-01-01",
+      "memberInfoUrl": "https://www.dmas.virginia.gov/for-members/benefits-and-services/maternal-and-child-health/",
+      "kff2021": {
+        "education": true,
+        "inpatient": false,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "va-dmas-breastfeeding-fact-sheet-2015",
+        "va-dmas-dme-manual-ch4-2025-12",
+        "va-dmas-hcpcs-fee-file-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Virginia Medicaid and FAMIS have paid for face-to-face lactation consultation (S9443, $72 per session) since January 1, 2016; the service must be delivered by an IBCLC but billed by an enrolled physician, NP, PA, nurse midwife, certified professional midwife, health department, FQHC or RHC. DMAS says its managed care plans also cover lactation consultation. The provider fact sheet dates from December 2015, but DMAS still links it, the December 2025 DME manual restates the coverage, and the current fee file still lists S9443 at $72."
+    },
+    "WA": {
+      "status": "limited",
+      "summary": "In Washington, Apple Health has no separate lactation consultant benefit, and breastfeeding support comes through Maternity Support Services.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/pregnant-individuals",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": false,
+        "home": false
+      },
+      "sourceIds": [
+        "wa-hca-mss-icm-bg-2026-07",
+        "wa-hca-physician-fee-schedule-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Apple Health has no lactation-specific consultation code: S9443 and 98960-98962 are not on the October 2026 physician fee schedule, which states unlisted codes are not covered, and the October 2026 Physician-Related and Pregnancy-Related billing guides describe no lactation benefit. Breastfeeding support is available only within Maternity Support Services (MSS) for eligible pregnant and postpartum clients, where breastfeeding is a listed group class topic and program goal. KFF's 2021 survey reported inpatient-only lactation coverage; no current HCA source confirming that was found."
+    },
+    "WV": {
+      "status": "not-covered",
+      "summary": "In West Virginia, Medicaid lists lactation codes as not covered and has no separate lactation consultant benefit.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://bms.wv.gov/members",
+      "kff2021": {
+        "education": false,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "wv-rbrvs-fee-schedule-2026",
+        "wv-wellpoint-pregnancy-page",
+        "wv-bms-519-19-womens-health",
+        "wv-bms-ch527-managed-care",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "West Virginia Medicaid's 2026 physician fee schedule (rates effective April 1, 2026 to March 31, 2027) lists the lactation code S9443 and the non-physician education codes 98960-98962 as Not Covered. The BMS practitioner (Chapter 519), DMEPOS, home health, birthing center, FQHC/RHC and managed care manual chapters contain no lactation consultant benefit or provider type. This does not address lactation help given within a hospital stay or a routine office visit; KFF's 2021 state self-report listed lactation consultation as covered, which current sources do not show as a separate benefit. Wellpoint of West Virginia's pregnancy page refers members to WIC and La Leche League for breastfeeding support."
+    },
+    "WI": {
+      "status": "limited",
+      "summary": "In Wisconsin, ForwardHealth covers breastfeeding education only through its Prenatal Care Coordination program.",
+      "billableProviders": [
+        "prenatal care coordination (PNCC) provider"
+      ],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://www.dhs.wisconsin.gov/badgercareplus/services.htm",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": true
+      },
+      "sourceIds": [
+        "wi-pncc-handbook-2026-10",
+        "wi-physician-handbook-2026-10",
+        "wi-fqhc-handbook-2026-10",
+        "wi-chc-handbook-2026-10",
+        "wi-homehealth-handbook-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "ForwardHealth's Online Handbook (policy through September 30, 2026) has no lactation consultation topic or code in the Physician, DME, FQHC, Community Health Center or Home Health service areas. Breastfeeding education appears only as a nutrition counseling topic within Prenatal Care Coordination (PNCC), which continues for 12 months postpartum only for members already receiving PNCC on the last day of pregnancy, and PNCC services are capped at $1,938.40 per pregnancy. KFF's 2021 state self-report listed lactation consultation as covered in all settings; the current handbook does not show a separate lactation benefit."
+    },
+    "WY": {
+      "status": "not-covered",
+      "summary": "In Wyoming, Medicaid doesn't pay for lactation visits as a separate service and points members to WIC and free public health nurse home visits.",
+      "billableProviders": [],
+      "settings": [],
+      "visitLimits": null,
+      "ibclcIndependentEnrollment": null,
+      "effectiveDate": null,
+      "memberInfoUrl": "https://health.wyo.gov/healthcarefin/medicaid/wyoming-medicaid-health-management/your-healthy-pregnancy/",
+      "kff2021": {
+        "education": true,
+        "inpatient": true,
+        "outpatient": true,
+        "home": false
+      },
+      "sourceIds": [
+        "wy-fee-schedule-2026-10",
+        "wy-your-healthy-pregnancy",
+        "wy-cms1500-manual-2026-10",
+        "kff-2021-medicaid-pregnancy-survey"
+      ],
+      "notes": "Wyoming Medicaid's fee schedule (run date October 1, 2026) lists the lactation code S9443, the non-physician education codes 98960-98962 and the postnatal home visit code 99501 as Not Allowed, and the CMS-1500 Provider Manual (Version 20.0, October 1, 2026) contains no lactation benefit. The Medicaid pregnancy page points members to WIC and to the free Wyoming Hand in Hand public health nurse home visiting program, whose nurses are Certified Lactation Counselors; the page does not describe that program as a Medicaid billable service. KFF's 2021 state self-report listed inpatient and outpatient lactation consultation as covered; current sources show no separately payable benefit, and this does not address lactation help within a hospital stay or routine office visit."
+    }
+  }
+}

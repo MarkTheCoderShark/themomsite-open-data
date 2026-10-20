@@ -1,0 +1,3511 @@
+{
+  "topic": "wic",
+  "title": "WIC (Special Supplemental Nutrition Program for Women, Infants, and Children), by state",
+  "asOf": "2026-10",
+  "methodology": "Income limits are USDA's WIC Income Eligibility Guidelines for July 1, 2026 to June 30, 2027 (Federal Register, April 29, 2026): 185% of the 2026 HHS poverty guidelines, rounded up to the next dollar, with separate tables for Alaska and Hawaii. State agencies may set lower limits, but not above these or below 100% FPL. State records start from USDA's WIC state agency contact list (fna.usda.gov/wic/apply) and were checked against each state's WIC website on 2026-10-09. A state is listed as offering an online application when its WIC site has an online application, pre-application, interest, referral or appointment-request form to start enrollment (you still complete a WIC appointment). It is listed as not offering one when the state says to apply by phone or in person, and left blank when we could not confirm. Phone numbers come from the state WIC page where it lists one, otherwise from USDA's state agency list. USDA's Food and Nutrition Service web pages now appear under the Food and Nutrition Administration name (fna.usda.gov). Formula contract holders for every state come from USDA FNS's list of current WIC infant formula contracts (page updated July 30, 2026). The contract brand, the name of the benefit card and the approved food list link come from each state's WIC site or documents, checked October 9, 2026, and are left blank where the state's site doesn't name them. On October 16, 2026 we rechecked Idaho, Iowa, Kansas, New Hampshire, New Jersey, Ohio, Rhode Island, South Dakota and West Virginia on their state WIC sites and filled in the facts we could confirm there.",
+  "sources": [
+    {
+      "id": "fr-wic-ieg-2026",
+      "title": "WIC: 2026/2027 Income Eligibility Guidelines (91 FR 23050, Apr. 29, 2026)",
+      "publisher": "USDA Food and Nutrition Service (Federal Register)",
+      "url": "https://www.federalregister.gov/documents/2026/04/29/2026-08323/special-supplemental-nutrition-program-for-women-infants-and-children-wic-20262027-income",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-eligibility",
+      "title": "WIC Eligibility",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/eligibility",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-benefits",
+      "title": "WIC Benefits",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/benefits",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-apply",
+      "title": "How to Apply for WIC (state agency contacts)",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-bf-support",
+      "title": "Get Support from WIC (peer counselors)",
+      "publisher": "USDA WIC Breastfeeding Support",
+      "url": "https://wicbreastfeeding.fna.usda.gov/get-support-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-bf-pump",
+      "title": "Finding a Breast Pump",
+      "publisher": "USDA WIC Breastfeeding Support",
+      "url": "https://wicbreastfeeding.fna.usda.gov/finding-breast-pump",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ak-wic",
+      "title": "Alaska WIC (state WIC page)",
+      "publisher": "Alaska Department of Health",
+      "url": "https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ak",
+      "title": "Alaska WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=288",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "al-wic",
+      "title": "Alabama WIC (state WIC page)",
+      "publisher": "Alabama Department of Public Health",
+      "url": "https://www.alabamapublichealth.gov/wic/apply.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-al",
+      "title": "Alabama WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=289",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ar-wic",
+      "title": "Arkansas WIC (state WIC page)",
+      "publisher": "Arkansas Department of Health",
+      "url": "https://healthy.arkansas.gov/programs-services/community-family-child-health/wic-women-infants-children/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ar",
+      "title": "Arkansas WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=278",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "az-wic",
+      "title": "Arizona WIC (state WIC page)",
+      "publisher": "Arizona Department of Health Services",
+      "url": "https://www.azdhs.gov/prevention/azwic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-az",
+      "title": "Arizona WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=287",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "az-wic-online",
+      "title": "Arizona WIC: online application or interest form",
+      "publisher": "Arizona Department of Health Services",
+      "url": "https://www.myazwic.com/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ca-wic",
+      "title": "California WIC (state WIC page)",
+      "publisher": "California Department of Public Health",
+      "url": "https://myfamily.wic.ca.gov/Home/HowCanIGetWIC",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ca",
+      "title": "California WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=286",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "co-wic",
+      "title": "Colorado WIC (state WIC page)",
+      "publisher": "Colorado Department of Public Health and Environment",
+      "url": "https://www.coloradowic.gov/eligibility/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-co",
+      "title": "Colorado WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=266",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "co-wic-online",
+      "title": "Colorado WIC: online application or interest form",
+      "publisher": "Colorado Department of Public Health and Environment",
+      "url": "https://www.healthinformatics.dphe.state.co.us/WICSignUp",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ct-wic",
+      "title": "Connecticut WIC (state WIC page)",
+      "publisher": "Connecticut Department of Public Health",
+      "url": "https://portal.ct.gov/dph/wic/how-to-apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ct",
+      "title": "Connecticut WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=285",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ct-wic-online",
+      "title": "Connecticut WIC: online application or interest form",
+      "publisher": "Connecticut Department of Public Health",
+      "url": "https://dphsubmissions.ct.gov/CTWIC_Interest_Form",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dc-wic",
+      "title": "DC WIC (state WIC page)",
+      "publisher": "DC Health",
+      "url": "https://www.dcwic.org/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-dc",
+      "title": "DC WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=290",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "de-wic",
+      "title": "Delaware WIC (state WIC page)",
+      "publisher": "Delaware Division of Public Health",
+      "url": "https://delaware.wicresources.org/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-de",
+      "title": "Delaware WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=291",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-wic",
+      "title": "Florida WIC (state WIC page)",
+      "publisher": "Florida Department of Health",
+      "url": "https://www.floridahealth.gov/individual-family-health/womens-health/wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-fl",
+      "title": "Florida WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=265",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ga-wic",
+      "title": "Georgia WIC (state WIC page)",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://dph.georgia.gov/WIC",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ga",
+      "title": "Georgia WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=308",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ga-wic-online",
+      "title": "Georgia WIC: online application or interest form",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://gateway.ga.gov/access/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "hi-wic",
+      "title": "Hawaii WIC (state WIC page)",
+      "publisher": "Hawaii State Department of Health",
+      "url": "https://health.hawaii.gov/wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-hi",
+      "title": "Hawaii WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=303",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "hi-wic-online",
+      "title": "Hawaii WIC: online application or interest form",
+      "publisher": "Hawaii State Department of Health",
+      "url": "https://www.hiwic.org/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ia-wic",
+      "title": "Iowa WIC (state WIC page)",
+      "publisher": "Iowa Department of Health and Human Services",
+      "url": "https://hhs.iowa.gov/assistance-programs/food-assistance/wic-Iowa",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ia",
+      "title": "Iowa WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=294",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "id-wic",
+      "title": "Idaho WIC (state WIC page)",
+      "publisher": "Idaho Department of Health and Welfare",
+      "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/apply-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-id",
+      "title": "Idaho WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=268",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "il-wic",
+      "title": "Illinois WIC (state WIC page)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=31907",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-il",
+      "title": "Illinois WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=264",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "in-wic",
+      "title": "Indiana WIC (state WIC page)",
+      "publisher": "Indiana Department of Health",
+      "url": "https://www.in.gov/health/wic/how-do-i-apply-for-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-in",
+      "title": "Indiana WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=302",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ks-wic",
+      "title": "Kansas WIC (state WIC page)",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ks",
+      "title": "Kansas WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=284",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ky-wic",
+      "title": "Kentucky WIC (state WIC page)",
+      "publisher": "Kentucky Cabinet for Health and Family Services",
+      "url": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Pages/wic.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ky",
+      "title": "Kentucky WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=301",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "la-wic",
+      "title": "Louisiana WIC (state WIC page)",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://louisianawic.org/about-wic/how-to-apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-la",
+      "title": "Louisiana WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=300",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "la-wic-online",
+      "title": "Louisiana WIC: online application or interest form",
+      "publisher": "Louisiana Department of Health",
+      "url": "https://mywic.us/participantreferral?program=LA",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ma-wic",
+      "title": "Massachusetts WIC (state WIC page)",
+      "publisher": "Massachusetts Department of Public Health",
+      "url": "https://www.mass.gov/orgs/women-infants-children-nutrition-program",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ma",
+      "title": "Massachusetts WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=299",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ma-wic-online",
+      "title": "Massachusetts WIC: online application or interest form",
+      "publisher": "Massachusetts Department of Public Health",
+      "url": "https://www.mass.gov/forms/apply-for-wic-online",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "md-wic",
+      "title": "Maryland WIC (state WIC page)",
+      "publisher": "Maryland Department of Health",
+      "url": "https://health.maryland.gov/phpa/wic/Pages/wic-apply.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-md",
+      "title": "Maryland WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=304",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "md-wic-online",
+      "title": "Maryland WIC: online application or interest form",
+      "publisher": "Maryland Department of Health",
+      "url": "https://wicclientportal.health.maryland.gov/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "me-wic",
+      "title": "Maine WIC (state WIC page)",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/apply-and-get-started",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-me",
+      "title": "Maine WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=263",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "me-wic-online",
+      "title": "Maine WIC: online application or interest form",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/get-support/contact-us-form",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mi-wic",
+      "title": "Michigan WIC (state WIC page)",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://www.michigan.gov/mdhhs/assistance-programs/wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-mi",
+      "title": "Michigan WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=283",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mi-wic-online",
+      "title": "Michigan WIC: online application or interest form",
+      "publisher": "Michigan Department of Health and Human Services",
+      "url": "https://newmibridges.michigan.gov/s/isd-guest-ha-applyforbenefits?language=en_US",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mn-wic",
+      "title": "Minnesota WIC (state WIC page)",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://www.health.state.mn.us/people/wic/index.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-mn",
+      "title": "Minnesota WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=298",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mn-wic-online",
+      "title": "Minnesota WIC: online application or interest form",
+      "publisher": "Minnesota Department of Health",
+      "url": "https://redcap.health.state.mn.us/redcap/surveys/?s=4WCPLJL77MLKRPJ3",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mo-wic",
+      "title": "Missouri WIC (state WIC page)",
+      "publisher": "Missouri Department of Health and Senior Services",
+      "url": "https://health.mo.gov/families/women-infants-children-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-mo",
+      "title": "Missouri WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=311",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mo-wic-online",
+      "title": "Missouri WIC: online application or interest form",
+      "publisher": "Missouri Department of Health and Senior Services",
+      "url": "https://moexperience.qualtrics.com/jfe/form/SV_9yOkwmd0Zv93emO",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ms-wic",
+      "title": "Mississippi WIC (state WIC page)",
+      "publisher": "Mississippi State Department of Health",
+      "url": "https://msdh.ms.gov/msdhsite/_static/41,25323,128.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ms",
+      "title": "Mississippi WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=297",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ms-wic-online",
+      "title": "Mississippi WIC: online application or interest form",
+      "publisher": "Mississippi State Department of Health",
+      "url": "https://redcap.link/WICOnlineApplication",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mt-wic",
+      "title": "Montana WIC (state WIC page)",
+      "publisher": "Montana Department of Public Health and Human Services",
+      "url": "https://dphhs.mt.gov/ecfsd/wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-mt",
+      "title": "Montana WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=262",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mt-wic-online",
+      "title": "Montana WIC: online application or interest form",
+      "publisher": "Montana Department of Public Health and Human Services",
+      "url": "https://signupwic.com/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nc-wic",
+      "title": "North Carolina WIC (state WIC page)",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/wic/apply-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nc",
+      "title": "North Carolina WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=260",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nc-wic-online",
+      "title": "North Carolina WIC: online application or interest form",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/wic/north-carolina-wic-families-referral-form",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nd-wic",
+      "title": "North Dakota WIC (state WIC page)",
+      "publisher": "North Dakota Health and Human Services",
+      "url": "https://www.hhs.nd.gov/food-programs/WIC/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nd",
+      "title": "North Dakota WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=270",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ne-wic",
+      "title": "Nebraska WIC (state WIC page)",
+      "publisher": "Nebraska Department of Health and Human Services",
+      "url": "https://dhhs.ne.gov/Pages/Eligibility-and-How-to-Apply.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ne",
+      "title": "Nebraska WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=258",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nh-wic",
+      "title": "New Hampshire WIC (state WIC page)",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nh",
+      "title": "New Hampshire WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=281",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nj-wic",
+      "title": "New Jersey WIC (state WIC page)",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/fhs/wic/participants/apply-wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nj",
+      "title": "New Jersey WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=279",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nm-wic",
+      "title": "New Mexico WIC (state WIC page)",
+      "publisher": "New Mexico Department of Health",
+      "url": "https://www.nmwic.org/how-to-apply-wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nm",
+      "title": "New Mexico WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=307",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nm-wic-online",
+      "title": "New Mexico WIC: online application or interest form",
+      "publisher": "New Mexico Department of Health",
+      "url": "https://www.nmwic.org/request-an-appointment/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nv-wic",
+      "title": "Nevada WIC (state WIC page)",
+      "publisher": "Nevada Division of Public and Behavioral Health",
+      "url": "https://nevadawic.org/eligibility/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-nv",
+      "title": "Nevada WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=269",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ny-wic",
+      "title": "New York WIC (state WIC page)",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/prevention/nutrition/wic/how_to_apply.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ny",
+      "title": "New York WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=261",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "oh-wic",
+      "title": "Ohio WIC (state WIC page)",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/know-our-programs/Women-Infants-Children/welcome-to-women-infants-and-children-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-oh",
+      "title": "Ohio WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=276",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ok-wic",
+      "title": "Oklahoma WIC (state WIC page)",
+      "publisher": "Oklahoma State Department of Health",
+      "url": "https://oklahoma.gov/health/services/children-family-health/wic.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ok",
+      "title": "Oklahoma WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=271",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ok-wic-online",
+      "title": "Oklahoma WIC: online application or interest form",
+      "publisher": "Oklahoma State Department of Health",
+      "url": "https://osdhcfhs.az1.qualtrics.com/jfe/form/SV_b8vNxstcQGy9YzA?Source=Website",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "or-wic",
+      "title": "Oregon WIC (state WIC page)",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/index.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-or",
+      "title": "Oregon WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=296",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "or-wic-online",
+      "title": "Oregon WIC: online application or interest form",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/interest-form.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pa-wic",
+      "title": "Pennsylvania WIC (state WIC page)",
+      "publisher": "Pennsylvania Department of Health",
+      "url": "https://www.pawic.com/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-pa",
+      "title": "Pennsylvania WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=273",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ri-wic",
+      "title": "Rhode Island WIC (state WIC page)",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/women-infants-and-children",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ri",
+      "title": "Rhode Island WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=293",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sc-wic",
+      "title": "South Carolina WIC (state WIC page)",
+      "publisher": "South Carolina Department of Public Health",
+      "url": "https://dph.sc.gov/health-wellness/family-planning/women-infants-and-children-wic-nutrition-program/apply-wic-its-easy",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-sc",
+      "title": "South Carolina WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=259",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sc-wic-online",
+      "title": "South Carolina WIC: online application or interest form",
+      "publisher": "South Carolina Department of Public Health",
+      "url": "https://apps.dhec.sc.gov/Health/WIC",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sd-wic",
+      "title": "South Dakota WIC (state WIC page)",
+      "publisher": "South Dakota Department of Health",
+      "url": "https://www.sd.gov/wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-sd",
+      "title": "South Dakota WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=292",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tn-wic",
+      "title": "Tennessee WIC (state WIC page)",
+      "publisher": "Tennessee Department of Health",
+      "url": "https://www.tn.gov/health/wic.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-tn",
+      "title": "Tennessee WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=306",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-wic",
+      "title": "Texas WIC (state WIC page)",
+      "publisher": "Texas Health and Human Services",
+      "url": "https://www.texaswic.org/apply",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-tx",
+      "title": "Texas WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=309",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-wic-online",
+      "title": "Texas WIC: online application or interest form",
+      "publisher": "Texas Health and Human Services",
+      "url": "https://mywic.us/participantreferral?program=TX",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ut-wic",
+      "title": "Utah WIC (state WIC page)",
+      "publisher": "Utah Department of Health and Human Services",
+      "url": "https://wic.utah.gov/about/apply/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-ut",
+      "title": "Utah WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=274",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "va-wic",
+      "title": "Virginia WIC (state WIC page)",
+      "publisher": "Virginia Department of Health",
+      "url": "https://www.vdh.virginia.gov/wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-va",
+      "title": "Virginia WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=267",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "va-wic-online",
+      "title": "Virginia WIC: online application or interest form",
+      "publisher": "Virginia Department of Health",
+      "url": "https://www.myvawic.org/ApplyWICServicesOnline",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "vt-wic",
+      "title": "Vermont WIC (state WIC page)",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/family/wic/apply-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-vt",
+      "title": "Vermont WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=275",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "vt-wic-online",
+      "title": "Vermont WIC: online application or interest form",
+      "publisher": "Vermont Department of Health",
+      "url": "https://forms.office.com/g/Bu9zpKXq81",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wa-wic",
+      "title": "Washington WIC (state WIC page)",
+      "publisher": "Washington State Department of Health",
+      "url": "https://doh.wa.gov/you-and-your-family/wic/apply-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-wa",
+      "title": "Washington WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=310",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wa-wic-online",
+      "title": "Washington WIC: online application or interest form",
+      "publisher": "Washington State Department of Health",
+      "url": "https://doh.wa.gov/webform/wic-interest-form",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wi-wic",
+      "title": "Wisconsin WIC (state WIC page)",
+      "publisher": "Wisconsin Department of Health Services",
+      "url": "https://www.dhs.wisconsin.gov/wic/apply.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-wi",
+      "title": "Wisconsin WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=282",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wi-wic-online",
+      "title": "Wisconsin WIC: online application or interest form",
+      "publisher": "Wisconsin Department of Health Services",
+      "url": "https://wicfamily.wicvendorwi.org/wic-pre-application-form/DHS",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wv-wic",
+      "title": "West Virginia WIC (state WIC page)",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://dhhr.wv.gov/WIC/apply/Pages/default.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-wv",
+      "title": "West Virginia WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=272",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wy-wic",
+      "title": "Wyoming WIC (state WIC page)",
+      "publisher": "Wyoming Department of Health",
+      "url": "https://health.wyo.gov/publichealth/wic/apply-for-wic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-contact-wy",
+      "title": "Wyoming WIC: state agency contact",
+      "publisher": "USDA Food and Nutrition Administration",
+      "url": "https://www.fna.usda.gov/wic/apply?field_fnscontact_state_target_id=305",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wy-wic-online",
+      "title": "Wyoming WIC: online application or interest form",
+      "publisher": "Wyoming Department of Health",
+      "url": "https://wic-portal.health.wyo.gov/ParticipantPortal/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "usda-wic-formula-contracts",
+      "title": "Infant Formula Contracts in WIC: current contract holders by state agency (page updated July 30, 2026)",
+      "publisher": "USDA Food and Nutrition Service",
+      "url": "https://www.fna.usda.gov/wic/requirements-infant-formula-contracts",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ak-wic-foodlist",
+      "title": "WIC Approved Foods",
+      "publisher": "Alaska Department of Health",
+      "url": "https://health.alaska.gov/en/resources/wic-approved-foods/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "az-wic-families",
+      "title": "WIC Families",
+      "publisher": "Arizona Department of Health Services",
+      "url": "https://www.azdhs.gov/prevention/azwic/families/index.php",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ca-wic-formula",
+      "title": "WIC Contract Infant Formula (Formula Transition)",
+      "publisher": "California Department of Public Health, WIC Division",
+      "url": "https://myfamily.wic.ca.gov/Home/FormulaTransition",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ca-wic-card",
+      "title": "The California WIC Card and WIC App",
+      "publisher": "California Department of Public Health, WIC Division",
+      "url": "https://myfamily.wic.ca.gov/Home/WICCardAndApp",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ca-wic-foodlist",
+      "title": "California WIC Shopping Guide 2026",
+      "publisher": "California Department of Public Health, WIC Division",
+      "url": "https://docs.wic.ca.gov/Content/Documents/WIC-2026-ShoppingGuide-EN-FINAL.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "co-wic-foodlist",
+      "title": "WIC Foods",
+      "publisher": "Colorado Department of Public Health and Environment, WIC",
+      "url": "https://www.coloradowic.gov/wic-foods-list",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ct-wic-foodlist",
+      "title": "Approved Food Guide",
+      "publisher": "Connecticut Department of Public Health, WIC",
+      "url": "https://portal.ct.gov/dph/wic/approved-foods",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "dc-wic-foodlist",
+      "title": "DC WIC Food and Formula",
+      "publisher": "DC Health, WIC",
+      "url": "https://www.dcwic.org/foods-formulas",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "de-wic-guide",
+      "title": "WIC Program Guide: Eligibility and Benefits",
+      "publisher": "Delaware Division of Public Health, WIC",
+      "url": "https://delaware.wicresources.org/program-guide/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-wic-formula",
+      "title": "Florida WIC Infant Formula Amounts",
+      "publisher": "Florida Department of Health, WIC",
+      "url": "https://www.floridahealth.gov/wp-content/uploads/2025/08/flwic-formula-amounts-flyer.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-wic-ebt",
+      "title": "WIC EBT Card",
+      "publisher": "Florida Department of Health, WIC",
+      "url": "https://www.floridahealth.gov/individual-family-health/womens-health/wic/wic-ebt-card/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "fl-wic-foodlist",
+      "title": "Florida WIC Foods",
+      "publisher": "Florida Department of Health, WIC",
+      "url": "https://www.floridahealth.gov/wp-content/uploads/2026/02/flwic-fl-wic-foods-en.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ga-wic-foodlist",
+      "title": "WIC Approved Foods List",
+      "publisher": "Georgia Department of Public Health",
+      "url": "https://dph.georgia.gov/WIC/wic-approved-foods-list",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "hi-wic-foodlist",
+      "title": "Hawaii WIC Approved Food List 2026",
+      "publisher": "Hawaii State Department of Health, WIC",
+      "url": "https://health.hawaii.gov/wic/files/2026/05/Hawaii-WIC-Approved-Food-List-2026_.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "il-wic-families",
+      "title": "Information for WIC Families",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/page.aspx?item=147346",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "il-wic-foodlist",
+      "title": "Illinois WIC Food List (4870, revised December 2025)",
+      "publisher": "Illinois Department of Human Services",
+      "url": "https://www.dhs.state.il.us/OneNetLibrary/27897/documents/WIC/4870%20Food%20List%20(R-12-25).pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ky-wic-foodlist",
+      "title": "Kentucky WIC Approved Food List",
+      "publisher": "Kentucky Cabinet for Health and Family Services",
+      "url": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Documents/WICApprovedFood.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "la-wic-foodlist",
+      "title": "WIC Food Guide",
+      "publisher": "Louisiana Department of Health, WIC",
+      "url": "https://louisianawic.org/wic-food-guide/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "me-wic-foodlist",
+      "title": "WIC Approved Foods List",
+      "publisher": "Maine Center for Disease Control and Prevention",
+      "url": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/vendors-and-farmers/wic-approved-foods-list",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mi-wic-formula-change",
+      "title": "Michigan WIC Infant Formula Change: Frequently Asked Questions",
+      "publisher": "Michigan Department of Health and Human Services, WIC",
+      "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/WIC-Media/Front-Page-Announcements/Client-Formula-Change-FAQ.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mi-wic-foodguide",
+      "title": "Michigan WIC Food Guide (English)",
+      "publisher": "Michigan Department of Health and Human Services, WIC",
+      "url": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/WIC-Media/WIC-Foods/WIC-Food-Guide-English.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mo-wic-foodlist",
+      "title": "WIC Approved Food List",
+      "publisher": "Missouri Department of Health and Senior Services",
+      "url": "https://health.mo.gov/families/women-infants-children-wic/wic-approved-food-list",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "mt-wic-foodlist",
+      "title": "Montana WIC Approved Food List",
+      "publisher": "Montana Department of Public Health and Human Services",
+      "url": "https://dphhs.mt.gov/assets/ecfsd/WIC/StatePlan/Attachments/ApprovedFoodList.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nc-wic-mywic",
+      "title": "My WIC",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/wic/participants/my-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nc-wic-foodlist",
+      "title": "WIC Participant Guide to Food Package Updates (English)",
+      "publisher": "North Carolina Department of Health and Human Services",
+      "url": "https://www.ncdhhs.gov/wic-participant-guide-food-package-updates-english/open",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nm-wic-foodlist",
+      "title": "NM WIC Food Packages",
+      "publisher": "New Mexico Department of Health, WIC",
+      "url": "https://www.nmwic.org/shopping-with-wic/nm-wic-food-packages/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "nv-wic-ebt",
+      "title": "How to Use Your WIC EBT Card",
+      "publisher": "Nevada WIC",
+      "url": "https://nevadawic.org/about/how-to-use-your-ebt-card/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ny-wic-formulas",
+      "title": "WIC Approved Foods and Formulas",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/prevention/nutrition/wic/approved_formulas.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ny-wic-ewic",
+      "title": "Using Your eWIC Card",
+      "publisher": "New York State Department of Health",
+      "url": "https://www.health.ny.gov/prevention/nutrition/wic/ewic/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "ok-wic-foodlist",
+      "title": "WIC Foods",
+      "publisher": "Oklahoma State Department of Health",
+      "url": "https://oklahoma.gov/health/services/children-family-health/wic/wic-foods.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "or-wic-foodlist",
+      "title": "Oregon WIC Food List",
+      "publisher": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/foods.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pa-wic-formulary",
+      "title": "PA WIC Formulary Guide for Healthcare Providers",
+      "publisher": "Pennsylvania Department of Health, WIC",
+      "url": "https://www.pawic.com/documents/PA%20WIC%20Formulary%20Guide%20for%20Healthcare%20Providers.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "pa-wic-foodlist",
+      "title": "Pennsylvania WIC Food List (English)",
+      "publisher": "Pennsylvania Department of Health, WIC",
+      "url": "https://www.pawic.com/documents/FoodLists/WIC%20Food%20List%20English.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "sc-wic-foodlist",
+      "title": "Eligible Foods",
+      "publisher": "South Carolina Department of Public Health",
+      "url": "https://dph.sc.gov/health-wellness/family-planning/women-infants-and-children-wic-nutrition-program/eligible-foods",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tn-wic-formula",
+      "title": "Tennessee WIC Approved Formulas",
+      "publisher": "Tennessee Department of Health, WIC",
+      "url": "https://www.tn.gov/content/dam/tn/health/program-areas/wic/TN-WIC-Standard-Formula.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tn-wic-foodlist",
+      "title": "Tennessee WIC Shopping Guide (English)",
+      "publisher": "Tennessee Department of Health, WIC",
+      "url": "https://www.tn.gov/content/dam/tn/health/program-areas/wic/TNWIC_FoodGuide_English.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-wic-formula",
+      "title": "WIC Benefits for your Baby (standard formulas offered)",
+      "publisher": "Texas Health and Human Services, Texas WIC",
+      "url": "https://www.texaswic.org/wic-foods-and-recipes/wic-benefits-your-baby",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-wic-card",
+      "title": "Texas WIC Card",
+      "publisher": "Texas Health and Human Services, Texas WIC",
+      "url": "https://www.texaswic.org/wic-foods-and-recipes/texas-wic-card",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-wic-foodlist",
+      "title": "Texas WIC Approved Foods Shopping Guide (FY26)",
+      "publisher": "Texas Health and Human Services, Texas WIC",
+      "url": "https://www.texaswic.org/sites/default/files/inline-files/wic-34-texas-wic-shopping-guide-brochure-fy26.pdf",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "va-wic-foodlist",
+      "title": "2024 WIC Food List",
+      "publisher": "Virginia Department of Health",
+      "url": "https://www.vdh.virginia.gov/wic-retailers/2022-wic-food-list/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "vt-wic-foodlist",
+      "title": "Shopping with WIC",
+      "publisher": "Vermont Department of Health",
+      "url": "https://www.healthvermont.gov/family/wic/shopping-wic",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wa-wic-foodlist",
+      "title": "WIC Foods",
+      "publisher": "Washington State Department of Health",
+      "url": "https://doh.wa.gov/you-and-your-family/wic/wic-foods",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wi-wic-foodlist",
+      "title": "WIC: Food Package",
+      "publisher": "Wisconsin Department of Health Services",
+      "url": "https://www.dhs.wisconsin.gov/wic/food-package.htm",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "wy-wic-foodlist",
+      "title": "Food Shopping Guide",
+      "publisher": "Wyoming Department of Health",
+      "url": "https://health.wyo.gov/publichealth/wic/foodlist/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "id": "oh-wic-page-2026-10",
+      "title": "Ohio WIC (state WIC page, rechecked)",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Women-Infants-Children/program-description",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "oh-wic-phone",
+      "title": "Ohio WIC: phone",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Women-Infants-Children/program-description",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "oh-wic-card",
+      "title": "Ohio WIC: benefit card",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Women-Infants-Children/participants",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "oh-wic-foodlist",
+      "title": "Ohio WIC approved food list",
+      "publisher": "Ohio Department of Health",
+      "url": "https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/women-infants-children/resources/authorized-foods-01",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nj-wic-page-2026-10",
+      "title": "New Jersey WIC (state WIC page, rechecked)",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/fhs/wic/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nj-wic-online",
+      "title": "New Jersey WIC: online application or pre-application",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://wic.nj.gov/ParticipantPortal/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nj-wic-card",
+      "title": "New Jersey WIC: benefit card",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/fhs/wic/ewic/participant_ewic.shtml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nj-wic-foodlist",
+      "title": "New Jersey WIC approved food list",
+      "publisher": "New Jersey Department of Health",
+      "url": "https://www.nj.gov/health/fhs/wic/participants/use-wic-benefits/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ks-wic-page-2026-10",
+      "title": "Kansas WIC (state WIC page, rechecked)",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ks-wic-phone",
+      "title": "Kansas WIC: phone",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ks-wic-online",
+      "title": "Kansas WIC: online application or pre-application",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kswic.com/PreAppPortal",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ks-wic-card",
+      "title": "Kansas WIC: benefit card",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kdhe.ks.gov/DocumentCenter/View/9583/eWIC-Brochure-PDF",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ks-wic-foodlist",
+      "title": "Kansas WIC approved food list",
+      "publisher": "Kansas Department of Health and Environment",
+      "url": "https://www.kdhe.ks.gov/1198/WIC-Approved-Foods",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "sd-wic-page-2026-10",
+      "title": "South Dakota WIC (state WIC page, rechecked)",
+      "publisher": "South Dakota Department of Health",
+      "url": "https://www.sd.gov/wic",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "sd-wic-online",
+      "title": "South Dakota WIC: online application or pre-application",
+      "publisher": "South Dakota Department of Health",
+      "url": "https://dohsdcp.sd.gov",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "sd-wic-card",
+      "title": "South Dakota WIC: benefit card",
+      "publisher": "South Dakota Department of Health",
+      "url": "https://www.sd.gov/wic?id=kb_article_view&sysparm_article=KB0045140",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "sd-wic-foodlist",
+      "title": "South Dakota WIC approved food list",
+      "publisher": "South Dakota Department of Health",
+      "url": "https://www.sd.gov/wic?id=wic_approved_foods_2026",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nh-wic-page-2026-10",
+      "title": "New Hampshire WIC (state WIC page, rechecked)",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nh-wic-phone",
+      "title": "New Hampshire WIC: phone",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nh-wic-online",
+      "title": "New Hampshire WIC: online application or pre-application",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.nhwic.com/preapplicationportal",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nh-wic-card",
+      "title": "New Hampshire WIC: benefit card",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infant-children-nutrition-program/wic-food-packages",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "nh-wic-foodlist",
+      "title": "New Hampshire WIC approved food list",
+      "publisher": "New Hampshire Department of Health and Human Services",
+      "url": "https://www.dhhs.nh.gov/programs-services/population-health/women-infant-children-nutrition-program/wic-food-packages",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ri-wic-page-2026-10",
+      "title": "Rhode Island WIC (state WIC page, rechecked)",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/women-infants-and-children",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ri-wic-card",
+      "title": "Rhode Island WIC: benefit card",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/publications/guides/WICFoodGuide.pdf",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ri-wic-foodlist",
+      "title": "Rhode Island WIC approved food list",
+      "publisher": "Rhode Island Department of Health",
+      "url": "https://health.ri.gov/women-infants-and-children/wic-approved-foods",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "id-wic-page-2026-10",
+      "title": "Idaho WIC (state WIC page, rechecked)",
+      "publisher": "Idaho Department of Health and Welfare",
+      "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/apply-wic",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "id-wic-card",
+      "title": "Idaho WIC: benefit card",
+      "publisher": "Idaho Department of Health and Welfare",
+      "url": "https://healthandwelfare.idaho.gov/WICcard",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "id-wic-foodlist",
+      "title": "Idaho WIC approved food list",
+      "publisher": "Idaho Department of Health and Welfare",
+      "url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/about-wic",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ia-wic-page-2026-10",
+      "title": "Iowa WIC (state WIC page, rechecked)",
+      "publisher": "Iowa Department of Health and Human Services",
+      "url": "https://hhs.iowa.gov/assistance-programs/food-assistance/wic-Iowa",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ia-wic-card",
+      "title": "Iowa WIC: benefit card",
+      "publisher": "Iowa Department of Health and Human Services",
+      "url": "https://hhs.iowa.gov/assistance-programs/food-assistance/wic-Iowa/how-use-wic",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "ia-wic-foodlist",
+      "title": "Iowa WIC approved food list",
+      "publisher": "Iowa Department of Health and Human Services",
+      "url": "https://hhs.iowa.gov/assistance-programs/food-assistance/wic-Iowa/how-use-wic",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "wv-wic-page-2026-10",
+      "title": "West Virginia WIC (state WIC page, rechecked)",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://dhhr.wv.gov/WIC/apply/Pages/default.aspx",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "wv-wic-phone",
+      "title": "West Virginia WIC: phone",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://dhhr.wv.gov/WIC/Pages/contact.aspx",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "wv-wic-online",
+      "title": "West Virginia WIC: online application or pre-application",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://wvwichousehold.wvdhhr.org/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "wv-wic-card",
+      "title": "West Virginia WIC: benefit card",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://dhhr.wv.gov/WIC/foods/Pages/default.aspx",
+      "accessed": "2026-10-16"
+    },
+    {
+      "id": "wv-wic-foodlist",
+      "title": "West Virginia WIC approved food list",
+      "publisher": "West Virginia Office of Nutrition Services",
+      "url": "https://dhhr.wv.gov/WIC/foods/Pages/default.aspx",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "national": {
+    "howToApply": {
+      "text": "Contact a WIC agency where you live to start, by phone or online. The agency schedules an in-person or virtual appointment to finish the application and nutrition check.",
+      "sourceIds": [
+        "usda-wic-apply"
+      ]
+    },
+    "incomeLimitFplPct": {
+      "value": 185,
+      "text": "WIC's income limit is 185% of the federal poverty guidelines (the reduced-price school meal standard).",
+      "sourceIds": [
+        "fr-wic-ieg-2026"
+      ]
+    },
+    "incomeEligibilityGuidelines": {
+      "contiguous48DCAndTerritories": {
+        "byHouseholdSize": {
+          "annual": {
+            "1": 29526,
+            "2": 40034,
+            "3": 50542,
+            "4": 61050,
+            "5": 71558,
+            "6": 82066,
+            "7": 92574,
+            "8": 103082
+          },
+          "monthly": {
+            "1": 2461,
+            "2": 3337,
+            "3": 4212,
+            "4": 5088,
+            "5": 5964,
+            "6": 6839,
+            "7": 7715,
+            "8": 8591
+          },
+          "twiceMonthly": {
+            "1": 1231,
+            "2": 1669,
+            "3": 2106,
+            "4": 2544,
+            "5": 2982,
+            "6": 3420,
+            "7": 3858,
+            "8": 4296
+          },
+          "biweekly": {
+            "1": 1136,
+            "2": 1540,
+            "3": 1944,
+            "4": 2349,
+            "5": 2753,
+            "6": 3157,
+            "7": 3561,
+            "8": 3965
+          },
+          "weekly": {
+            "1": 568,
+            "2": 770,
+            "3": 972,
+            "4": 1175,
+            "5": 1377,
+            "6": 1579,
+            "7": 1781,
+            "8": 1983
+          }
+        },
+        "perAdditionalMember": {
+          "annual": 10508,
+          "monthly": 876,
+          "twiceMonthly": 438,
+          "biweekly": 405,
+          "weekly": 203
+        }
+      },
+      "alaska": {
+        "byHouseholdSize": {
+          "annual": {
+            "1": 36908,
+            "2": 50043,
+            "3": 63178,
+            "4": 76313,
+            "5": 89448,
+            "6": 102583,
+            "7": 115718,
+            "8": 128853
+          },
+          "monthly": {
+            "1": 3076,
+            "2": 4171,
+            "3": 5265,
+            "4": 6360,
+            "5": 7454,
+            "6": 8549,
+            "7": 9644,
+            "8": 10738
+          },
+          "twiceMonthly": {
+            "1": 1538,
+            "2": 2086,
+            "3": 2633,
+            "4": 3180,
+            "5": 3727,
+            "6": 4275,
+            "7": 4822,
+            "8": 5369
+          },
+          "biweekly": {
+            "1": 1420,
+            "2": 1925,
+            "3": 2430,
+            "4": 2936,
+            "5": 3441,
+            "6": 3946,
+            "7": 4451,
+            "8": 4956
+          },
+          "weekly": {
+            "1": 710,
+            "2": 963,
+            "3": 1215,
+            "4": 1468,
+            "5": 1721,
+            "6": 1973,
+            "7": 2226,
+            "8": 2478
+          }
+        },
+        "perAdditionalMember": {
+          "annual": 13135,
+          "monthly": 1095,
+          "twiceMonthly": 548,
+          "biweekly": 506,
+          "weekly": 253
+        }
+      },
+      "hawaii": {
+        "byHouseholdSize": {
+          "annual": {
+            "1": 33966,
+            "2": 46047,
+            "3": 58127,
+            "4": 70208,
+            "5": 82288,
+            "6": 94369,
+            "7": 106449,
+            "8": 118530
+          },
+          "monthly": {
+            "1": 2831,
+            "2": 3838,
+            "3": 4844,
+            "4": 5851,
+            "5": 6858,
+            "6": 7865,
+            "7": 8871,
+            "8": 9878
+          },
+          "twiceMonthly": {
+            "1": 1416,
+            "2": 1919,
+            "3": 2422,
+            "4": 2926,
+            "5": 3429,
+            "6": 3933,
+            "7": 4436,
+            "8": 4939
+          },
+          "biweekly": {
+            "1": 1307,
+            "2": 1772,
+            "3": 2236,
+            "4": 2701,
+            "5": 3165,
+            "6": 3630,
+            "7": 4095,
+            "8": 4559
+          },
+          "weekly": {
+            "1": 654,
+            "2": 886,
+            "3": 1118,
+            "4": 1351,
+            "5": 1583,
+            "6": 1815,
+            "7": 2048,
+            "8": 2280
+          }
+        },
+        "perAdditionalMember": {
+          "annual": 12081,
+          "monthly": 1007,
+          "twiceMonthly": 504,
+          "biweekly": 465,
+          "weekly": 233
+        }
+      },
+      "effective": "2026-07-01",
+      "expires": "2027-06-30",
+      "basis": "185% of 2026 HHS poverty guidelines",
+      "note": "Gross household income in dollars. For households over 8, add the perAdditionalMember amount for each extra person.",
+      "sourceIds": [
+        "fr-wic-ieg-2026"
+      ]
+    },
+    "adjunctiveEligibility": {
+      "text": "If you or the children in your care get Medicaid, SNAP or TANF, you may already meet WIC's income rule and do not need to show income under the limit.",
+      "programs": [
+        "Medicaid",
+        "SNAP",
+        "TANF"
+      ],
+      "sourceIds": [
+        "usda-wic-eligibility"
+      ]
+    },
+    "unbornChildrenCount": {
+      "text": "If someone in your household is pregnant, you may increase your household size by one for each expected birth.",
+      "sourceIds": [
+        "usda-wic-eligibility"
+      ]
+    },
+    "whoQualifies": {
+      "text": "Women who are pregnant, postpartum (up to 6 months after the end of a pregnancy) or breastfeeding (up to the infant's first birthday), infants, and children up to their fifth birthday. You apply through a WIC agency where you live, and every applicant gets a free health and nutrition check from WIC staff.",
+      "groups": [
+        {
+          "group": "pregnant"
+        },
+        {
+          "group": "postpartum",
+          "upToMonths": 6
+        },
+        {
+          "group": "breastfeeding",
+          "upToMonths": 12
+        },
+        {
+          "group": "infants"
+        },
+        {
+          "group": "children",
+          "underAgeYears": 5
+        }
+      ],
+      "sourceIds": [
+        "usda-wic-eligibility"
+      ]
+    },
+    "whatWicProvides": {
+      "text": "Healthy foods on an eWIC card (fruits and vegetables, baby food, milk, eggs, beans, cheese and more), nutrition education and counseling, breastfeeding support, and referrals to health care and community services, at no cost. Many WIC clinics offer breastfeeding peer counselors, and some WIC clinics provide or rent breast pumps to participants who cannot get one through insurance or Medicaid.",
+      "sourceIds": [
+        "usda-wic-benefits",
+        "usda-wic-bf-support",
+        "usda-wic-bf-pump"
+      ]
+    },
+    "formulaContracts": {
+      "text": "Each state WIC agency awards one infant formula rebate contract to the manufacturer offering the biggest discount, so WIC's standard formula depends on your state. As of July 2026, Abbott (maker of Similac) held the contract in 39 states and DC and Mead Johnson (maker of Enfamil) in 11. If your baby needs a different formula for a medical reason, ask your WIC office.",
+      "abbott": [
+        "AK",
+        "AR",
+        "AZ",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "HI",
+        "ID",
+        "IL",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MO",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NM",
+        "NV",
+        "OK",
+        "OR",
+        "PA",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "UT",
+        "VA",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
+      ],
+      "meadJohnson": [
+        "AL",
+        "CA",
+        "CO",
+        "GA",
+        "IA",
+        "IN",
+        "MN",
+        "NJ",
+        "NY",
+        "OH",
+        "TX"
+      ],
+      "asOf": "2026-07",
+      "brandByManufacturer": {
+        "Abbott": "Similac",
+        "Mead Johnson": "Enfamil"
+      },
+      "sourceIds": [
+        "usda-wic-formula-contracts",
+        "tx-wic-formula"
+      ]
+    }
+  },
+  "states": {
+    "AK": {
+      "status": "covered",
+      "programName": "Alaska WIC",
+      "agencyName": "Alaska Department of Health",
+      "applyUrl": "https://health.alaska.gov/en/services/division-of-public-assistance-dpa-services/wic/",
+      "phone": "907-465-3100",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ak-wic",
+        "usda-wic-contact-ak",
+        "usda-wic-formula-contracts",
+        "ak-wic-foodlist"
+      ],
+      "notes": "Applicants fill out printable forms and contact the nearest WIC clinic.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://health.alaska.gov/en/resources/wic-approved-foods/",
+      "foodListSourceIds": [
+        "ak-wic-foodlist"
+      ]
+    },
+    "AL": {
+      "status": "covered",
+      "programName": "Alabama WIC",
+      "agencyName": "Alabama Department of Public Health",
+      "applyUrl": "https://www.alabamapublichealth.gov/wic/apply.html",
+      "phone": "1-888-942-4673",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "al-wic",
+        "usda-wic-contact-al",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "AR": {
+      "status": "covered",
+      "programName": "Arkansas WIC",
+      "agencyName": "Arkansas Department of Health",
+      "applyUrl": "https://healthy.arkansas.gov/programs-services/community-family-child-health/wic-women-infants-children/",
+      "phone": "501-661-2508",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ar-wic",
+        "usda-wic-contact-ar",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "The state WIC page lists the toll-free number as 1-800-235-0002, while USDA's state agency list shows 1-800-253-0002; we show the state office line that both list.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "AZ": {
+      "status": "covered",
+      "programName": "Arizona WIC",
+      "agencyName": "Arizona Department of Health Services",
+      "applyUrl": "https://www.azdhs.gov/prevention/azwic/",
+      "phone": "1-800-252-5942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.myazwic.com/",
+      "sourceIds": [
+        "az-wic",
+        "usda-wic-contact-az",
+        "az-wic-online",
+        "usda-wic-formula-contracts",
+        "az-wic-families"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "az-wic-families"
+      ],
+      "approvedFoodListUrl": "https://www.azdhs.gov/prevention/azwic/families/index.php",
+      "foodListSourceIds": [
+        "az-wic-families"
+      ]
+    },
+    "CA": {
+      "status": "covered",
+      "programName": "California WIC",
+      "agencyName": "California Department of Public Health",
+      "applyUrl": "https://myfamily.wic.ca.gov/Home/HowCanIGetWIC",
+      "phone": "1-800-852-5770",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ca-wic",
+        "usda-wic-contact-ca",
+        "usda-wic-formula-contracts",
+        "ca-wic-formula",
+        "ca-wic-card",
+        "ca-wic-foodlist"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": "Enfamil (milk-based); Similac Soy Isomil (soy)",
+        "note": "California WIC has two contracts: Enfamil for milk-based formulas and Similac for soy.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "ca-wic-formula"
+        ]
+      },
+      "ebtCardName": "California WIC Card",
+      "ebtCardSourceIds": [
+        "ca-wic-card"
+      ],
+      "approvedFoodListUrl": "https://docs.wic.ca.gov/Content/Documents/WIC-2026-ShoppingGuide-EN-FINAL.pdf",
+      "foodListSourceIds": [
+        "ca-wic-foodlist"
+      ]
+    },
+    "CO": {
+      "status": "covered",
+      "programName": "Colorado WIC",
+      "agencyName": "Colorado Department of Public Health and Environment",
+      "applyUrl": "https://www.coloradowic.gov/eligibility/apply",
+      "phone": "303-692-2400",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.healthinformatics.dphe.state.co.us/WICSignUp",
+      "sourceIds": [
+        "co-wic",
+        "usda-wic-contact-co",
+        "co-wic-online",
+        "usda-wic-formula-contracts",
+        "co-wic-foodlist"
+      ],
+      "notes": "The online form is an appointment request; a WIC staff member follows up.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.coloradowic.gov/wic-foods-list",
+      "foodListSourceIds": [
+        "co-wic-foodlist"
+      ]
+    },
+    "CT": {
+      "status": "covered",
+      "programName": "Connecticut WIC",
+      "agencyName": "Connecticut Department of Public Health",
+      "applyUrl": "https://portal.ct.gov/dph/wic/how-to-apply",
+      "phone": "1-800-741-2142",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://dphsubmissions.ct.gov/CTWIC_Interest_Form",
+      "sourceIds": [
+        "ct-wic",
+        "usda-wic-contact-ct",
+        "ct-wic-online",
+        "usda-wic-formula-contracts",
+        "ct-wic-foodlist"
+      ],
+      "notes": "The online form is an interest form; WIC staff contact you to finish the application.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://portal.ct.gov/dph/wic/approved-foods",
+      "foodListSourceIds": [
+        "ct-wic-foodlist"
+      ]
+    },
+    "DC": {
+      "status": "covered",
+      "programName": "DC WIC",
+      "agencyName": "DC Health",
+      "applyUrl": "https://www.dcwic.org/",
+      "phone": "1-833-439-4232",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.dcwic.org/dc-wic-appointment-request",
+      "sourceIds": [
+        "dc-wic",
+        "usda-wic-contact-dc",
+        "usda-wic-formula-contracts",
+        "dc-wic-foodlist"
+      ],
+      "notes": "The phone number is the DC WIC Participant Hub. Online, you can request an appointment.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.dcwic.org/foods-formulas",
+      "foodListSourceIds": [
+        "dc-wic-foodlist"
+      ]
+    },
+    "DE": {
+      "status": "covered",
+      "programName": "Delaware WIC",
+      "agencyName": "Delaware Division of Public Health",
+      "applyUrl": "https://delaware.wicresources.org/",
+      "phone": "302-283-7540",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": null,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "de-wic",
+        "usda-wic-contact-de",
+        "usda-wic-formula-contracts",
+        "de-wic-guide"
+      ],
+      "notes": "The Delaware WIC client portal is for scheduling appointments; we could not confirm that new applicants can start an application online.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "de-wic-guide"
+      ],
+      "approvedFoodListUrl": "https://delaware.wicresources.org/program-guide/",
+      "foodListSourceIds": [
+        "de-wic-guide"
+      ]
+    },
+    "FL": {
+      "status": "covered",
+      "programName": "Florida WIC",
+      "agencyName": "Florida Department of Health",
+      "applyUrl": "https://www.floridahealth.gov/individual-family-health/womens-health/wic/",
+      "phone": "1-800-342-3556",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "fl-wic",
+        "usda-wic-contact-fl",
+        "usda-wic-formula-contracts",
+        "fl-wic-formula",
+        "fl-wic-ebt",
+        "fl-wic-foodlist"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": "Similac",
+        "note": "Florida WIC's contract powder formulas are Similac products, including Similac Soy Isomil.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "fl-wic-formula"
+        ]
+      },
+      "ebtCardName": "WIC EBT card",
+      "ebtCardSourceIds": [
+        "fl-wic-ebt"
+      ],
+      "approvedFoodListUrl": "https://www.floridahealth.gov/wp-content/uploads/2026/02/flwic-fl-wic-foods-en.pdf",
+      "foodListSourceIds": [
+        "fl-wic-foodlist"
+      ]
+    },
+    "GA": {
+      "status": "covered",
+      "programName": "Georgia WIC",
+      "agencyName": "Georgia Department of Public Health",
+      "applyUrl": "https://dph.georgia.gov/WIC",
+      "phone": "1-800-228-9173",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://gateway.ga.gov/access/",
+      "sourceIds": [
+        "ga-wic",
+        "usda-wic-contact-ga",
+        "ga-wic-online",
+        "usda-wic-formula-contracts",
+        "ga-wic-foodlist"
+      ],
+      "notes": "Georgia's WIC page links to Georgia Gateway to apply.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "ga-wic"
+      ],
+      "approvedFoodListUrl": "https://dph.georgia.gov/WIC/wic-approved-foods-list",
+      "foodListSourceIds": [
+        "ga-wic-foodlist"
+      ]
+    },
+    "HI": {
+      "status": "covered",
+      "programName": "Hawaii WIC",
+      "agencyName": "Hawaii State Department of Health",
+      "applyUrl": "https://health.hawaii.gov/wic/",
+      "phone": "808-586-8175",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.hiwic.org/apply",
+      "sourceIds": [
+        "hi-wic",
+        "usda-wic-contact-hi",
+        "hi-wic-online",
+        "usda-wic-formula-contracts",
+        "hi-wic-foodlist"
+      ],
+      "notes": "The online link opens Hawaii WIC's pre-application portal. The phone number is from USDA's WIC state agency list; the state WIC page did not show it.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://health.hawaii.gov/wic/files/2026/05/Hawaii-WIC-Approved-Food-List-2026_.pdf",
+      "foodListSourceIds": [
+        "hi-wic-foodlist"
+      ]
+    },
+    "IA": {
+      "status": "covered",
+      "programName": "Iowa WIC",
+      "agencyName": "Iowa Department of Health and Human Services",
+      "applyUrl": "https://hhs.iowa.gov/assistance-programs/food-assistance/wic-Iowa",
+      "phone": "1-800-532-1579",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ia-wic",
+        "usda-wic-contact-ia",
+        "usda-wic-formula-contracts",
+        "ia-wic-page-2026-10",
+        "ia-wic-card",
+        "ia-wic-foodlist"
+      ],
+      "notes": "Iowa says to contact your local WIC office or agency to make an appointment; the phone shown here is from USDA's state agency list.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "ia-wic-card"
+      ],
+      "approvedFoodListUrl": "https://hhs.iowa.gov/media/17187/download?inline",
+      "foodListSourceIds": [
+        "ia-wic-foodlist"
+      ]
+    },
+    "ID": {
+      "status": "covered",
+      "programName": "Idaho WIC",
+      "agencyName": "Idaho Department of Health and Welfare",
+      "applyUrl": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/apply-wic",
+      "phone": "1-866-347-5484",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "id-wic",
+        "usda-wic-contact-id",
+        "usda-wic-formula-contracts",
+        "id-wic-page-2026-10",
+        "id-wic-card",
+        "id-wic-foodlist"
+      ],
+      "notes": "Idaho says to contact your local WIC clinic to set up your first appointment. The phone shown here is from USDA's state agency list; for card or PIN problems, Idaho's eWIC customer service line is 844-892-3084.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "Idaho WIC card",
+      "ebtCardSourceIds": [
+        "id-wic-card"
+      ],
+      "approvedFoodListUrl": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=6418&dbid=0&repo=PUBLIC-DOCUMENTS",
+      "foodListSourceIds": [
+        "id-wic-foodlist"
+      ]
+    },
+    "IL": {
+      "status": "covered",
+      "programName": "Illinois WIC",
+      "agencyName": "Illinois Department of Human Services",
+      "applyUrl": "https://www.dhs.state.il.us/page.aspx?item=31907",
+      "phone": "1-844-901-0962",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "il-wic",
+        "usda-wic-contact-il",
+        "usda-wic-formula-contracts",
+        "il-wic-families",
+        "il-wic-foodlist"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "WIC EBT card",
+      "ebtCardSourceIds": [
+        "il-wic-families"
+      ],
+      "approvedFoodListUrl": "https://www.dhs.state.il.us/OneNetLibrary/27897/documents/WIC/4870%20Food%20List%20(R-12-25).pdf",
+      "foodListSourceIds": [
+        "il-wic-foodlist"
+      ]
+    },
+    "IN": {
+      "status": "covered",
+      "programName": "Indiana WIC",
+      "agencyName": "Indiana Department of Health",
+      "applyUrl": "https://www.in.gov/health/wic/how-do-i-apply-for-wic",
+      "phone": "1-800-522-0874",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "in-wic",
+        "usda-wic-contact-in",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "KS": {
+      "status": "covered",
+      "programName": "Kansas WIC",
+      "agencyName": "Kansas Department of Health and Environment",
+      "applyUrl": "https://www.kdhe.ks.gov/1000/Nutrition-WIC-Services",
+      "phone": "785-296-3683",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.kswic.com/PreAppPortal",
+      "sourceIds": [
+        "ks-wic",
+        "usda-wic-contact-ks",
+        "usda-wic-formula-contracts",
+        "ks-wic-page-2026-10",
+        "ks-wic-phone",
+        "ks-wic-online",
+        "ks-wic-card",
+        "ks-wic-foodlist"
+      ],
+      "notes": "The online pre-application starts your enrollment; your local WIC clinic then contacts you. 785-296-3683 is the State WIC office line.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "ks-wic-card"
+      ],
+      "approvedFoodListUrl": "https://www.kdhe.ks.gov/1222/WIC-Approved-Food-List",
+      "foodListSourceIds": [
+        "ks-wic-foodlist"
+      ]
+    },
+    "KY": {
+      "status": "covered",
+      "programName": "Kentucky WIC",
+      "agencyName": "Kentucky Cabinet for Health and Family Services",
+      "applyUrl": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Pages/wic.aspx",
+      "phone": "1-877-597-0367",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ky-wic",
+        "usda-wic-contact-ky",
+        "usda-wic-formula-contracts",
+        "ky-wic-foodlist"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.chfs.ky.gov/agencies/dph/dmch/nsb/Documents/WICApprovedFood.pdf",
+      "foodListSourceIds": [
+        "ky-wic-foodlist"
+      ]
+    },
+    "LA": {
+      "status": "covered",
+      "programName": "Louisiana WIC",
+      "agencyName": "Louisiana Department of Health",
+      "applyUrl": "https://louisianawic.org/about-wic/how-to-apply/",
+      "phone": "1-800-251-2229",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://mywic.us/participantreferral?program=LA",
+      "sourceIds": [
+        "la-wic",
+        "usda-wic-contact-la",
+        "la-wic-online",
+        "usda-wic-formula-contracts",
+        "la-wic-foodlist"
+      ],
+      "notes": "The online form is an interest form; your local clinic follows up.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "WIC EBT card",
+      "ebtCardSourceIds": [
+        "la-wic"
+      ],
+      "approvedFoodListUrl": "https://louisianawic.org/wic-food-guide/",
+      "foodListSourceIds": [
+        "la-wic-foodlist"
+      ]
+    },
+    "MA": {
+      "status": "covered",
+      "programName": "Massachusetts WIC",
+      "agencyName": "Massachusetts Department of Public Health",
+      "applyUrl": "https://www.mass.gov/orgs/women-infants-children-nutrition-program",
+      "phone": "1-800-942-1007",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.mass.gov/forms/apply-for-wic-online",
+      "sourceIds": [
+        "ma-wic",
+        "usda-wic-contact-ma",
+        "ma-wic-online",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "MD": {
+      "status": "covered",
+      "programName": "Maryland WIC",
+      "agencyName": "Maryland Department of Health",
+      "applyUrl": "https://health.maryland.gov/phpa/wic/Pages/wic-apply.aspx",
+      "phone": "1-800-242-4942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://wicclientportal.health.maryland.gov/",
+      "sourceIds": [
+        "md-wic",
+        "usda-wic-contact-md",
+        "md-wic-online",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "Maryland's WIC page says to call your county WIC office or use the client portal to set up an appointment.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "ME": {
+      "status": "covered",
+      "programName": "Maine WIC",
+      "agencyName": "Maine Center for Disease Control and Prevention",
+      "applyUrl": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/apply-and-get-started",
+      "phone": "1-800-437-9300",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/get-support/contact-us-form",
+      "sourceIds": [
+        "me-wic",
+        "usda-wic-contact-me",
+        "me-wic-online",
+        "usda-wic-formula-contracts",
+        "me-wic-foodlist"
+      ],
+      "notes": "Online, you can use the contact form and a WIC staff member will call to set up an appointment.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.maine.gov/dhhs/mecdc/healthy-living/wic/vendors-and-farmers/wic-approved-foods-list",
+      "foodListSourceIds": [
+        "me-wic-foodlist"
+      ]
+    },
+    "MI": {
+      "status": "covered",
+      "programName": "Michigan WIC",
+      "agencyName": "Michigan Department of Health and Human Services",
+      "applyUrl": "https://www.michigan.gov/mdhhs/assistance-programs/wic",
+      "phone": "1-800-942-1636",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://newmibridges.michigan.gov/s/isd-guest-ha-applyforbenefits?language=en_US",
+      "sourceIds": [
+        "mi-wic",
+        "usda-wic-contact-mi",
+        "mi-wic-online",
+        "usda-wic-formula-contracts",
+        "mi-wic-formula-change",
+        "mi-wic-foodguide"
+      ],
+      "notes": "Michigan's WIC page links to MI Bridges to start an application. The phone number is from USDA's WIC state agency list; the state WIC page did not show it.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": "Similac (through October 2026); Enfamil from November 1, 2026",
+        "note": "Michigan WIC switches its standard formula from Similac to Enfamil with November 2026 benefits, under a contract that runs November 1, 2026 to October 31, 2031.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "mi-wic-formula-change"
+        ],
+        "changes": {
+          "manufacturer": "Mead Johnson",
+          "brand": "Enfamil",
+          "effective": "2026-11-01",
+          "sourceIds": [
+            "mi-wic-formula-change"
+          ]
+        }
+      },
+      "ebtCardName": "Michigan WIC EBT card",
+      "ebtCardSourceIds": [
+        "mi-wic-foodguide"
+      ],
+      "approvedFoodListUrl": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/WIC-Media/WIC-Foods/WIC-Food-Guide-English.pdf",
+      "foodListSourceIds": [
+        "mi-wic-foodguide"
+      ]
+    },
+    "MN": {
+      "status": "covered",
+      "programName": "Minnesota WIC",
+      "agencyName": "Minnesota Department of Health",
+      "applyUrl": "https://www.health.state.mn.us/people/wic/index.html",
+      "phone": "1-800-657-3942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://redcap.health.state.mn.us/redcap/surveys/?s=4WCPLJL77MLKRPJ3",
+      "sourceIds": [
+        "mn-wic",
+        "usda-wic-contact-mn",
+        "mn-wic-online",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "MO": {
+      "status": "covered",
+      "programName": "Missouri WIC",
+      "agencyName": "Missouri Department of Health and Senior Services",
+      "applyUrl": "https://health.mo.gov/families/women-infants-children-wic",
+      "phone": "1-800-392-8209",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://moexperience.qualtrics.com/jfe/form/SV_9yOkwmd0Zv93emO",
+      "sourceIds": [
+        "mo-wic",
+        "usda-wic-contact-mo",
+        "mo-wic-online",
+        "usda-wic-formula-contracts",
+        "mo-wic-foodlist"
+      ],
+      "notes": "The online form is an interest form.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://health.mo.gov/families/women-infants-children-wic/wic-approved-food-list",
+      "foodListSourceIds": [
+        "mo-wic-foodlist"
+      ]
+    },
+    "MS": {
+      "status": "covered",
+      "programName": "Mississippi WIC",
+      "agencyName": "Mississippi State Department of Health",
+      "applyUrl": "https://msdh.ms.gov/msdhsite/_static/41,25323,128.html",
+      "phone": "1-800-338-6747",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://redcap.link/WICOnlineApplication",
+      "sourceIds": [
+        "ms-wic",
+        "usda-wic-contact-ms",
+        "ms-wic-online",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "The phone number is the WIC scheduling center. The WIC landing page lists a different toll-free number, (800) 545-6747.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "MT": {
+      "status": "covered",
+      "programName": "Montana WIC",
+      "agencyName": "Montana Department of Public Health and Human Services",
+      "applyUrl": "https://dphhs.mt.gov/ecfsd/wic/",
+      "phone": "1-800-433-4298",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://signupwic.com/",
+      "sourceIds": [
+        "mt-wic",
+        "usda-wic-contact-mt",
+        "mt-wic-online",
+        "usda-wic-formula-contracts",
+        "mt-wic-foodlist"
+      ],
+      "notes": "Montana's WIC page sends applicants to signupwic.com, a national WIC sign-up site, to start. The phone number is from USDA's WIC state agency list; the state WIC page did not show it.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://dphhs.mt.gov/assets/ecfsd/WIC/StatePlan/Attachments/ApprovedFoodList.pdf",
+      "foodListSourceIds": [
+        "mt-wic-foodlist"
+      ]
+    },
+    "NC": {
+      "status": "covered",
+      "programName": "North Carolina WIC",
+      "agencyName": "North Carolina Department of Health and Human Services",
+      "applyUrl": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/wic/apply-wic",
+      "phone": "1-844-601-6881",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/community-nutrition-services-section/wic/north-carolina-wic-families-referral-form",
+      "sourceIds": [
+        "nc-wic",
+        "usda-wic-contact-nc",
+        "nc-wic-online",
+        "usda-wic-formula-contracts",
+        "nc-wic-mywic",
+        "nc-wic-foodlist"
+      ],
+      "notes": "Online, you can submit a referral form; a WIC clinic contacts you within 20 days. The phone number is NC's statewide WIC line.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "NC eWIC card",
+      "ebtCardSourceIds": [
+        "nc-wic-mywic"
+      ],
+      "approvedFoodListUrl": "https://www.ncdhhs.gov/wic-participant-guide-food-package-updates-english/open",
+      "foodListSourceIds": [
+        "nc-wic-foodlist"
+      ]
+    },
+    "ND": {
+      "status": "covered",
+      "programName": "North Dakota WIC",
+      "agencyName": "North Dakota Health and Human Services",
+      "applyUrl": "https://www.hhs.nd.gov/food-programs/WIC/apply",
+      "phone": "1-800-472-2286",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "nd-wic",
+        "usda-wic-contact-nd",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "North Dakota says in-person enrollment at a WIC clinic is the only way to apply.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "NE": {
+      "status": "covered",
+      "programName": "Nebraska WIC",
+      "agencyName": "Nebraska Department of Health and Human Services",
+      "applyUrl": "https://dhhs.ne.gov/Pages/Eligibility-and-How-to-Apply.aspx",
+      "phone": "1-800-942-1171",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ne-wic",
+        "usda-wic-contact-ne",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "NH": {
+      "status": "covered",
+      "programName": "New Hampshire WIC",
+      "agencyName": "New Hampshire Department of Health and Human Services",
+      "applyUrl": "https://www.dhhs.nh.gov/programs-services/population-health/women-infants-children-nutrition-program",
+      "phone": "1-800-942-4321",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.nhwic.com/preapplicationportal",
+      "sourceIds": [
+        "nh-wic",
+        "usda-wic-contact-nh",
+        "usda-wic-formula-contracts",
+        "nh-wic-page-2026-10",
+        "nh-wic-phone",
+        "nh-wic-online",
+        "nh-wic-card",
+        "nh-wic-foodlist"
+      ],
+      "notes": "New Hampshire's online pre-application sets up your first appointment. Families moving from another state should call instead.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "nh-wic-card"
+      ],
+      "approvedFoodListUrl": "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/documents/2021-11/wic-approved-foods.pdf",
+      "foodListSourceIds": [
+        "nh-wic-foodlist"
+      ]
+    },
+    "NJ": {
+      "status": "covered",
+      "programName": "New Jersey WIC",
+      "agencyName": "New Jersey Department of Health",
+      "applyUrl": "https://www.nj.gov/health/fhs/wic/participants/apply-wic/",
+      "phone": "1-800-328-3838",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://wic.nj.gov/ParticipantPortal/",
+      "sourceIds": [
+        "nj-wic",
+        "usda-wic-contact-nj",
+        "usda-wic-formula-contracts",
+        "nj-wic-page-2026-10",
+        "nj-wic-online",
+        "nj-wic-card",
+        "nj-wic-foodlist"
+      ],
+      "notes": "New Jersey's online Participant Portal is a 15-minute pre-screening that goes to your local WIC agency, which then schedules your appointment. The state's WIC pages list local agency numbers; the phone shown here is from USDA's state agency list.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "nj-wic-card"
+      ],
+      "approvedFoodListUrl": "https://newjersey.wicresources.org/food-and-program-guide-for-participants/",
+      "foodListSourceIds": [
+        "nj-wic-foodlist"
+      ]
+    },
+    "NM": {
+      "status": "covered",
+      "programName": "New Mexico WIC",
+      "agencyName": "New Mexico Department of Health",
+      "applyUrl": "https://www.nmwic.org/how-to-apply-wic/",
+      "phone": "1-866-867-3124",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.nmwic.org/request-an-appointment/",
+      "sourceIds": [
+        "nm-wic",
+        "usda-wic-contact-nm",
+        "nm-wic-online",
+        "usda-wic-formula-contracts",
+        "nm-wic-foodlist"
+      ],
+      "notes": "Online, you can request an appointment; clinic staff call within 7 days.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "WIC EBT card",
+      "ebtCardSourceIds": [
+        "nm-wic"
+      ],
+      "approvedFoodListUrl": "https://www.nmwic.org/shopping-with-wic/nm-wic-food-packages/",
+      "foodListSourceIds": [
+        "nm-wic-foodlist"
+      ]
+    },
+    "NV": {
+      "status": "covered",
+      "programName": "Nevada WIC",
+      "agencyName": "Nevada Division of Public and Behavioral Health",
+      "applyUrl": "https://nevadawic.org/eligibility/",
+      "phone": "1-800-863-8942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "nv-wic",
+        "usda-wic-contact-nv",
+        "usda-wic-formula-contracts",
+        "nv-wic-ebt"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "WIC EBT card",
+      "ebtCardSourceIds": [
+        "nv-wic-ebt"
+      ],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "NY": {
+      "status": "covered",
+      "programName": "New York WIC",
+      "agencyName": "New York State Department of Health",
+      "applyUrl": "https://www.health.ny.gov/prevention/nutrition/wic/how_to_apply.htm",
+      "phone": "518-402-7093",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ny-wic",
+        "usda-wic-contact-ny",
+        "usda-wic-formula-contracts",
+        "ny-wic-formulas",
+        "ny-wic-ewic"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": "Enfamil (milk-based); Similac Soy Isomil (soy)",
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "ny-wic-formulas"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "ny-wic-ewic"
+      ],
+      "approvedFoodListUrl": "https://www.health.ny.gov/prevention/nutrition/wic/approved_formulas.htm",
+      "foodListSourceIds": [
+        "ny-wic-formulas"
+      ]
+    },
+    "OH": {
+      "status": "covered",
+      "programName": "Ohio WIC",
+      "agencyName": "Ohio Department of Health",
+      "applyUrl": "https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Women-Infants-Children/program-description",
+      "phone": "1-800-755-4769",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "oh-wic",
+        "usda-wic-contact-oh",
+        "usda-wic-formula-contracts",
+        "oh-wic-page-2026-10",
+        "oh-wic-phone",
+        "oh-wic-card",
+        "oh-wic-foodlist"
+      ],
+      "notes": "Ohio WIC has a printable application you take to a WIC clinic, not an online form. 1-800-755-GROW (4769) is the state's line for finding your local clinic.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "WIC Nutrition Card",
+      "ebtCardSourceIds": [
+        "oh-wic-card"
+      ],
+      "approvedFoodListUrl": "https://odh.ohio.gov/wps/wcm/connect/gov/5c89ccf1-7ce0-4c84-a780-9fb235bf3966/Ohio+WIC+Authorized+Food+List+Oct+2026.pdf?MOD=AJPERES",
+      "foodListSourceIds": [
+        "oh-wic-foodlist"
+      ]
+    },
+    "OK": {
+      "status": "covered",
+      "programName": "Oklahoma WIC",
+      "agencyName": "Oklahoma State Department of Health",
+      "applyUrl": "https://oklahoma.gov/health/services/children-family-health/wic.html",
+      "phone": "1-888-655-2942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://osdhcfhs.az1.qualtrics.com/jfe/form/SV_b8vNxstcQGy9YzA?Source=Website",
+      "sourceIds": [
+        "ok-wic",
+        "usda-wic-contact-ok",
+        "ok-wic-online",
+        "usda-wic-formula-contracts",
+        "ok-wic-foodlist"
+      ],
+      "notes": "The online form is an interest form.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://oklahoma.gov/health/services/children-family-health/wic/wic-foods.html",
+      "foodListSourceIds": [
+        "ok-wic-foodlist"
+      ]
+    },
+    "OR": {
+      "status": "covered",
+      "programName": "Oregon WIC",
+      "agencyName": "Oregon Health Authority",
+      "applyUrl": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/index.aspx",
+      "phone": "971-673-0040",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/interest-form.aspx",
+      "sourceIds": [
+        "or-wic",
+        "usda-wic-contact-or",
+        "or-wic-online",
+        "usda-wic-formula-contracts",
+        "or-wic-foodlist"
+      ],
+      "notes": "Some counties use their own interest form, linked from the state page.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/WIC/Pages/foods.aspx",
+      "foodListSourceIds": [
+        "or-wic-foodlist"
+      ]
+    },
+    "PA": {
+      "status": "covered",
+      "programName": "Pennsylvania WIC",
+      "agencyName": "Pennsylvania Department of Health",
+      "applyUrl": "https://www.pawic.com/",
+      "phone": "1-800-942-9467",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.pawic.com/OnlineApplication.aspx",
+      "sourceIds": [
+        "pa-wic",
+        "usda-wic-contact-pa",
+        "usda-wic-formula-contracts",
+        "pa-wic-formulary",
+        "pa-wic-foodlist"
+      ],
+      "notes": "The online form is a pre-application sent to your local WIC office.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": "Similac",
+        "note": "Pennsylvania WIC holds a contract with Abbott Nutrition for standard Similac formulas.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "pa-wic-formulary"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "pa-wic-foodlist"
+      ],
+      "approvedFoodListUrl": "https://www.pawic.com/documents/FoodLists/WIC%20Food%20List%20English.pdf",
+      "foodListSourceIds": [
+        "pa-wic-foodlist"
+      ]
+    },
+    "RI": {
+      "status": "covered",
+      "programName": "Rhode Island WIC",
+      "agencyName": "Rhode Island Department of Health",
+      "applyUrl": "https://health.ri.gov/women-infants-and-children",
+      "phone": "1-800-942-7434",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": null,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ri-wic",
+        "usda-wic-contact-ri",
+        "usda-wic-formula-contracts",
+        "ri-wic-page-2026-10",
+        "ri-wic-card",
+        "ri-wic-foodlist"
+      ],
+      "notes": "Rhode Island's WIC pages say to call your local WIC office; the phone shown here is from USDA's state agency list. We couldn't confirm an online form to start.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "ri-wic-card"
+      ],
+      "approvedFoodListUrl": "https://health.ri.gov/publications/guides/WICFoodGuide.pdf",
+      "foodListSourceIds": [
+        "ri-wic-foodlist"
+      ]
+    },
+    "SC": {
+      "status": "covered",
+      "programName": "South Carolina WIC",
+      "agencyName": "South Carolina Department of Public Health",
+      "applyUrl": "https://dph.sc.gov/health-wellness/family-planning/women-infants-and-children-wic-nutrition-program/apply-wic-its-easy",
+      "phone": "1-855-472-3432",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://apps.dhec.sc.gov/Health/WIC",
+      "sourceIds": [
+        "sc-wic",
+        "usda-wic-contact-sc",
+        "sc-wic-online",
+        "usda-wic-formula-contracts",
+        "sc-wic-foodlist"
+      ],
+      "notes": "Online, you can complete a pre-application; the phone number makes in-person or online appointments.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://dph.sc.gov/health-wellness/family-planning/women-infants-and-children-wic-nutrition-program/eligible-foods",
+      "foodListSourceIds": [
+        "sc-wic-foodlist"
+      ]
+    },
+    "SD": {
+      "status": "covered",
+      "programName": "South Dakota WIC",
+      "agencyName": "South Dakota Department of Health",
+      "applyUrl": "https://www.sd.gov/wic",
+      "phone": "1-800-738-2301",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://dohsdcp.sd.gov",
+      "sourceIds": [
+        "sd-wic",
+        "usda-wic-contact-sd",
+        "usda-wic-formula-contracts",
+        "sd-wic-page-2026-10",
+        "sd-wic-online",
+        "sd-wic-card",
+        "sd-wic-foodlist"
+      ],
+      "notes": "The quickest way to start is the WIC Portal; you can also send a request-an-appointment form. South Dakota's WIC site lists county office numbers; the phone shown here is from USDA's state agency list.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "sd-wic-card"
+      ],
+      "approvedFoodListUrl": "https://www.sd.gov/sys_attachment.do?sys_id=fabf3a4347877e10701588ff336d4356",
+      "foodListSourceIds": [
+        "sd-wic-foodlist"
+      ]
+    },
+    "TN": {
+      "status": "covered",
+      "programName": "Tennessee WIC",
+      "agencyName": "Tennessee Department of Health",
+      "applyUrl": "https://www.tn.gov/health/wic.html",
+      "phone": "1-800-342-5942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "tn-wic",
+        "usda-wic-contact-tn",
+        "usda-wic-formula-contracts",
+        "tn-wic-formula",
+        "tn-wic-foodlist"
+      ],
+      "notes": "",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": "Similac",
+        "note": "Tennessee WIC has provided only Similac standard formulas since May 1, 2023.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "tn-wic-formula"
+        ]
+      },
+      "ebtCardName": "TNWIC card",
+      "ebtCardSourceIds": [
+        "tn-wic"
+      ],
+      "approvedFoodListUrl": "https://www.tn.gov/content/dam/tn/health/program-areas/wic/TNWIC_FoodGuide_English.pdf",
+      "foodListSourceIds": [
+        "tn-wic-foodlist"
+      ]
+    },
+    "TX": {
+      "status": "covered",
+      "programName": "Texas WIC",
+      "agencyName": "Texas Health and Human Services",
+      "applyUrl": "https://www.texaswic.org/apply",
+      "phone": "1-800-942-3678",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://mywic.us/participantreferral?program=TX",
+      "sourceIds": [
+        "tx-wic",
+        "usda-wic-contact-tx",
+        "tx-wic-online",
+        "usda-wic-formula-contracts",
+        "tx-wic-formula",
+        "tx-wic-card",
+        "tx-wic-foodlist"
+      ],
+      "notes": "The online form starts your application; your local WIC office contacts you to set up the first appointment.",
+      "formulaContract": {
+        "manufacturer": "Mead Johnson",
+        "brand": "Enfamil (milk-based); Similac Soy Isomil (soy)",
+        "note": "Texas WIC's milk-based contract runs October 2022 to September 2027 with Mead Johnson; soy formula stays with Abbott.",
+        "sourceIds": [
+          "usda-wic-formula-contracts",
+          "tx-wic-formula"
+        ]
+      },
+      "ebtCardName": "Texas WIC card",
+      "ebtCardSourceIds": [
+        "tx-wic-card"
+      ],
+      "approvedFoodListUrl": "https://www.texaswic.org/sites/default/files/inline-files/wic-34-texas-wic-shopping-guide-brochure-fy26.pdf",
+      "foodListSourceIds": [
+        "tx-wic-foodlist"
+      ]
+    },
+    "UT": {
+      "status": "covered",
+      "programName": "Utah WIC",
+      "agencyName": "Utah Department of Health and Human Services",
+      "applyUrl": "https://wic.utah.gov/about/apply/",
+      "phone": "801-273-2991",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": false,
+      "onlineApplicationUrl": null,
+      "sourceIds": [
+        "ut-wic",
+        "usda-wic-contact-ut",
+        "usda-wic-formula-contracts"
+      ],
+      "notes": "Utah says to call or text your local WIC clinic to apply. The phone number is from USDA's WIC state agency list; the state WIC page did not show it.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "Utah WIC card",
+      "ebtCardSourceIds": [
+        "ut-wic"
+      ],
+      "approvedFoodListUrl": null,
+      "foodListSourceIds": []
+    },
+    "VA": {
+      "status": "covered",
+      "programName": "Virginia WIC",
+      "agencyName": "Virginia Department of Health",
+      "applyUrl": "https://www.vdh.virginia.gov/wic/",
+      "phone": "1-877-835-5942",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://www.myvawic.org/ApplyWICServicesOnline",
+      "sourceIds": [
+        "va-wic",
+        "usda-wic-contact-va",
+        "va-wic-online",
+        "usda-wic-formula-contracts",
+        "va-wic-foodlist"
+      ],
+      "notes": "The phone number is listed on VDH's Contact WIC page.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.vdh.virginia.gov/wic-retailers/2022-wic-food-list/",
+      "foodListSourceIds": [
+        "va-wic-foodlist"
+      ]
+    },
+    "VT": {
+      "status": "covered",
+      "programName": "Vermont WIC",
+      "agencyName": "Vermont Department of Health",
+      "applyUrl": "https://www.healthvermont.gov/family/wic/apply-wic",
+      "phone": "1-800-464-4343",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://forms.office.com/g/Bu9zpKXq81",
+      "sourceIds": [
+        "vt-wic",
+        "usda-wic-contact-vt",
+        "vt-wic-online",
+        "usda-wic-formula-contracts",
+        "vt-wic-foodlist"
+      ],
+      "notes": "You can also text Apply to 1-844-839-8942.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.healthvermont.gov/family/wic/shopping-wic",
+      "foodListSourceIds": [
+        "vt-wic-foodlist"
+      ]
+    },
+    "WA": {
+      "status": "covered",
+      "programName": "Washington WIC",
+      "agencyName": "Washington State Department of Health",
+      "applyUrl": "https://doh.wa.gov/you-and-your-family/wic/apply-wic",
+      "phone": "1-800-841-1410",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://doh.wa.gov/webform/wic-interest-form",
+      "sourceIds": [
+        "wa-wic",
+        "usda-wic-contact-wa",
+        "wa-wic-online",
+        "usda-wic-formula-contracts",
+        "wa-wic-foodlist"
+      ],
+      "notes": "The phone number is the WIC Cascades Support Line.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://doh.wa.gov/you-and-your-family/wic/wic-foods",
+      "foodListSourceIds": [
+        "wa-wic-foodlist"
+      ]
+    },
+    "WI": {
+      "status": "covered",
+      "programName": "Wisconsin WIC",
+      "agencyName": "Wisconsin Department of Health Services",
+      "applyUrl": "https://www.dhs.wisconsin.gov/wic/apply.htm",
+      "phone": "1-800-642-7837",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://wicfamily.wicvendorwi.org/wic-pre-application-form/DHS",
+      "sourceIds": [
+        "wi-wic",
+        "usda-wic-contact-wi",
+        "wi-wic-online",
+        "usda-wic-formula-contracts",
+        "wi-wic-foodlist"
+      ],
+      "notes": "Online, you can complete a pre-application.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://www.dhs.wisconsin.gov/wic/food-package.htm",
+      "foodListSourceIds": [
+        "wi-wic-foodlist"
+      ]
+    },
+    "WV": {
+      "status": "covered",
+      "programName": "West Virginia WIC",
+      "agencyName": "West Virginia Office of Nutrition Services",
+      "applyUrl": "https://dhhr.wv.gov/WIC/apply/Pages/default.aspx",
+      "phone": "304-558-0030",
+      "phoneSource": "state-wic-page",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://wvwichousehold.wvdhhr.org/",
+      "sourceIds": [
+        "wv-wic",
+        "usda-wic-contact-wv",
+        "usda-wic-formula-contracts",
+        "wv-wic-page-2026-10",
+        "wv-wic-phone",
+        "wv-wic-online",
+        "wv-wic-card",
+        "wv-wic-foodlist"
+      ],
+      "notes": "The Apply Now button on West Virginia's WIC site starts an online application. 304-558-0030 is the WIC program's general inquiries line.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": "eWIC card",
+      "ebtCardSourceIds": [
+        "wv-wic-card"
+      ],
+      "approvedFoodListUrl": "https://dhhr.wv.gov/WIC/foods/SiteAssets/Pages/default/ONS%207911_ShoppingGuide_NEW_5x9_032626_ENGLISH_Digital_FINAL%20%28spreads%29.pdf",
+      "foodListSourceIds": [
+        "wv-wic-foodlist"
+      ]
+    },
+    "WY": {
+      "status": "covered",
+      "programName": "Wyoming WIC",
+      "agencyName": "Wyoming Department of Health",
+      "applyUrl": "https://health.wyo.gov/publichealth/wic/apply-for-wic/",
+      "phone": "1-888-996-9378",
+      "phoneSource": "usda-state-agency-list",
+      "onlineApplication": true,
+      "onlineApplicationUrl": "https://wic-portal.health.wyo.gov/ParticipantPortal/",
+      "sourceIds": [
+        "wy-wic",
+        "usda-wic-contact-wy",
+        "wy-wic-online",
+        "usda-wic-formula-contracts",
+        "wy-wic-foodlist"
+      ],
+      "notes": "Online, you can request an appointment. The phone number is from USDA's WIC state agency list; the state WIC page did not show it.",
+      "formulaContract": {
+        "manufacturer": "Abbott",
+        "brand": null,
+        "note": "",
+        "sourceIds": [
+          "usda-wic-formula-contracts"
+        ]
+      },
+      "ebtCardName": null,
+      "ebtCardSourceIds": [],
+      "approvedFoodListUrl": "https://health.wyo.gov/publichealth/wic/foodlist/",
+      "foodListSourceIds": [
+        "wy-wic-foodlist"
+      ]
+    }
+  }
+}

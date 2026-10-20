@@ -1,0 +1,3690 @@
+{
+ "topic": "child-care-assistance",
+ "title": "Child care assistance (CCDF subsidies) by state",
+ "asOf": "2026-10",
+ "methodology": "One record per state and DC for the state's child care subsidy program funded by the federal Child Care and Development Fund (CCDF). Program names, agencies and apply pages come from each state's own site, cross-checked against the state listings on Childcare.gov (ACF), and were checked on October 9, 2026. Every state runs a program, so every record is marked covered. Income limits are the entry limit for a family of three: the most recent figure we found in the state's own published chart, or in the National Women's Law Center's 2025 survey of state administrators (policies as of February 2025, with changes reported through late 2025). Each limit carries its own as-of month and, where the source gives one, its basis (a share of state median income or of the federal poverty level). The February 2025 NWLC figures are kept for every state for comparison. Copay figures are the highest monthly copay for a family of three as a share of income that each state reported in its FFY 2025-2027 CCDF plan (ACF, January 2025), replaced by a later stated cap where a state announced one. States that had a temporary federal waiver from the 7% rule and reported a figure at or under 7% are left blank, because the plan figure may not have applied to every family. Waiting-list status is NWLC's February 2025 count, replaced by a state announcement where one was newer. Job-search eligibility at application is from NWLC's 2025 survey. The 7% federal copay requirement was rescinded effective July 13, 2026, so copay rules may change after the dates shown.",
+ "sources": [
+  {
+   "id": "nwlc-2025",
+   "title": "Warning Signs: State Child Care Assistance Policies 2025",
+   "publisher": "National Women's Law Center",
+   "url": "https://nwlc.org/resource/warning-signs-state-child-care-assistance-policies-2025/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "acf-copay-2025",
+   "title": "CCDF Family Co-Payments by State (January 2025)",
+   "publisher": "Administration for Children and Families, Office of Child Care",
+   "url": "https://acf.gov/sites/default/files/documents/occ/CCDF-Family-Co-Payments-by-State.pdf",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "acf-income-2025",
+   "title": "CCDF Family Income Eligibility Levels by State (January 2025)",
+   "publisher": "Administration for Children and Families, Office of Child Care",
+   "url": "https://acf.gov/sites/default/files/documents/occ/CCDF-Family-Income-Eligibility-Levels-by-State.pdf",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "acf-ccdf-plan-2025",
+   "title": "FY 2025-2027 Child Care and Development Fund (CCDF) Plan for States and Territories",
+   "publisher": "Administration for Children and Families, Office of Child Care",
+   "url": "https://acf.gov/occ/policy-guidance/fy-2025-2027-ccdf-plan-states-and-territories-ccdf-acf-pi-2024-01",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "fr-ccdf-2024",
+   "title": "Improving Child Care Access, Affordability, and Stability in the Child Care and Development Fund (CCDF), final rule (89 FR 15366)",
+   "publisher": "Administration for Children and Families, HHS (Federal Register)",
+   "url": "https://www.federalregister.gov/documents/2024/03/01/2024-04139/improving-child-care-access-affordability-and-stability-in-the-child-care-and-development-fund-ccdf",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "fr-ccdf-2026",
+   "title": "Restoring Flexibility in the Child Care and Development Fund (CCDF), final rule (91 FR 25796)",
+   "publisher": "Administration for Children and Families, HHS (Federal Register)",
+   "url": "https://www.federalregister.gov/documents/2026/05/12/2026-09382/restoring-flexibility-in-the-child-care-and-development-fund-ccdf",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "usc-9858n",
+   "title": "42 U.S. Code 9858n, Definitions (Child Care and Development Block Grant Act)",
+   "publisher": "Legal Information Institute, Cornell Law School (U.S. Code)",
+   "url": "https://www.law.cornell.edu/uscode/text/42/9858n",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "cfr-1302-12",
+   "title": "45 CFR 1302.12, Determining, verifying, and documenting eligibility (Head Start)",
+   "publisher": "Legal Information Institute, Cornell Law School (Code of Federal Regulations)",
+   "url": "https://www.law.cornell.edu/cfr/text/45/1302.12",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "cfr-1302-18",
+   "title": "45 CFR 1302.18, Fees (Head Start)",
+   "publisher": "Legal Information Institute, Cornell Law School (Code of Federal Regulations)",
+   "url": "https://www.law.cornell.edu/cfr/text/45/1302.18",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "hs-locator",
+   "title": "Head Start Center Locator",
+   "publisher": "Office of Head Start, HHS",
+   "url": "https://headstart.gov/center-locator",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "irs-cdcc-2026",
+   "title": "One, Big, Beautiful Bill provisions: Child and Dependent Care Credit enhancement",
+   "publisher": "Internal Revenue Service (IRS)",
+   "url": "https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "irs-p15b-2026",
+   "title": "Publication 15-B (2026), Employer's Tax Guide to Fringe Benefits",
+   "publisher": "Internal Revenue Service (IRS)",
+   "url": "https://www.irs.gov/publications/p15b",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "childcare-gov-states",
+   "title": "Find Resources in Your State or Territory",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "al-dhr-waitlist",
+   "title": "Change to Child Care Subsidy Approval Process (May 15, 2026)",
+   "publisher": "Alabama Department of Human Resources",
+   "url": "https://dhr.alabama.gov/change-to-child-care-subsidy-approval-process/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "co-cdec-cccap",
+   "title": "Colorado Child Care Assistance Program (CCCAP) For Families",
+   "publisher": "Colorado Department of Early Childhood",
+   "url": "https://cdec.colorado.gov/for-families/colorado-child-care-assistance-program-cccap-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ct-oec-care4kids",
+   "title": "Care 4 Kids: Family Information",
+   "publisher": "Connecticut Office of Early Childhood",
+   "url": "https://www.ctcare4kids.com/care-4-kids-program/family-information/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "de-dss-poc",
+   "title": "Child Care Assistance (Purchase of Care income limits, October 1, 2026 to September 30, 2027)",
+   "publisher": "Delaware Division of Social Services",
+   "url": "https://dhss.delaware.gov/dss/division-of-social-services/child-care-assistance/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "dc-osse-subsidy",
+   "title": "DC Child Care Subsidy Program: Eligibility and How to Apply",
+   "publisher": "DC Office of the State Superintendent of Education",
+   "url": "https://osse.dc.gov/childcaresubsidyfaq",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "hi-dhs-ccch",
+   "title": "Child Care Subsidy",
+   "publisher": "Hawaii Department of Human Services",
+   "url": "https://humanservices.hawaii.gov/bessd/ccch-subsidies/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "in-fssa-cca",
+   "title": "Child Care Assistance (waitlist update and eligibility)",
+   "publisher": "Indiana Family and Social Services Administration",
+   "url": "https://www.in.gov/fssa/carefinder/child-care-assistance/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "md-msde-freeze",
+   "title": "Child Care Scholarship Partial Enrollment Freeze",
+   "publisher": "Maryland State Department of Education",
+   "url": "https://earlychildhood.marylandpublicschools.org/ccsenrollmentfreeze",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ms-mdhs-ccpp",
+   "title": "Early Childhood Care and Development: Parents",
+   "publisher": "Mississippi Department of Human Services",
+   "url": "https://www.mdhs.ms.gov/eccd/parents/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mt-dphhs-bbs",
+   "title": "Best Beginnings Child Care Scholarship Program",
+   "publisher": "Montana Department of Public Health and Human Services",
+   "url": "https://dphhs.mt.gov/ecfsd/childcare/BestBeginningsScholarships",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nd-hhs-ccap",
+   "title": "Child Care Assistance Program (policy changes and waitlist)",
+   "publisher": "North Dakota Department of Health and Human Services",
+   "url": "https://www.hhs.nd.gov/applyforhelp/ccap",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nm-ececd-cca",
+   "title": "Child Care Assistance",
+   "publisher": "New Mexico Early Childhood Education and Care Department",
+   "url": "https://www.nmececd.org/child-care-assistance/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nv-dss-ccdp",
+   "title": "Child Care: For Parents and Families",
+   "publisher": "Nevada Division of Social Services",
+   "url": "https://www.dss.nv.gov/programs/child-care/childcare-parents/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ok-okdhs-2026-01",
+   "title": "OKDHS Advances Child Care Subsidy Access While Strengthening Program Stability (January 7, 2026)",
+   "publisher": "Oklahoma Human Services",
+   "url": "https://oklahoma.gov/okdhs/newsroom/2026/january/comm01072026.html",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "pa-dhs-ccw",
+   "title": "Child Care Works (CCW)",
+   "publisher": "Pennsylvania Department of Human Services",
+   "url": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/child-care-works",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sc-dss-scholarship",
+   "title": "Child Care Scholarship Program",
+   "publisher": "South Carolina Department of Social Services",
+   "url": "https://scchildcare.org/programs/child-care-scholarship-program/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sc-dss-waitlist",
+   "title": "SCDSS Announces Launch of Child Care Scholarship Program Wait List (September 24, 2026)",
+   "publisher": "South Carolina Department of Social Services",
+   "url": "https://scchildcare.org/news/scdss-announces-launch-of-child-care-scholarship-program-wait-list/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sd-dss-cca",
+   "title": "Am I Eligible for Child Care Assistance",
+   "publisher": "South Dakota Department of Social Services",
+   "url": "https://dss.sd.gov/childcare/childcareassistance/eligible.aspx",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "tx-twc-ccs",
+   "title": "Child care scholarships (Child Care Services)",
+   "publisher": "Texas Workforce Commission",
+   "url": "https://www.childcare.texas.gov/for-families/child-care-scholarships",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wi-dcf-shares",
+   "title": "Wisconsin Shares for Parents and Caregivers",
+   "publisher": "Wisconsin Department of Children and Families",
+   "url": "https://dcf.wisconsin.gov/wishares/parents",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "al-program",
+   "title": "Child Care Subsidy Program",
+   "publisher": "Alabama Department of Human Resources",
+   "url": "https://dhr.alabama.gov/child-care/subsidy-overview/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "al-childcare-gov",
+   "title": "Alabama: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/alabama/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ak-program",
+   "title": "Child Care Assistance Program",
+   "publisher": "Alaska Department of Health, Division of Public Assistance",
+   "url": "https://health.alaska.gov/en/services/child-care-assistance/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ak-childcare-gov",
+   "title": "Alaska: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/alaska/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "az-program",
+   "title": "Child Care Assistance",
+   "publisher": "Arizona Department of Economic Security",
+   "url": "https://des.az.gov/services/child-and-family/child-care/how-apply-for-child-care-assistance",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "az-childcare-gov",
+   "title": "Arizona: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/arizona/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ar-program",
+   "title": "Child Care Assistance Program",
+   "publisher": "Arkansas Department of Education, Office of Early Childhood",
+   "url": "https://dese.ade.arkansas.gov/Offices/office-of-early-childhood/help-paying-for-child-care",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ar-childcare-gov",
+   "title": "Arkansas: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/arkansas/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ca-program",
+   "title": "Subsidized child care (Child Care and Development programs)",
+   "publisher": "California Department of Social Services",
+   "url": "https://www.cdss.ca.gov/inforesources/child-care-and-development/families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ca-childcare-gov",
+   "title": "California: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/california/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "co-childcare-gov",
+   "title": "Colorado: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/colorado/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ct-childcare-gov",
+   "title": "Connecticut: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/connecticut/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "de-childcare-gov",
+   "title": "Delaware: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/delaware/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "dc-childcare-gov",
+   "title": "District of Columbia: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/district-of-columbia/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "fl-program",
+   "title": "School Readiness Program",
+   "publisher": "Florida Department of Education, Division of Early Learning",
+   "url": "https://www.fldoe.org/schools/early-learning/parents/school-readiness.stml",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "fl-childcare-gov",
+   "title": "Florida: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/florida/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ga-program",
+   "title": "Childcare and Parent Services (CAPS)",
+   "publisher": "Georgia Department of Early Care and Learning",
+   "url": "https://caps.decal.ga.gov/en/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ga-childcare-gov",
+   "title": "Georgia: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/georgia/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "hi-childcare-gov",
+   "title": "Hawaii: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/hawaii/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "id-program",
+   "title": "Idaho Child Care Program (ICCP)",
+   "publisher": "Idaho Department of Health and Welfare",
+   "url": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/idaho-child-care-program",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "id-childcare-gov",
+   "title": "Idaho: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/idaho/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "il-program",
+   "title": "Child Care Assistance Program (CCAP)",
+   "publisher": "Illinois Department of Early Childhood",
+   "url": "https://idec.illinois.gov/forparents/child-care-assistance-program.html",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "il-childcare-gov",
+   "title": "Illinois: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/illinois/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "in-childcare-gov",
+   "title": "Indiana: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/indiana/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ia-program",
+   "title": "Child Care Assistance",
+   "publisher": "Iowa Department of Health and Human Services",
+   "url": "https://hhs.iowa.gov/assistance-programs/child-care-assistance",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ia-childcare-gov",
+   "title": "Iowa: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/iowa/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ks-program",
+   "title": "Child Care Assistance Program",
+   "publisher": "Kansas Department for Children and Families",
+   "url": "https://www.dcf.ks.gov/services/ees/Pages/Child_Care/ChildCareSubsidy.aspx",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ks-childcare-gov",
+   "title": "Kansas: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/kansas/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ky-program",
+   "title": "Child Care Assistance Program (CCAP)",
+   "publisher": "Kentucky Cabinet for Health and Family Services, Division of Child Care",
+   "url": "https://www.chfs.ky.gov/agencies/dcbs/dcc/Pages/ccap.aspx",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ky-childcare-gov",
+   "title": "Kentucky: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/kentucky/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "la-program",
+   "title": "Child Care Assistance Program (CCAP)",
+   "publisher": "Louisiana Department of Education",
+   "url": "https://doe.louisiana.gov/families-and-students/early-childhood-families/child-care-assistance-program-(ccap)",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "la-childcare-gov",
+   "title": "Louisiana: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/louisiana/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "me-program",
+   "title": "Child Care Affordability Program",
+   "publisher": "Maine Department of Health and Human Services, Office of Child and Family Services",
+   "url": "https://www.maine.gov/dhhs/ocfs/support-for-families/child-care/paying-for-child-care",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "me-childcare-gov",
+   "title": "Maine: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/maine/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "md-program",
+   "title": "Child Care Scholarship Program",
+   "publisher": "Maryland State Department of Education, Division of Early Childhood",
+   "url": "https://earlychildhood.marylandpublicschools.org/child-care-providers/child-care-scholarship-program",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "md-childcare-gov",
+   "title": "Maryland: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/maryland/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ma-program",
+   "title": "Child Care Financial Assistance",
+   "publisher": "Massachusetts Department of Early Education and Care",
+   "url": "https://www.mass.gov/child-care-financial-assistance",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ma-childcare-gov",
+   "title": "Massachusetts: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/massachusetts/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mi-program",
+   "title": "Child Development and Care (CDC)",
+   "publisher": "Michigan Department of Lifelong Education, Advancement, and Potential (MiLEAP)",
+   "url": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/parents",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mi-childcare-gov",
+   "title": "Michigan: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/michigan/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mn-program",
+   "title": "Child Care Assistance Program (CCAP)",
+   "publisher": "Minnesota Department of Children, Youth, and Families",
+   "url": "https://dcyf.mn.gov/programs-directory/child-care-assistance-program",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mn-childcare-gov",
+   "title": "Minnesota: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/minnesota/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ms-childcare-gov",
+   "title": "Mississippi: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/mississippi/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mo-program",
+   "title": "Child Care Subsidy",
+   "publisher": "Missouri Department of Elementary and Secondary Education, Office of Childhood",
+   "url": "https://dese.mo.gov/childhood/child-care-subsidy",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mo-childcare-gov",
+   "title": "Missouri: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/missouri/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "mt-childcare-gov",
+   "title": "Montana: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/montana/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ne-program",
+   "title": "Child Care Subsidy",
+   "publisher": "Nebraska Department of Health and Human Services",
+   "url": "https://dhhs.ne.gov/Pages/Child-Care-Subsidy-Information-for-Parents.aspx",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ne-childcare-gov",
+   "title": "Nebraska: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/nebraska/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nv-childcare-gov",
+   "title": "Nevada: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/nevada/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nh-program",
+   "title": "NH Child Care Scholarship Program",
+   "publisher": "New Hampshire Department of Health and Human Services",
+   "url": "https://www.dhhs.nh.gov/programs-services/childcare-parenting-childbirth/child-development-and-head-start",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nh-childcare-gov",
+   "title": "New Hampshire: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/new-hampshire/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nj-program",
+   "title": "Child Care Assistance Program",
+   "publisher": "New Jersey Department of Human Services, Division of Family Development",
+   "url": "https://www.childcarenj.gov/Parents/CCAP",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nj-childcare-gov",
+   "title": "New Jersey: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/new-jersey/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nm-childcare-gov",
+   "title": "New Mexico: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/new-mexico/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ny-program",
+   "title": "Child Care Assistance Program",
+   "publisher": "New York State Office of Children and Family Services",
+   "url": "https://ocfs.ny.gov/programs/childcare/ccap/help.php",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ny-childcare-gov",
+   "title": "New York: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/new-york/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nc-program",
+   "title": "Subsidized Child Care Assistance",
+   "publisher": "North Carolina Department of Health and Human Services, Division of Child Development and Early Education",
+   "url": "https://ncchildcare.ncdhhs.gov/Services/Financial-Assistance",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nc-childcare-gov",
+   "title": "North Carolina: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/north-carolina/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "nd-childcare-gov",
+   "title": "North Dakota: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/north-dakota/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "oh-program",
+   "title": "Publicly Funded Child Care",
+   "publisher": "Ohio Department of Children and Youth",
+   "url": "https://childrenandyouth.ohio.gov/for-families/early-care-education/child-care",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "oh-childcare-gov",
+   "title": "Ohio: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/ohio/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ok-program",
+   "title": "Child Care Subsidy",
+   "publisher": "Oklahoma Human Services",
+   "url": "https://oklahoma.gov/okdhs/services/adult/ccsubsidy/child-care-subsidy.html",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ok-childcare-gov",
+   "title": "Oklahoma: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/oklahoma/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "or-program",
+   "title": "Employment Related Day Care (ERDC)",
+   "publisher": "Oregon Department of Early Learning and Care",
+   "url": "https://www.oregon.gov/delc/programs/pages/erdc.aspx",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "or-childcare-gov",
+   "title": "Oregon: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/oregon/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "pa-childcare-gov",
+   "title": "Pennsylvania: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/pennsylvania/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ri-program",
+   "title": "Child Care Assistance Program (CCAP)",
+   "publisher": "Rhode Island Department of Human Services",
+   "url": "https://dhs.ri.gov/programs-and-services/child-care/child-care-assistance-program-ccap/ccap-family-eligibility-how",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ri-childcare-gov",
+   "title": "Rhode Island: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/rhode-island/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sc-childcare-gov",
+   "title": "South Carolina: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/south-carolina/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sd-program",
+   "title": "Child Care Assistance",
+   "publisher": "South Dakota Department of Social Services",
+   "url": "https://dss.sd.gov/childcare/childcareassistance/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "sd-childcare-gov",
+   "title": "South Dakota: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/south-dakota/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "tn-program",
+   "title": "Child Care Payment Assistance",
+   "publisher": "Tennessee Department of Human Services",
+   "url": "https://www.tn.gov/humanservices/for-families/child-care-services/child-care-payment-assistance.html",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "tn-childcare-gov",
+   "title": "Tennessee: Financial Assistance Resources for Families (last reviewed 2026-09-29)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/tennessee/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "tx-childcare-gov",
+   "title": "Texas: Financial Assistance Resources for Families (last reviewed 2026-08-21)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/texas/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ut-program",
+   "title": "Child Care Assistance",
+   "publisher": "Utah Department of Workforce Services",
+   "url": "https://jobs.utah.gov/customereducation/services/childcare/index.html",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "ut-childcare-gov",
+   "title": "Utah: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/utah/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "vt-program",
+   "title": "Child Care Financial Assistance Program (CCFAP)",
+   "publisher": "Vermont Department for Children and Families, Child Development Division",
+   "url": "https://dcf.vermont.gov/benefits/ccfap",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "vt-childcare-gov",
+   "title": "Vermont: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/vermont/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "va-program",
+   "title": "Child Care Subsidy Program",
+   "publisher": "Virginia Department of Education",
+   "url": "https://www.childcare.virginia.gov/families/paying-for-child-care",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "va-childcare-gov",
+   "title": "Virginia: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/virginia/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wa-program",
+   "title": "Working Connections Child Care",
+   "publisher": "Washington State Department of Children, Youth, and Families",
+   "url": "https://www.dcyf.wa.gov/services/earlylearning-childcare/getting-help/wccc",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wa-childcare-gov",
+   "title": "Washington: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/washington/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wv-program",
+   "title": "Child Care Assistance",
+   "publisher": "West Virginia Department of Human Services, Bureau for Family Assistance",
+   "url": "https://bfa.wv.gov/child-care-assistance-and-early-childhood-resources",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wv-childcare-gov",
+   "title": "West Virginia: Financial Assistance Resources for Families (last reviewed 2026-09-18)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/west-virginia/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wi-childcare-gov",
+   "title": "Wisconsin: Financial Assistance Resources for Families (last reviewed 2026-09-30)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/wisconsin/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wy-program",
+   "title": "Child Care Assistance",
+   "publisher": "Wyoming Department of Family Services",
+   "url": "https://dfs.wyo.gov/services/family-services/child-care/",
+   "accessed": "2026-10-09"
+  },
+  {
+   "id": "wy-childcare-gov",
+   "title": "Wyoming: Financial Assistance Resources for Families (last reviewed 2026-06-26)",
+   "publisher": "Childcare.gov (Administration for Children and Families)",
+   "url": "https://childcare.gov/state-resources/wyoming/financial-assistance-resources-for-families",
+   "accessed": "2026-10-09"
+  }
+ ],
+ "national": {
+  "ccdfBasics": {
+   "text": "The Child Care and Development Fund (CCDF) is the main federal source of money that helps families pay for child care. Every state and DC runs a subsidy program with it: the state pays part of the cost to the provider you choose, and you pay a copay based on your income and family size.",
+   "sourceIds": [
+    "acf-copay-2025",
+    "usc-9858n"
+   ]
+  },
+  "federalEligibility": {
+   "text": "Under federal law, a child under 13 can qualify when family income is no more than 85% of state median income and the parents are working or attending job training or school. Children in protective services can also qualify. States can set lower income limits, and most do.",
+   "maxPctSmi": 85,
+   "childUnderAge": 13,
+   "sourceIds": [
+    "usc-9858n"
+   ]
+  },
+  "medianIncomeLimitPctSmi2025": {
+   "text": "In February 2025, the middle state's limit for a family of three was 60% of state median income.",
+   "value": 60.0,
+   "states": 50,
+   "asOf": "2025-02",
+   "note": "Median of NWLC's percent-of-median-income figures for the 50 states and DC; Colorado's county range is excluded.",
+   "sourceIds": [
+    "nwlc-2025"
+   ]
+  },
+  "copayRule2024": {
+   "text": "A 2024 HHS rule, effective April 30, 2024, required states to keep family copays at or below 7% of income. Some states got temporary waivers to comply later.",
+   "effective": "2024-04-30",
+   "sourceIds": [
+    "fr-ccdf-2024",
+    "acf-copay-2025"
+   ]
+  },
+  "copayRule2026": {
+   "text": "HHS rescinded the 7% copay requirement in a final rule published May 12, 2026, effective July 13, 2026. States now set their own sliding fee scales, as long as copays aren't a barrier to getting help, and can keep a 7% cap if they choose. HHS isn't recommending a new benchmark.",
+   "effective": "2026-07-13",
+   "sourceIds": [
+    "fr-ccdf-2026"
+   ]
+  },
+  "copayCap7AcfCount": {
+   "text": "As of March 2026, 31 states and DC limited copays to 7% of income or less, according to ACF's review of state CCDF plans: 15 states and DC at 7%, and 16 states below it.",
+   "states": 31,
+   "plusDC": true,
+   "atSeven": 15,
+   "belowSeven": 16,
+   "asOf": "2026-03",
+   "sourceIds": [
+    "fr-ccdf-2026"
+   ]
+  },
+  "copayCap7Computed": {
+   "text": "Counted from the state records in this file: states whose most recent copay figure we found is at or below 7% of income.",
+   "states": 31,
+   "plusDC": true,
+   "above": 9,
+   "unknown": 10,
+   "sourceIds": [
+    "acf-copay-2025",
+    "nwlc-2025",
+    "ct-oec-care4kids",
+    "nm-ececd-cca"
+   ]
+  },
+  "waitlists2025": {
+   "text": "Seventeen states had waiting lists or frozen intake in February 2025, up from 13 a year earlier, with about 225,500 children on waiting lists, a 90% increase.",
+   "states": 17,
+   "children": 225500,
+   "asOf": "2025-02",
+   "sourceIds": [
+    "nwlc-2025"
+   ]
+  },
+  "headStart": {
+   "text": "Head Start and Early Head Start programs can't charge eligible families a fee to take part. A pregnant woman or child qualifies with family income at or below the poverty line, or if the family is eligible for public assistance such as TANF, the child is homeless or the child is in foster care. Programs can enroll some families above those lines.",
+   "sourceIds": [
+    "cfr-1302-12",
+    "cfr-1302-18",
+    "hs-locator"
+   ]
+  },
+  "providerChargesAboveCopay": {
+   "text": "In 40 states, a provider whose price is above the state's subsidy payment may charge you the difference on top of your copay. Ask before you enroll.",
+   "states": 40,
+   "list": [
+    "AL",
+    "AK",
+    "AZ",
+    "AR",
+    "CA",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "ID",
+    "IL",
+    "IN",
+    "IA",
+    "KS",
+    "KY",
+    "LA",
+    "MD",
+    "MI",
+    "MN",
+    "MS",
+    "MO",
+    "MT",
+    "NV",
+    "NH",
+    "NJ",
+    "NY",
+    "NC",
+    "ND",
+    "OR",
+    "PA",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VT",
+    "VA",
+    "WI",
+    "WY"
+   ],
+   "asOf": "2025-01",
+   "sourceIds": [
+    "acf-copay-2025"
+   ]
+  },
+  "taxBreaks2026": {
+   "text": "For 2026, a dependent care FSA through your employer can shelter up to $7,500 of child care costs from tax, and the Child and Dependent Care Credit pays up to 50% of up to $3,000 in expenses for one child or $6,000 for two or more. The same dollars can't count for both.",
+   "dcfsaLimit": 7500,
+   "creditMaxRate": 50,
+   "creditExpenses": {
+    "one": 3000,
+    "twoOrMore": 6000
+   },
+   "sourceIds": [
+    "irs-p15b-2026",
+    "irs-cdcc-2026"
+   ]
+  }
+ },
+ "states": {
+  "AL": {
+   "status": "covered",
+   "programName": "Child Care Subsidy Program",
+   "agencyName": "Alabama Department of Human Resources",
+   "applyUrl": "https://dhr.alabama.gov/child-care/subsidy-overview/",
+   "incomeLimitAnnualFamily3": 46476,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 58,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 46476,
+    "pctFpl2024": 180,
+    "pctSmi": 58
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Alabama had a temporary federal waiver from the 7% copay requirement, so its plan figure (4% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 4,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "New applications received on or after May 8, 2026 go on a statewide waiting list, filled first come, first served. Protective services, foster care, DHR Early Head Start, TANF relative and JOBS families, and families leaving TANF within 30 days, can still apply.",
+    "asOf": "2026-05",
+    "sourceIds": [
+     "al-dhr-waitlist"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "al-program",
+    "al-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n",
+    "al-dhr-waitlist"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "AK": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program",
+   "agencyName": "Alaska Department of Health, Division of Public Assistance",
+   "applyUrl": "https://health.alaska.gov/en/services/child-care-assistance/",
+   "incomeLimitAnnualFamily3": 74304,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 73,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 74304,
+    "pctFpl2024": 288,
+    "pctSmi": 73
+   },
+   "copayCapPctIncome": 9,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 9,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ak-program",
+    "ak-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "AZ": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "Arizona Department of Economic Security",
+   "applyUrl": "https://des.az.gov/services/child-and-family/child-care/how-apply-for-child-care-assistance",
+   "incomeLimitAnnualFamily3": 43980,
+   "incomeLimitBasis": "165% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 165,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 42612,
+    "pctFpl2024": 165,
+    "pctSmi": 50
+   },
+   "copayCapPctIncome": 1,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 1,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Arizona started a waiting list in August 2024; 900 children were on it in February 2025. TANF families and child protective services referrals skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "az-program",
+    "az-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "AR": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program",
+   "agencyName": "Arkansas Department of Education, Office of Early Childhood",
+   "applyUrl": "https://dese.ade.arkansas.gov/Offices/office-of-early-childhood/help-paying-for-child-care",
+   "incomeLimitAnnualFamily3": 64460,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 61816,
+    "pctFpl2024": 239,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 0.5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 0.5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Arkansas started a waiting list in February 2025 (9 children that month). TANF families, homeless families, teen parents, children with special needs and child care workers skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ar-program",
+    "ar-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "CA": {
+   "status": "covered",
+   "programName": "Subsidized child care (Child Care and Development programs)",
+   "agencyName": "California Department of Social Services",
+   "applyUrl": "https://www.cdss.ca.gov/inforesources/child-care-and-development/families",
+   "incomeLimitAnnualFamily3": 93420,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 89664,
+    "pctFpl2024": 347,
+    "pctSmi": 88
+   },
+   "copayCapPctIncome": 1,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 1,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "local",
+    "detail": "There's no statewide list; most local contractors and some counties keep their own waiting lists.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 24 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ca-program",
+    "ca-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "CO": {
+   "status": "covered",
+   "programName": "Colorado Child Care Assistance Program (CCCAP)",
+   "agencyName": "Colorado Department of Early Childhood",
+   "applyUrl": "https://cdec.colorado.gov/for-families/colorado-child-care-assistance-program-cccap-for-families",
+   "incomeLimitAnnualFamily3": 49303,
+   "incomeLimitBasis": "185% of the federal poverty level (the statewide minimum; counties can set higher limits)",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 185,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "Counties set their own limit at or above the state minimum and can serve families up to 85% of state median income.",
+   "nwlcFeb2025": {
+    "annualFamily3": null,
+    "pctFpl2024": null,
+    "pctSmi": null,
+    "range": {
+     "annual": [
+      47767,
+      77460
+     ],
+     "pctSmi": [
+      44,
+      71
+     ]
+    }
+   },
+   "copayCapPctIncome": 9.4,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 9.4,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "local",
+    "detail": "Counties run their own lists. Many have waiting lists or have frozen new enrollment (19 counties frozen and 5 with waiting lists in August 2025). Check your county before you apply.",
+    "asOf": "2025-08",
+    "sourceIds": [
+     "nwlc-2025",
+     "co-cdec-cccap"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "at least 13 weeks",
+   "activitiesNote": "",
+   "sourceIds": [
+    "co-cdec-cccap",
+    "co-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "CT": {
+   "status": "covered",
+   "programName": "Care 4 Kids",
+   "agencyName": "Connecticut Office of Early Childhood",
+   "applyUrl": "https://www.ctcare4kids.com/care-4-kids-program/family-information/",
+   "incomeLimitAnnualFamily3": 77157,
+   "incomeLimitBasis": "60% of state median income",
+   "incomeLimitPctSmi": 60,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 73509,
+    "pctFpl2024": 285,
+    "pctSmi": 60
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2026-10",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "ct-oec-care4kids"
+   ],
+   "copayNote": "Care 4 Kids family fees run from 0% to 7% of income, by income band.",
+   "copayPlanMaxPctIncome": 10,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "1,239 children were on the waiting list in February 2025. TANF families, homeless families and families receiving protective services skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ct-oec-care4kids",
+    "ct-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "DE": {
+   "status": "covered",
+   "programName": "Purchase of Care",
+   "agencyName": "Delaware Department of Health and Social Services, Division of Social Services",
+   "applyUrl": "https://dhss.delaware.gov/dss/division-of-social-services/child-care-assistance/",
+   "incomeLimitAnnualFamily3": 61476,
+   "incomeLimitBasis": "225% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 225,
+   "incomeLimitAsOf": "2026-10",
+   "incomeLimitSourceIds": [
+    "de-dss-poc"
+   ],
+   "incomeLimitNote": "Delaware's chart for October 2026 to September 2027 lists $5,123 a month for three.",
+   "nwlcFeb2025": {
+    "annualFamily3": 51648,
+    "pctFpl2024": 200,
+    "pctSmi": 51
+   },
+   "copayCapPctIncome": 9,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 9,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "de-dss-poc",
+    "de-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "DC": {
+   "status": "covered",
+   "programName": "DC Child Care Subsidy Program",
+   "agencyName": "DC Office of the State Superintendent of Education (OSSE)",
+   "applyUrl": "https://osse.dc.gov/childcaresubsidyfaq",
+   "incomeLimitAnnualFamily3": null,
+   "incomeLimitBasis": "300% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 300,
+   "incomeLimitAsOf": "2026-10",
+   "incomeLimitSourceIds": [
+    "dc-osse-subsidy"
+   ],
+   "incomeLimitNote": "OSSE's page gives the limit as a share of the poverty level, not a dollar figure.",
+   "nwlcFeb2025": {
+    "annualFamily3": 77460,
+    "pctFpl2024": 300,
+    "pctSmi": 50
+   },
+   "copayCapPctIncome": 3.5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 3.5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "OSSE started a waiting list on May 12, 2026. From October 1, 2026, families in priority groups 1 to 4 can enroll; groups 5 and 6 wait.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "dc-osse-subsidy"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 12 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "dc-osse-subsidy",
+    "dc-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "FL": {
+   "status": "covered",
+   "programName": "School Readiness Program",
+   "agencyName": "Florida Department of Education, Division of Early Learning",
+   "applyUrl": "https://www.fldoe.org/schools/early-learning/parents/school-readiness.stml",
+   "incomeLimitAnnualFamily3": 47615,
+   "incomeLimitBasis": "55% of state median income",
+   "incomeLimitPctSmi": 55,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 38730,
+    "pctFpl2024": 150,
+    "pctSmi": 47
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Florida had a temporary federal waiver from the 7% copay requirement, so its plan figure (5.9% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 5.9,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "13,944 children were on waiting lists in February 2025. TANF families and children in protective services are served first.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "fl-program",
+    "fl-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "GA": {
+   "status": "covered",
+   "programName": "Childcare and Parent Services (CAPS)",
+   "agencyName": "Georgia Department of Early Care and Learning",
+   "applyUrl": "https://caps.decal.ga.gov/en/",
+   "incomeLimitAnnualFamily3": 37208,
+   "incomeLimitBasis": "40% of state median income",
+   "incomeLimitPctSmi": 40,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 26686,
+    "pctFpl2024": 103,
+    "pctSmi": 30
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 7,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "frozen",
+    "detail": "Georgia serves only priority families, such as TANF families, children with disabilities, parents 20 or younger, homeless families and families with very low incomes. Others can't enroll.",
+    "asOf": "2025-10",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ga-program",
+    "ga-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "HI": {
+   "status": "covered",
+   "programName": "Child Care Connection Hawaii",
+   "agencyName": "Hawaii Department of Human Services",
+   "applyUrl": "https://humanservices.hawaii.gov/bessd/ccch-subsidies/",
+   "incomeLimitAnnualFamily3": 70404,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 65,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "Hawaii's program page says the limit is 85% of state median income for the family size; NWLC's figure uses a different median income estimate.",
+   "nwlcFeb2025": {
+    "annualFamily3": 70404,
+    "pctFpl2024": 273,
+    "pctSmi": 65
+   },
+   "copayCapPctIncome": 9,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 9,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025. Hawaii says families go on a list only if funding runs out.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025",
+     "hi-dhs-ccch"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "hi-dhs-ccch",
+    "hi-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "ID": {
+   "status": "covered",
+   "programName": "Idaho Child Care Program (ICCP)",
+   "agencyName": "Idaho Department of Health and Welfare",
+   "applyUrl": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/idaho-child-care-program",
+   "incomeLimitAnnualFamily3": 34644,
+   "incomeLimitBasis": "130% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 130,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 33576,
+    "pctFpl2024": 130,
+    "pctSmi": 41
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Idaho had a temporary federal waiver from the 7% copay requirement, so its plan figure (2% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 2,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025. Idaho froze new enrollment from August 2024 to January 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "id-program",
+    "id-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "IL": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "Illinois Department of Early Childhood",
+   "applyUrl": "https://idec.illinois.gov/forparents/child-care-assistance-program.html",
+   "incomeLimitAnnualFamily3": 59964,
+   "incomeLimitBasis": "225% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 225,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 58092,
+    "pctFpl2024": 225,
+    "pctSmi": 57
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Illinois had a temporary federal waiver from the 7% copay requirement, so its plan figure (6.8% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 6.8,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "il-program",
+    "il-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "IN": {
+   "status": "covered",
+   "programName": "CCDF child care vouchers",
+   "agencyName": "Indiana Family and Social Services Administration, Office of Early Childhood and Out-of-School Learning",
+   "applyUrl": "https://www.in.gov/fssa/carefinder/child-care-assistance/",
+   "incomeLimitAnnualFamily3": null,
+   "incomeLimitBasis": "135% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 135,
+   "incomeLimitAsOf": "2026-10",
+   "incomeLimitSourceIds": [
+    "in-fssa-cca"
+   ],
+   "incomeLimitNote": "Indiana lowered its entry limit to 140% of poverty in May 2025, and its program page now lists 135%.",
+   "nwlcFeb2025": {
+    "annualFamily3": 38736,
+    "pctFpl2024": 150,
+    "pctSmi": 45
+   },
+   "copayCapPctIncome": 8,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 8,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "New applicants go on a waiting list. On My Way Pre-K applicants, families below 100% of the poverty level and children of child care workers come first.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "in-fssa-cca"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "in-fssa-cca",
+    "in-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "IA": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "Iowa Department of Health and Human Services",
+   "applyUrl": "https://hhs.iowa.gov/assistance-programs/child-care-assistance",
+   "incomeLimitAnnualFamily3": 42648,
+   "incomeLimitBasis": "160% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 160,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 41316,
+    "pctFpl2024": 160,
+    "pctSmi": 43
+   },
+   "copayCapPctIncome": 5.5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 5.5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ia-program",
+    "ia-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "KS": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program",
+   "agencyName": "Kansas Department for Children and Families",
+   "applyUrl": "https://www.dcf.ks.gov/services/ees/Pages/Child_Care/ChildCareSubsidy.aspx",
+   "incomeLimitAnnualFamily3": 76656,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-04",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 70212,
+    "pctFpl2024": 272,
+    "pctSmi": 78
+   },
+   "copayCapPctIncome": 2,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 2,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ks-program",
+    "ks-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "KY": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "Kentucky Cabinet for Health and Family Services, Division of Child Care",
+   "applyUrl": "https://www.chfs.ky.gov/agencies/dcbs/dcc/Pages/ccap.aspx",
+   "incomeLimitAnnualFamily3": 72060,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 68772,
+    "pctFpl2024": 266,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ky-program",
+    "ky-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "LA": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "Louisiana Department of Education",
+   "applyUrl": "https://doe.louisiana.gov/families-and-students/early-childhood-families/child-care-assistance-program-(ccap)",
+   "incomeLimitAnnualFamily3": 68400,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 68400,
+    "pctFpl2024": 265,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 4.3,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 4.3,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "4,902 children were on the waiting list in February 2025. TANF families, foster children, children with special needs and homeless families skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "la-program",
+    "la-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "ME": {
+   "status": "covered",
+   "programName": "Child Care Affordability Program",
+   "agencyName": "Maine Department of Health and Human Services, Office of Child and Family Services",
+   "applyUrl": "https://www.maine.gov/dhhs/ocfs/support-for-families/child-care/paying-for-child-care",
+   "incomeLimitAnnualFamily3": 118922,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 125,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 118922,
+    "pctFpl2024": 461,
+    "pctSmi": 125
+   },
+   "copayCapPctIncome": 10,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 10,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "506 children were on the waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "me-program",
+    "me-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "MD": {
+   "status": "covered",
+   "programName": "Child Care Scholarship Program",
+   "agencyName": "Maryland State Department of Education, Division of Early Childhood",
+   "applyUrl": "https://earlychildhood.marylandpublicschools.org/child-care-providers/child-care-scholarship-program",
+   "incomeLimitAnnualFamily3": 94026,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 75,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 94026,
+    "pctFpl2024": 364,
+    "pctSmi": 75
+   },
+   "copayCapPctIncome": 0.1,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Less than 0.1% of income.",
+   "copayPlanMaxPctIncome": 0.1,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "frozen",
+    "detail": "A partial enrollment freeze has stopped most new scholarships since May 1, 2025. Since July 1, 2026, families experiencing homelessness skip the list, and a small number of families are coming off it. TANF, TCA and SSI families aren't affected.",
+    "asOf": "2026-07",
+    "sourceIds": [
+     "md-msde-freeze"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "md-program",
+    "md-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n",
+    "md-msde-freeze"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "MA": {
+   "status": "covered",
+   "programName": "Child Care Financial Assistance",
+   "agencyName": "Massachusetts Department of Early Education and Care",
+   "applyUrl": "https://www.mass.gov/child-care-financial-assistance",
+   "incomeLimitAnnualFamily3": 69701,
+   "incomeLimitBasis": "50% of state median income",
+   "incomeLimitPctSmi": 50,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 66226,
+    "pctFpl2024": 256,
+    "pctSmi": 50
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Massachusetts had a temporary federal waiver from the 7% copay requirement, so its plan figure (5.6% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 5.6,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "30,636 children were on the waiting list in February 2025. TANF families and families referred by the Department of Children and Families skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 12 weeks",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ma-program",
+    "ma-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "MI": {
+   "status": "covered",
+   "programName": "Child Development and Care (CDC)",
+   "agencyName": "Michigan Department of Lifelong Education, Advancement, and Potential (MiLEAP)",
+   "applyUrl": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/cdc/parents",
+   "incomeLimitAnnualFamily3": 53304,
+   "incomeLimitBasis": "200% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 51648,
+    "pctFpl2024": 200,
+    "pctSmi": 55
+   },
+   "copayCapPctIncome": 5.7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 5.7,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "mi-program",
+    "mi-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "MN": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "Minnesota Department of Children, Youth, and Families",
+   "applyUrl": "https://dcyf.mn.gov/programs-directory/child-care-assistance-program",
+   "incomeLimitAnnualFamily3": 56850,
+   "incomeLimitBasis": "47% of state median income",
+   "incomeLimitPctSmi": 47,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 54360,
+    "pctFpl2024": 211,
+    "pctSmi": 47
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Minnesota had a temporary federal waiver from the 7% copay requirement, so its plan figure (5.1% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 5.1,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "2,537 families were on waiting lists in February 2025. TANF families and families leaving TANF skip them.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 240 hours a year",
+   "activitiesNote": "",
+   "sourceIds": [
+    "mn-program",
+    "mn-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "MS": {
+   "status": "covered",
+   "programName": "Child Care Payment Program (CCPP)",
+   "agencyName": "Mississippi Department of Human Services, Division of Early Childhood Care and Development",
+   "applyUrl": "https://www.mdhs.ms.gov/eccd/parents/",
+   "incomeLimitAnnualFamily3": 58784,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 58784,
+    "pctFpl2024": 228,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 6,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 6,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Since April 2025 only six priority groups can apply directly: TANF families, foster children, teen parents, families with special needs, deployed military families and homeless families. Other working families join a waiting list and are invited to apply as funding allows.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "ms-mdhs-ccpp"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ms-mdhs-ccpp",
+    "ms-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "MO": {
+   "status": "covered",
+   "programName": "Child Care Subsidy",
+   "agencyName": "Missouri Department of Elementary and Secondary Education, Office of Childhood",
+   "applyUrl": "https://dese.mo.gov/childhood/child-care-subsidy",
+   "incomeLimitAnnualFamily3": 39972,
+   "incomeLimitBasis": "150% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 150,
+   "incomeLimitAsOf": "2025-11",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 38736,
+    "pctFpl2024": 150,
+    "pctSmi": 44
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Missouri had a temporary federal waiver from the 7% copay requirement, so its plan figure (3.7% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 3.7,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 90 days",
+   "activitiesNote": "",
+   "sourceIds": [
+    "mo-program",
+    "mo-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "MT": {
+   "status": "covered",
+   "programName": "Best Beginnings Child Care Scholarship",
+   "agencyName": "Montana Department of Public Health and Human Services",
+   "applyUrl": "https://dphhs.mt.gov/ecfsd/childcare/BestBeginningsScholarships",
+   "incomeLimitAnnualFamily3": 49308,
+   "incomeLimitBasis": "185% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 185,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 47772,
+    "pctFpl2024": 185,
+    "pctSmi": 55
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-07",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "nwlc-2025"
+   ],
+   "copayNote": "Montana capped copays at 7% of income in July 2025.",
+   "copayPlanMaxPctIncome": 8,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "Single parents must work at least 60 hours a month and two-parent families 120, unless all parents are in school or training full time.",
+   "sourceIds": [
+    "mt-dphhs-bbs",
+    "mt-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "NE": {
+   "status": "covered",
+   "programName": "Child Care Subsidy",
+   "agencyName": "Nebraska Department of Health and Human Services",
+   "applyUrl": "https://dhhs.ne.gov/Pages/Child-Care-Subsidy-Information-for-Parents.aspx",
+   "incomeLimitAnnualFamily3": 49308,
+   "incomeLimitBasis": "185% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 185,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 47772,
+    "pctFpl2024": 185,
+    "pctSmi": 50
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 7,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "ne-program",
+    "ne-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "NV": {
+   "status": "covered",
+   "programName": "Child Care and Development Program",
+   "agencyName": "Nevada Division of Social Services",
+   "applyUrl": "https://www.dss.nv.gov/programs/child-care/childcare-parents/",
+   "incomeLimitAnnualFamily3": 34680,
+   "incomeLimitBasis": "41% of state median income",
+   "incomeLimitPctSmi": 41,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 33072,
+    "pctFpl2024": 128,
+    "pctSmi": 41
+   },
+   "copayCapPctIncome": 3.3,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 3.3,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "New applicants go on a waiting list that's reviewed monthly and processed in date order. TANF, protective services, foster and homeless families skip it.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "nv-dss-ccdp",
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "nv-dss-ccdp",
+    "nv-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "NH": {
+   "status": "covered",
+   "programName": "NH Child Care Scholarship Program",
+   "agencyName": "New Hampshire Department of Health and Human Services",
+   "applyUrl": "https://www.dhhs.nh.gov/programs-services/childcare-parenting-childbirth/child-development-and-head-start",
+   "incomeLimitAnnualFamily3": 104660,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 95283,
+    "pctFpl2024": 369,
+    "pctSmi": 77
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 7,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 92 days",
+   "activitiesNote": "",
+   "sourceIds": [
+    "nh-program",
+    "nh-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "NJ": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program",
+   "agencyName": "New Jersey Department of Human Services, Division of Family Development",
+   "applyUrl": "https://www.childcarenj.gov/Parents/CCAP",
+   "incomeLimitAnnualFamily3": 53300,
+   "incomeLimitBasis": "200% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2025-03",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 51640,
+    "pctFpl2024": 200,
+    "pctSmi": 40
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-08",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "nwlc-2025",
+    "acf-copay-2025"
+   ],
+   "copayNote": "New Jersey raised copays in August 2025; we couldn't find the new maximum.",
+   "copayPlanMaxPctIncome": 3,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "frozen",
+    "detail": "New Jersey froze intake in August 2025. Families receiving or leaving TANF, families in protective services and Post-Adoption Child Care families are exempt.",
+    "asOf": "2025-08",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "nj-program",
+    "nj-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "NM": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "New Mexico Early Childhood Education and Care Department",
+   "applyUrl": "https://www.nmececd.org/child-care-assistance/",
+   "incomeLimitAnnualFamily3": null,
+   "incomeLimitBasis": "No income limit since November 2025",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-11",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "New Mexico made child care assistance available regardless of income in November 2025.",
+   "nwlcFeb2025": {
+    "annualFamily3": 103280,
+    "pctFpl2024": 400,
+    "pctSmi": 150
+   },
+   "copayCapPctIncome": 0,
+   "copayCapAsOf": "2022-05",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "nm-ececd-cca"
+   ],
+   "copayNote": "New Mexico has waived copays for all families since May 2022 and will give three months' notice before they resume.",
+   "copayPlanMaxPctIncome": 5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "nm-ececd-cca",
+    "nm-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "NY": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program",
+   "agencyName": "New York State Office of Children and Family Services",
+   "applyUrl": "https://ocfs.ny.gov/programs/childcare/ccap/help.php",
+   "incomeLimitAnnualFamily3": 95397,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-06",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 91251,
+    "pctFpl2024": 353,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "New York had a temporary federal waiver from the 7% copay requirement, so its plan figure (0.7% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 0.7,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "local",
+    "detail": "Local social services districts keep their own lists; 23 of 58 districts had waiting lists or frozen intake in September 2025.",
+    "asOf": "2025-09",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 6 months, if the district has funds",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ny-program",
+    "ny-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "NC": {
+   "status": "covered",
+   "programName": "Subsidized Child Care Assistance",
+   "agencyName": "North Carolina Department of Health and Human Services, Division of Child Development and Early Education",
+   "applyUrl": "https://ncchildcare.ncdhhs.gov/Services/Financial-Assistance",
+   "incomeLimitAnnualFamily3": 53304,
+   "incomeLimitBasis": "200% of the federal poverty level (children birth to 5)",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2025-07",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "For children ages 6 to 13 the limit was $35,448 (133% of poverty).",
+   "nwlcFeb2025": {
+    "annualFamily3": 51636,
+    "pctFpl2024": 200,
+    "pctSmi": 59
+   },
+   "copayCapPctIncome": 10,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 10,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "12,755 children were on waiting lists in February 2025. Children with special needs and homeless families are prioritized.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "nc-program",
+    "nc-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "ND": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "North Dakota Department of Health and Human Services",
+   "applyUrl": "https://www.hhs.nd.gov/applyforhelp/ccap",
+   "incomeLimitAnnualFamily3": 81840,
+   "incomeLimitBasis": "75% of state median income",
+   "incomeLimitPctSmi": 75,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 77544,
+    "pctFpl2024": 300,
+    "pctSmi": 75
+   },
+   "copayCapPctIncome": 6,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 6,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "New applicants may go on a waiting list (started December 2025). Families below 30% of state median income and homeless families come first.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "nd-hhs-ccap"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "nd-hhs-ccap",
+    "nd-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "OH": {
+   "status": "covered",
+   "programName": "Publicly Funded Child Care",
+   "agencyName": "Ohio Department of Children and Youth",
+   "applyUrl": "https://childrenandyouth.ohio.gov/for-families/early-care-education/child-care",
+   "incomeLimitAnnualFamily3": 38643,
+   "incomeLimitBasis": "145% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 145,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 37439,
+    "pctFpl2024": 145,
+    "pctSmi": 41
+   },
+   "copayCapPctIncome": null,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": null,
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "Ohio had a temporary federal waiver from the 7% copay requirement, so its plan figure (2% for a family of three) may not be a true cap.",
+   "copayPlanMaxPctIncome": 2,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 30 days while the application is processed",
+   "activitiesNote": "",
+   "sourceIds": [
+    "oh-program",
+    "oh-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "OK": {
+   "status": "covered",
+   "programName": "Child Care Subsidy",
+   "agencyName": "Oklahoma Human Services",
+   "applyUrl": "https://oklahoma.gov/okdhs/services/adult/ccsubsidy/child-care-subsidy.html",
+   "incomeLimitAnnualFamily3": null,
+   "incomeLimitBasis": "55% of state median income (from July 1, 2026)",
+   "incomeLimitPctSmi": 55,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2026-07",
+   "incomeLimitSourceIds": [
+    "ok-okdhs-2026-01"
+   ],
+   "incomeLimitNote": "Oklahoma's limit was 85% of state median income ($67,068 for three) until it returned to 55% on July 1, 2026.",
+   "nwlcFeb2025": {
+    "annualFamily3": 64284,
+    "pctFpl2024": 249,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 5.6,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 5.6,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "limited",
+    "detail": "New applications and renewals for children ages 9 to 12 are paused, with exceptions such as foster care, disability and homelessness. Children 8 and under can be served.",
+    "asOf": "2026-01",
+    "sourceIds": [
+     "ok-okdhs-2026-01"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ok-program",
+    "ok-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n",
+    "ok-okdhs-2026-01"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "OR": {
+   "status": "covered",
+   "programName": "Employment Related Day Care (ERDC)",
+   "agencyName": "Oregon Department of Early Learning and Care",
+   "applyUrl": "https://www.oregon.gov/delc/programs/pages/erdc.aspx",
+   "incomeLimitAnnualFamily3": 53304,
+   "incomeLimitBasis": "200% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2025-03",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 51648,
+    "pctFpl2024": 200,
+    "pctSmi": 52
+   },
+   "copayCapPctIncome": 0.3,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 0.3,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "17,769 children were in families on the waiting list in February 2025. TANF families, child welfare referrals and Head Start partnership families skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "or-program",
+    "or-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "PA": {
+   "status": "covered",
+   "programName": "Child Care Works",
+   "agencyName": "Pennsylvania Department of Human Services, Office of Child Development and Early Learning",
+   "applyUrl": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/child-care-works",
+   "incomeLimitAnnualFamily3": 54640,
+   "incomeLimitBasis": "200% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2026-05",
+   "incomeLimitSourceIds": [
+    "pa-dhs-ccw"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 51640,
+    "pctFpl2024": 200,
+    "pctSmi": 51
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-05",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "nwlc-2025"
+   ],
+   "copayNote": "Pennsylvania lowered copays and capped them at 7% of income in May 2025.",
+   "copayPlanMaxPctIncome": 6.5,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "pa-dhs-ccw",
+    "pa-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "RI": {
+   "status": "covered",
+   "programName": "Child Care Assistance Program (CCAP)",
+   "agencyName": "Rhode Island Department of Human Services",
+   "applyUrl": "https://dhs.ri.gov/programs-and-services/child-care/child-care-assistance-program-ccap/ccap-family-eligibility-how",
+   "incomeLimitAnnualFamily3": 69557,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 66,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 69557,
+    "pctFpl2024": 269,
+    "pctSmi": 66
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 7,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ri-program",
+    "ri-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "SC": {
+   "status": "covered",
+   "programName": "SC Child Care Scholarship Program",
+   "agencyName": "South Carolina Department of Social Services, Division of Early Care and Education",
+   "applyUrl": "https://scchildcare.org/programs/child-care-scholarship-program/",
+   "incomeLimitAnnualFamily3": 73212,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 70095,
+    "pctFpl2024": 271,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 1,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 1,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Since December 1, 2025, only protected groups (TANF, special needs, homeless, child welfare and domestic violence) can get new scholarships. Other families can join an online waiting list opened October 1, 2026.",
+    "asOf": "2026-10",
+    "sourceIds": [
+     "sc-dss-scholarship",
+     "sc-dss-waitlist"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "Parents must work at least 15 hours a week or attend school or training.",
+   "sourceIds": [
+    "sc-dss-scholarship",
+    "sc-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n",
+    "sc-dss-waitlist"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "SD": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "South Dakota Department of Social Services",
+   "applyUrl": "https://dss.sd.gov/childcare/childcareassistance/",
+   "incomeLimitAnnualFamily3": 55704,
+   "incomeLimitBasis": "209% of the federal poverty level (stated limit; 4% of earnings is disregarded)",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 209,
+   "incomeLimitAsOf": "2025-03",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 56225,
+    "pctFpl2024": 218,
+    "pctSmi": 63
+   },
+   "copayCapPctIncome": 0.9,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 0.9,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "Parents must work at least 80 hours a month, or combine work and school.",
+   "sourceIds": [
+    "sd-program",
+    "sd-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n",
+    "sd-dss-cca"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "TN": {
+   "status": "covered",
+   "programName": "Child Care Payment Assistance",
+   "agencyName": "Tennessee Department of Human Services",
+   "applyUrl": "https://www.tn.gov/humanservices/for-families/child-care-services/child-care-payment-assistance.html",
+   "incomeLimitAnnualFamily3": 73344,
+   "incomeLimitBasis": "85% of state median income (Smart Steps and teen parents; 60% for other families)",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "Tennessee's limit for families outside Smart Steps was $51,768 (60% of state median income).",
+   "nwlcFeb2025": {
+    "annualFamily3": 64392,
+    "pctFpl2024": 249,
+    "pctSmi": 78
+   },
+   "copayCapPctIncome": 5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Tennessee started a waiting list in August 2025 for Smart Steps, the category for working parents and students.",
+    "asOf": "2025-08",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "tn-program",
+    "tn-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "TX": {
+   "status": "covered",
+   "programName": "Child Care Services (CCS)",
+   "agencyName": "Texas Workforce Commission",
+   "applyUrl": "https://www.childcare.texas.gov/for-families/child-care-scholarships",
+   "incomeLimitAnnualFamily3": 77315,
+   "incomeLimitBasis": "85% of state median income",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 73694,
+    "pctFpl2024": 285,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 7,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "nwlc-2025"
+   ],
+   "copayNote": "Texas adopted a statewide copay schedule capped at 7% of income in January 2025.",
+   "copayPlanMaxPctIncome": 5.9,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Local workforce boards keep waiting lists; 110,187 children were on them statewide in February 2025. TANF Choices, SNAP E&T and child protective services families skip them.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025",
+     "tx-twc-ccs"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "tx-twc-ccs",
+    "tx-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "UT": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "Utah Department of Workforce Services",
+   "applyUrl": "https://jobs.utah.gov/customereducation/services/childcare/index.html",
+   "incomeLimitAnnualFamily3": 84012,
+   "incomeLimitBasis": "85% of state median income (stated limit)",
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 82044,
+    "pctFpl2024": 318,
+    "pctSmi": 88
+   },
+   "copayCapPctIncome": 6.5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 6.5,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 150 hours through the separate Kids-In-Care program",
+   "activitiesNote": "",
+   "sourceIds": [
+    "ut-program",
+    "ut-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "VT": {
+   "status": "covered",
+   "programName": "Child Care Financial Assistance Program (CCFAP)",
+   "agencyName": "Vermont Department for Children and Families, Child Development Division",
+   "applyUrl": "https://dcf.vermont.gov/benefits/ccfap",
+   "incomeLimitAnnualFamily3": 153240,
+   "incomeLimitBasis": "575% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 575,
+   "incomeLimitAsOf": "2025-03",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 148464,
+    "pctFpl2024": 575,
+    "pctSmi": 141
+   },
+   "copayCapPctIncome": 12.5,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 12.5,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "vt-program",
+    "vt-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "VA": {
+   "status": "covered",
+   "programName": "Child Care Subsidy Program",
+   "agencyName": "Virginia Department of Education",
+   "applyUrl": "https://www.childcare.virginia.gov/families/paying-for-child-care",
+   "incomeLimitAnnualFamily3": 95680,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "This limit applies to families with a child under 5; other families face lower regional limits.",
+   "nwlcFeb2025": {
+    "annualFamily3": 95680,
+    "pctFpl2024": 371,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 5,
+   "copayCapAsOf": "2025-07",
+   "copayCapBasis": "state-cap",
+   "copayCapSourceIds": [
+    "nwlc-2025"
+   ],
+   "copayNote": "Virginia's July 2025 copay schedule raised copays for most families but capped them at 5% of income.",
+   "copayPlanMaxPctIncome": 2,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "waitlist",
+    "detail": "Virginia started a waiting list in July 2024; 14,182 children were on it in February 2025. TANF work program and SNAP E&T families skip it.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 90 days once every 12 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "va-program",
+    "va-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": false,
+   "notes": ""
+  },
+  "WA": {
+   "status": "covered",
+   "programName": "Working Connections Child Care",
+   "agencyName": "Washington State Department of Children, Youth, and Families",
+   "applyUrl": "https://www.dcyf.wa.gov/services/earlylearning-childcare/getting-help/wccc",
+   "incomeLimitAnnualFamily3": 70212,
+   "incomeLimitBasis": "60% of state median income",
+   "incomeLimitPctSmi": 60,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-10",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 66048,
+    "pctFpl2024": 256,
+    "pctSmi": 60
+   },
+   "copayCapPctIncome": 3.3,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 3.3,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "wa-program",
+    "wa-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "WV": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "West Virginia Department of Human Services, Bureau for Family Assistance",
+   "applyUrl": "https://bfa.wv.gov/child-care-assistance-and-early-childhood-resources",
+   "incomeLimitAnnualFamily3": 64732,
+   "incomeLimitBasis": null,
+   "incomeLimitPctSmi": 85,
+   "incomeLimitPctFpl": null,
+   "incomeLimitAsOf": "2025-02",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 64732,
+    "pctFpl2024": 251,
+    "pctSmi": 85
+   },
+   "copayCapPctIncome": 2,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 2,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 90 days",
+   "activitiesNote": "",
+   "sourceIds": [
+    "wv-program",
+    "wv-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "WI": {
+   "status": "covered",
+   "programName": "Wisconsin Shares",
+   "agencyName": "Wisconsin Department of Children and Families",
+   "applyUrl": "https://dcf.wisconsin.gov/wishares/parents",
+   "incomeLimitAnnualFamily3": 54636,
+   "incomeLimitBasis": "200% of the federal poverty level",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 200,
+   "incomeLimitAsOf": "2026-02",
+   "incomeLimitSourceIds": [
+    "wi-dcf-shares"
+   ],
+   "incomeLimitNote": "Wisconsin's chart (effective February 1, 2026) lists $4,553 a month for three.",
+   "nwlcFeb2025": {
+    "annualFamily3": 53304,
+    "pctFpl2024": 206,
+    "pctSmi": 54
+   },
+   "copayCapPctIncome": 17,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 17,
+   "copayWaiver2025": true,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training"
+   ],
+   "jobSearchToQualify": null,
+   "activitiesNote": "",
+   "sourceIds": [
+    "wi-dcf-shares",
+    "wi-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  },
+  "WY": {
+   "status": "covered",
+   "programName": "Child Care Assistance",
+   "agencyName": "Wyoming Department of Family Services",
+   "applyUrl": "https://dfs.wyo.gov/services/family-services/child-care/",
+   "incomeLimitAnnualFamily3": 46632,
+   "incomeLimitBasis": "175% of the federal poverty level (stated limit)",
+   "incomeLimitPctSmi": null,
+   "incomeLimitPctFpl": 175,
+   "incomeLimitAsOf": "2025-04",
+   "incomeLimitSourceIds": [
+    "nwlc-2025"
+   ],
+   "incomeLimitNote": "",
+   "nwlcFeb2025": {
+    "annualFamily3": 47580,
+    "pctFpl2024": 184,
+    "pctSmi": 51
+   },
+   "copayCapPctIncome": 3.9,
+   "copayCapAsOf": "2025-01",
+   "copayCapBasis": "plan-max",
+   "copayCapSourceIds": [
+    "acf-copay-2025"
+   ],
+   "copayNote": "",
+   "copayPlanMaxPctIncome": 3.9,
+   "copayWaiver2025": false,
+   "waitlistOrFreeze": {
+    "status": "none",
+    "detail": "No waiting list in February 2025.",
+    "asOf": "2025-02",
+    "sourceIds": [
+     "nwlc-2025"
+    ]
+   },
+   "eligibleActivities": [
+    "work",
+    "school or job training",
+    "job search"
+   ],
+   "jobSearchToQualify": "up to 3 months",
+   "activitiesNote": "",
+   "sourceIds": [
+    "wy-program",
+    "wy-childcare-gov",
+    "nwlc-2025",
+    "acf-copay-2025",
+    "usc-9858n"
+   ],
+   "applyUrlChecked": true,
+   "notes": ""
+  }
+ }
+}
