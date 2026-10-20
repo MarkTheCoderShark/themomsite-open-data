@@ -4,14 +4,18 @@ State-by-state data on what pregnant people and new parents can get in the US, p
 
 This is the data behind [themomsite.com](https://themomsite.com/). It is free to reuse under [CC BY 4.0](LICENSE), with credit to The Mom Site.
 
+**DOI:** [10.5281/zenodo.23492658](https://doi.org/10.5281/zenodo.23492658) (Zenodo, all versions). The benefit files are also on [Kaggle](https://www.kaggle.com/datasets/mrktheshrk/us-pregnancy-and-family-benefits-by-state-2026); the doula workforce CSVs have their own record, [10.5281/zenodo.23491731](https://doi.org/10.5281/zenodo.23491731).
+
 ## What's in it
 
 | File | What it covers | Figures as of | Page on themomsite.com |
 |---|---|---|---|
-| `data/benefits/medicaid-pregnancy.json` | Medicaid and CHIP income limits for pregnancy (% of the poverty level), postpartum coverage length, presumptive eligibility, program names and apply links | Income limits January 2026; postpartum July 15, 2026; checked October 2026 | [Medicaid for pregnancy by state](https://themomsite.com/benefits/medicaid-pregnancy/) |
+| `data/benefits/medicaid-pregnancy.json` | Medicaid and CHIP income limits for pregnancy (% of the poverty level), postpartum coverage length (by income band), presumptive eligibility, program names and apply links | Income limits January 2026; postpartum July 15, 2026; checked October 2026 | [Medicaid for pregnancy by state](https://themomsite.com/benefits/medicaid-pregnancy/) |
 | `data/benefits/wic.json` | WIC income limits (185% of the poverty guidelines), state agencies, phone numbers, online applications, eWIC card names and infant formula contracts | Income guidelines July 1, 2026 to June 30, 2027; checked October 2026 | [WIC by state](https://themomsite.com/benefits/wic/) |
 | `data/benefits/paid-family-leave.json` | State paid family and medical leave: status (paying, enacted, voluntary, none), weeks, 2026 weekly maximums, wage replacement and job protection, plus federal FMLA and PWFA rules | October 9, 2026 | [Paid family leave by state](https://themomsite.com/benefits/paid-family-leave/) |
+| `data/benefits/paid-family-leave-2026.csv` | The paid leave table as one row per state: status, program, bonding and pregnancy-recovery weeks, 2026 weekly maximum, wage replacement, waiting period, job protection and related state laws | October 2026 | [Paid family leave by state](https://themomsite.com/benefits/paid-family-leave/) |
 | `data/benefits/doula-medicaid.json` | Whether Medicaid pays for doula care, when it started, payment rates and per-pregnancy maximums, visit limits and certification rules | October 9, 2026 | [Medicaid doula coverage by state](https://themomsite.com/benefits/doula-medicaid-coverage/) |
+| `data/benefits/doula-medicaid-coverage-2026.csv` | The doula Medicaid table as one row per state: status, effective date, payment maximum, visit limits, labor support, certification and source URLs | October 2026 | [Medicaid doula coverage by state](https://themomsite.com/benefits/doula-medicaid-coverage/) |
 | `data/benefits/lactation-coverage.json` | Medicaid coverage of lactation consultants | October 9, 2026 | [Lactation coverage by state](https://themomsite.com/benefits/lactation-coverage/) |
 | `data/benefits/breast-pumps.json` | Breast pump coverage: federal rules for private plans and Medicaid coverage by state | October 9, 2026 | [Breast pumps through insurance](https://themomsite.com/benefits/breast-pumps/) |
 | `data/benefits/breast-pumps-medicaid-2026.csv` | The Medicaid breast pump table as one row per state | October 2026 | [Breast pumps through insurance](https://themomsite.com/benefits/breast-pumps/) |
@@ -19,6 +23,7 @@ This is the data behind [themomsite.com](https://themomsite.com/). It is free to
 | `data/benefits/child-care-assistance-2026.csv` | The child care assistance table as one row per state | October 2026 | [Child care assistance by state](https://themomsite.com/benefits/child-care-assistance/) |
 | `data/benefits/childcare.json` | Weekly and annual childcare prices by county, center and home care, four age groups | 2022 prices for most states (each state has a `dataYear`), not adjusted for inflation | [Childcare cost by county](https://themomsite.com/tools/childcare-cost/) |
 | `data/benefits/car-seat-laws.json` | Child passenger safety laws: rear-facing, harness, booster and seat belt rules, back-seat rules, fines and points, statute citations | Statutes read October 14, 2026 | [Car seat laws by state](https://themomsite.com/car-seat-laws/) |
+| `data/benefits/car-seat-laws-2026.csv` | The car seat law table as one row per state: rear-facing, harness, booster, seat belt and back-seat rules, first-offense fine and license points | October 2026 | [Car seat laws by state](https://themomsite.com/car-seat-laws/) |
 | `data/reports/doula-workforce-2026.csv` | Active doula NPIs by state, with individuals, organizations, sole proprietors, NPIs issued since 2023, 2024 births, NPIs per 1,000 births and Medicaid doula status | NPPES file through September 13, 2026; births 2024 | [The US doula workforce in 2026](https://themomsite.com/reports/doula-workforce-2026/) |
 | `data/reports/doula-npis-by-year-2026.csv` | Active doula NPIs by the year the NPI was issued, 2005 to 2026 (2026 is partial) | NPPES file through September 13, 2026 | [The US doula workforce in 2026](https://themomsite.com/reports/doula-workforce-2026/) |
 
@@ -92,7 +97,7 @@ Not included: the WIC clinic lists behind our WIC office pages (some states, inc
 
 ## How to cite
 
-> The Mom Site editorial team. *The Mom Site open data: pregnancy and family benefits by state, and the US doula workforce* (version 2026.10). https://themomsite.com/. Licensed under CC BY 4.0.
+> The Mom Site editorial team. *The Mom Site open data: pregnancy and family benefits by state, and the US doula workforce* (version 2026.10). Zenodo. https://doi.org/10.5281/zenodo.23492658. Licensed under CC BY 4.0.
 
 For one topic, cite and link the page the figure comes from, for example:
 

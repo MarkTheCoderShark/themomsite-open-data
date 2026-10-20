@@ -9,7 +9,8 @@
     "prenatalVisits/postpartumVisits": "standard allowances without prior authorization; combinedVisits replaces both when the state uses one shared pool",
     "nhelpStatus": "NHeLP's own label, for comparison only",
     "notes": "reader-facing; researchNotes keeps the original research notes (conflicts, blocked sites, method) and is not for display",
-    "evidence": "short verbatim quotes from the cited documents, for audit; not for display"
+    "evidence": "short verbatim quotes from the cited documents, for audit; not for display",
+    "adjacentAction": "a related Medicaid payment open to doulas in a state with no doula benefit (label for the hub table, text for a note); never counted as coverage"
   },
   "sources": [
     {
@@ -1376,6 +1377,34 @@
       "publisher": "Vermont General Assembly",
       "url": "https://legislature.vermont.gov/bill/status/2026/S.53",
       "accessed": "2026-10-09"
+    },
+    {
+      "id": "tx-tmhp-doula-cpw-2024",
+      "title": "New doula and CHW provider types: CPW case management services available December 1, 2024 (October 11, 2024)",
+      "publisher": "Texas Medicaid & Healthcare Partnership (TMHP)",
+      "url": "https://www.tmhp.com/news/2024-10-11-new-doula-and-chw-provider-types-cpw-case-management-services-available-december-1",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "tx-tmppm-cpw-2026-10",
+      "title": "Texas Medicaid Provider Procedures Manual, Behavioral Health and Case Management Services Handbook, section 3: Case Management for Children and Pregnant Women (October 2026)",
+      "publisher": "Texas Medicaid & Healthcare Partnership (TMHP)",
+      "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-10-october/2_02_behavioral_health.pdf",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "tx-hb-1575-2023",
+      "title": "HB 1575, 88th Legislature (2023), enrolled text",
+      "publisher": "Texas Legislature",
+      "url": "https://capitol.texas.gov/tlodocs/88R/billtext/html/HB01575F.htm",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "ca-medi-cal-rates-2026-10",
+      "title": "Medi-Cal rates: fee schedule download (file dated October 15, 2026)",
+      "publisher": "California Department of Health Care Services (Medi-Cal)",
+      "url": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/rates",
+      "accessed": "2026-10-19"
     }
   ],
   "national": {
@@ -1383,7 +1412,7 @@
       "asOf": "2026-10-09",
       "coveredStates": 28,
       "coveredIncludesDC": true,
-      "text": "28 states and DC pay doulas through Medicaid as of October 9, 2026. 3 more have approved coverage that isn't paying yet (NE, NH, VT), and 2 are working on it (ME, MT).",
+      "text": "28 states and DC pay doulas through Medicaid as of October 9, 2026, by our count of each state's own documents (the National Health Law Program's chart shows the same 28 plus DC). 3 more have approved coverage that isn't paying yet (NE, NH, VT), and 2 are working on it (ME, MT).",
       "computedFrom": "states[].status in this file",
       "crossChecks": [
         {
@@ -1799,11 +1828,11 @@
     },
     "CA": {
       "status": "covered",
-      "summary": "In California, Medicaid covers doula care: up to $3,263.31 per pregnancy for an initial visit, 8 prenatal or postpartum visits and 2 extended postpartum visits, plus support during labor and delivery.",
+      "summary": "In California, Medicaid covers doula care: up to $3,263.31 per pregnancy under the standard recommendation, for an initial visit, 8 prenatal or postpartum visits and 2 extended postpartum visits, plus support during labor and delivery.",
       "nhelpStatus": "Actively Reimbursing",
       "effectiveDate": "2023-01-01",
       "totalPaymentMax": 3263.31,
-      "paymentNotes": "Medi-Cal FFS rates since the 1/1/2024 Targeted Rate Increase: initial visit $197.98; each prenatal/postpartum visit $162.11 (up to 8, any mix); extended 3-hour postpartum visit $486.36 (up to 2); labor and delivery support $685.07 (vaginal) or $795.73 (cesarean); miscarriage or abortion support $250.85. Standing-recommendation package total: $3,152.65 with a vaginal birth, $3,263.31 with a cesarean. Up to 9 more postpartum visits (about $1,458.99 more) need a second recommendation.",
+      "paymentNotes": "Medi-Cal fee-for-service rates since the 1/1/2024 Targeted Rate Increase (unchanged in the October 2026 fee schedule): initial visit $197.98; each prenatal/postpartum visit $162.11 (up to 8, any mix); extended 3-hour postpartum visit $486.36 (up to 2); labor and delivery support $685.07 (vaginal) or $795.73 (cesarean); miscarriage or abortion support $250.85. Standing-recommendation package total: $3,152.65 with a vaginal birth, $3,263.31 with a cesarean. Up to 9 more postpartum visits (about $1,458.99 more) need a second recommendation.",
       "prenatalVisits": null,
       "postpartumVisits": null,
       "combinedVisits": 9,
@@ -1812,6 +1841,7 @@
       "providerEnrollmentUrl": "https://www.dhcs.ca.gov/providers-partners/doula-providers/",
       "memberInfoUrl": "https://www.dhcs.ca.gov/providers-partners/doula-services-for-medi-cal-members/",
       "sourceIds": [
+        "ca-medi-cal-rates-2026-10",
         "ca-spa-22-0002",
         "ca-dhcs-apl-23-024",
         "ca-dhcs-doula-stakeholder-2024-01",
@@ -1823,7 +1853,7 @@
         "nashp-doula-trends-2026"
       ],
       "notes": "The standard package is 1 initial visit plus 8 prenatal or postpartum visits in any mix, and 2 extended 3-hour postpartum visits after the pregnancy ends (11 visits total, plus labor support). DHCS's statewide standing recommendation (Nov 2023) covers this standard package, so no individual referral is needed; the extra 9 postpartum visits require a written recommendation from a licensed provider and cannot come from a standing order. Covered in fee-for-service and all Medi-Cal managed care plans; one visit per day. Services also cover miscarriage, stillbirth and abortion. The 2024 rate increase is funded through the MCO tax and Prop 35; DHCS's reimbursement FAQ (updated Sept 2025) says the rates remain in effect, and we found no 2026 change. Figures come from DHCS's All Plan Letter 23-024, its 2024 doula slides and the federally approved plan amendment (SPA 22-0002).",
-      "researchNotes": "Rates and totals match NHeLP. combinedVisits = 9 means 1 initial visit plus 8 prenatal/postpartum visits in any mix; the standard package also includes 2 extended 3-hour postpartum visits after the pregnancy ends (11 visits total, plus labor support). DHCS's statewide standing recommendation (Nov 2023) covers this standard package, so no individual referral is needed; the extra 9 postpartum visits require a written recommendation from a licensed provider and cannot come from a standing order. Covered in fee-for-service and all Medi-Cal managed care plans; one visit per day. Services also cover miscarriage, stillbirth and abortion. The 2024 rate increase is funded through the MCO tax and Prop 35; per DHCS's reimbursement FAQ (as indexed in search, updated Sept 2025) the rates remain in effect, and no 2026 change was found, but the Medi-Cal rates lookup could not be checked. Verification limits: DHCS HTML pages and the Medi-Cal provider manual/rates site sit behind bot protection (Incapsula) and could not be fetched; the provider and member page URLs were taken from the search index and are not HTTP-verified. Numbers here come from DHCS PDFs that did download (APL 23-024; 2024 DHCS slides listing current rates and the $3,152.65 maximum) and the CMS-approved SPA 22-0002.",
+      "researchNotes": "Rates and totals match NHeLP. combinedVisits = 9 means 1 initial visit plus 8 prenatal/postpartum visits in any mix; the standard package also includes 2 extended 3-hour postpartum visits after the pregnancy ends (11 visits total, plus labor support). DHCS's statewide standing recommendation (Nov 2023) covers this standard package, so no individual referral is needed; the extra 9 postpartum visits require a written recommendation from a licensed provider and cannot come from a standing order. Covered in fee-for-service and all Medi-Cal managed care plans; one visit per day. Services also cover miscarriage, stillbirth and abortion. The 2024 rate increase is funded through the MCO tax and Prop 35; per DHCS's reimbursement FAQ (as indexed in search, updated Sept 2025) the rates remain in effect, and no 2026 change was found, but the Medi-Cal rates lookup could not be checked. Verification limits: DHCS HTML pages and the Medi-Cal provider manual/rates site sit behind bot protection (Incapsula) and could not be fetched; the provider and member page URLs were taken from the search index and are not HTTP-verified. Numbers here come from DHCS PDFs that did download (APL 23-024; 2024 DHCS slides listing current rates and the $3,152.65 maximum) and the CMS-approved SPA 22-0002. 2026-10-19: rechecked against the Medi-Cal fee schedule file dated 10/15/2026: Z1032 $197.98, Z1034/Z1038 $162.11, T1032 $40.53 per 15 minutes (12 units = $486.36), 59409 $685.07, 59612 (VBAC) $768.69, 59620 $795.73, T1033 and 59840 $250.85; Targeted Rate Increase rates effective January 1, 2024, unchanged for 2025 and 2026.",
       "evidence": [
         {
           "field": "effectiveDate",
@@ -3338,11 +3368,11 @@
     },
     "TX": {
       "status": "not-covered",
-      "summary": "Texas Medicaid doesn't cover doula care.",
+      "summary": "Texas Medicaid doesn't pay for doula support during labor and birth. Since December 1, 2024, certified doulas can enroll in Texas Medicaid as case managers (Case Management for Children and Pregnant Women) to help higher-risk pregnant members get medical and social services.",
       "nhelpStatus": "Adjacent Action",
       "effectiveDate": null,
       "totalPaymentMax": null,
-      "paymentNotes": "No Medicaid doula benefit. Moms on Medicaid pay a doula out of pocket or use a free or sliding-scale community program.",
+      "paymentNotes": "No Medicaid doula benefit for labor and birth support. Since December 1, 2024, a certified doula can enroll as a Case Management for Children and Pregnant Women (CPW) provider and bill case-management visits; that pays for case management, not birth support. Moms on Medicaid pay a doula out of pocket or use a free or sliding-scale community program.",
       "prenatalVisits": null,
       "postpartumVisits": null,
       "combinedVisits": null,
@@ -3352,11 +3382,33 @@
       "memberInfoUrl": null,
       "sourceIds": [
         "nhelp-tracker-2026-09",
-        "nashp-doula-trends-2026"
+        "nashp-doula-trends-2026",
+        "tx-tmhp-doula-cpw-2024",
+        "tx-tmppm-cpw-2026-10",
+        "tx-hb-1575-2023"
       ],
-      "notes": "No Medicaid doula benefit. HB 1575 (2023) lets certified doulas provide Medicaid case management for nonmedical needs, which is not a doula benefit. Several 2025 coverage bills were introduced; none had passed as of September 2026. The National Health Law Program reports Dell Children's Health Plan (Austin) offers doula support to Medicaid members and BCBS of Texas offers doulas to some members; check with your plan.",
-      "researchNotes": "No Medicaid doula benefit. HB 1575 (2023) lets certified doulas provide Medicaid case management for nonmedical needs, which is not a doula benefit. Several 2025 coverage bills were introduced; none enacted per NHeLP. NHeLP reports Dell Children's Health Plan (Austin) offers doula support to Medicaid members and BCBS of Texas offers doulas to some members (not verified with the plans).",
-      "evidence": []
+      "notes": "Texas Medicaid has no doula benefit for labor and birth support. HB 1575 (2023) created a doula provider type: since December 1, 2024, doulas with a national certification accepted by HHSC can enroll as Case Management for Children and Pregnant Women (CPW) providers, which helps pregnant members at higher risk of complications connect to medical, social, educational and other services. Several 2025 bills to add a Medicaid doula benefit (including a pilot, HB 1201) didn't pass. The National Health Law Program has reported that some Texas Medicaid health plans offer doula support as an extra; check with your plan.",
+      "researchNotes": "No Medicaid doula benefit. HB 1575 (2023) lets certified doulas provide Medicaid case management for nonmedical needs, which is not a doula benefit. Several 2025 coverage bills were introduced; none enacted per NHeLP. NHeLP reports Dell Children's Health Plan (Austin) offers doula support to Medicaid members and BCBS of Texas offers doulas to some members (not verified with the plans). 2026-10-19: verified the CPW doula provider type against TMHP's 10/11/2024 notice and the October 2026 TMPPM (CPW, procedure code G9012); checked HB 1201, HB 2573, HB 5583 and HB 3121 (89R) on capitol.texas.gov, none enacted.",
+      "evidence": [
+        {
+          "field": "notes",
+          "url": "https://www.tmhp.com/news/2024-10-11-new-doula-and-chw-provider-types-cpw-case-management-services-available-december-1",
+          "quote": "Effective December 1, 2024, Texas Medicaid will now offer two new separate provider types"
+        },
+        {
+          "field": "notes",
+          "url": "https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/pdf-chapters/2026/2026-10-october/2_02_behavioral_health.pdf",
+          "quote": "Doula who is certified in alignment with nationally recognized standards, and as determined by HHSC."
+        }
+      ],
+      "adjacentAction": {
+        "label": "Case management only",
+        "text": "Since December 1, 2024, certified doulas can enroll in Texas Medicaid as case managers (Case Management for Children and Pregnant Women). That pays for case-management visits, not labor and birth support.",
+        "sourceIds": [
+          "tx-tmhp-doula-cpw-2024",
+          "tx-tmppm-cpw-2026-10"
+        ]
+      }
     },
     "UT": {
       "status": "covered",

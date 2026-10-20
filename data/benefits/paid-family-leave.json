@@ -412,6 +412,20 @@
       "accessed": "2026-10-09"
     },
     {
+      "id": "wa-rcw-50a-05-010",
+      "title": "RCW 50A.05.010 Definitions (\"Qualifying period\")",
+      "publisher": "Washington State Legislature",
+      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=50A.05.010",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wa-esd-qualifying-period",
+      "title": "Qualifying period definition",
+      "publisher": "Washington Employment Security Department, Paid Family and Medical Leave",
+      "url": "https://paidleave.wa.gov/question/qualifying-period/",
+      "accessed": "2026-10-19"
+    },
+    {
       "id": "dc-opfl-workers",
       "title": "Information for Workers",
       "publisher": "DC Department of Employment Services, Office of Paid Family Leave",
@@ -9791,7 +9805,7 @@
       "weeklyMax2026": 1647,
       "waitingPeriod": "No waiting week for bonding leave or for leave taken in the 6-week postnatal period. Medical leave taken before birth, for example pregnancy bed rest, has a 7-day unpaid waiting week.",
       "jobProtection": "The PFML law itself protects your job (RCW 50A.35.010) if you've worked for your employer at least 180 calendar days and it has 25 or more employees in 2026. That threshold drops to 15+ in 2027 and 8+ from 2028; there's no hours requirement. Your employer must restore you to the same or an equivalent job and, starting 2026, keep your health coverage. Exceptions: the top 10% of salaried earners (if restoring them would cause serious financial harm and they get notice), and jobs that would not have existed anyway. Without PFML job protection, federal FMLA or other laws may apply.",
-      "eligibilitySummary": "You must have worked 820 hours in Washington in your qualifying period (about the first 4 of the last 5 completed quarters). Full-time, part-time, temporary and seasonal work all count, and you don't need to be currently employed. Workers at businesses of all sizes are covered. Not covered: federal employees, tribal-business employees on tribal land, workers on an approved employer voluntary plan (who apply through that plan), and self-employed people who haven't opted in.",
+      "eligibilitySummary": "You must have worked 820 hours in Washington in your qualifying period, normally the first 4 of the last 5 completed calendar quarters. If that doesn't get you to 820 hours, ESD uses the last 4 completed quarters before you apply instead. Full-time, part-time, temporary and seasonal work all count, and you don't need to be currently employed. Workers at businesses of all sizes are covered. Not covered: federal employees, tribal-business employees on tribal land, workers on an approved employer voluntary plan (who apply through that plan), and self-employed people who haven't opted in.",
       "applyUrl": "https://paidleave.wa.gov/apply-now/",
       "infoUrl": "https://paidleave.wa.gov/find-out-how-paid-leave-works/",
       "tdiOnly": null,
@@ -9809,7 +9823,9 @@
         "mercer-pfml-2026-02",
         "wa-esd-aww-2024-release",
         "wa-esd-estimate-pay",
-        "wa-esd-2027-max-release"
+        "wa-esd-2027-max-release",
+        "wa-rcw-50a-05-010",
+        "wa-esd-qualifying-period"
       ],
       "notes": "Apply within 30 days after the birth. Give your employer 30 days' notice if the leave is foreseeable. You can't get the postnatal-period approval before the baby is born. 2026 changes (HB 1213, 2025 c 304): job protection widened from 50+ employees with 12 months and 1,250 hours to 25+ employees with 180 days and no hours test; health coverage must continue for job-protected workers; employers may count FMLA time against PFML job protection with written notice; you must claim at least 4 consecutive hours per week. ESD announced on June 10, 2026 that the maximum weekly benefit will be $1,727 for new claims filed on or after January 1, 2027. Each parent can take bonding leave, and bonding must be within 12 months of the birth.",
       "researchNotes": "Apply within 30 days after the birth. Give your employer 30 days' notice if the leave is foreseeable. You can't get the postnatal-period approval before the baby is born. 2026 changes (HB 1213, 2025 c 304): job protection widened from 50+ employees with 12 months and 1,250 hours to 25+ employees with 180 days and no hours test; health coverage must continue for job-protected workers; employers may count FMLA time against PFML job protection with written notice; you must claim at least 4 consecutive hours per week. By statute the 2027 maximum is set by September 30 and takes effect January 1, but it was not found on the paidleave.wa.gov pages checked on 2026-10-09. Each parent can take bonding leave, and bonding must be within 12 months of the birth. NPWF and Mercer agree with the official durations; Mercer's 2026 max of $1,647 matches ESD.\n\nBenefit formula (checked 2026-10-09): RCW 50A.15.020(5)-(6): 90% of AWW up to half the SAWW, plus 50% above that, rounded down to the dollar. The max is 90% of the SAWW, and the min is $100 or full wages if under $100. 2026 SAWW is $1,830 (ESD release), so the half-SAWW threshold is $915 and the max is $1,647 for claims filed on or after 2026-01-01. Examples are ESD's 2026 calculator output: I ran the BenefitsCalculator function from paidleave.wa.gov's theme bundle (AWW = floor(2 x quarter / 26); <100 gives full wage; <=915 gives max(100, floor(0.9 x AWW)); else floor(823.5 + 0.5 x (AWW - 915)); >=2562 gives 1647) with quarterly wages = AWW x 13. ESD floors AWW to the dollar before applying the formula; integer AWW inputs avoid any difference. WA's AWW = the two highest quarters / 26. waitingDays 0: per RCW 50A.15.020(1)(a) and ESD, birth and bonding leave and the 6-week postnatal period have no waiting week; prenatal medical leave such as bed rest does. UPDATE vs. the existing JSON note: ESD has now announced the 2027 max of $1,727 for claims filed on or after 2027-01-01 (2025 SAWW $1,919), at https://esd.wa.gov/about-us/news-release/2026/new-average-annual-wage-estimates-adjust-unemployment-insurance-and-paid-leave-benefits. It is not in effect yet. The 6/8 vs. 10/10 recovery/bonding split is our reading of the 16/18-week caps; the totals (16 and 18) are what ESD states.",
@@ -9893,6 +9909,16 @@
           "field": "notes",
           "url": "https://esd.wa.gov/about-us/news-release/2026/new-average-annual-wage-estimates-adjust-unemployment-insurance-and-paid-leave-benefits",
           "quote": "the maximum paid leave benefit will be $1,727 for new claims filed on or after January 1, 2027."
+        },
+        {
+          "field": "eligibilitySummary",
+          "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=50A.05.010",
+          "quote": "(21) \"Qualifying period\" means the first four of the last five completed calendar quarters or, if eligibility is not established, the last four completed calendar quarters immediately preceding the application for leave."
+        },
+        {
+          "field": "eligibilitySummary",
+          "url": "https://paidleave.wa.gov/question/qualifying-period/",
+          "quote": "Normally, the first four of the last five completed calendar quarters or, if that does not get you to the required 820 hours, the last four completed calendar quarters immediately preceding the application for leave."
         }
       ],
       "benefitFormula": {
